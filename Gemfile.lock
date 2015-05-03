@@ -103,7 +103,7 @@ GEM
       rails (>= 2.3.3)
     mini_portile (0.6.2)
     minitest (5.6.1)
-    minitest-reporters (1.0.12)
+    minitest-reporters (1.0.14)
       ansi
       builder
       minitest (>= 5.0)
@@ -115,7 +115,7 @@ GEM
     notiffany (0.0.6)
       nenv (~> 0.1)
       shellany (~> 0.0)
-    overcommit (0.24.0)
+    overcommit (0.25.0)
       childprocess (~> 0.5.6)
       iniparse (~> 1.4)
     pg (0.18.1)
