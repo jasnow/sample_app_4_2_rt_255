@@ -113,7 +113,7 @@ GEM
       childprocess (~> 0.5.6)
       iniparse (~> 1.4)
     pg (0.18.3)
-    pry (0.10.1)
+    pry (0.10.2)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
