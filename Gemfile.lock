@@ -108,7 +108,7 @@ GEM
     notiffany (0.0.8)
       nenv (~> 0.1)
       shellany (~> 0.0)
-    overcommit (0.31.0)
+    overcommit (0.32.0)
       childprocess (~> 0.5.8)
       iniparse (~> 1.4)
     pg (0.18.4)
