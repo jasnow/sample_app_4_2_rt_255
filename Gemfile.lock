@@ -98,8 +98,8 @@ GEM
       minitest (> 1.2.0)
       rails (>= 2.3.3)
     mini_portile2 (2.1.0)
-    minitest (5.9.1)
-    minitest-reporters (1.1.12)
+    minitest (5.10.1)
+    minitest-reporters (1.1.13)
       ansi
       builder
       minitest (>= 5.0)
@@ -188,7 +188,7 @@ GEM
     turbolinks-source (5.0.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    uglifier (3.0.3)
+    uglifier (3.0.4)
       execjs (>= 0.3.0, < 3)
     web-console (3.3.0)
       activemodel (>= 4.2)
