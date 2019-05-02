@@ -6,7 +6,6 @@ ruby '2.6.0'
 
 gem 'sass-rails'
 gem 'uglifier'
-gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
