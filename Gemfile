@@ -4,7 +4,7 @@ gem 'rails', '4.2.11.1'
 
 ruby '2.6.0'
 
-gem 'sass-rails'
+gem 'sassc-rails'
 gem 'uglifier'
 gem 'jquery-rails'
 gem 'turbolinks'
