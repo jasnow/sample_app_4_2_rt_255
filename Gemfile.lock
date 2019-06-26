@@ -159,10 +159,11 @@ GEM
     sdoc (1.0.0)
       rdoc (>= 5.0)
     shellany (0.0.1)
-    sorbet (0.4.4296)
-      sorbet-static (= 0.4.4296)
-    sorbet-runtime (0.4.4296)
-    sorbet-static (0.4.4296-universal-darwin-14)
+    sorbet (0.4.4314)
+      sorbet-static (= 0.4.4314)
+    sorbet-rails (0.1.3)
+    sorbet-runtime (0.4.4314)
+    sorbet-static (0.4.4314-universal-darwin-14)
     spring (2.1.0)
     sprockets (3.7.2)
       concurrent-ruby (~> 1.0)
@@ -206,6 +207,7 @@ DEPENDENCIES
   sassc-rails
   sdoc
   sorbet
+  sorbet-rails
   sorbet-runtime
   spring
   sqlite3 (= 1.3.13)
