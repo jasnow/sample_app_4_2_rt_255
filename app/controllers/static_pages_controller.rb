@@ -1,3 +1,4 @@
+# typed: ignore
 class StaticPagesController < ApplicationController
   def home
   end
