@@ -309,6 +309,9 @@ module ActionController::Instrumentation
   extend ::T::Sig
 end
 
+class ActionController::Live::Response::Header
+end
+
 class ActionController::Live::SSE
   WHITELISTED_OPTIONS = ::T.let(nil, ::T.untyped)
 end
@@ -3521,6 +3524,9 @@ module ActiveRecord::AttributeMethods::TimeZoneConversion::ClassMethods
   extend ::T::Sig
 end
 
+class ActiveRecord::AttributeMethods::TimeZoneConversion::TimeZoneConverter
+end
+
 module ActiveRecord::AttributeMethods::TimeZoneConversion
   extend ::T::Sig
 end
@@ -4471,6 +4477,9 @@ end
 
 module ActiveRecord::Type::Numeric
   extend ::T::Sig
+end
+
+class ActiveRecord::Type::Serialized
 end
 
 module ActiveRecord::Type::TimeValue
@@ -16306,6 +16315,9 @@ end
 
 module Mail::Parsers
   extend ::T::Sig
+end
+
+class Mail::PartsList
 end
 
 class Mail::PhraseList
