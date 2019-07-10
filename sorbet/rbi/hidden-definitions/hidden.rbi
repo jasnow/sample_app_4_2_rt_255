@@ -26509,6 +26509,14 @@ class Sorbet
   extend ::T::Sig
 end
 
+module SorbetRails::CustomFinderMethods
+  extend ::T::Sig
+end
+
+module SorbetRails
+  extend ::T::Sig
+end
+
 class SortedSet
   def initialize(*args, &block); end
 end
