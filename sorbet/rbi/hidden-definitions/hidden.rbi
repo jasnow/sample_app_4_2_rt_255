@@ -2615,10 +2615,6 @@ module ActiveModel::Conversion
   extend ::T::Sig
 end
 
-module ActiveModel::Dirty
-  extend ::T::Sig
-end
-
 class ActiveModel::Errors
   include ::Enumerable
   def [](attribute); end
@@ -3476,10 +3472,6 @@ module ActiveRecord::AttributeMethods::BeforeTypeCast
 end
 
 module ActiveRecord::AttributeMethods::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::AttributeMethods::Dirty
   extend ::T::Sig
 end
 
