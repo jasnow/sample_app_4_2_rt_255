@@ -16,6 +16,7 @@ gem 'overcommit'
 gem 'sorbet'
 gem 'sorbet-runtime'
 gem 'sorbet-rails'
+gem 'minitest' # 7/15/2019: Needed by 'sorbet'
 
 group :development do
   gem 'web-console'

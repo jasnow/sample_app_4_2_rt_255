@@ -16569,7 +16569,37 @@ module MiniMime
   extend ::T::Sig
 end
 
-MiniTest = Minitest
+module Minitest
+end
+
+MiniTest::Assertions = Minitest::Assertions
+
+MiniTest::Expectations = Minitest::Expectations
+
+MiniTest::Guard = Minitest::Guard
+
+MiniTest::Reportable = Minitest::Reportable
+
+MiniTest::Runnable = Minitest::Runnable
+
+class Minitest::Spec
+end
+
+module Minitest::Spec::DSL
+end
+
+MiniTest::Spec::DSL::InstanceMethods = Minitest::Spec::DSL::InstanceMethods
+
+module Minitest::Spec::DSL
+end
+
+class Minitest::Spec
+end
+
+MiniTest::Test = Minitest::Test
+
+module Minitest
+end
 
 module Minitest
   ENCS = ::T.let(nil, ::T.untyped)
@@ -16587,6 +16617,10 @@ end
 
 class Minitest::BacktraceFilter
   MT_RE = ::T.let(nil, ::T.untyped)
+end
+
+module Minitest::Expectations
+  extend ::T::Sig
 end
 
 module Minitest::Guard
@@ -16752,6 +16786,22 @@ end
 
 class Minitest::Runnable
   SIGNALS = ::T.let(nil, ::T.untyped)
+end
+
+class Minitest::Spec
+  TYPES = ::T.let(nil, ::T.untyped)
+end
+
+module Minitest::Spec::DSL
+  TYPES = ::T.let(nil, ::T.untyped)
+end
+
+module Minitest::Spec::DSL::InstanceMethods
+  extend ::T::Sig
+end
+
+module Minitest::Spec::DSL
+  extend ::T::Sig
 end
 
 class Minitest::Test
@@ -16963,6 +17013,8 @@ module Net::HTTP::ProxyDelta
   extend ::T::Sig
 end
 
+Net::HTTP::ProxyMod = Net::HTTP::ProxyDelta
+
 class Net::HTTP::Put
   extend ::T::Sig
 end
@@ -17080,17 +17132,13 @@ class Net::HTTPIMUsed
   extend ::T::Sig
 end
 
+Net::HTTPInformation::EXCEPTION_TYPE = Net::HTTPError
+
 class Net::HTTPInformation
   extend ::T::Sig
 end
 
-class Net::HTTPInformation
-end
-
-Net::HTTPInformationCode::EXCEPTION_TYPE = Net::HTTPError
-
-class Net::HTTPInformation
-end
+Net::HTTPInformationCode = Net::HTTPInformation
 
 class Net::HTTPInsufficientStorage
   extend ::T::Sig
@@ -17286,15 +17334,7 @@ class Net::HTTPServiceUnavailable
   extend ::T::Sig
 end
 
-class Net::HTTP
-end
-
-Net::HTTPSession::ProxyDelta = Net::HTTP::ProxyDelta
-
-Net::HTTPSession::ProxyMod = Net::HTTP::ProxyDelta
-
-class Net::HTTP
-end
+Net::HTTPSession = Net::HTTP
 
 Net::HTTPSuccess::EXCEPTION_TYPE = Net::HTTPError
 

@@ -7354,6 +7354,8 @@
 # wrong constant name source_location
 # wrong constant name super_method
 # wrong constant name unbind
+# wrong constant name <Class:Spec>
+# wrong constant name <Class:DSL>
 # wrong constant name <Class:DefaultReporter>
 # wrong constant name <Class:HtmlReporter>
 # wrong constant name <Class:JUnitReporter>
@@ -7846,6 +7848,11 @@
 # wrong constant name record_print_failures_if_any
 # wrong constant name record_print_status
 # wrong constant name <static-init>
+# uninitialized constant Minitest::Spec::E
+# uninitialized constant Minitest::Spec::PASSTHROUGH_EXCEPTIONS
+# uninitialized constant Minitest::Spec::SIGNALS
+# uninitialized constant Minitest::Spec::TEARDOWN_METHODS
+# uninitialized constant Minitest::Spec::UNDEFINED
 # uninitialized constant Minitest::Test::E
 # uninitialized constant Minitest::Test::SIGNALS
 # uninitialized constant Minitest::Test::UNDEFINED

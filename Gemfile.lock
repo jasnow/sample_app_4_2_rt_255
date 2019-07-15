@@ -198,6 +198,7 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   mini_backtrace
+  minitest
   minitest-reporters
   overcommit
   pg
