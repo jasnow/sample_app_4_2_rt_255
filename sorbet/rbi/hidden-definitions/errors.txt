@@ -377,6 +377,9 @@
 # wrong constant name default_hsts_options
 # uninitialized constant ActionDispatch::Session::CacheStore::DEFAULT_OPTIONS
 # wrong constant name <static-init>
+# uninitialized constant ActionDispatch::Session::MemCacheStore::DEFAULT_DALLI_OPTIONS
+# uninitialized constant ActionDispatch::Session::MemCacheStore::DEFAULT_OPTIONS
+# wrong constant name <static-init>
 # uninitialized constant ActionDispatch::TestRequest::BROWSER_LIKE_ACCEPTS
 # uninitialized constant ActionDispatch::TestRequest::DEFAULT_PORTS
 # uninitialized constant ActionDispatch::TestRequest::ENV_MATCH
@@ -1643,8 +1646,17 @@
 # wrong constant name structure_dump
 # wrong constant name structure_load
 # wrong constant name <static-init>
+# wrong constant name <Class:MemCacheStore>
 # wrong constant name <Class:MemoryStore>
 # wrong constant name <Class:NullStore>
+# wrong constant name <Class:LocalCacheWithRaw>
+# wrong constant name initialize
+# wrong constant name stats
+# wrong constant name read_entry
+# wrong constant name write_entry
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name build_mem_cache
 # wrong constant name cached_size
 # wrong constant name prune
 # wrong constant name pruning?
@@ -10409,6 +10421,12 @@
 # wrong constant name logging_middleware
 # wrong constant name middleware
 # wrong constant name start
+# uninitialized constant Rack::Session::Dalli::DEFAULT_OPTIONS
+# wrong constant name destroy_session
+# wrong constant name mutex
+# wrong constant name pool
+# wrong constant name set_session
+# wrong constant name <static-init>
 # wrong constant name destroy_session
 # wrong constant name generate_sid
 # wrong constant name mutex
