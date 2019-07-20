@@ -1164,11 +1164,6 @@ class ActiveRecord::ConnectionAdapters::ConnectionManagement
   def call(env); end
   def initialize(app); end
 end
-class ActiveRecord::Schema < ActiveRecord::Migration
-  def define(info, &block); end
-  def migrations_paths; end
-  def self.define(info = nil, &block); end
-end
 module ActiveRecord::AttributeDecorators
   extend ActiveSupport::Concern
 end

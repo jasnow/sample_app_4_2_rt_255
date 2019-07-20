@@ -3763,10 +3763,6 @@ module ActiveRecord::Explain
   extend ::T::Sig
 end
 
-class ActiveRecord::ExplainRegistry
-  def self.collect?(*args, &block); end
-end
-
 class ActiveRecord::ExplainSubscriber
   EXPLAINED_SQLS = ::T.let(nil, ::T.untyped)
   IGNORED_PAYLOADS = ::T.let(nil, ::T.untyped)
@@ -4154,6 +4150,12 @@ end
 
 module ActiveRecord::Sanitization
   extend ::T::Sig
+end
+
+class ActiveRecord::Schema
+  def define(info, &block); end
+
+  def migrations_paths(); end
 end
 
 class ActiveRecord::SchemaDumper

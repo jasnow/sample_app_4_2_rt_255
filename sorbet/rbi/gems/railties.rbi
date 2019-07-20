@@ -548,6 +548,9 @@ class Rails::Generators::TestCase < ActiveSupport::TestCase
   include Rails::Generators::Testing::Behaviour
   include Rails::Generators::Testing::SetupAndTeardown
 end
+class ActiveRecord::ExplainRegistry
+  def self.collect?(*args, &block); end
+end
 class ActiveRecord::Scoping::ScopeRegistry
   def self.value_for(*args, &block); end
 end

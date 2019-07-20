@@ -1427,7 +1427,6 @@
 # uninitialized constant ActiveRecord::ConnectionAdapters::AbstractAdapter::CALLBACK_FILTER_TYPES
 # uninitialized constant ActiveRecord::ConnectionAdapters::SQLite3Adapter::CALLBACK_FILTER_TYPES
 # uninitialized constant ActiveRecord::ConnectionAdapters::SQLite3Adapter::SIMPLE_INT
-# wrong constant name collect?
 # uninitialized constant ActiveRecord::LogSubscriber::BLACK
 # uninitialized constant ActiveRecord::LogSubscriber::BLUE
 # uninitialized constant ActiveRecord::LogSubscriber::BOLD
@@ -1539,6 +1538,8 @@
 # uninitialized constant ActiveRecord::Relation::ONE_AS_ONE
 # uninitialized constant ActiveRecord::Relation::VALID_DIRECTIONS
 # uninitialized constant ActiveRecord::Relation::VALID_UNSCOPING_VALUES
+# wrong constant name define
+# wrong constant name migrations_paths
 # wrong constant name dump
 # wrong constant name ignore_tables
 # wrong constant name ignore_tables=
