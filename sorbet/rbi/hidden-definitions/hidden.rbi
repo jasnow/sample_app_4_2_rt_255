@@ -13,10 +13,6 @@ module ANSI::Code
   PATTERN = ::T.let(nil, ::T.untyped)
 end
 
-module ANSI::Code
-  extend ::T::Sig
-end
-
 module ANSI::Constants
   BLACK = ::T.let(nil, ::T.untyped)
   BLINK = ::T.let(nil, ::T.untyped)
@@ -103,76 +99,12 @@ module ANSI::Constants
   YELLOW = ::T.let(nil, ::T.untyped)
 end
 
-module ANSI::Constants
-  extend ::T::Sig
-end
-
-module ANSI
-  extend ::T::Sig
-end
-
-module AbstractController::AssetPaths
-  extend ::T::Sig
-end
-
-module AbstractController::Callbacks::ClassMethods
-  extend ::T::Sig
-end
-
-module AbstractController::Callbacks
-  extend ::T::Sig
-end
-
-module AbstractController::Collector
-  extend ::T::Sig
-end
-
 class AbstractController::DoubleRenderError
   DEFAULT_MESSAGE = ::T.let(nil, ::T.untyped)
 end
 
-module AbstractController::Helpers::ClassMethods
-  extend ::T::Sig
-end
-
-module AbstractController::Helpers
-  extend ::T::Sig
-end
-
-module AbstractController::Logger
-  extend ::T::Sig
-end
-
-module AbstractController::Railties::RoutesHelpers
-  extend ::T::Sig
-end
-
-module AbstractController::Railties
-  extend ::T::Sig
-end
-
 module AbstractController::Rendering
   DEFAULT_PROTECTED_INSTANCE_VARIABLES = ::T.let(nil, ::T.untyped)
-end
-
-module AbstractController::Rendering
-  extend ::T::Sig
-end
-
-module AbstractController::Translation
-  extend ::T::Sig
-end
-
-module AbstractController::UrlFor::ClassMethods
-  extend ::T::Sig
-end
-
-module AbstractController::UrlFor
-  extend ::T::Sig
-end
-
-module AbstractController
-  extend ::T::Sig
 end
 
 class ActionController::Base
@@ -180,53 +112,9 @@ class ActionController::Base
   PROTECTED_IVARS = ::T.let(nil, ::T.untyped)
 end
 
-module ActionController::Caching::ClassMethods
-  extend ::T::Sig
-end
-
-module ActionController::Caching::ConfigMethods
-  extend ::T::Sig
-end
-
-module ActionController::Caching::Fragments
-  extend ::T::Sig
-end
-
-module ActionController::Caching
-  extend ::T::Sig
-end
-
-module ActionController::ConditionalGet::ClassMethods
-  extend ::T::Sig
-end
-
-module ActionController::ConditionalGet
-  extend ::T::Sig
-end
-
-module ActionController::Cookies
-  extend ::T::Sig
-end
-
 module ActionController::DataStreaming
   DEFAULT_SEND_FILE_DISPOSITION = ::T.let(nil, ::T.untyped)
   DEFAULT_SEND_FILE_TYPE = ::T.let(nil, ::T.untyped)
-end
-
-module ActionController::DataStreaming
-  extend ::T::Sig
-end
-
-module ActionController::EtagWithTemplateDigest
-  extend ::T::Sig
-end
-
-module ActionController::Flash::ClassMethods
-  extend ::T::Sig
-end
-
-module ActionController::Flash
-  extend ::T::Sig
 end
 
 module ActionController::ForceSSL
@@ -235,78 +123,10 @@ module ActionController::ForceSSL
   URL_OPTIONS = ::T.let(nil, ::T.untyped)
 end
 
-module ActionController::ForceSSL::ClassMethods
-  extend ::T::Sig
-end
-
-module ActionController::ForceSSL
-  extend ::T::Sig
-end
-
-module ActionController::Head
-  extend ::T::Sig
-end
-
-module ActionController::Helpers::ClassMethods
-  extend ::T::Sig
-end
-
-module ActionController::Helpers
-  extend ::T::Sig
-end
-
-module ActionController::HideActions::ClassMethods
-  extend ::T::Sig
-end
-
-module ActionController::HideActions
-  extend ::T::Sig
-end
-
-module ActionController::HttpAuthentication::Basic::ControllerMethods
-  extend ::T::Sig
-end
-
-module ActionController::HttpAuthentication::Basic
-  extend ::T::Sig
-end
-
-module ActionController::HttpAuthentication::Digest::ControllerMethods
-  extend ::T::Sig
-end
-
-module ActionController::HttpAuthentication::Digest
-  extend ::T::Sig
-end
-
 module ActionController::HttpAuthentication::Token
   AUTHN_PAIR_DELIMITERS = ::T.let(nil, ::T.untyped)
   TOKEN_KEY = ::T.let(nil, ::T.untyped)
   TOKEN_REGEX = ::T.let(nil, ::T.untyped)
-end
-
-module ActionController::HttpAuthentication::Token::ControllerMethods
-  extend ::T::Sig
-end
-
-module ActionController::HttpAuthentication::Token
-  extend ::T::Sig
-end
-
-module ActionController::HttpAuthentication
-  extend ::T::Sig
-end
-
-module ActionController::ImplicitRender
-  extend ::T::Sig
-end
-
-module ActionController::Instrumentation::ClassMethods
-  extend ::T::Sig
-end
-
-module ActionController::Instrumentation
-  extend ::T::Sig
 end
 
 class ActionController::Live::Response::Header
@@ -314,10 +134,6 @@ end
 
 class ActionController::Live::SSE
   WHITELISTED_OPTIONS = ::T.let(nil, ::T.untyped)
-end
-
-module ActionController::Live
-  extend ::T::Sig
 end
 
 class ActionController::LogSubscriber
@@ -378,18 +194,6 @@ class ActionController::Middleware
   def self.new(app); end
 end
 
-module ActionController::MimeResponds::ClassMethods
-  extend ::T::Sig
-end
-
-module ActionController::MimeResponds
-  extend ::T::Sig
-end
-
-module ActionController::ModelNaming
-  extend ::T::Sig
-end
-
 class ActionController::Parameters
   EMPTY_ARRAY = ::T.let(nil, ::T.untyped)
   PERMITTED_SCALAR_TYPES = ::T.let(nil, ::T.untyped)
@@ -399,104 +203,28 @@ module ActionController::ParamsWrapper
   EXCLUDE_PARAMETERS = ::T.let(nil, ::T.untyped)
 end
 
-module ActionController::ParamsWrapper::ClassMethods
-  extend ::T::Sig
-end
-
-module ActionController::ParamsWrapper
-  extend ::T::Sig
-end
-
-module ActionController::RackDelegation
-  extend ::T::Sig
-end
-
-module ActionController::Railties::Helpers
-  extend ::T::Sig
-end
-
-module ActionController::Railties
-  extend ::T::Sig
-end
-
 class ActionController::RedirectBackError
   DEFAULT_MESSAGE = ::T.let(nil, ::T.untyped)
-end
-
-module ActionController::Redirecting
-  extend ::T::Sig
 end
 
 module ActionController::Renderers
   RENDERERS = ::T.let(nil, ::T.untyped)
 end
 
-module ActionController::Renderers::All
-  extend ::T::Sig
-end
-
-module ActionController::Renderers::ClassMethods
-  extend ::T::Sig
-end
-
-module ActionController::Renderers
-  extend ::T::Sig
-end
-
 module ActionController::Rendering
   RENDER_FORMATS_IN_PRIORITY = ::T.let(nil, ::T.untyped)
-end
-
-module ActionController::Rendering
-  extend ::T::Sig
 end
 
 module ActionController::RequestForgeryProtection
   AUTHENTICITY_TOKEN_LENGTH = ::T.let(nil, ::T.untyped)
 end
 
-module ActionController::RequestForgeryProtection::ClassMethods
-  extend ::T::Sig
-end
-
-module ActionController::RequestForgeryProtection::ProtectionMethods
-  extend ::T::Sig
-end
-
-module ActionController::RequestForgeryProtection
-  extend ::T::Sig
-end
-
-module ActionController::Rescue
-  extend ::T::Sig
-end
-
 class ActionController::SessionOverflowError
   DEFAULT_MESSAGE = ::T.let(nil, ::T.untyped)
 end
 
-module ActionController::Streaming
-  extend ::T::Sig
-end
-
-module ActionController::StrongParameters
-  extend ::T::Sig
-end
-
 module ActionController::TemplateAssertions
   RENDER_TEMPLATE_INSTANCE_VARIABLES = ::T.let(nil, ::T.untyped)
-end
-
-module ActionController::TemplateAssertions
-  extend ::T::Sig
-end
-
-module ActionController::TestCase::Behavior::ClassMethods
-  extend ::T::Sig
-end
-
-module ActionController::TestCase::Behavior
-  extend ::T::Sig
 end
 
 class ActionController::TestRequest
@@ -516,7 +244,6 @@ module ActionController::Testing::ClassMethods
 end
 
 module ActionController::Testing::ClassMethods
-  extend ::T::Sig
 end
 
 module ActionController::Testing::Functional
@@ -526,32 +253,10 @@ module ActionController::Testing::Functional
 end
 
 module ActionController::Testing::Functional
-  extend ::T::Sig
 end
 
 module ActionController::Testing
   extend ::ActiveSupport::Concern
-  extend ::T::Sig
-end
-
-module ActionController::UrlFor
-  extend ::T::Sig
-end
-
-module ActionController
-  extend ::T::Sig
-end
-
-module ActionDispatch::Assertions::ResponseAssertions
-  extend ::T::Sig
-end
-
-module ActionDispatch::Assertions::RoutingAssertions
-  extend ::T::Sig
-end
-
-module ActionDispatch::Assertions
-  extend ::T::Sig
 end
 
 class ActionDispatch::Cookies
@@ -567,10 +272,6 @@ class ActionDispatch::Cookies
   SIGNED_COOKIE_SALT = ::T.let(nil, ::T.untyped)
 end
 
-module ActionDispatch::Cookies::ChainedCookieJars
-  extend ::T::Sig
-end
-
 class ActionDispatch::Cookies::CookieJar
   include ::ActionDispatch::Cookies::ChainedCookieJars
   DOMAIN_REGEXP = ::T.let(nil, ::T.untyped)
@@ -578,14 +279,6 @@ end
 
 module ActionDispatch::Cookies::SerializedCookieJars
   MARSHAL_SIGNATURE = ::T.let(nil, ::T.untyped)
-end
-
-module ActionDispatch::Cookies::SerializedCookieJars
-  extend ::T::Sig
-end
-
-module ActionDispatch::Cookies::VerifyAndUpgradeLegacySignedMessage
-  extend ::T::Sig
 end
 
 class ActionDispatch::DebugExceptions
@@ -601,10 +294,6 @@ module ActionDispatch::Http::Cache::Request
   HTTP_IF_NONE_MATCH = ::T.let(nil, ::T.untyped)
 end
 
-module ActionDispatch::Http::Cache::Request
-  extend ::T::Sig
-end
-
 module ActionDispatch::Http::Cache::Response
   CACHE_CONTROL = ::T.let(nil, ::T.untyped)
   DATE = ::T.let(nil, ::T.untyped)
@@ -618,14 +307,6 @@ module ActionDispatch::Http::Cache::Response
   SPECIAL_KEYS = ::T.let(nil, ::T.untyped)
 end
 
-module ActionDispatch::Http::Cache::Response
-  extend ::T::Sig
-end
-
-module ActionDispatch::Http::Cache
-  extend ::T::Sig
-end
-
 module ActionDispatch::Http::FilterParameters
   ENV_MATCH = ::T.let(nil, ::T.untyped)
   KV_RE = ::T.let(nil, ::T.untyped)
@@ -634,16 +315,8 @@ module ActionDispatch::Http::FilterParameters
   PAIR_RE = ::T.let(nil, ::T.untyped)
 end
 
-module ActionDispatch::Http::FilterParameters
-  extend ::T::Sig
-end
-
 module ActionDispatch::Http::FilterRedirect
   FILTERED = ::T.let(nil, ::T.untyped)
-end
-
-module ActionDispatch::Http::FilterRedirect
-  extend ::T::Sig
 end
 
 class ActionDispatch::Http::Headers
@@ -655,10 +328,6 @@ module ActionDispatch::Http::MimeNegotiation
   BROWSER_LIKE_ACCEPTS = ::T.let(nil, ::T.untyped)
 end
 
-module ActionDispatch::Http::MimeNegotiation
-  extend ::T::Sig
-end
-
 class ActionDispatch::Http::ParameterFilter
   FILTERED = ::T.let(nil, ::T.untyped)
 end
@@ -667,30 +336,10 @@ module ActionDispatch::Http::Parameters
   PARAMETERS_KEY = ::T.let(nil, ::T.untyped)
 end
 
-module ActionDispatch::Http::Parameters
-  extend ::T::Sig
-end
-
 module ActionDispatch::Http::URL
   HOST_REGEXP = ::T.let(nil, ::T.untyped)
   IP_HOST_REGEXP = ::T.let(nil, ::T.untyped)
   PROTOCOL_REGEXP = ::T.let(nil, ::T.untyped)
-end
-
-module ActionDispatch::Http::URL
-  extend ::T::Sig
-end
-
-module ActionDispatch::Http
-  extend ::T::Sig
-end
-
-module ActionDispatch::Integration::RequestHelpers
-  extend ::T::Sig
-end
-
-module ActionDispatch::Integration::Runner
-  extend ::T::Sig
 end
 
 class ActionDispatch::Integration::Session
@@ -702,10 +351,6 @@ class ActionDispatch::Integration::Session
   DEFAULT_HOST = ::T.let(nil, ::T.untyped)
 end
 
-module ActionDispatch::Integration
-  extend ::T::Sig
-end
-
 class ActionDispatch::Journey::Format
   ESCAPE_PATH = ::T.let(nil, ::T.untyped)
   ESCAPE_SEGMENT = ::T.let(nil, ::T.untyped)
@@ -715,34 +360,14 @@ class ActionDispatch::Journey::GTG::Builder
   DUMMY = ::T.let(nil, ::T.untyped)
 end
 
-module ActionDispatch::Journey::GTG
-  extend ::T::Sig
-end
-
-module ActionDispatch::Journey::NFA::Dot
-  extend ::T::Sig
-end
-
-module ActionDispatch::Journey::NFA
-  extend ::T::Sig
-end
-
 class ActionDispatch::Journey::Nodes::Symbol
   DEFAULT_EXP = ::T.let(nil, ::T.untyped)
-end
-
-module ActionDispatch::Journey::Nodes
-  extend ::T::Sig
 end
 
 class ActionDispatch::Journey::Parser
   Racc_arg = ::T.let(nil, ::T.untyped)
   Racc_debug_parser = ::T.let(nil, ::T.untyped)
   Racc_token_to_s_table = ::T.let(nil, ::T.untyped)
-end
-
-module ActionDispatch::Journey::Path
-  extend ::T::Sig
 end
 
 class ActionDispatch::Journey::Router
@@ -771,14 +396,6 @@ end
 
 class ActionDispatch::Journey::Visitors::Visitor
   DISPATCH_CACHE = ::T.let(nil, ::T.untyped)
-end
-
-module ActionDispatch::Journey::Visitors
-  extend ::T::Sig
-end
-
-module ActionDispatch::Journey
-  extend ::T::Sig
 end
 
 class ActionDispatch::ParamsParser
@@ -821,18 +438,6 @@ class ActionDispatch::Routing::Mapper
   URL_OPTIONS = ::T.let(nil, ::T.untyped)
 end
 
-module ActionDispatch::Routing::Mapper::Base
-  extend ::T::Sig
-end
-
-module ActionDispatch::Routing::Mapper::Concerns
-  extend ::T::Sig
-end
-
-module ActionDispatch::Routing::Mapper::HttpHelpers
-  extend ::T::Sig
-end
-
 class ActionDispatch::Routing::Mapper::Mapping
   ANCHOR_CHARACTERS_REGEX = ::T.let(nil, ::T.untyped)
   OPTIONAL_FORMAT_REGEX = ::T.let(nil, ::T.untyped)
@@ -844,30 +449,14 @@ module ActionDispatch::Routing::Mapper::Resources
   VALID_ON_OPTIONS = ::T.let(nil, ::T.untyped)
 end
 
-module ActionDispatch::Routing::Mapper::Resources
-  extend ::T::Sig
-end
-
 class ActionDispatch::Routing::Mapper::Scope
   OPTIONS = ::T.let(nil, ::T.untyped)
   RESOURCE_METHOD_SCOPES = ::T.let(nil, ::T.untyped)
   RESOURCE_SCOPES = ::T.let(nil, ::T.untyped)
 end
 
-module ActionDispatch::Routing::Mapper::Scoping
-  extend ::T::Sig
-end
-
 class ActionDispatch::Routing::PathRedirect
   URL_PARTS = ::T.let(nil, ::T.untyped)
-end
-
-module ActionDispatch::Routing::PolymorphicRoutes
-  extend ::T::Sig
-end
-
-module ActionDispatch::Routing::Redirection
-  extend ::T::Sig
 end
 
 class ActionDispatch::Routing::RouteSet
@@ -886,10 +475,6 @@ module ActionDispatch::Routing::RouteSet::MountedHelpers
   def _main_app(); end
 
   def main_app(); end
-end
-
-module ActionDispatch::Routing::RouteSet::MountedHelpers
-  extend ::T::Sig
 end
 
 class ActionDispatch::Routing::RouteSet::NamedRouteCollection::UrlHelper
@@ -948,14 +533,6 @@ class ActionDispatch::Routing::RoutesProxy
   def self.default_url_options?(); end
 end
 
-module ActionDispatch::Routing::UrlFor
-  extend ::T::Sig
-end
-
-module ActionDispatch::Routing
-  extend ::T::Sig
-end
-
 class ActionDispatch::SSL
   def call(env); end
 
@@ -973,10 +550,6 @@ end
 class ActionDispatch::Session::CacheStore
 end
 
-module ActionDispatch::Session::Compatibility
-  extend ::T::Sig
-end
-
 class ActionDispatch::Session::MemCacheStore
   include ::ActionDispatch::Session::Compatibility
   include ::ActionDispatch::Session::StaleSessionCheck
@@ -986,32 +559,12 @@ end
 class ActionDispatch::Session::MemCacheStore
 end
 
-module ActionDispatch::Session::SessionObject
-  extend ::T::Sig
-end
-
-module ActionDispatch::Session::StaleSessionCheck
-  extend ::T::Sig
-end
-
-module ActionDispatch::Session
-  extend ::T::Sig
-end
-
 class ActionDispatch::ShowExceptions
   FAILSAFE_RESPONSE = ::T.let(nil, ::T.untyped)
 end
 
-module ActionDispatch::TestProcess
-  extend ::T::Sig
-end
-
 class ActionDispatch::TestRequest
   DEFAULT_ENV = ::T.let(nil, ::T.untyped)
-end
-
-module ActionDispatch
-  extend ::T::Sig
 end
 
 class ActionMailer::Base
@@ -1023,14 +576,6 @@ class ActionMailer::DeliveryJob
 end
 
 class ActionMailer::DeliveryJob
-end
-
-module ActionMailer::DeliveryMethods::ClassMethods
-  extend ::T::Sig
-end
-
-module ActionMailer::DeliveryMethods
-  extend ::T::Sig
 end
 
 class ActionMailer::InlinePreviewInterceptor
@@ -1053,10 +598,6 @@ class ActionMailer::LogSubscriber
   def receive(event); end
 end
 
-module ActionMailer::MailHelper
-  extend ::T::Sig
-end
-
 class ActionMailer::MessageDelivery
   def deliver(); end
 
@@ -1076,14 +617,6 @@ class ActionMailer::MessageDelivery
 end
 
 class ActionMailer::MessageDelivery
-end
-
-module ActionMailer::Previews::ClassMethods
-  extend ::T::Sig
-end
-
-module ActionMailer::Previews
-  extend ::T::Sig
 end
 
 class ActionMailer::TestCase
@@ -1125,12 +658,10 @@ module ActionMailer::TestCase::Behavior::ClassMethods
 end
 
 module ActionMailer::TestCase::Behavior::ClassMethods
-  extend ::T::Sig
 end
 
 module ActionMailer::TestCase::Behavior
   extend ::ActiveSupport::Concern
-  extend ::T::Sig
 end
 
 class ActionMailer::TestCase
@@ -1149,7 +680,6 @@ module ActionMailer::TestHelper
 end
 
 module ActionMailer::TestHelper
-  extend ::T::Sig
 end
 
 module ActionMailer::VERSION
@@ -1160,28 +690,12 @@ module ActionMailer::VERSION
   TINY = ::T.let(nil, ::T.untyped)
 end
 
-module ActionMailer::VERSION
-  extend ::T::Sig
-end
-
-module ActionMailer
-  extend ::T::Sig
-end
-
 module ActionPack::VERSION
   MAJOR = ::T.let(nil, ::T.untyped)
   MINOR = ::T.let(nil, ::T.untyped)
   PRE = ::T.let(nil, ::T.untyped)
   STRING = ::T.let(nil, ::T.untyped)
   TINY = ::T.let(nil, ::T.untyped)
-end
-
-module ActionPack::VERSION
-  extend ::T::Sig
-end
-
-module ActionPack
-  extend ::T::Sig
 end
 
 module ActionView
@@ -1350,14 +864,6 @@ class ActionView::Base
   def self.unknown_asset_fallback?(); end
 end
 
-module ActionView::CompiledTemplates
-  extend ::T::Sig
-end
-
-module ActionView::Context
-  extend ::T::Sig
-end
-
 class ActionView::DependencyTracker::ERBTracker
   EXPLICIT_DEPENDENCY = ::T.let(nil, ::T.untyped)
   IDENTIFIER = ::T.let(nil, ::T.untyped)
@@ -1398,46 +904,10 @@ end
 class ActionView::EncodingError
 end
 
-module ActionView::Helpers::ActiveModelHelper
-  extend ::T::Sig
-end
-
-module ActionView::Helpers::ActiveModelInstanceTag
-  extend ::T::Sig
-end
-
-module ActionView::Helpers::AssetTagHelper
-  extend ::T::Sig
-end
-
 module ActionView::Helpers::AssetUrlHelper
   ASSET_EXTENSIONS = ::T.let(nil, ::T.untyped)
   ASSET_PUBLIC_DIRECTORIES = ::T.let(nil, ::T.untyped)
   URI_REGEXP = ::T.let(nil, ::T.untyped)
-end
-
-module ActionView::Helpers::AssetUrlHelper
-  extend ::T::Sig
-end
-
-module ActionView::Helpers::AtomFeedHelper
-  extend ::T::Sig
-end
-
-module ActionView::Helpers::CacheHelper
-  extend ::T::Sig
-end
-
-module ActionView::Helpers::CaptureHelper
-  extend ::T::Sig
-end
-
-module ActionView::Helpers::ControllerHelper
-  extend ::T::Sig
-end
-
-module ActionView::Helpers::CsrfHelper
-  extend ::T::Sig
 end
 
 module ActionView::Helpers::DateHelper
@@ -1446,68 +916,20 @@ module ActionView::Helpers::DateHelper
   MINUTES_IN_YEAR = ::T.let(nil, ::T.untyped)
 end
 
-module ActionView::Helpers::DateHelper
-  extend ::T::Sig
-end
-
 class ActionView::Helpers::DateTimeSelector
   AMPM_TRANSLATION = ::T.let(nil, ::T.untyped)
   DEFAULT_PREFIX = ::T.let(nil, ::T.untyped)
   POSITION = ::T.let(nil, ::T.untyped)
 end
 
-module ActionView::Helpers::DebugHelper
-  extend ::T::Sig
-end
-
-module ActionView::Helpers::FormHelper
-  extend ::T::Sig
-end
-
-module ActionView::Helpers::FormOptionsHelper
-  extend ::T::Sig
-end
-
-module ActionView::Helpers::FormTagHelper
-  extend ::T::Sig
-end
-
 module ActionView::Helpers::JavaScriptHelper
   JS_ESCAPE_MAP = ::T.let(nil, ::T.untyped)
-end
-
-module ActionView::Helpers::JavaScriptHelper
-  extend ::T::Sig
-end
-
-module ActionView::Helpers::NumberHelper
-  extend ::T::Sig
-end
-
-module ActionView::Helpers::OutputSafetyHelper
-  extend ::T::Sig
-end
-
-module ActionView::Helpers::RecordTagHelper
-  extend ::T::Sig
-end
-
-module ActionView::Helpers::RenderingHelper
-  extend ::T::Sig
-end
-
-module ActionView::Helpers::SanitizeHelper
-  extend ::T::Sig
 end
 
 module ActionView::Helpers::TagHelper
   BOOLEAN_ATTRIBUTES = ::T.let(nil, ::T.untyped)
   PRE_CONTENT_STRINGS = ::T.let(nil, ::T.untyped)
   TAG_PREFIXES = ::T.let(nil, ::T.untyped)
-end
-
-module ActionView::Helpers::TagHelper
-  extend ::T::Sig
 end
 
 module ActionView::Helpers::Tags
@@ -1544,7 +966,6 @@ module ActionView::Helpers::Tags::Checkable
 end
 
 module ActionView::Helpers::Tags::Checkable
-  extend ::T::Sig
 end
 
 class ActionView::Helpers::Tags::CollectionCheckBoxes
@@ -1582,7 +1003,6 @@ class ActionView::Helpers::Tags::CollectionHelpers::Builder
 end
 
 module ActionView::Helpers::Tags::CollectionHelpers
-  extend ::T::Sig
 end
 
 class ActionView::Helpers::Tags::CollectionRadioButtons
@@ -1713,7 +1133,6 @@ module ActionView::Helpers::Tags::Placeholderable
 end
 
 module ActionView::Helpers::Tags::Placeholderable
-  extend ::T::Sig
 end
 
 class ActionView::Helpers::Tags::RadioButton
@@ -1814,31 +1233,10 @@ end
 
 module ActionView::Helpers::Tags
   extend ::ActiveSupport::Autoload
-  extend ::T::Sig
-end
-
-module ActionView::Helpers::TextHelper
-  extend ::T::Sig
-end
-
-module ActionView::Helpers::TranslationHelper
-  extend ::T::Sig
 end
 
 module ActionView::Helpers::UrlHelper
   BUTTON_TAG_METHOD_VERBS = ::T.let(nil, ::T.untyped)
-end
-
-module ActionView::Helpers::UrlHelper
-  extend ::T::Sig
-end
-
-module ActionView::Helpers
-  extend ::T::Sig
-end
-
-module ActionView::Layouts
-  extend ::T::Sig
 end
 
 class ActionView::LogSubscriber
@@ -1855,18 +1253,6 @@ class ActionView::LogSubscriber
   VIEWS_PATTERN = ::T.let(nil, ::T.untyped)
 end
 
-module ActionView::LookupContext::Accessors
-  extend ::T::Sig
-end
-
-module ActionView::LookupContext::DetailsCache
-  extend ::T::Sig
-end
-
-module ActionView::LookupContext::ViewPaths
-  extend ::T::Sig
-end
-
 class ActionView::MissingRequestError
 end
 
@@ -1880,10 +1266,6 @@ class ActionView::MissingTemplate
 end
 
 class ActionView::MissingTemplate
-end
-
-module ActionView::ModelNaming
-  extend ::T::Sig
 end
 
 class ActionView::OutputBuffer
@@ -1934,10 +1316,6 @@ module ActionView::RecordIdentifier
   NEW = ::T.let(nil, ::T.untyped)
 end
 
-module ActionView::RecordIdentifier
-  extend ::T::Sig
-end
-
 class ActionView::Renderer
   def initialize(lookup_context); end
 
@@ -1957,20 +1335,12 @@ end
 class ActionView::Renderer
 end
 
-module ActionView::Rendering
-  extend ::T::Sig
-end
-
 class ActionView::Resolver::Cache
   KEY_BLOCK = ::T.let(nil, ::T.untyped)
   NAME_BLOCK = ::T.let(nil, ::T.untyped)
   NO_TEMPLATES = ::T.let(nil, ::T.untyped)
   PARTIAL_BLOCK = ::T.let(nil, ::T.untyped)
   PREFIX_BLOCK = ::T.let(nil, ::T.untyped)
-end
-
-module ActionView::RoutingUrlFor
-  extend ::T::Sig
 end
 
 class ActionView::StreamingBuffer
@@ -2065,10 +1435,6 @@ end
 
 class ActionView::Template::Handlers::Erubis
   BLOCK_EXPR = ::T.let(nil, ::T.untyped)
-end
-
-module ActionView::Template::Handlers
-  extend ::T::Sig
 end
 
 class ActionView::Template::Text
@@ -2209,7 +1575,6 @@ module ActionView::TestCase::Behavior::ClassMethods
 end
 
 module ActionView::TestCase::Behavior::ClassMethods
-  extend ::T::Sig
 end
 
 module ActionView::TestCase::Behavior::Locals
@@ -2221,7 +1586,6 @@ module ActionView::TestCase::Behavior::Locals
 end
 
 module ActionView::TestCase::Behavior::Locals
-  extend ::T::Sig
 end
 
 class ActionView::TestCase::Behavior::RenderedViewsCollection
@@ -2239,7 +1603,6 @@ end
 
 module ActionView::TestCase::Behavior
   extend ::ActiveSupport::Concern
-  extend ::T::Sig
 end
 
 class ActionView::TestCase::TestController
@@ -2279,23 +1642,11 @@ module ActionView::VERSION
   TINY = ::T.let(nil, ::T.untyped)
 end
 
-module ActionView::VERSION
-  extend ::T::Sig
-end
-
-module ActionView::ViewPaths
-  extend ::T::Sig
-end
-
 class ActionView::WrongEncodingError
   def initialize(string, encoding); end
 end
 
 class ActionView::WrongEncodingError
-end
-
-module ActionView
-  extend ::T::Sig
 end
 
 module ActiveJob::Arguments
@@ -2307,7 +1658,6 @@ end
 
 module ActiveJob::Arguments
   extend ::ActiveJob::Arguments
-  extend ::T::Sig
 end
 
 class ActiveJob::Base
@@ -2406,7 +1756,6 @@ end
 
 module ActiveJob::Callbacks
   extend ::ActiveSupport::Concern
-  extend ::T::Sig
 end
 
 class ActiveJob::ConfiguredJob
@@ -2428,7 +1777,6 @@ end
 
 module ActiveJob::Core
   extend ::ActiveSupport::Concern
-  extend ::T::Sig
 end
 
 class ActiveJob::DeserializationError
@@ -2448,7 +1796,6 @@ end
 
 module ActiveJob::Enqueuing
   extend ::ActiveSupport::Concern
-  extend ::T::Sig
 end
 
 module ActiveJob::Execution
@@ -2459,7 +1806,6 @@ end
 
 module ActiveJob::Execution
   extend ::ActiveSupport::Concern
-  extend ::T::Sig
 end
 
 module ActiveJob::Logging
@@ -2467,7 +1813,6 @@ end
 
 module ActiveJob::Logging
   extend ::ActiveSupport::Concern
-  extend ::T::Sig
 end
 
 module ActiveJob::QueueAdapter
@@ -2475,7 +1820,6 @@ end
 
 module ActiveJob::QueueAdapter
   extend ::ActiveSupport::Concern
-  extend ::T::Sig
 end
 
 module ActiveJob::QueueAdapters
@@ -2519,7 +1863,6 @@ end
 
 module ActiveJob::QueueAdapters
   extend ::ActiveSupport::Autoload
-  extend ::T::Sig
 end
 
 module ActiveJob::QueueName
@@ -2528,7 +1871,6 @@ end
 
 module ActiveJob::QueueName
   extend ::ActiveSupport::Concern
-  extend ::T::Sig
 end
 
 class ActiveJob::SerializationError
@@ -2572,7 +1914,6 @@ end
 
 module ActiveJob::TestHelper
   extend ::ActiveSupport::Concern
-  extend ::T::Sig
 end
 
 module ActiveJob::Translation
@@ -2580,7 +1921,6 @@ end
 
 module ActiveJob::Translation
   extend ::ActiveSupport::Concern
-  extend ::T::Sig
 end
 
 module ActiveJob::VERSION
@@ -2591,37 +1931,9 @@ module ActiveJob::VERSION
   TINY = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveJob::VERSION
-  extend ::T::Sig
-end
-
-module ActiveJob
-  extend ::T::Sig
-end
-
 module ActiveModel::AttributeMethods
   CALL_COMPILABLE_REGEXP = ::T.let(nil, ::T.untyped)
   NAME_COMPILABLE_REGEXP = ::T.let(nil, ::T.untyped)
-end
-
-module ActiveModel::AttributeMethods::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveModel::AttributeMethods
-  extend ::T::Sig
-end
-
-module ActiveModel::Callbacks
-  extend ::T::Sig
-end
-
-module ActiveModel::Conversion::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveModel::Conversion
-  extend ::T::Sig
 end
 
 class ActiveModel::Errors
@@ -2687,10 +1999,6 @@ end
 class ActiveModel::Errors
 end
 
-module ActiveModel::ForbiddenAttributesProtection
-  extend ::T::Sig
-end
-
 module ActiveModel::Lint
 end
 
@@ -2709,11 +2017,9 @@ module ActiveModel::Lint::Tests
 end
 
 module ActiveModel::Lint::Tests
-  extend ::T::Sig
 end
 
 module ActiveModel::Lint
-  extend ::T::Sig
 end
 
 module ActiveModel::Model
@@ -2724,45 +2030,12 @@ end
 
 module ActiveModel::Model
   extend ::ActiveSupport::Concern
-  extend ::T::Sig
-end
-
-module ActiveModel::Naming
-  extend ::T::Sig
 end
 
 module ActiveModel::SecurePassword
   MAX_PASSWORD_LENGTH_ALLOWED = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveModel::SecurePassword::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveModel::SecurePassword::InstanceMethodsOnActivation
-  extend ::T::Sig
-end
-
-module ActiveModel::SecurePassword
-  extend ::T::Sig
-end
-
-module ActiveModel::Serialization
-  extend ::T::Sig
-end
-
-module ActiveModel::Serializers::JSON
-  extend ::T::Sig
-end
-
-module ActiveModel::Serializers::Xml
-  extend ::T::Sig
-end
-
-module ActiveModel::Serializers
-  extend ::T::Sig
-end
-
 class ActiveModel::StrictValidationFailed
 end
 
@@ -2773,10 +2046,6 @@ class ActiveModel::TestCase
 end
 
 class ActiveModel::TestCase
-end
-
-module ActiveModel::Translation
-  extend ::T::Sig
 end
 
 module ActiveModel::VERSION
@@ -2787,36 +2056,12 @@ module ActiveModel::VERSION
   TINY = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveModel::VERSION
-  extend ::T::Sig
-end
-
-module ActiveModel::Validations::Callbacks::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveModel::Validations::Callbacks
-  extend ::T::Sig
-end
-
 module ActiveModel::Validations::ClassMethods
   VALID_OPTIONS_FOR_VALIDATE = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveModel::Validations::ClassMethods
-  extend ::T::Sig
-end
-
 module ActiveModel::Validations::Clusivity
   ERROR_MESSAGE = ::T.let(nil, ::T.untyped)
-end
-
-module ActiveModel::Validations::Clusivity
-  extend ::T::Sig
-end
-
-module ActiveModel::Validations::HelperMethods
-  extend ::T::Sig
 end
 
 class ActiveModel::Validations::LengthValidator
@@ -2830,24 +2075,8 @@ class ActiveModel::Validations::NumericalityValidator
   RESERVED_OPTIONS = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveModel::Validations
-  extend ::T::Sig
-end
-
-module ActiveModel
-  extend ::T::Sig
-end
-
 module ActiveRecord
   Fixtures = ::T.let(nil, ::T.untyped)
-end
-
-module ActiveRecord::Aggregations::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::Aggregations
-  extend ::T::Sig
 end
 
 class ActiveRecord::Associations::AliasTracker
@@ -3056,14 +2285,6 @@ class ActiveRecord::Associations::Builder::SingularAssociation
   def self.define_constructors(mixin, name); end
 end
 
-module ActiveRecord::Associations::Builder
-  extend ::T::Sig
-end
-
-module ActiveRecord::Associations::ClassMethods
-  extend ::T::Sig
-end
-
 class ActiveRecord::Associations::CollectionAssociation
   def add_to_target(record, skip_callbacks=T.unsafe(nil), &block); end
 
@@ -3148,7 +2369,6 @@ module ActiveRecord::Associations::ForeignAssociation
 end
 
 module ActiveRecord::Associations::ForeignAssociation
-  extend ::T::Sig
 end
 
 class ActiveRecord::Associations::HasManyAssociation
@@ -3418,7 +2638,6 @@ module ActiveRecord::Associations::Preloader::ThroughAssociation
 end
 
 module ActiveRecord::Associations::Preloader::ThroughAssociation
-  extend ::T::Sig
 end
 
 class ActiveRecord::Associations::SingularAssociation
@@ -3445,23 +2664,6 @@ module ActiveRecord::Associations::ThroughAssociation
 end
 
 module ActiveRecord::Associations::ThroughAssociation
-  extend ::T::Sig
-end
-
-module ActiveRecord::Associations
-  extend ::T::Sig
-end
-
-module ActiveRecord::AttributeAssignment
-  extend ::T::Sig
-end
-
-module ActiveRecord::AttributeDecorators::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::AttributeDecorators
-  extend ::T::Sig
 end
 
 module ActiveRecord::AttributeMethods
@@ -3472,32 +2674,8 @@ module ActiveRecord::AttributeMethods::AttrNames
   ATTR_6756273796f6e6 = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveRecord::AttributeMethods::AttrNames
-  extend ::T::Sig
-end
-
-module ActiveRecord::AttributeMethods::BeforeTypeCast
-  extend ::T::Sig
-end
-
-module ActiveRecord::AttributeMethods::ClassMethods
-  extend ::T::Sig
-end
-
 module ActiveRecord::AttributeMethods::PrimaryKey::ClassMethods
   ID_ATTRIBUTE_METHODS = ::T.let(nil, ::T.untyped)
-end
-
-module ActiveRecord::AttributeMethods::PrimaryKey::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::AttributeMethods::PrimaryKey
-  extend ::T::Sig
-end
-
-module ActiveRecord::AttributeMethods::Query
-  extend ::T::Sig
 end
 
 module ActiveRecord::AttributeMethods::Read
@@ -3505,93 +2683,17 @@ module ActiveRecord::AttributeMethods::Read
   ReaderMethodCache = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveRecord::AttributeMethods::Read::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::AttributeMethods::Read
-  extend ::T::Sig
-end
-
-module ActiveRecord::AttributeMethods::Serialization::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::AttributeMethods::Serialization
-  extend ::T::Sig
-end
-
-module ActiveRecord::AttributeMethods::TimeZoneConversion::ClassMethods
-  extend ::T::Sig
-end
-
 class ActiveRecord::AttributeMethods::TimeZoneConversion::TimeZoneConverter
-end
-
-module ActiveRecord::AttributeMethods::TimeZoneConversion
-  extend ::T::Sig
 end
 
 module ActiveRecord::AttributeMethods::Write
   WriterMethodCache = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveRecord::AttributeMethods::Write::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::AttributeMethods::Write
-  extend ::T::Sig
-end
-
-module ActiveRecord::AttributeMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::Attributes::ClassMethods
-  extend ::T::Sig
-end
-
 ActiveRecord::Attributes::Type = ActiveRecord::Type
-
-module ActiveRecord::Attributes
-  extend ::T::Sig
-end
-
-module ActiveRecord::AutosaveAssociation::AssociationBuilderExtension
-  extend ::T::Sig
-end
-
-module ActiveRecord::AutosaveAssociation::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::AutosaveAssociation
-  extend ::T::Sig
-end
-
-module ActiveRecord::Base::GeneratedAssociationMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::Batches
-  extend ::T::Sig
-end
-
-module ActiveRecord::Calculations
-  extend ::T::Sig
-end
 
 module ActiveRecord::Callbacks
   CALLBACKS = ::T.let(nil, ::T.untyped)
-end
-
-module ActiveRecord::Callbacks::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::Callbacks
-  extend ::T::Sig
 end
 
 class ActiveRecord::Coders::JSON
@@ -3618,10 +2720,6 @@ end
 class ActiveRecord::Coders::YAMLColumn
 end
 
-module ActiveRecord::Coders
-  extend ::T::Sig
-end
-
 class ActiveRecord::ConnectionAdapters::AbstractAdapter
   include ::ActiveRecord::ConnectionAdapters::SchemaStatements
   include ::ActiveRecord::Migration::JoinTable
@@ -3641,45 +2739,9 @@ module ActiveRecord::ConnectionAdapters::Column::Format
   ISO_DATETIME = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveRecord::ConnectionAdapters::Column::Format
-  extend ::T::Sig
-end
-
-module ActiveRecord::ConnectionAdapters::ColumnDumper
-  extend ::T::Sig
-end
-
-module ActiveRecord::ConnectionAdapters::DatabaseLimits
-  extend ::T::Sig
-end
-
-module ActiveRecord::ConnectionAdapters::DatabaseStatements
-  extend ::T::Sig
-end
-
-module ActiveRecord::ConnectionAdapters::QueryCache
-  extend ::T::Sig
-end
-
-module ActiveRecord::ConnectionAdapters::Quoting
-  extend ::T::Sig
-end
-
 class ActiveRecord::ConnectionAdapters::SQLite3Adapter
   ADAPTER_NAME = ::T.let(nil, ::T.untyped)
   NATIVE_DATABASE_TYPES = ::T.let(nil, ::T.untyped)
-end
-
-module ActiveRecord::ConnectionAdapters::Savepoints
-  extend ::T::Sig
-end
-
-module ActiveRecord::ConnectionAdapters::SchemaStatements
-  extend ::T::Sig
-end
-
-module ActiveRecord::ConnectionAdapters::TimestampDefaultDeprecation
-  extend ::T::Sig
 end
 
 class ActiveRecord::ConnectionAdapters::TransactionManager
@@ -3690,77 +2752,17 @@ class ActiveRecord::ConnectionAdapters::TransactionState
   VALID_STATES = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveRecord::ConnectionAdapters
-  extend ::T::Sig
-end
-
 module ActiveRecord::ConnectionHandling
   DEFAULT_ENV = ::T.let(nil, ::T.untyped)
   RAILS_ENV = ::T.let(nil, ::T.untyped)
-end
-
-module ActiveRecord::ConnectionHandling
-  extend ::T::Sig
-end
-
-module ActiveRecord::Core::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::Core
-  extend ::T::Sig
-end
-
-module ActiveRecord::CounterCache::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::CounterCache
-  extend ::T::Sig
 end
 
 module ActiveRecord::Delegation
   BLACKLISTED_ARRAY_METHODS = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveRecord::Delegation::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::Delegation::ClassSpecificRelation::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::Delegation::ClassSpecificRelation
-  extend ::T::Sig
-end
-
-module ActiveRecord::Delegation::DelegateCache
-  extend ::T::Sig
-end
-
-module ActiveRecord::Delegation
-  extend ::T::Sig
-end
-
-module ActiveRecord::DynamicMatchers::Finder
-  extend ::T::Sig
-end
-
-module ActiveRecord::DynamicMatchers
-  extend ::T::Sig
-end
-
 module ActiveRecord::Enum
   ENUM_CONFLICT_MESSAGE = ::T.let(nil, ::T.untyped)
-end
-
-module ActiveRecord::Enum
-  extend ::T::Sig
-end
-
-module ActiveRecord::Explain
-  extend ::T::Sig
 end
 
 class ActiveRecord::ExplainSubscriber
@@ -3772,48 +2774,8 @@ module ActiveRecord::FinderMethods
   ONE_AS_ONE = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveRecord::FinderMethods
-  extend ::T::Sig
-end
-
 class ActiveRecord::FixtureSet
   MAX_ID = ::T.let(nil, ::T.untyped)
-end
-
-module ActiveRecord::Inheritance::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::Inheritance
-  extend ::T::Sig
-end
-
-module ActiveRecord::Integration::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::Integration
-  extend ::T::Sig
-end
-
-module ActiveRecord::LegacyYamlAdapter::Rails41
-  extend ::T::Sig
-end
-
-module ActiveRecord::LegacyYamlAdapter
-  extend ::T::Sig
-end
-
-module ActiveRecord::Locking::Optimistic
-  extend ::T::Sig
-end
-
-module ActiveRecord::Locking::Pessimistic
-  extend ::T::Sig
-end
-
-module ActiveRecord::Locking
-  extend ::T::Sig
 end
 
 class ActiveRecord::LogSubscriber
@@ -3942,22 +2904,9 @@ module ActiveRecord::Migration::CommandRecorder::StraightReversions
 end
 
 module ActiveRecord::Migration::CommandRecorder::StraightReversions
-  extend ::T::Sig
 end
 
 class ActiveRecord::Migration::CommandRecorder
-end
-
-module ActiveRecord::Migration::JoinTable
-  extend ::T::Sig
-end
-
-module ActiveRecord::ModelSchema::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::ModelSchema
-  extend ::T::Sig
 end
 
 module ActiveRecord::NestedAttributes
@@ -3966,22 +2915,6 @@ end
 
 module ActiveRecord::NestedAttributes::ClassMethods
   REJECT_ALL_BLANK_PROC = ::T.let(nil, ::T.untyped)
-end
-
-module ActiveRecord::NestedAttributes::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::NestedAttributes
-  extend ::T::Sig
-end
-
-module ActiveRecord::NoTouching::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::NoTouching
-  extend ::T::Sig
 end
 
 module ActiveRecord::NullRelation
@@ -4021,15 +2954,6 @@ module ActiveRecord::NullRelation
 end
 
 module ActiveRecord::NullRelation
-  extend ::T::Sig
-end
-
-module ActiveRecord::Persistence::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::Persistence
-  extend ::T::Sig
 end
 
 class ActiveRecord::PredicateBuilder
@@ -4044,7 +2968,6 @@ module ActiveRecord::PredicateBuilder::ArrayHandler::NullPredicate
 end
 
 module ActiveRecord::PredicateBuilder::ArrayHandler::NullPredicate
-  extend ::T::Sig
   def self.or(other); end
 end
 
@@ -4076,50 +2999,14 @@ class ActiveRecord::PredicateBuilder
   def self.resolve_column_aliases(klass, hash); end
 end
 
-module ActiveRecord::QueryCache::ClassMethods
-  extend ::T::Sig
-end
-
 module ActiveRecord::QueryMethods
   VALID_DIRECTIONS = ::T.let(nil, ::T.untyped)
   VALID_UNSCOPING_VALUES = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveRecord::QueryMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::Querying
-  extend ::T::Sig
-end
-
-module ActiveRecord::Railties::ControllerRuntime
-  extend ::T::Sig
-end
-
-module ActiveRecord::Railties
-  extend ::T::Sig
-end
-
-module ActiveRecord::ReadonlyAttributes::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::ReadonlyAttributes
-  extend ::T::Sig
-end
-
 class ActiveRecord::Reflection::AssociationReflection
   INVALID_AUTOMATIC_INVERSE_OPTIONS = ::T.let(nil, ::T.untyped)
   VALID_AUTOMATIC_INVERSE_MACROS = ::T.let(nil, ::T.untyped)
-end
-
-module ActiveRecord::Reflection::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::Reflection
-  extend ::T::Sig
 end
 
 class ActiveRecord::Relation
@@ -4142,14 +3029,6 @@ end
 
 class ActiveRecord::Result
   IDENTITY_TYPE = ::T.let(nil, ::T.untyped)
-end
-
-module ActiveRecord::Sanitization::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::Sanitization
-  extend ::T::Sig
 end
 
 class ActiveRecord::Schema
@@ -4176,36 +3055,8 @@ class ActiveRecord::SchemaDumper
   def self.ignore_tables=(obj); end
 end
 
-module ActiveRecord::SchemaMigration::GeneratedAssociationMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::Scoping::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::Scoping::Default
-  extend ::T::Sig
-end
-
-module ActiveRecord::Scoping::Named
-  extend ::T::Sig
-end
-
 class ActiveRecord::Scoping::ScopeRegistry
   VALID_SCOPE_TYPES = ::T.let(nil, ::T.untyped)
-end
-
-module ActiveRecord::Scoping
-  extend ::T::Sig
-end
-
-module ActiveRecord::Serialization
-  extend ::T::Sig
-end
-
-module ActiveRecord::SpawnMethods
-  extend ::T::Sig
 end
 
 class ActiveRecord::StatementCache
@@ -4264,14 +3115,6 @@ class ActiveRecord::StatementCache
   def self.partial_query(visitor, ast, collector); end
 
   def self.query(visitor, ast); end
-end
-
-module ActiveRecord::Store::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::Store
-  extend ::T::Sig
 end
 
 module ActiveRecord::Tasks::DatabaseTasks
@@ -4359,7 +3202,6 @@ end
 
 module ActiveRecord::Tasks::DatabaseTasks
   extend ::ActiveRecord::Tasks::DatabaseTasks
-  extend ::T::Sig
 end
 
 class ActiveRecord::Tasks::MySQLDatabaseTasks
@@ -4441,56 +3283,12 @@ end
 class ActiveRecord::Tasks::SQLiteDatabaseTasks
 end
 
-module ActiveRecord::Tasks
-  extend ::T::Sig
-end
-
-module ActiveRecord::TestFixtures
-  extend ::T::Sig
-end
-
-module ActiveRecord::Timestamp
-  extend ::T::Sig
-end
-
 module ActiveRecord::Transactions
   ACTIONS = ::T.let(nil, ::T.untyped)
   CALLBACK_WARN_MESSAGE = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveRecord::Transactions::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::Transactions
-  extend ::T::Sig
-end
-
-module ActiveRecord::Translation
-  extend ::T::Sig
-end
-
-module ActiveRecord::Type::Decorator
-  extend ::T::Sig
-end
-
-module ActiveRecord::Type::Mutable
-  extend ::T::Sig
-end
-
-module ActiveRecord::Type::Numeric
-  extend ::T::Sig
-end
-
 class ActiveRecord::Type::Serialized
-end
-
-module ActiveRecord::Type::TimeValue
-  extend ::T::Sig
-end
-
-module ActiveRecord::Type
-  extend ::T::Sig
 end
 
 module ActiveRecord::VERSION
@@ -4499,30 +3297,6 @@ module ActiveRecord::VERSION
   PRE = ::T.let(nil, ::T.untyped)
   STRING = ::T.let(nil, ::T.untyped)
   TINY = ::T.let(nil, ::T.untyped)
-end
-
-module ActiveRecord::VERSION
-  extend ::T::Sig
-end
-
-module ActiveRecord::Validations::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveRecord::Validations
-  extend ::T::Sig
-end
-
-module ActiveRecord
-  extend ::T::Sig
-end
-
-module ActiveSupport::Autoload
-  extend ::T::Sig
-end
-
-module ActiveSupport::Benchmarkable
-  extend ::T::Sig
 end
 
 module ActiveSupport::Cache
@@ -4554,7 +3328,6 @@ module ActiveSupport::Cache::MemCacheStore::LocalCacheWithRaw
 end
 
 module ActiveSupport::Cache::MemCacheStore::LocalCacheWithRaw
-  extend ::T::Sig
 end
 
 class ActiveSupport::Cache::MemCacheStore
@@ -4581,52 +3354,12 @@ end
 class ActiveSupport::Cache::NullStore
 end
 
-module ActiveSupport::Cache::Strategy::LocalCache
-  extend ::T::Sig
-end
-
-module ActiveSupport::Cache::Strategy
-  extend ::T::Sig
-end
-
-module ActiveSupport::Cache
-  extend ::T::Sig
-end
-
 module ActiveSupport::Callbacks
   CALLBACK_FILTER_TYPES = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveSupport::Callbacks
-  extend ::T::Sig
-end
-
-module ActiveSupport::Concern
-  extend ::T::Sig
-end
-
-module ActiveSupport::Configurable
-  extend ::T::Sig
-end
-
 module ActiveSupport::Dependencies
   Reference = ::T.let(nil, ::T.untyped)
-end
-
-module ActiveSupport::Dependencies::Blamable
-  extend ::T::Sig
-end
-
-module ActiveSupport::Dependencies::Loadable
-  extend ::T::Sig
-end
-
-module ActiveSupport::Dependencies::ModuleConstMissing
-  extend ::T::Sig
-end
-
-module ActiveSupport::Dependencies
-  extend ::T::Sig
 end
 
 class ActiveSupport::Deprecation
@@ -4638,30 +3371,6 @@ class ActiveSupport::Deprecation
   DEFAULT_BEHAVIORS = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveSupport::Deprecation::Behavior
-  extend ::T::Sig
-end
-
-module ActiveSupport::Deprecation::InstanceDelegator::ClassMethods
-  extend ::T::Sig
-end
-
-module ActiveSupport::Deprecation::InstanceDelegator
-  extend ::T::Sig
-end
-
-module ActiveSupport::Deprecation::MethodWrapper
-  extend ::T::Sig
-end
-
-module ActiveSupport::Deprecation::Reporting
-  extend ::T::Sig
-end
-
-module ActiveSupport::DescendantsTracker
-  extend ::T::Sig
-end
-
 module ActiveSupport::Gzip
 end
 
@@ -4672,26 +3381,13 @@ class ActiveSupport::Gzip::Stream
 end
 
 module ActiveSupport::Gzip
-  extend ::T::Sig
   def self.compress(source, level=T.unsafe(nil), strategy=T.unsafe(nil)); end
 
   def self.decompress(source); end
 end
 
-module ActiveSupport::Inflector
-  extend ::T::Sig
-end
-
 module ActiveSupport::JSON
   DATE_REGEX = ::T.let(nil, ::T.untyped)
-end
-
-module ActiveSupport::JSON::Encoding
-  extend ::T::Sig
-end
-
-module ActiveSupport::JSON
-  extend ::T::Sig
 end
 
 class ActiveSupport::LegacyKeyGenerator
@@ -4730,10 +3426,6 @@ class ActiveSupport::LogSubscriber
   YELLOW = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveSupport::LoggerThreadSafeLevel
-  extend ::T::Sig
-end
-
 class ActiveSupport::MessageEncryptor
   def decrypt_and_verify(value); end
 
@@ -4753,7 +3445,6 @@ module ActiveSupport::MessageEncryptor::NullSerializer
 end
 
 module ActiveSupport::MessageEncryptor::NullSerializer
-  extend ::T::Sig
   def self.dump(value); end
 
   def self.load(value); end
@@ -4875,20 +3566,7 @@ end
 
 module ActiveSupport::Multibyte::Unicode
   extend ::ActiveSupport::Multibyte::Unicode
-  extend ::T::Sig
   def self.codepoints_to_pattern(array_of_codepoints); end
-end
-
-module ActiveSupport::Multibyte
-  extend ::T::Sig
-end
-
-module ActiveSupport::Notifications::Fanout::Subscribers
-  extend ::T::Sig
-end
-
-module ActiveSupport::Notifications
-  extend ::T::Sig
 end
 
 class ActiveSupport::NumberHelper::NumberConverter
@@ -4983,10 +3661,6 @@ end
 class ActiveSupport::NumberHelper::NumberToRoundedConverter
 end
 
-module ActiveSupport::NumberHelper
-  extend ::T::Sig
-end
-
 class ActiveSupport::OrderedHash
   def encode_with(coder); end
 
@@ -5000,20 +3674,8 @@ end
 class ActiveSupport::OrderedHash
 end
 
-module ActiveSupport::PerThreadRegistry
-  extend ::T::Sig
-end
-
-module ActiveSupport::Rescuable
-  extend ::T::Sig
-end
-
 class ActiveSupport::SafeBuffer
   UNSAFE_STRING_METHODS = ::T.let(nil, ::T.untyped)
-end
-
-module ActiveSupport::SecurityUtils
-  extend ::T::Sig
 end
 
 class ActiveSupport::Subscriber
@@ -5024,60 +3686,8 @@ class ActiveSupport::Subscriber
   def start(name, id, payload); end
 end
 
-module ActiveSupport::TaggedLogging::Formatter
-  extend ::T::Sig
-end
-
-module ActiveSupport::TaggedLogging
-  extend ::T::Sig
-end
-
-module ActiveSupport::Testing::Assertions
-  extend ::T::Sig
-end
-
-module ActiveSupport::Testing::ConstantLookup
-  extend ::T::Sig
-end
-
-module ActiveSupport::Testing::Declarative
-  extend ::T::Sig
-end
-
-module ActiveSupport::Testing::Deprecation
-  extend ::T::Sig
-end
-
-module ActiveSupport::Testing::Isolation::Forking
-  extend ::T::Sig
-end
-
 module ActiveSupport::Testing::Isolation::Subprocess
   ORIG_ARGV = ::T.let(nil, ::T.untyped)
-end
-
-module ActiveSupport::Testing::Isolation::Subprocess
-  extend ::T::Sig
-end
-
-module ActiveSupport::Testing::Isolation
-  extend ::T::Sig
-end
-
-module ActiveSupport::Testing::SetupAndTeardown
-  extend ::T::Sig
-end
-
-module ActiveSupport::Testing::TaggedLogging
-  extend ::T::Sig
-end
-
-module ActiveSupport::Testing::TimeHelpers
-  extend ::T::Sig
-end
-
-module ActiveSupport::Testing
-  extend ::T::Sig
 end
 
 class ActiveSupport::TimeWithZone
@@ -5098,10 +3708,6 @@ module ActiveSupport::VERSION
   TINY = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveSupport::VERSION
-  extend ::T::Sig
-end
-
 class ActiveSupport::XMLConverter
   DISALLOWED_TYPES = ::T.let(nil, ::T.untyped)
 end
@@ -5113,95 +3719,23 @@ module ActiveSupport::XmlMini
   TYPE_NAMES = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveSupport::XmlMini::FileLike
-  extend ::T::Sig
-end
-
-module ActiveSupport::XmlMini
-  extend ::T::Sig
-end
-
 module ActiveSupport::XmlMini_REXML
   CONTENT_KEY = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveSupport::XmlMini_REXML
-  extend ::T::Sig
-end
-
-module ActiveSupport
-  extend ::T::Sig
-end
-
-class Addrinfo
-  extend ::T::Sig
-end
-
 class ApplicationController
 end
 
 class ApplicationController
-end
-
-module ApplicationHelper
-  extend ::T::Sig
 end
 
 module Arel
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
-module Arel::AliasPredication
-  extend ::T::Sig
-end
-
 Arel::Attribute = Arel::Attributes::Attribute
 
-module Arel::Attributes
-  extend ::T::Sig
-end
-
-module Arel::Collectors
-  extend ::T::Sig
-end
-
-module Arel::Compatibility::Wheres::Value
-  extend ::T::Sig
-end
-
-module Arel::Compatibility
-  extend ::T::Sig
-end
-
-module Arel::Crud
-  extend ::T::Sig
-end
-
-module Arel::Expressions
-  extend ::T::Sig
-end
-
-module Arel::FactoryMethods
-  extend ::T::Sig
-end
-
-module Arel::Math
-  extend ::T::Sig
-end
-
 Arel::Node = Arel::Nodes::Node
-
-module Arel::Nodes
-  extend ::T::Sig
-end
-
-module Arel::OrderPredications
-  extend ::T::Sig
-end
-
-module Arel::Predications
-  extend ::T::Sig
-end
 
 class Arel::SelectManager
   STRING_OR_SYMBOL_CLASS = ::T.let(nil, ::T.untyped)
@@ -5210,10 +3744,6 @@ end
 module Arel::Visitors
   ENGINE_VISITORS = ::T.let(nil, ::T.untyped)
   VISITORS = ::T.let(nil, ::T.untyped)
-end
-
-module Arel::Visitors::BindVisitor
-  extend ::T::Sig
 end
 
 class Arel::Visitors::DepthFirst
@@ -5229,22 +3759,6 @@ class Arel::Visitors::ToSql
   SPACE = ::T.let(nil, ::T.untyped)
   WHERE = ::T.let(nil, ::T.untyped)
   WINDOW = ::T.let(nil, ::T.untyped)
-end
-
-module Arel::Visitors
-  extend ::T::Sig
-end
-
-module Arel::WindowPredications
-  extend ::T::Sig
-end
-
-module Arel
-  extend ::T::Sig
-end
-
-class ArgumentError
-  extend ::T::Sig
 end
 
 class Array
@@ -5278,23 +3792,10 @@ class Array
 end
 
 class Array
-  extend ::T::Sig
   def self.try_convert(_); end
 end
 
-module Base64
-  extend ::T::Sig
-end
-
 BasicObject::BasicObject = BasicObject
-
-class BasicObject
-  extend ::T::Sig
-end
-
-class BasicSocket
-  extend ::T::Sig
-end
 
 class Benchmark::Job
   def initialize(width); end
@@ -5308,10 +3809,6 @@ class Benchmark::Job
   def width(); end
 end
 
-class Benchmark::Job
-  extend ::T::Sig
-end
-
 class Benchmark::Report
   def initialize(width=T.unsafe(nil), format=T.unsafe(nil)); end
 
@@ -5320,10 +3817,6 @@ class Benchmark::Report
   def list(); end
 
   def report(label=T.unsafe(nil), *format, &blk); end
-end
-
-class Benchmark::Report
-  extend ::T::Sig
 end
 
 class Benchmark::Tms
@@ -5362,14 +3855,6 @@ class Benchmark::Tms
   def utime(); end
 end
 
-class Benchmark::Tms
-  extend ::T::Sig
-end
-
-module Benchmark
-  extend ::T::Sig
-end
-
 class BigDecimal
   def clone(); end
 
@@ -5384,12 +3869,7 @@ class BigDecimal
 end
 
 class BigDecimal
-  extend ::T::Sig
   def self.ver(); end
-end
-
-module BigMath
-  extend ::T::Sig
 end
 
 class Binding
@@ -5404,14 +3884,6 @@ class Binding
   def local_variable_set(_, _1); end
 
   def receiver(); end
-end
-
-class Binding
-  extend ::T::Sig
-end
-
-module Bundler::BuildMetadata
-  extend ::T::Sig
 end
 
 Bundler::Deprecate = Gem::Deprecate
@@ -5605,30 +4077,6 @@ class Bundler::Fetcher
   def self.redirect_limit=(redirect_limit); end
 end
 
-module Bundler::FileUtils::DryRun
-  extend ::T::Sig
-end
-
-module Bundler::FileUtils::LowMethods
-  extend ::T::Sig
-end
-
-module Bundler::FileUtils::NoWrite
-  extend ::T::Sig
-end
-
-module Bundler::FileUtils::StreamUtils_
-  extend ::T::Sig
-end
-
-module Bundler::FileUtils::Verbose
-  extend ::T::Sig
-end
-
-module Bundler::FileUtils
-  extend ::T::Sig
-end
-
 class Bundler::GemHelper
   def allowed_push_host(); end
 
@@ -5689,10 +4137,6 @@ class Bundler::GemHelper
   def self.instance(); end
 
   def self.instance=(instance); end
-end
-
-module Bundler::GemHelpers
-  extend ::T::Sig
 end
 
 class Bundler::GemRemoteFetcher
@@ -5803,44 +4247,12 @@ class Bundler::Installer
   def self.install(root, definition, options=T.unsafe(nil)); end
 end
 
-module Bundler::MatchPlatform
-  extend ::T::Sig
-end
-
-module Bundler::Molinillo::Compatibility
-  extend ::T::Sig
-end
-
-module Bundler::Molinillo::Delegates::ResolutionState
-  extend ::T::Sig
-end
-
-module Bundler::Molinillo::Delegates::SpecificationProvider
-  extend ::T::Sig
-end
-
-module Bundler::Molinillo::Delegates
-  extend ::T::Sig
-end
-
 class Bundler::Molinillo::DependencyGraph
   include ::Enumerable
 end
 
 class Bundler::Molinillo::DependencyGraph::Log
   extend ::Enumerable
-end
-
-module Bundler::Molinillo::SpecificationProvider
-  extend ::T::Sig
-end
-
-module Bundler::Molinillo::UI
-  extend ::T::Sig
-end
-
-module Bundler::Molinillo
-  extend ::T::Sig
 end
 
 module Bundler::Plugin::API::Source
@@ -5910,7 +4322,6 @@ module Bundler::Plugin::API::Source
 end
 
 module Bundler::Plugin::API::Source
-  extend ::T::Sig
 end
 
 class Bundler::Plugin::DSL
@@ -5938,7 +4349,6 @@ module Bundler::Plugin::Events
 end
 
 module Bundler::Plugin::Events
-  extend ::T::Sig
   def self.defined_event?(event); end
 end
 
@@ -6013,10 +4423,6 @@ end
 class Bundler::Plugin::SourceList
 end
 
-module Bundler::Plugin
-  extend ::T::Sig
-end
-
 class Bundler::ProcessLock
 end
 
@@ -6050,10 +4456,6 @@ class Bundler::Retry
   def self.default_attempts(); end
 
   def self.default_retries(); end
-end
-
-module Bundler::RubyDsl
-  extend ::T::Sig
 end
 
 class Bundler::RubyGemsGemInstaller
@@ -6122,10 +4524,6 @@ class Bundler::Settings::Validator
   def self.validate!(key, value, settings); end
 end
 
-module Bundler::SharedHelpers
-  extend ::T::Sig
-end
-
 class Bundler::SpecSet
   include ::Enumerable
 end
@@ -6173,14 +4571,6 @@ class Bundler::UI::Shell
 end
 
 class Bundler::UI::Shell
-end
-
-module Bundler::UI
-  extend ::T::Sig
-end
-
-module Bundler::URICredentialsFilter
-  extend ::T::Sig
 end
 
 module Bundler::VersionRanges
@@ -6240,20 +4630,11 @@ class Bundler::VersionRanges::ReqR
 end
 
 module Bundler::VersionRanges
-  extend ::T::Sig
   def self.empty?(ranges, neqs); end
 
   def self.for(requirement); end
 
   def self.for_many(requirements); end
-end
-
-module Bundler::YAMLSerializer
-  extend ::T::Sig
-end
-
-module Bundler
-  extend ::T::Sig
 end
 
 module Byebug
@@ -6292,54 +4673,6 @@ class Byebug::FullpathSetting
   DEFAULT = ::T.let(nil, ::T.untyped)
 end
 
-module Byebug::Helpers::BinHelper
-  extend ::T::Sig
-end
-
-module Byebug::Helpers::EvalHelper
-  extend ::T::Sig
-end
-
-module Byebug::Helpers::FileHelper
-  extend ::T::Sig
-end
-
-module Byebug::Helpers::FrameHelper
-  extend ::T::Sig
-end
-
-module Byebug::Helpers::ParseHelper
-  extend ::T::Sig
-end
-
-module Byebug::Helpers::PathHelper
-  extend ::T::Sig
-end
-
-module Byebug::Helpers::ReflectionHelper
-  extend ::T::Sig
-end
-
-module Byebug::Helpers::StringHelper
-  extend ::T::Sig
-end
-
-module Byebug::Helpers::ThreadHelper
-  extend ::T::Sig
-end
-
-module Byebug::Helpers::ToggleHelper
-  extend ::T::Sig
-end
-
-module Byebug::Helpers::VarHelper
-  extend ::T::Sig
-end
-
-module Byebug::Helpers
-  extend ::T::Sig
-end
-
 class Byebug::HistfileSetting
   DEFAULT = ::T.let(nil, ::T.untyped)
 end
@@ -6360,28 +4693,12 @@ class Byebug::Printers::Base
   SEPARATOR = ::T.let(nil, ::T.untyped)
 end
 
-module Byebug::Printers
-  extend ::T::Sig
-end
-
-module Byebug::Remote
-  extend ::T::Sig
-end
-
 class Byebug::SavefileSetting
   DEFAULT = ::T.let(nil, ::T.untyped)
 end
 
 class Byebug::Setting
   DEFAULT = ::T.let(nil, ::T.untyped)
-end
-
-module Byebug::Subcommands::ClassMethods
-  extend ::T::Sig
-end
-
-module Byebug::Subcommands
-  extend ::T::Sig
 end
 
 class Byebug::ThreadsTable
@@ -6392,18 +4709,6 @@ end
 
 class Byebug::WidthSetting
   DEFAULT = ::T.let(nil, ::T.untyped)
-end
-
-module Byebug
-  extend ::T::Sig
-end
-
-class CGI::Cookie
-  extend ::T::Sig
-end
-
-module CGI::Escape
-  extend ::T::Sig
 end
 
 module CGI::HtmlExtension
@@ -6453,23 +4758,6 @@ module CGI::HtmlExtension
 end
 
 module CGI::HtmlExtension
-  extend ::T::Sig
-end
-
-class CGI::InvalidEncoding
-  extend ::T::Sig
-end
-
-module CGI::QueryExtension
-  extend ::T::Sig
-end
-
-module CGI::Util
-  extend ::T::Sig
-end
-
-class CGI
-  extend ::T::Sig
 end
 
 module ChildProcess
@@ -6480,32 +4768,11 @@ class ChildProcess::AbstractProcess
   POLL_INTERVAL = ::T.let(nil, ::T.untyped)
 end
 
-module ChildProcess::Unix
-  extend ::T::Sig
-end
-
-module ChildProcess
-  extend ::T::Sig
-end
-
 class Class
   def json_creatable?(); end
 end
 
-class Class
-  extend ::T::Sig
-end
-
-class ClosedQueueError
-  extend ::T::Sig
-end
-
-module Comparable
-  extend ::T::Sig
-end
-
 class Complex
-  extend ::T::Sig
   def self.polar(*_); end
 
   def self.rect(*_); end
@@ -6524,54 +4791,10 @@ class Concurrent::AbstractExecutorService
   FALLBACK_POLICIES = ::T.let(nil, ::T.untyped)
 end
 
-module Concurrent::Async
-  extend ::T::Sig
-end
-
-module Concurrent::AtomicDirectUpdate
-  extend ::T::Sig
-end
-
-module Concurrent::AtomicNumericCompareAndSetWrapper
-  extend ::T::Sig
-end
-
 Concurrent::Collection::MapImplementation = Concurrent::Collection::MriMapBackend
-
-module Concurrent::Collection
-  extend ::T::Sig
-end
-
-module Concurrent::Concern::Dereferenceable
-  extend ::T::Sig
-end
-
-module Concurrent::Concern::Logging
-  extend ::T::Sig
-end
-
-module Concurrent::Concern::Obligation
-  extend ::T::Sig
-end
-
-module Concurrent::Concern::Observable
-  extend ::T::Sig
-end
-
-module Concurrent::Concern
-  extend ::T::Sig
-end
 
 class Concurrent::ConcurrentUpdateError
   CONC_UP_ERR_BACKTRACE = ::T.let(nil, ::T.untyped)
-end
-
-module Concurrent::ExecutorService
-  extend ::T::Sig
-end
-
-module Concurrent::ImmutableStruct
-  extend ::T::Sig
 end
 
 class Concurrent::LockFreeStack
@@ -6587,42 +4810,10 @@ class Concurrent::Maybe
   NONE = ::T.let(nil, ::T.untyped)
 end
 
-module Concurrent::MutableStruct
-  extend ::T::Sig
-end
-
-module Concurrent::Options
-  extend ::T::Sig
-end
-
-module Concurrent::Promises::FactoryMethods::Configuration
-  extend ::T::Sig
-end
-
-module Concurrent::Promises::FactoryMethods
-  extend ::T::Sig
-end
-
 module Concurrent::Promises::InternalStates
   PENDING = ::T.let(nil, ::T.untyped)
   RESERVED = ::T.let(nil, ::T.untyped)
   RESOLVED = ::T.let(nil, ::T.untyped)
-end
-
-module Concurrent::Promises::InternalStates
-  extend ::T::Sig
-end
-
-module Concurrent::Promises::Resolvable
-  extend ::T::Sig
-end
-
-module Concurrent::Promises
-  extend ::T::Sig
-end
-
-module Concurrent::ReInclude
-  extend ::T::Sig
 end
 
 class Concurrent::ReadWriteLock
@@ -6651,60 +4842,12 @@ class Concurrent::RubyThreadPoolExecutor
   DEFAULT_THREAD_IDLETIMEOUT = ::T.let(nil, ::T.untyped)
 end
 
-module Concurrent::SerialExecutorService
-  extend ::T::Sig
-end
-
-module Concurrent::SettableStruct
-  extend ::T::Sig
-end
-
-module Concurrent::Synchronization::AbstractStruct
-  extend ::T::Sig
-end
-
-module Concurrent::Synchronization::ConditionSignalling
-  extend ::T::Sig
-end
-
-module Concurrent::Synchronization::MriAttrVolatile
-  extend ::T::Sig
-end
-
-module Concurrent::Synchronization::RbxAttrVolatile::ClassMethods
-  extend ::T::Sig
-end
-
-module Concurrent::Synchronization::RbxAttrVolatile
-  extend ::T::Sig
-end
-
-module Concurrent::Synchronization::TruffleRubyAttrVolatile::ClassMethods
-  extend ::T::Sig
-end
-
-module Concurrent::Synchronization::TruffleRubyAttrVolatile
-  extend ::T::Sig
-end
-
 Concurrent::Synchronization::Volatile = Concurrent::Synchronization::MriAttrVolatile
-
-module Concurrent::Synchronization
-  extend ::T::Sig
-end
 
 module Concurrent::ThreadSafe::Util
   CPU_COUNT = ::T.let(nil, ::T.untyped)
   FIXNUM_BIT_SIZE = ::T.let(nil, ::T.untyped)
   MAX_INT = ::T.let(nil, ::T.untyped)
-end
-
-module Concurrent::ThreadSafe::Util
-  extend ::T::Sig
-end
-
-module Concurrent::ThreadSafe
-  extend ::T::Sig
 end
 
 class Concurrent::TimerTask
@@ -6716,29 +4859,9 @@ class Concurrent::Transaction
   ABORTED = ::T.let(nil, ::T.untyped)
 end
 
-module Concurrent::Utility::EngineDetector
-  extend ::T::Sig
-end
-
-module Concurrent::Utility::NativeExtensionLoader
-  extend ::T::Sig
-end
-
 module Concurrent::Utility::NativeInteger
   MAX_VALUE = ::T.let(nil, ::T.untyped)
   MIN_VALUE = ::T.let(nil, ::T.untyped)
-end
-
-module Concurrent::Utility::NativeInteger
-  extend ::T::Sig
-end
-
-module Concurrent::Utility
-  extend ::T::Sig
-end
-
-module Concurrent
-  extend ::T::Sig
 end
 
 ConditionVariable = Thread::ConditionVariable
@@ -6764,10 +4887,6 @@ class Crass::Tokenizer
   RE_UNICODE_RANGE_START = ::T.let(nil, ::T.untyped)
   RE_WHITESPACE = ::T.let(nil, ::T.untyped)
   RE_WHITESPACE_ANCHORED = ::T.let(nil, ::T.untyped)
-end
-
-module Crass
-  extend ::T::Sig
 end
 
 module Dalli
@@ -6802,30 +4921,6 @@ class Dalli::Server
   RESPONSE_CODES = ::T.let(nil, ::T.untyped)
 end
 
-module Dalli::Server::KSocket::InstanceMethods
-  extend ::T::Sig
-end
-
-module Dalli::Server::KSocket
-  extend ::T::Sig
-end
-
-module Dalli::Server::TCPSocketOptions
-  extend ::T::Sig
-end
-
-module Dalli::Threadsafe
-  extend ::T::Sig
-end
-
-module Dalli
-  extend ::T::Sig
-end
-
-class Data
-  extend ::T::Sig
-end
-
 class Date
   DATE_FORMATS = ::T.let(nil, ::T.untyped)
 end
@@ -6834,36 +4929,8 @@ class Date::Infinity
   def initialize(d=T.unsafe(nil)); end
 end
 
-class Date::Infinity
-  extend ::T::Sig
-end
-
-class Date
-  extend ::T::Sig
-end
-
 module DateAndTime::Calculations
   DAYS_INTO_WEEK = ::T.let(nil, ::T.untyped)
-end
-
-module DateAndTime::Calculations
-  extend ::T::Sig
-end
-
-module DateAndTime::Compatibility
-  extend ::T::Sig
-end
-
-module DateAndTime::Zones
-  extend ::T::Sig
-end
-
-module DateAndTime
-  extend ::T::Sig
-end
-
-class DateTime
-  extend ::T::Sig
 end
 
 class Delegator
@@ -6893,7 +4960,6 @@ class Delegator
 end
 
 class Delegator
-  extend ::T::Sig
   def self.const_missing(n); end
 
   def self.delegating_block(mid); end
@@ -6913,10 +4979,6 @@ class DidYouMean::ClassNameChecker
   def scopes(); end
 end
 
-class DidYouMean::ClassNameChecker
-  extend ::T::Sig
-end
-
 module DidYouMean::Correctable
   def corrections(); end
 
@@ -6925,10 +4987,6 @@ module DidYouMean::Correctable
   def spell_checker(); end
 
   def to_s(); end
-end
-
-module DidYouMean::Correctable
-  extend ::T::Sig
 end
 
 class DidYouMean::DeprecatedIgnoredCallers
@@ -6941,12 +4999,10 @@ class DidYouMean::DeprecatedIgnoredCallers
 end
 
 module DidYouMean::Jaro
-  extend ::T::Sig
   def self.distance(str1, str2); end
 end
 
 module DidYouMean::JaroWinkler
-  extend ::T::Sig
   def self.distance(str1, str2); end
 end
 
@@ -6960,7 +5016,6 @@ class DidYouMean::KeyErrorChecker
 end
 
 module DidYouMean::Levenshtein
-  extend ::T::Sig
   def self.distance(str1, str2); end
 
   def self.min3(a, b, c); end
@@ -6978,18 +5033,10 @@ class DidYouMean::MethodNameChecker
   def receiver(); end
 end
 
-class DidYouMean::MethodNameChecker
-  extend ::T::Sig
-end
-
 class DidYouMean::NullChecker
   def corrections(); end
 
   def initialize(*_); end
-end
-
-class DidYouMean::NullChecker
-  extend ::T::Sig
 end
 
 class DidYouMean::PlainFormatter
@@ -7003,10 +5050,6 @@ class DidYouMean::SpellChecker
   def correct(input); end
 
   def initialize(dictionary:); end
-end
-
-class DidYouMean::SpellChecker
-  extend ::T::Sig
 end
 
 class DidYouMean::VariableNameChecker
@@ -7026,51 +5069,10 @@ class DidYouMean::VariableNameChecker
   RB_PREDEFINED_OBJECTS = ::T.let(nil, ::T.untyped)
 end
 
-class DidYouMean::VariableNameChecker
-  extend ::T::Sig
-end
-
 module DidYouMean
-  extend ::T::Sig
   def self.formatter(); end
 
   def self.formatter=(formatter); end
-end
-
-class Digest::Base
-  extend ::T::Sig
-end
-
-class Digest::Class
-  extend ::T::Sig
-end
-
-module Digest::Instance
-  extend ::T::Sig
-end
-
-class Digest::MD5
-  extend ::T::Sig
-end
-
-class Digest::SHA1
-  extend ::T::Sig
-end
-
-class Digest::SHA2
-  extend ::T::Sig
-end
-
-class Digest::SHA256
-  extend ::T::Sig
-end
-
-class Digest::SHA384
-  extend ::T::Sig
-end
-
-class Digest::SHA512
-  extend ::T::Sig
 end
 
 module Digest::UUID
@@ -7080,20 +5082,7 @@ module Digest::UUID
   X500_NAMESPACE = ::T.let(nil, ::T.untyped)
 end
 
-module Digest::UUID
-  extend ::T::Sig
-end
-
-module Digest
-  extend ::T::Sig
-end
-
-module Dir::Tmpname
-  extend ::T::Sig
-end
-
 class Dir
-  extend ::T::Sig
   def self.children(*_); end
 
   def self.each_child(*_); end
@@ -7105,10 +5094,6 @@ class Dir
   def self.tmpdir(); end
 end
 
-class EOFError
-  extend ::T::Sig
-end
-
 class ERB
   def def_method(mod, methodname, fname=T.unsafe(nil)); end
 
@@ -7117,41 +5102,9 @@ class ERB
   def result_with_hash(hash); end
 end
 
-class ERB::Compiler::Buffer
-  extend ::T::Sig
-end
-
-class ERB::Compiler::ExplicitScanner
-  extend ::T::Sig
-end
-
-class ERB::Compiler::PercentLine
-  extend ::T::Sig
-end
-
 class ERB::Compiler::Scanner
   DEFAULT_ETAGS = ::T.let(nil, ::T.untyped)
   DEFAULT_STAGS = ::T.let(nil, ::T.untyped)
-end
-
-class ERB::Compiler::Scanner
-  extend ::T::Sig
-end
-
-class ERB::Compiler::SimpleScanner
-  extend ::T::Sig
-end
-
-class ERB::Compiler::TrimScanner
-  extend ::T::Sig
-end
-
-class ERB::Compiler
-  extend ::T::Sig
-end
-
-module ERB::DefMethod
-  extend ::T::Sig
 end
 
 module ERB::Util
@@ -7162,22 +5115,10 @@ module ERB::Util
   JSON_ESCAPE_REGEXP = ::T.let(nil, ::T.untyped)
 end
 
-module ERB::Util
-  extend ::T::Sig
-end
-
-class ERB
-  extend ::T::Sig
-end
-
 Emitter = Psych::Stream::Emitter
 
 class Encoding
   def _dump(*_); end
-end
-
-class Encoding::CompatibilityError
-  extend ::T::Sig
 end
 
 class Encoding::Converter
@@ -7209,14 +5150,9 @@ class Encoding::Converter
 end
 
 class Encoding::Converter
-  extend ::T::Sig
   def self.asciicompat_encoding(_); end
 
   def self.search_convpath(*_); end
-end
-
-class Encoding::ConverterNotFoundError
-  extend ::T::Sig
 end
 
 class Encoding::InvalidByteSequenceError
@@ -7235,10 +5171,6 @@ class Encoding::InvalidByteSequenceError
   def source_encoding_name(); end
 end
 
-class Encoding::InvalidByteSequenceError
-  extend ::T::Sig
-end
-
 class Encoding::UndefinedConversionError
   def destination_encoding(); end
 
@@ -7251,19 +5183,10 @@ class Encoding::UndefinedConversionError
   def source_encoding_name(); end
 end
 
-class Encoding::UndefinedConversionError
-  extend ::T::Sig
-end
-
 class Encoding
-  extend ::T::Sig
   def self._load(_); end
 
   def self.locale_charmap(); end
-end
-
-class EncodingError
-  extend ::T::Sig
 end
 
 module Enumerable
@@ -7290,10 +5213,6 @@ module Enumerable
   def zip(*_); end
 end
 
-module Enumerable
-  extend ::T::Sig
-end
-
 class Enumerator
   def each_with_index(); end
 
@@ -7303,10 +5222,6 @@ class Enumerator::Generator
   def each(*_, &blk); end
 
   def initialize(*_); end
-end
-
-class Enumerator::Generator
-  extend ::T::Sig
 end
 
 class Enumerator::Lazy
@@ -7319,46 +5234,6 @@ class Enumerator::Lazy
   def slice_when(*_); end
 end
 
-class Enumerator::Lazy
-  extend ::T::Sig
-end
-
-class Enumerator::Yielder
-  extend ::T::Sig
-end
-
-class Enumerator
-  extend ::T::Sig
-end
-
-class Errno::E2BIG
-  extend ::T::Sig
-end
-
-class Errno::EACCES
-  extend ::T::Sig
-end
-
-class Errno::EADDRINUSE
-  extend ::T::Sig
-end
-
-class Errno::EADDRNOTAVAIL
-  extend ::T::Sig
-end
-
-class Errno::EAFNOSUPPORT
-  extend ::T::Sig
-end
-
-class Errno::EAGAIN
-  extend ::T::Sig
-end
-
-class Errno::EALREADY
-  extend ::T::Sig
-end
-
 class Errno::EAUTH
   Errno = ::T.let(nil, ::T.untyped)
 end
@@ -7366,152 +5241,28 @@ end
 class Errno::EAUTH
 end
 
-class Errno::EBADF
-  extend ::T::Sig
-end
-
-class Errno::EBADMSG
-  extend ::T::Sig
-end
-
 class Errno::EBADRPC
   Errno = ::T.let(nil, ::T.untyped)
 end
 
 class Errno::EBADRPC
-end
-
-class Errno::EBUSY
-  extend ::T::Sig
-end
-
-class Errno::ECANCELED
-  extend ::T::Sig
 end
 
 Errno::ECAPMODE = Errno::NOERROR
 
-class Errno::ECHILD
-  extend ::T::Sig
-end
-
-class Errno::ECONNABORTED
-  extend ::T::Sig
-end
-
-class Errno::ECONNREFUSED
-  extend ::T::Sig
-end
-
-class Errno::ECONNRESET
-  extend ::T::Sig
-end
-
-class Errno::EDEADLK
-  extend ::T::Sig
-end
-
 Errno::EDEADLOCK = Errno::NOERROR
 
-class Errno::EDESTADDRREQ
-  extend ::T::Sig
-end
-
-class Errno::EDOM
-  extend ::T::Sig
-end
-
 Errno::EDOOFUS = Errno::NOERROR
-
-class Errno::EDQUOT
-  extend ::T::Sig
-end
-
-class Errno::EEXIST
-  extend ::T::Sig
-end
-
-class Errno::EFAULT
-  extend ::T::Sig
-end
-
-class Errno::EFBIG
-  extend ::T::Sig
-end
 
 class Errno::EFTYPE
   Errno = ::T.let(nil, ::T.untyped)
 end
 
 class Errno::EFTYPE
-end
-
-class Errno::EHOSTDOWN
-  extend ::T::Sig
-end
-
-class Errno::EHOSTUNREACH
-  extend ::T::Sig
-end
-
-class Errno::EIDRM
-  extend ::T::Sig
-end
-
-class Errno::EILSEQ
-  extend ::T::Sig
-end
-
-class Errno::EINPROGRESS
-  extend ::T::Sig
-end
-
-class Errno::EINTR
-  extend ::T::Sig
-end
-
-class Errno::EINVAL
-  extend ::T::Sig
-end
-
-class Errno::EIO
-  extend ::T::Sig
 end
 
 Errno::EIPSEC = Errno::NOERROR
 
-class Errno::EISCONN
-  extend ::T::Sig
-end
-
-class Errno::EISDIR
-  extend ::T::Sig
-end
-
-class Errno::ELOOP
-  extend ::T::Sig
-end
-
-class Errno::EMFILE
-  extend ::T::Sig
-end
-
-class Errno::EMLINK
-  extend ::T::Sig
-end
-
-class Errno::EMSGSIZE
-  extend ::T::Sig
-end
-
-class Errno::EMULTIHOP
-  extend ::T::Sig
-end
-
-class Errno::ENAMETOOLONG
-  extend ::T::Sig
-end
-
 class Errno::ENEEDAUTH
   Errno = ::T.let(nil, ::T.untyped)
 end
@@ -7519,148 +5270,20 @@ end
 class Errno::ENEEDAUTH
 end
 
-class Errno::ENETDOWN
-  extend ::T::Sig
-end
-
-class Errno::ENETRESET
-  extend ::T::Sig
-end
-
-class Errno::ENETUNREACH
-  extend ::T::Sig
-end
-
-class Errno::ENFILE
-  extend ::T::Sig
-end
-
 class Errno::ENOATTR
   Errno = ::T.let(nil, ::T.untyped)
 end
 
 class Errno::ENOATTR
-end
-
-class Errno::ENOBUFS
-  extend ::T::Sig
-end
-
-class Errno::ENODATA
-  extend ::T::Sig
-end
-
-class Errno::ENODEV
-  extend ::T::Sig
-end
-
-class Errno::ENOENT
-  extend ::T::Sig
-end
-
-class Errno::ENOEXEC
-  extend ::T::Sig
-end
-
-class Errno::ENOLCK
-  extend ::T::Sig
-end
-
-class Errno::ENOLINK
-  extend ::T::Sig
-end
-
-class Errno::ENOMEM
-  extend ::T::Sig
-end
-
-class Errno::ENOMSG
-  extend ::T::Sig
-end
-
-class Errno::ENOPROTOOPT
-  extend ::T::Sig
-end
-
-class Errno::ENOSPC
-  extend ::T::Sig
-end
-
-class Errno::ENOSR
-  extend ::T::Sig
-end
-
-class Errno::ENOSTR
-  extend ::T::Sig
-end
-
-class Errno::ENOSYS
-  extend ::T::Sig
-end
-
-class Errno::ENOTBLK
-  extend ::T::Sig
 end
 
 Errno::ENOTCAPABLE = Errno::NOERROR
 
-class Errno::ENOTCONN
-  extend ::T::Sig
-end
-
-class Errno::ENOTDIR
-  extend ::T::Sig
-end
-
-class Errno::ENOTEMPTY
-  extend ::T::Sig
-end
-
-class Errno::ENOTRECOVERABLE
-  extend ::T::Sig
-end
-
-class Errno::ENOTSOCK
-  extend ::T::Sig
-end
-
 class Errno::ENOTSUP
   Errno = ::T.let(nil, ::T.untyped)
 end
 
 class Errno::ENOTSUP
-end
-
-class Errno::ENOTTY
-  extend ::T::Sig
-end
-
-class Errno::ENXIO
-  extend ::T::Sig
-end
-
-class Errno::EOPNOTSUPP
-  extend ::T::Sig
-end
-
-class Errno::EOVERFLOW
-  extend ::T::Sig
-end
-
-class Errno::EOWNERDEAD
-  extend ::T::Sig
-end
-
-class Errno::EPERM
-  extend ::T::Sig
-end
-
-class Errno::EPFNOSUPPORT
-  extend ::T::Sig
-end
-
-class Errno::EPIPE
-  extend ::T::Sig
 end
 
 class Errno::EPROCLIM
@@ -7691,87 +5314,11 @@ end
 class Errno::EPROGUNAVAIL
 end
 
-class Errno::EPROTO
-  extend ::T::Sig
-end
-
-class Errno::EPROTONOSUPPORT
-  extend ::T::Sig
-end
-
-class Errno::EPROTOTYPE
-  extend ::T::Sig
-end
-
-class Errno::ERANGE
-  extend ::T::Sig
-end
-
-class Errno::EREMOTE
-  extend ::T::Sig
-end
-
-class Errno::EROFS
-  extend ::T::Sig
-end
-
 class Errno::ERPCMISMATCH
   Errno = ::T.let(nil, ::T.untyped)
 end
 
 class Errno::ERPCMISMATCH
-end
-
-class Errno::ESHUTDOWN
-  extend ::T::Sig
-end
-
-class Errno::ESOCKTNOSUPPORT
-  extend ::T::Sig
-end
-
-class Errno::ESPIPE
-  extend ::T::Sig
-end
-
-class Errno::ESRCH
-  extend ::T::Sig
-end
-
-class Errno::ESTALE
-  extend ::T::Sig
-end
-
-class Errno::ETIME
-  extend ::T::Sig
-end
-
-class Errno::ETIMEDOUT
-  extend ::T::Sig
-end
-
-class Errno::ETOOMANYREFS
-  extend ::T::Sig
-end
-
-class Errno::ETXTBSY
-  extend ::T::Sig
-end
-
-class Errno::EUSERS
-  extend ::T::Sig
-end
-
-class Errno::EXDEV
-  extend ::T::Sig
-end
-
-class Errno::NOERROR
-  extend ::T::Sig
-end
-
-module Errno
-  extend ::T::Sig
 end
 
 module Erubis
@@ -7779,136 +5326,20 @@ module Erubis
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
-module Erubis::ArrayBufferEnhancer
-  extend ::T::Sig
-end
-
-module Erubis::ArrayEnhancer
-  extend ::T::Sig
-end
-
 module Erubis::Basic::Converter
   DEFAULT_REGEXP = ::T.let(nil, ::T.untyped)
-end
-
-module Erubis::Basic::Converter
-  extend ::T::Sig
-end
-
-module Erubis::Basic
-  extend ::T::Sig
-end
-
-module Erubis::BiPatternEnhancer
-  extend ::T::Sig
-end
-
-module Erubis::Converter
-  extend ::T::Sig
-end
-
-module Erubis::DeleteIndentEnhancer
-  extend ::T::Sig
-end
-
-module Erubis::ErboutEnhancer
-  extend ::T::Sig
-end
-
-module Erubis::EscapeEnhancer
-  extend ::T::Sig
-end
-
-module Erubis::Evaluator
-  extend ::T::Sig
-end
-
-module Erubis::Generator
-  extend ::T::Sig
 end
 
 module Erubis::HeaderFooterEnhancer
   HEADER_FOOTER_PATTERN = ::T.let(nil, ::T.untyped)
 end
 
-module Erubis::HeaderFooterEnhancer
-  extend ::T::Sig
-end
-
-module Erubis::InterpolationEnhancer
-  extend ::T::Sig
-end
-
-module Erubis::NoCodeEnhancer
-  extend ::T::Sig
-end
-
-module Erubis::NoTextEnhancer
-  extend ::T::Sig
-end
-
-module Erubis::PI::Converter
-  extend ::T::Sig
-end
-
-module Erubis::PI
-  extend ::T::Sig
-end
-
-module Erubis::PercentLineEnhancer
-  extend ::T::Sig
-end
-
-module Erubis::PrefixedLineEnhancer
-  extend ::T::Sig
-end
-
-module Erubis::PrintEnabledEnhancer
-  extend ::T::Sig
-end
-
-module Erubis::PrintOutEnhancer
-  extend ::T::Sig
-end
-
-module Erubis::RubyEvaluator
-  extend ::T::Sig
-end
-
-module Erubis::RubyGenerator
-  extend ::T::Sig
-end
-
 module Erubis::SimplifyEnhancer
   SIMPLE_REGEXP = ::T.let(nil, ::T.untyped)
 end
 
-module Erubis::SimplifyEnhancer
-  extend ::T::Sig
-end
-
-module Erubis::StdoutEnhancer
-  extend ::T::Sig
-end
-
-module Erubis::StringBufferEnhancer
-  extend ::T::Sig
-end
-
-module Erubis::StringIOEnhancer
-  extend ::T::Sig
-end
-
 module Erubis::XmlHelper
   ESCAPE_TABLE = ::T.let(nil, ::T.untyped)
-end
-
-module Erubis::XmlHelper
-  extend ::T::Sig
-end
-
-module Erubis
-  extend ::T::Sig
 end
 
 class Etc::Group
@@ -7930,7 +5361,6 @@ class Etc::Group
 end
 
 class Etc::Group
-  extend ::T::Sig
   extend ::Enumerable
   def self.[](*_); end
 
@@ -7982,7 +5412,6 @@ class Etc::Passwd
 end
 
 class Etc::Passwd
-  extend ::T::Sig
   extend ::Enumerable
   def self.[](*_); end
 
@@ -7992,7 +5421,6 @@ class Etc::Passwd
 end
 
 module Etc
-  extend ::T::Sig
   def self.confstr(_); end
 
   def self.endgrent(); end
@@ -8038,7 +5466,6 @@ class Exception
 end
 
 class Exception
-  extend ::T::Sig
   def self.exception(*_); end
 
   def self.to_tty?(); end
@@ -8057,7 +5484,6 @@ class Exception2MessageMapper::ErrNotRegisteredException
 end
 
 module Exception2MessageMapper
-  extend ::T::Sig
   def self.Fail(klass=T.unsafe(nil), err=T.unsafe(nil), *rest); end
 
   def self.Raise(klass=T.unsafe(nil), err=T.unsafe(nil), *rest); end
@@ -8077,10 +5503,6 @@ module ExecJS
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
-module ExecJS::Encoding
-  extend ::T::Sig
-end
-
 module ExecJS::Runtimes
   Disabled = ::T.let(nil, ::T.untyped)
   Duktape = ::T.let(nil, ::T.untyped)
@@ -8093,14 +5515,6 @@ module ExecJS::Runtimes
   SpiderMonkey = ::T.let(nil, ::T.untyped)
   Spidermonkey = ::T.let(nil, ::T.untyped)
   V8 = ::T.let(nil, ::T.untyped)
-end
-
-module ExecJS::Runtimes
-  extend ::T::Sig
-end
-
-module ExecJS
-  extend ::T::Sig
 end
 
 class ExitCalledError
@@ -8139,10 +5553,6 @@ end
 
 FFI::CallbackInfo = FFI::FunctionType
 
-module FFI::DataConverter
-  extend ::T::Sig
-end
-
 class FFI::DynamicLibrary
   RTLD_ALL_MASK = ::T.let(nil, ::T.untyped)
   RTLD_BINDING_MASK = ::T.let(nil, ::T.untyped)
@@ -8160,22 +5570,10 @@ end
 
 FFI::FunctionInfo = FFI::FunctionType
 
-module FFI::IO
-  extend ::T::Sig
-end
-
-module FFI::LastError
-  extend ::T::Sig
-end
-
 module FFI::Library
   CURRENT_PROCESS = ::T.let(nil, ::T.untyped)
   FlagsMap = ::T.let(nil, ::T.untyped)
   LIBC = ::T.let(nil, ::T.untyped)
-end
-
-module FFI::Library
-  extend ::T::Sig
 end
 
 FFI::NativeLibrary = FFI::DynamicLibrary
@@ -8205,7 +5603,6 @@ module FFI::NativeType
 end
 
 module FFI::NativeType
-  extend ::T::Sig
 end
 
 class FFI::NullPointerError
@@ -8252,10 +5649,6 @@ module FFI::Platform
   NAME = ::T.let(nil, ::T.untyped)
   OS = ::T.let(nil, ::T.untyped)
   OSVERSION = ::T.let(nil, ::T.untyped)
-end
-
-module FFI::Platform
-  extend ::T::Sig
 end
 
 class FFI::Pointer
@@ -8334,16 +5727,8 @@ FFI::Type::Function = FFI::FunctionType
 
 FFI::Type::Struct = FFI::StructByValue
 
-module FFI
-  extend ::T::Sig
-end
-
 class FalseClass
   include ::JSON::Ext::Generator::GeneratorMethods::FalseClass
-end
-
-class FalseClass
-  extend ::T::Sig
 end
 
 module Fcntl
@@ -8373,7 +5758,6 @@ module Fcntl
 end
 
 module Fcntl
-  extend ::T::Sig
 end
 
 class Fiber
@@ -8383,34 +5767,20 @@ class Fiber
 end
 
 class Fiber
-  extend ::T::Sig
   def self.current(); end
 
   def self.yield(*_); end
-end
-
-class FiberError
-  extend ::T::Sig
 end
 
 class File
   Separator = ::T.let(nil, ::T.untyped)
 end
 
-module File::Constants
-  extend ::T::Sig
-end
-
 class File::Stat
   def size?(); end
 end
 
-class File::Stat
-  extend ::T::Sig
-end
-
 class File
-  extend ::T::Sig
   def self.atomic_write(file_name, temp_dir=T.unsafe(nil)); end
 
   def self.exists?(_); end
@@ -8424,7 +5794,6 @@ class File
 end
 
 module FileTest
-  extend ::T::Sig
   def self.blockdev?(_); end
 
   def self.chardev?(_); end
@@ -8501,7 +5870,6 @@ module FileUtils::DryRun
 end
 
 module FileUtils::DryRun
-  extend ::T::Sig
   extend ::FileUtils::DryRun
   extend ::FileUtils::LowMethods
   extend ::FileUtils
@@ -8574,14 +5942,6 @@ class FileUtils::Entry_
   def wrap_traverse(pre, post); end
 end
 
-class FileUtils::Entry_
-  extend ::T::Sig
-end
-
-module FileUtils::LowMethods
-  extend ::T::Sig
-end
-
 module FileUtils::NoWrite
   include ::FileUtils::LowMethods
   include ::FileUtils
@@ -8589,15 +5949,10 @@ module FileUtils::NoWrite
 end
 
 module FileUtils::NoWrite
-  extend ::T::Sig
   extend ::FileUtils::NoWrite
   extend ::FileUtils::LowMethods
   extend ::FileUtils
   extend ::FileUtils::StreamUtils_
-end
-
-module FileUtils::StreamUtils_
-  extend ::T::Sig
 end
 
 module FileUtils::Verbose
@@ -8606,14 +5961,12 @@ module FileUtils::Verbose
 end
 
 module FileUtils::Verbose
-  extend ::T::Sig
   extend ::FileUtils::Verbose
   extend ::FileUtils
   extend ::FileUtils::StreamUtils_
 end
 
 module FileUtils
-  extend ::T::Sig
   extend ::FileUtils::StreamUtils_
   def self.cd(dir, verbose: T.unsafe(nil), &block); end
 
@@ -8712,7 +6065,6 @@ module Find
 end
 
 module Find
-  extend ::T::Sig
   def self.find(*paths, ignore_error: T.unsafe(nil)); end
 
   def self.prune(); end
@@ -8722,14 +6074,6 @@ class Float
   include ::JSON::Ext::Generator::GeneratorMethods::Float
   def to_d(precision=T.unsafe(nil)); end
 
-end
-
-class Float
-  extend ::T::Sig
-end
-
-class FloatDomainError
-  extend ::T::Sig
 end
 
 module Forwardable
@@ -8747,7 +6091,6 @@ module Forwardable
 end
 
 module Forwardable
-  extend ::T::Sig
   def self._compile_method(src, file, line); end
 
   def self._delegator_method(obj, accessor, method, ali); end
@@ -8769,12 +6112,7 @@ module GC
   def garbage_collect(*_); end
 end
 
-module GC::Profiler
-  extend ::T::Sig
-end
-
 module GC
-  extend ::T::Sig
   def self.latest_gc_info(*_); end
 
   def self.stress=(stress); end
@@ -8917,7 +6255,6 @@ class Gem::BasicSpecification
 end
 
 class Gem::BasicSpecification
-  extend ::T::Sig
   def self.default_specifications_dir(); end
 end
 
@@ -8925,7 +6262,6 @@ module Gem::BundlerVersionFinder
 end
 
 module Gem::BundlerVersionFinder
-  extend ::T::Sig
   def self.bundler_version(); end
 
   def self.bundler_version_with_reason(); end
@@ -9023,15 +6359,10 @@ class Gem::Command
   def self.specific_extra_args_hash(); end
 end
 
-class Gem::CommandLineError
-  extend ::T::Sig
-end
-
 module Gem::Commands
 end
 
 module Gem::Commands
-  extend ::T::Sig
 end
 
 class Gem::ConfigFile
@@ -9148,10 +6479,6 @@ class Gem::ConflictError
   def target(); end
 end
 
-class Gem::ConflictError
-  extend ::T::Sig
-end
-
 class Gem::ConsoleUI
   def initialize(); end
 end
@@ -9169,7 +6496,6 @@ module Gem::DefaultUserInteraction
 end
 
 module Gem::DefaultUserInteraction
-  extend ::T::Sig
   def self.ui(); end
 
   def self.ui=(new_ui); end
@@ -9237,14 +6563,6 @@ class Gem::Dependency
   def to_yaml_properties(); end
 
   def type(); end
-end
-
-class Gem::Dependency
-  extend ::T::Sig
-end
-
-class Gem::DependencyError
-  extend ::T::Sig
 end
 
 class Gem::DependencyInstaller
@@ -9331,10 +6649,6 @@ class Gem::DependencyList
   def self.from_specs(); end
 end
 
-class Gem::DependencyRemovalException
-  extend ::T::Sig
-end
-
 class Gem::DependencyResolutionError
   def conflict(); end
 
@@ -9343,12 +6657,7 @@ class Gem::DependencyResolutionError
   def initialize(conflict); end
 end
 
-class Gem::DependencyResolutionError
-  extend ::T::Sig
-end
-
 module Gem::Deprecate
-  extend ::T::Sig
   def self.deprecate(name, repl, year, month); end
 
   def self.skip(); end
@@ -9356,18 +6665,6 @@ module Gem::Deprecate
   def self.skip=(v); end
 
   def self.skip_during(); end
-end
-
-class Gem::DocumentError
-  extend ::T::Sig
-end
-
-class Gem::EndOfYAMLException
-  extend ::T::Sig
-end
-
-class Gem::ErrorReason
-  extend ::T::Sig
 end
 
 class Gem::Exception
@@ -9379,7 +6676,6 @@ class Gem::Exception
 end
 
 class Gem::Exception
-  extend ::T::Sig
   extend ::Gem::Deprecate
 end
 
@@ -9458,7 +6754,6 @@ class Gem::Ext::RakeBuilder
 end
 
 module Gem::Ext
-  extend ::T::Sig
 end
 
 class Gem::FilePermissionError
@@ -9467,32 +6762,16 @@ class Gem::FilePermissionError
   def initialize(directory); end
 end
 
-class Gem::FilePermissionError
-  extend ::T::Sig
-end
-
 class Gem::FormatException
   def file_path(); end
 
   def file_path=(file_path); end
 end
 
-class Gem::FormatException
-  extend ::T::Sig
-end
-
-class Gem::GemNotFoundException
-  extend ::T::Sig
-end
-
 class Gem::GemNotInHomeException
   def spec(); end
 
   def spec=(spec); end
-end
-
-class Gem::GemNotInHomeException
-  extend ::T::Sig
 end
 
 class Gem::ImpossibleDependenciesError
@@ -9505,14 +6784,6 @@ class Gem::ImpossibleDependenciesError
   def initialize(request, conflicts); end
 
   def request(); end
-end
-
-class Gem::ImpossibleDependenciesError
-  extend ::T::Sig
-end
-
-class Gem::InstallError
-  extend ::T::Sig
 end
 
 class Gem::Installer
@@ -9630,10 +6901,6 @@ class Gem::Installer
   def self.path_warning=(path_warning); end
 end
 
-class Gem::InvalidSpecificationException
-  extend ::T::Sig
-end
-
 class Gem::Licenses
   EXCEPTION_IDENTIFIERS = ::T.let(nil, ::T.untyped)
   LICENSE_IDENTIFIERS = ::T.let(nil, ::T.untyped)
@@ -9667,7 +6934,6 @@ class Gem::List
 end
 
 class Gem::List
-  extend ::T::Sig
   def self.prepend(list, value); end
 end
 
@@ -9681,26 +6947,14 @@ class Gem::LoadError
   def requirement=(requirement); end
 end
 
-class Gem::LoadError
-  extend ::T::Sig
-end
-
 class Gem::MissingSpecError
   def initialize(name, requirement); end
-end
-
-class Gem::MissingSpecError
-  extend ::T::Sig
 end
 
 class Gem::MissingSpecVersionError
   def initialize(name, requirement, specs); end
 
   def specs(); end
-end
-
-class Gem::MissingSpecVersionError
-  extend ::T::Sig
 end
 
 class Gem::NameTuple
@@ -9734,10 +6988,6 @@ class Gem::NameTuple
   def self.null(); end
 
   def self.to_basic(list); end
-end
-
-class Gem::OperationNotSupportedError
-  extend ::T::Sig
 end
 
 class Gem::Package
@@ -10118,10 +7368,6 @@ class Gem::PathSupport
   def spec_cache_dir(); end
 end
 
-class Gem::PathSupport
-  extend ::T::Sig
-end
-
 class Gem::Platform
   def ==(other); end
 
@@ -10154,7 +7400,6 @@ class Gem::Platform
 end
 
 class Gem::Platform
-  extend ::T::Sig
   def self.installable?(spec); end
 
   def self.local(); end
@@ -10176,14 +7421,6 @@ class Gem::PlatformMismatch
   def version(); end
 
   def wordy(); end
-end
-
-class Gem::PlatformMismatch
-  extend ::T::Sig
-end
-
-class Gem::RemoteError
-  extend ::T::Sig
 end
 
 class Gem::RemoteFetcher
@@ -10230,18 +7467,6 @@ end
 
 class Gem::RemoteFetcher
   def self.fetcher(); end
-end
-
-class Gem::RemoteInstallationCancelled
-  extend ::T::Sig
-end
-
-class Gem::RemoteInstallationSkipped
-  extend ::T::Sig
-end
-
-class Gem::RemoteSourceException
-  extend ::T::Sig
 end
 
 class Gem::Request
@@ -10608,12 +7833,7 @@ class Gem::Requirement
   DefaultRequirement = ::T.let(nil, ::T.untyped)
 end
 
-class Gem::Requirement::BadRequirementError
-  extend ::T::Sig
-end
-
 class Gem::Requirement
-  extend ::T::Sig
   def self.create(*inputs); end
 
   def self.default(); end
@@ -10962,7 +8182,6 @@ module Gem::Resolver::Molinillo::Delegates::ResolutionState
 end
 
 module Gem::Resolver::Molinillo::Delegates::ResolutionState
-  extend ::T::Sig
 end
 
 module Gem::Resolver::Molinillo::Delegates::SpecificationProvider
@@ -10984,11 +8203,9 @@ module Gem::Resolver::Molinillo::Delegates::SpecificationProvider
 end
 
 module Gem::Resolver::Molinillo::Delegates::SpecificationProvider
-  extend ::T::Sig
 end
 
 module Gem::Resolver::Molinillo::Delegates
-  extend ::T::Sig
 end
 
 class Gem::Resolver::Molinillo::DependencyGraph
@@ -11391,7 +8608,6 @@ module Gem::Resolver::Molinillo::SpecificationProvider
 end
 
 module Gem::Resolver::Molinillo::SpecificationProvider
-  extend ::T::Sig
 end
 
 module Gem::Resolver::Molinillo::UI
@@ -11411,7 +8627,6 @@ module Gem::Resolver::Molinillo::UI
 end
 
 module Gem::Resolver::Molinillo::UI
-  extend ::T::Sig
 end
 
 class Gem::Resolver::Molinillo::VersionConflict
@@ -11424,7 +8639,6 @@ class Gem::Resolver::Molinillo::VersionConflict
 end
 
 module Gem::Resolver::Molinillo
-  extend ::T::Sig
 end
 
 class Gem::Resolver::RequirementList
@@ -11553,10 +8767,6 @@ class Gem::Resolver
   def self.compose_sets(*sets); end
 
   def self.for_current_gems(needed); end
-end
-
-class Gem::RubyVersionMismatch
-  extend ::T::Sig
 end
 
 class Gem::RuntimeRequirementNotMetError
@@ -11715,7 +8925,6 @@ class Gem::Security::TrustDir
 end
 
 module Gem::Security
-  extend ::T::Sig
   def self.alt_name_or_x509_entry(certificate, x509_entry); end
 
   def self.create_cert(subject, key, age=T.unsafe(nil), extensions=T.unsafe(nil), serial=T.unsafe(nil)); end
@@ -11883,10 +9092,6 @@ class Gem::SourceFetchProblem
   def wordy(); end
 end
 
-class Gem::SourceFetchProblem
-  extend ::T::Sig
-end
-
 class Gem::SourceList
   include ::Enumerable
   def <<(obj); end
@@ -11961,10 +9166,6 @@ class Gem::SpecificGemNotFoundException
   def name(); end
 
   def version(); end
-end
-
-class Gem::SpecificGemNotFoundException
-  extend ::T::Sig
 end
 
 class Gem::Specification
@@ -12291,7 +9492,6 @@ class Gem::Specification
 end
 
 class Gem::Specification
-  extend ::T::Sig
   extend ::Enumerable
   extend ::Gem::Deprecate
   def self._all(); end
@@ -12479,12 +9679,7 @@ class Gem::StubSpecification::StubLine
   def version(); end
 end
 
-class Gem::StubSpecification::StubLine
-  extend ::T::Sig
-end
-
 class Gem::StubSpecification
-  extend ::T::Sig
   def self.default_gemspec_stub(filename, base_dir, gems_dir); end
 
   def self.gemspec_stub(filename, base_dir, gems_dir); end
@@ -12496,10 +9691,6 @@ class Gem::SystemExitException
   def exit_code=(exit_code); end
 
   def initialize(exit_code); end
-end
-
-class Gem::SystemExitException
-  extend ::T::Sig
 end
 
 module Gem::Text
@@ -12515,7 +9706,6 @@ module Gem::Text
 end
 
 module Gem::Text
-  extend ::T::Sig
 end
 
 class Gem::UninstallError
@@ -12541,10 +9731,6 @@ class Gem::UnsatisfiableDependencyError
   def name(); end
 
   def version(); end
-end
-
-class Gem::UnsatisfiableDependencyError
-  extend ::T::Sig
 end
 
 class Gem::UriFormatter
@@ -12587,14 +9773,12 @@ module Gem::UserInteraction
 end
 
 module Gem::UserInteraction
-  extend ::T::Sig
 end
 
 module Gem::Util
 end
 
 module Gem::Util
-  extend ::T::Sig
   def self.glob_files_in_dir(glob, base_path); end
 
   def self.gunzip(data); end
@@ -12608,10 +9792,6 @@ module Gem::Util
   def self.silent_system(*command); end
 
   def self.traverse_parents(directory, &block); end
-end
-
-class Gem::VerificationError
-  extend ::T::Sig
 end
 
 class Gem::Version
@@ -12653,7 +9833,6 @@ end
 Gem::Version::Requirement = Gem::Requirement
 
 class Gem::Version
-  extend ::T::Sig
   def self.correct?(version); end
 
   def self.create(input); end
@@ -12662,7 +9841,6 @@ class Gem::Version
 end
 
 module Gem
-  extend ::T::Sig
   def self._deprecated_detect_gemdeps(path=T.unsafe(nil)); end
 
   def self._deprecated_gunzip(data); end
@@ -12844,10 +10022,6 @@ module Gem
   def self.write_binary(path, data); end
 end
 
-module GlobalID::Identification
-  extend ::T::Sig
-end
-
 module GlobalID::Locator
   DEFAULT_LOCATOR = ::T.let(nil, ::T.untyped)
 end
@@ -12879,7 +10053,6 @@ class GlobalID::Locator::UnscopedLocator
 end
 
 module GlobalID::Locator
-  extend ::T::Sig
   def self.locate(gid, options=T.unsafe(nil)); end
 
   def self.locate_many(gids, options=T.unsafe(nil)); end
@@ -12899,21 +10072,9 @@ module Guard::Deprecated::Dsl::ClassMethods
   EVALUATE_GUARDFILE = ::T.let(nil, ::T.untyped)
 end
 
-module Guard::Deprecated::Dsl::ClassMethods
-  extend ::T::Sig
-end
-
-module Guard::Deprecated::Dsl
-  extend ::T::Sig
-end
-
 module Guard::Deprecated::Evaluator
   EVALUATE_GUARDFILE = ::T.let(nil, ::T.untyped)
   REEVALUATE_GUARDFILE = ::T.let(nil, ::T.untyped)
-end
-
-module Guard::Deprecated::Evaluator
-  extend ::T::Sig
 end
 
 module Guard::Deprecated::Guard::ClassMethods
@@ -12941,28 +10102,8 @@ module Guard::Deprecated::Guard::ClassMethods
   SCOPE_ASSIGN = ::T.let(nil, ::T.untyped)
 end
 
-module Guard::Deprecated::Guard::ClassMethods
-  extend ::T::Sig
-end
-
-module Guard::Deprecated::Guard
-  extend ::T::Sig
-end
-
 module Guard::Deprecated::Watcher::ClassMethods
   MATCH_GUARDFILE = ::T.let(nil, ::T.untyped)
-end
-
-module Guard::Deprecated::Watcher::ClassMethods
-  extend ::T::Sig
-end
-
-module Guard::Deprecated::Watcher
-  extend ::T::Sig
-end
-
-module Guard::Deprecated
-  extend ::T::Sig
 end
 
 class Guard::Dsl
@@ -12975,32 +10116,12 @@ class Guard::Guardfile::Evaluator
   ERROR_NO_PLUGINS = ::T.let(nil, ::T.untyped)
 end
 
-module Guard::Guardfile
-  extend ::T::Sig
-end
-
 class Guard::Internals::Groups
   DEFAULT_GROUPS = ::T.let(nil, ::T.untyped)
 end
 
-module Guard::Internals::Helpers
-  extend ::T::Sig
-end
-
 class Guard::Internals::Session
   DEFAULT_OPTIONS = ::T.let(nil, ::T.untyped)
-end
-
-module Guard::Internals::Tracing
-  extend ::T::Sig
-end
-
-module Guard::Internals::Traps
-  extend ::T::Sig
-end
-
-module Guard::Internals
-  extend ::T::Sig
 end
 
 class Guard::Notifier
@@ -13043,10 +10164,6 @@ module Guard::UI::Colors
   ANSI_ESCAPE_YELLOW = ::T.let(nil, ::T.untyped)
 end
 
-module Guard::UI::Colors
-  extend ::T::Sig
-end
-
 class Guard::UI::Config
   DEFAULTS = ::T.let(nil, ::T.untyped)
   DEPRECATED_OPTS = ::T.let(nil, ::T.untyped)
@@ -13056,13 +10173,8 @@ class Guard::UI::Logger::Config
   DEFAULTS = ::T.let(nil, ::T.untyped)
 end
 
-module Guard::UI
-  extend ::T::Sig
-end
-
 module Guard
   extend ::Guard::Internals::Helpers
-  extend ::T::Sig
 end
 
 class HTML::CDATA
@@ -13226,7 +10338,6 @@ module HTML::Version
 end
 
 module HTML::Version
-  extend ::T::Sig
 end
 
 class HTML::WhiteListSanitizer
@@ -13330,7 +10441,6 @@ class HTML::WhiteListSanitizer
 end
 
 module HTML
-  extend ::T::Sig
   def self.selector(statement, *values); end
 end
 
@@ -13387,7 +10497,6 @@ class Hash
 end
 
 class Hash
-  extend ::T::Sig
   def self.from_trusted_xml(xml); end
 end
 
@@ -13398,10 +10507,6 @@ module I18n
   RESERVED_KEYS = ::T.let(nil, ::T.untyped)
   RESERVED_KEYS_PATTERN = ::T.let(nil, ::T.untyped)
   VERSION = ::T.let(nil, ::T.untyped)
-end
-
-module I18n::Backend::Base
-  extend ::T::Sig
 end
 
 module I18n::Backend::Cache
@@ -13416,7 +10521,6 @@ module I18n::Backend::Cache
 end
 
 module I18n::Backend::Cache
-  extend ::T::Sig
 end
 
 module I18n::Backend::Cascade
@@ -13424,7 +10528,6 @@ module I18n::Backend::Cascade
 end
 
 module I18n::Backend::Cascade
-  extend ::T::Sig
 end
 
 class I18n::Backend::Chain
@@ -13458,7 +10561,6 @@ module I18n::Backend::Chain::Implementation
 end
 
 module I18n::Backend::Chain::Implementation
-  extend ::T::Sig
 end
 
 class I18n::Backend::Chain
@@ -13473,7 +10575,6 @@ module I18n::Backend::Fallbacks
 end
 
 module I18n::Backend::Fallbacks
-  extend ::T::Sig
 end
 
 module I18n::Backend::Flatten
@@ -13497,7 +10598,6 @@ module I18n::Backend::Flatten
 end
 
 module I18n::Backend::Flatten
-  extend ::T::Sig
   def self.escape_default_separator(key); end
 
   def self.normalize_flat_keys(locale, key, scope, separator); end
@@ -13521,7 +10621,6 @@ class I18n::Backend::Gettext::PoData
 end
 
 module I18n::Backend::Gettext
-  extend ::T::Sig
 end
 
 module I18n::Backend::InterpolationCompiler
@@ -13566,11 +10665,9 @@ end
 
 module I18n::Backend::InterpolationCompiler::Compiler
   extend ::I18n::Backend::InterpolationCompiler::Compiler
-  extend ::T::Sig
 end
 
 module I18n::Backend::InterpolationCompiler
-  extend ::T::Sig
 end
 
 class I18n::Backend::KeyValue
@@ -13602,7 +10699,6 @@ module I18n::Backend::KeyValue::Implementation
 end
 
 module I18n::Backend::KeyValue::Implementation
-  extend ::T::Sig
 end
 
 class I18n::Backend::KeyValue::SubtreeProxy
@@ -13640,7 +10736,6 @@ module I18n::Backend::Memoize
 end
 
 module I18n::Backend::Memoize
-  extend ::T::Sig
 end
 
 module I18n::Backend::Metadata
@@ -13654,7 +10749,6 @@ module I18n::Backend::Metadata
 end
 
 module I18n::Backend::Metadata
-  extend ::T::Sig
   def self.included(base); end
 end
 
@@ -13667,11 +10761,6 @@ module I18n::Backend::Pluralization
 end
 
 module I18n::Backend::Pluralization
-  extend ::T::Sig
-end
-
-module I18n::Backend::Simple::Implementation
-  extend ::T::Sig
 end
 
 module I18n::Backend::Transliterator
@@ -13680,18 +10769,6 @@ end
 
 class I18n::Backend::Transliterator::HashTransliterator
   DEFAULT_APPROXIMATIONS = ::T.let(nil, ::T.untyped)
-end
-
-module I18n::Backend::Transliterator
-  extend ::T::Sig
-end
-
-module I18n::Backend
-  extend ::T::Sig
-end
-
-module I18n::Base
-  extend ::T::Sig
 end
 
 module I18n::Gettext
@@ -13728,11 +10805,9 @@ module I18n::Gettext::Helpers
 end
 
 module I18n::Gettext::Helpers
-  extend ::T::Sig
 end
 
 module I18n::Gettext
-  extend ::T::Sig
   def self.extract_scope(msgid, separator); end
 
   def self.plural_keys(*args); end
@@ -13772,7 +10847,6 @@ module I18n::Locale::Tag::Parents
 end
 
 module I18n::Locale::Tag::Parents
-  extend ::T::Sig
 end
 
 class I18n::Locale::Tag::Rfc4646
@@ -13785,7 +10859,6 @@ module I18n::Locale::Tag::Rfc4646::Parser
 end
 
 module I18n::Locale::Tag::Rfc4646::Parser
-  extend ::T::Sig
   def self.match(tag); end
 end
 
@@ -13815,7 +10888,6 @@ class I18n::Locale::Tag::Simple
 end
 
 module I18n::Locale::Tag
-  extend ::T::Sig
   def self.implementation(); end
 
   def self.implementation=(implementation); end
@@ -13824,7 +10896,6 @@ module I18n::Locale::Tag
 end
 
 module I18n::Locale
-  extend ::T::Sig
 end
 
 class I18n::Middleware
@@ -13836,10 +10907,6 @@ end
 class I18n::Middleware
 end
 
-module I18n::MissingTranslation::Base
-  extend ::T::Sig
-end
-
 module I18n::Tests
 end
 
@@ -13847,16 +10914,13 @@ module I18n::Tests::Localization
 end
 
 module I18n::Tests::Localization
-  extend ::T::Sig
   def self.included(base); end
 end
 
 module I18n::Tests
-  extend ::T::Sig
 end
 
 module I18n
-  extend ::T::Sig
   def self.cache_key_digest(); end
 
   def self.cache_key_digest=(key_digest); end
@@ -13942,36 +11006,11 @@ class IO
   def write_nonblock(buf, exception: T.unsafe(nil)); end
 end
 
-class IO::EAGAINWaitReadable
-  extend ::T::Sig
-end
-
-class IO::EAGAINWaitWritable
-  extend ::T::Sig
-end
-
-class IO::EINPROGRESSWaitReadable
-  extend ::T::Sig
-end
-
-class IO::EINPROGRESSWaitWritable
-  extend ::T::Sig
-end
-
 IO::EWOULDBLOCKWaitReadable = IO::EAGAINWaitReadable
 
 IO::EWOULDBLOCKWaitWritable = IO::EAGAINWaitWritable
 
-module IO::WaitReadable
-  extend ::T::Sig
-end
-
-module IO::WaitWritable
-  extend ::T::Sig
-end
-
 class IO
-  extend ::T::Sig
   def self.console(*_); end
 
   def self.console_size(); end
@@ -13982,10 +11021,6 @@ class IO
 
   def self.pipe(*_); end
 
-end
-
-class IOError
-  extend ::T::Sig
 end
 
 class IPAddr
@@ -14093,10 +11128,6 @@ class IPAddr
   def self.new_ntoh(addr); end
 
   def self.ntop(addr); end
-end
-
-class IPSocket
-  extend ::T::Sig
 end
 
 module IRB
@@ -14269,7 +11300,6 @@ end
 IRB::ContextExtender::CE = IRB::ContextExtender
 
 module IRB::ContextExtender
-  extend ::T::Sig
   def self.def_extend_command(cmd_name, load_file, *aliases); end
 
   def self.install_extend_commands(); end
@@ -14331,7 +11361,6 @@ end
 IRB::ExtendCommandBundle::EXCB = IRB::ExtendCommandBundle
 
 module IRB::ExtendCommandBundle
-  extend ::T::Sig
   def self.def_extend_command(cmd_name, cmd_class, load_file=T.unsafe(nil), *aliases); end
 
   def self.extend_object(obj); end
@@ -14465,7 +11494,6 @@ module IRB::MethodExtender
 end
 
 module IRB::MethodExtender
-  extend ::T::Sig
 end
 
 module IRB::Notifier
@@ -14546,7 +11574,6 @@ end
 
 module IRB::Notifier
   extend ::Exception2MessageMapper
-  extend ::T::Sig
   def self.def_notifier(prefix=T.unsafe(nil), output_method=T.unsafe(nil)); end
 
   def self.included(mod); end
@@ -14694,7 +11721,6 @@ class IRB::WorkSpace
 end
 
 module IRB
-  extend ::T::Sig
   def self.CurrentContext(); end
 
   def self.Inspector(inspect, init=T.unsafe(nil)); end
@@ -14732,28 +11758,8 @@ module IRB
   def self.version(); end
 end
 
-class IndexError
-  extend ::T::Sig
-end
-
 module IniParse
   VERSION = ::T.let(nil, ::T.untyped)
-end
-
-module IniParse::LineCollection
-  extend ::T::Sig
-end
-
-module IniParse::Lines::Line
-  extend ::T::Sig
-end
-
-module IniParse::Lines
-  extend ::T::Sig
-end
-
-module IniParse
-  extend ::T::Sig
 end
 
 class Integer
@@ -14776,112 +11782,22 @@ class Integer
 end
 
 class Integer
-  extend ::T::Sig
   def self.sqrt(_); end
 end
 
-class Interrupt
-  extend ::T::Sig
-end
-
-class JSON::CircularDatastructure
-  extend ::T::Sig
-end
-
-module JSON::Ext::Generator::GeneratorMethods::Array
-  extend ::T::Sig
-end
-
-module JSON::Ext::Generator::GeneratorMethods::FalseClass
-  extend ::T::Sig
-end
-
-module JSON::Ext::Generator::GeneratorMethods::Float
-  extend ::T::Sig
-end
-
-module JSON::Ext::Generator::GeneratorMethods::Hash
-  extend ::T::Sig
-end
-
-module JSON::Ext::Generator::GeneratorMethods::Integer
-  extend ::T::Sig
-end
-
-module JSON::Ext::Generator::GeneratorMethods::NilClass
-  extend ::T::Sig
-end
-
-module JSON::Ext::Generator::GeneratorMethods::Object
-  extend ::T::Sig
-end
-
-module JSON::Ext::Generator::GeneratorMethods::String
-  extend ::T::Sig
-end
-
-module JSON::Ext::Generator::GeneratorMethods::TrueClass
-  extend ::T::Sig
-end
-
-module JSON::Ext::Generator::GeneratorMethods
-  extend ::T::Sig
-end
-
 class JSON::Ext::Generator::State
-  extend ::T::Sig
   def self.from_state(_); end
-end
-
-module JSON::Ext::Generator
-  extend ::T::Sig
 end
 
 class JSON::Ext::Parser
   def initialize(*_); end
 end
 
-class JSON::Ext::Parser
-  extend ::T::Sig
-end
-
-module JSON::Ext
-  extend ::T::Sig
-end
-
-class JSON::GeneratorError
-  extend ::T::Sig
-end
-
-class JSON::GenericObject
-  extend ::T::Sig
-end
-
-class JSON::JSONError
-  extend ::T::Sig
-end
-
-class JSON::MissingUnicodeSupport
-  extend ::T::Sig
-end
-
-class JSON::NestingError
-  extend ::T::Sig
-end
-
 JSON::Parser = JSON::Ext::Parser
-
-class JSON::ParserError
-  extend ::T::Sig
-end
 
 JSON::State = JSON::Ext::Generator::State
 
 JSON::UnparserError = JSON::GeneratorError
-
-module JSON
-  extend ::T::Sig
-end
 
 JSONTree = Psych::Visitors::JSONTree
 
@@ -14895,24 +11811,12 @@ module Jbuilder::DependencyTrackerMethods
   INDIRECT_RENDERS = ::T.let(nil, ::T.untyped)
 end
 
-module Jbuilder::DependencyTrackerMethods
-  extend ::T::Sig
-end
-
 module Jquery::Rails
   JQUERY_2_VERSION = ::T.let(nil, ::T.untyped)
   JQUERY_3_VERSION = ::T.let(nil, ::T.untyped)
   JQUERY_UJS_VERSION = ::T.let(nil, ::T.untyped)
   JQUERY_VERSION = ::T.let(nil, ::T.untyped)
   VERSION = ::T.let(nil, ::T.untyped)
-end
-
-module Jquery::Rails
-  extend ::T::Sig
-end
-
-module Jquery
-  extend ::T::Sig
 end
 
 module Kernel
@@ -14930,7 +11834,6 @@ module Kernel
 end
 
 module Kernel
-  extend ::T::Sig
   def self.`(_); end
 
   def self.at_exit(); end
@@ -14945,10 +11848,6 @@ class KeyError
   def key(); end
 
   def receiver(); end
-end
-
-class KeyError
-  extend ::T::Sig
 end
 
 module Listen
@@ -14993,32 +11892,8 @@ class Listen::Adapter::Windows
   OS_REGEXP = ::T.let(nil, ::T.untyped)
 end
 
-module Listen::Adapter
-  extend ::T::Sig
-end
-
-module Listen::Event
-  extend ::T::Sig
-end
-
 module Listen::FSM
   DEFAULT_STATE = ::T.let(nil, ::T.untyped)
-end
-
-module Listen::FSM::ClassMethods
-  extend ::T::Sig
-end
-
-module Listen::FSM
-  extend ::T::Sig
-end
-
-module Listen::Internals::ThreadPool
-  extend ::T::Sig
-end
-
-module Listen::Internals
-  extend ::T::Sig
 end
 
 class Listen::Listener::Config
@@ -15035,17 +11910,9 @@ class Listen::Silencer
   DEFAULT_IGNORED_EXTENSIONS = ::T.let(nil, ::T.untyped)
 end
 
-module Listen
-  extend ::T::Sig
-end
-
 class LoadError
   def path(); end
   REGEXPS = ::T.let(nil, ::T.untyped)
-end
-
-class LoadError
-  extend ::T::Sig
 end
 
 class LocalJumpError
@@ -15054,64 +11921,24 @@ class LocalJumpError
   def reason(); end
 end
 
-class LocalJumpError
-  extend ::T::Sig
-end
-
 class Logger
   SEV_LABEL = ::T.let(nil, ::T.untyped)
-end
-
-class Logger::Error
-  extend ::T::Sig
 end
 
 class Logger::Formatter
   Format = ::T.let(nil, ::T.untyped)
 end
 
-class Logger::Formatter
-  extend ::T::Sig
-end
-
 class Logger::LogDevice
   include ::MonitorMixin
-end
-
-class Logger::LogDevice
-  extend ::T::Sig
 end
 
 module Logger::Period
   SiD = ::T.let(nil, ::T.untyped)
 end
 
-module Logger::Period
-  extend ::T::Sig
-end
-
-module Logger::Severity
-  extend ::T::Sig
-end
-
-class Logger::ShiftingError
-  extend ::T::Sig
-end
-
-class Logger
-  extend ::T::Sig
-end
-
-module LoggerSilence
-  extend ::T::Sig
-end
-
 module Loofah
   VERSION = ::T.let(nil, ::T.untyped)
-end
-
-module Loofah::DocumentDecorator
-  extend ::T::Sig
 end
 
 module Loofah::Elements
@@ -15122,22 +11949,10 @@ module Loofah::Elements
   STRICT_BLOCK_LEVEL_HTML5 = ::T.let(nil, ::T.untyped)
 end
 
-module Loofah::Elements
-  extend ::T::Sig
-end
-
-module Loofah::HTML
-  extend ::T::Sig
-end
-
 module Loofah::HTML5::Scrub
   CONTROL_CHARACTERS = ::T.let(nil, ::T.untyped)
   CRASS_SEMICOLON = ::T.let(nil, ::T.untyped)
   CSS_KEYWORDISH = ::T.let(nil, ::T.untyped)
-end
-
-module Loofah::HTML5::Scrub
-  extend ::T::Sig
 end
 
 module Loofah::HTML5::WhiteList
@@ -15171,37 +11986,9 @@ module Loofah::HTML5::WhiteList
   VOID_ELEMENTS = ::T.let(nil, ::T.untyped)
 end
 
-module Loofah::HTML5::WhiteList
-  extend ::T::Sig
-end
-
-module Loofah::HTML5
-  extend ::T::Sig
-end
-
 module Loofah::LibxmlWorkarounds
   BROKEN_ESCAPING_ATTRIBUTES = ::T.let(nil, ::T.untyped)
   BROKEN_ESCAPING_ATTRIBUTES_QUALIFYING_TAG = ::T.let(nil, ::T.untyped)
-end
-
-module Loofah::LibxmlWorkarounds
-  extend ::T::Sig
-end
-
-module Loofah::MetaHelpers
-  extend ::T::Sig
-end
-
-module Loofah::ScrubBehavior::Node
-  extend ::T::Sig
-end
-
-module Loofah::ScrubBehavior::NodeSet
-  extend ::T::Sig
-end
-
-module Loofah::ScrubBehavior
-  extend ::T::Sig
 end
 
 class Loofah::Scrubber
@@ -15211,22 +11998,6 @@ end
 
 module Loofah::Scrubbers
   MAP = ::T.let(nil, ::T.untyped)
-end
-
-module Loofah::Scrubbers
-  extend ::T::Sig
-end
-
-module Loofah::TextBehavior
-  extend ::T::Sig
-end
-
-module Loofah::XML
-  extend ::T::Sig
-end
-
-module Loofah
-  extend ::T::Sig
 end
 
 module Lumberjack
@@ -15250,10 +12021,6 @@ class Lumberjack::Rack::RequestId
   REQUEST_ID = ::T.let(nil, ::T.untyped)
 end
 
-module Lumberjack::Rack
-  extend ::T::Sig
-end
-
 module Lumberjack::Severity
   DEBUG = ::T.let(nil, ::T.untyped)
   ERROR = ::T.let(nil, ::T.untyped)
@@ -15264,19 +12031,11 @@ module Lumberjack::Severity
   WARN = ::T.let(nil, ::T.untyped)
 end
 
-module Lumberjack::Severity
-  extend ::T::Sig
-end
-
 class Lumberjack::Template
   DEFAULT_TIME_FORMAT = ::T.let(nil, ::T.untyped)
   MICROSECOND_FORMAT = ::T.let(nil, ::T.untyped)
   MILLISECOND_FORMAT = ::T.let(nil, ::T.untyped)
   TEMPLATE_ARGUMENT_ORDER = ::T.let(nil, ::T.untyped)
-end
-
-module Lumberjack
-  extend ::T::Sig
 end
 
 module Mail
@@ -15341,33 +12100,13 @@ class Mail::CcField
   FIELD_NAME = ::T.let(nil, ::T.untyped)
 end
 
-module Mail::CheckDeliveryParams
-  extend ::T::Sig
-end
-
 class Mail::CommentsField
   CAPITALIZED_FIELD = ::T.let(nil, ::T.untyped)
   FIELD_NAME = ::T.let(nil, ::T.untyped)
 end
 
-module Mail::CommonAddress
-  extend ::T::Sig
-end
-
-module Mail::CommonDate
-  extend ::T::Sig
-end
-
 module Mail::CommonField
   FILENAME_RE = ::T.let(nil, ::T.untyped)
-end
-
-module Mail::CommonField
-  extend ::T::Sig
-end
-
-module Mail::CommonMessageId
-  extend ::T::Sig
 end
 
 module Mail::Constants
@@ -15405,10 +12144,6 @@ module Mail::Constants
   TOKEN_UNSAFE = ::T.let(nil, ::T.untyped)
   UNDERSCORE = ::T.let(nil, ::T.untyped)
   WSP = ::T.let(nil, ::T.untyped)
-end
-
-module Mail::Constants
-  extend ::T::Sig
 end
 
 class Mail::ContentDescriptionField
@@ -15535,10 +12270,6 @@ class Mail::Encodings::UnixToUnix
   NAME = ::T.let(nil, ::T.untyped)
 end
 
-module Mail::Encodings
-  extend ::T::Sig
-end
-
 class Mail::EnvelopeFromElement
   def address(); end
 
@@ -15620,10 +12351,6 @@ end
 class Mail::LoggerDelivery
 end
 
-module Mail::Matchers
-  extend ::T::Sig
-end
-
 class Mail::Message
   HEADER_SEPARATOR = ::T.let(nil, ::T.untyped)
 end
@@ -15687,14 +12414,6 @@ end
 
 class Mail::Multibyte::Unicode::UnicodeDatabase
   ATTRIBUTES = ::T.let(nil, ::T.untyped)
-end
-
-module Mail::Multibyte::Unicode
-  extend ::T::Sig
-end
-
-module Mail::Multibyte
-  extend ::T::Sig
 end
 
 class Mail::OptionalField
@@ -15787,7 +12506,6 @@ class Mail::Parsers::AddressListsParser::AddressStruct
 end
 
 module Mail::Parsers::AddressListsParser
-  extend ::T::Sig
   def self.en_comment_tail(); end
 
   def self.en_comment_tail=(en_comment_tail); end
@@ -15835,7 +12553,6 @@ class Mail::Parsers::ContentDispositionParser::ContentDispositionStruct
 end
 
 module Mail::Parsers::ContentDispositionParser
-  extend ::T::Sig
   def self.en_comment_tail(); end
 
   def self.en_comment_tail=(en_comment_tail); end
@@ -15879,7 +12596,6 @@ class Mail::Parsers::ContentLocationParser::ContentLocationStruct
 end
 
 module Mail::Parsers::ContentLocationParser
-  extend ::T::Sig
   def self.en_comment_tail(); end
 
   def self.en_comment_tail=(en_comment_tail); end
@@ -15923,7 +12639,6 @@ class Mail::Parsers::ContentTransferEncodingParser::ContentTransferEncodingStruc
 end
 
 module Mail::Parsers::ContentTransferEncodingParser
-  extend ::T::Sig
   def self.en_comment_tail(); end
 
   def self.en_comment_tail=(en_comment_tail); end
@@ -15975,7 +12690,6 @@ class Mail::Parsers::ContentTypeParser::ContentTypeStruct
 end
 
 module Mail::Parsers::ContentTypeParser
-  extend ::T::Sig
   def self.en_comment_tail(); end
 
   def self.en_comment_tail=(en_comment_tail); end
@@ -16023,7 +12737,6 @@ class Mail::Parsers::DateTimeParser::DateTimeStruct
 end
 
 module Mail::Parsers::DateTimeParser
-  extend ::T::Sig
   def self.en_comment_tail(); end
 
   def self.en_comment_tail=(en_comment_tail); end
@@ -16071,7 +12784,6 @@ class Mail::Parsers::EnvelopeFromParser::EnvelopeFromStruct
 end
 
 module Mail::Parsers::EnvelopeFromParser
-  extend ::T::Sig
   def self.en_comment_tail(); end
 
   def self.en_comment_tail=(en_comment_tail); end
@@ -16115,7 +12827,6 @@ class Mail::Parsers::MessageIdsParser::MessageIdsStruct
 end
 
 module Mail::Parsers::MessageIdsParser
-  extend ::T::Sig
   def self.en_comment_tail(); end
 
   def self.en_comment_tail=(en_comment_tail); end
@@ -16163,7 +12874,6 @@ class Mail::Parsers::MimeVersionParser::MimeVersionStruct
 end
 
 module Mail::Parsers::MimeVersionParser
-  extend ::T::Sig
   def self.en_comment_tail(); end
 
   def self.en_comment_tail=(en_comment_tail); end
@@ -16258,7 +12968,6 @@ class Mail::Parsers::ReceivedParser::ReceivedStruct
 end
 
 module Mail::Parsers::ReceivedParser
-  extend ::T::Sig
   def self.en_comment_tail(); end
 
   def self.en_comment_tail=(en_comment_tail); end
@@ -16283,7 +12992,6 @@ module Mail::Parsers::ReceivedParser
 end
 
 module Mail::Parsers
-  extend ::T::Sig
 end
 
 class Mail::PartsList
@@ -16428,10 +13136,6 @@ module Mail::Utilities
   TO_CRLF_REGEX = ::T.let(nil, ::T.untyped)
 end
 
-module Mail::Utilities
-  extend ::T::Sig
-end
-
 module Mail::VERSION
   BUILD = ::T.let(nil, ::T.untyped)
   MAJOR = ::T.let(nil, ::T.untyped)
@@ -16440,33 +13144,12 @@ module Mail::VERSION
   STRING = ::T.let(nil, ::T.untyped)
 end
 
-module Mail::VERSION
-  extend ::T::Sig
-end
-
-module Mail
-  extend ::T::Sig
-end
-
 module Marshal
-  extend ::T::Sig
   def self.restore(*_); end
 end
 
 class MatchData
   def named_captures(); end
-end
-
-class MatchData
-  extend ::T::Sig
-end
-
-class Math::DomainError
-  extend ::T::Sig
-end
-
-module Math
-  extend ::T::Sig
 end
 
 class Method
@@ -16495,10 +13178,6 @@ class Method
   def super_method(); end
 
   def unbind(); end
-end
-
-class Method
-  extend ::T::Sig
 end
 
 Methods = T::Private::Methods
@@ -16532,16 +13211,8 @@ module Mime
   ZIP = ::T.let(nil, ::T.untyped)
 end
 
-module Mime
-  extend ::T::Sig
-end
-
 module MiniMime
   VERSION = ::T.let(nil, ::T.untyped)
-end
-
-module MiniMime::Configuration
-  extend ::T::Sig
 end
 
 class MiniMime::Db
@@ -16556,41 +13227,7 @@ class MiniMime::Info
   BINARY_ENCODINGS = ::T.let(nil, ::T.untyped)
 end
 
-module MiniMime
-  extend ::T::Sig
-end
-
-module Minitest
-end
-
-MiniTest::Assertions = Minitest::Assertions
-
-MiniTest::Expectations = Minitest::Expectations
-
-MiniTest::Guard = Minitest::Guard
-
-MiniTest::Reportable = Minitest::Reportable
-
-MiniTest::Runnable = Minitest::Runnable
-
-class Minitest::Spec
-end
-
-module Minitest::Spec::DSL
-end
-
-MiniTest::Spec::DSL::InstanceMethods = Minitest::Spec::DSL::InstanceMethods
-
-module Minitest::Spec::DSL
-end
-
-class Minitest::Spec
-end
-
-MiniTest::Test = Minitest::Test
-
-module Minitest
-end
+MiniTest = Minitest
 
 module Minitest
   ENCS = ::T.let(nil, ::T.untyped)
@@ -16602,32 +13239,8 @@ module Minitest::Assertions
   UNDEFINED = ::T.let(nil, ::T.untyped)
 end
 
-module Minitest::Assertions
-  extend ::T::Sig
-end
-
 class Minitest::BacktraceFilter
   MT_RE = ::T.let(nil, ::T.untyped)
-end
-
-module Minitest::Expectations
-  extend ::T::Sig
-end
-
-module Minitest::Guard
-  extend ::T::Sig
-end
-
-module Minitest::Parallel::Test::ClassMethods
-  extend ::T::Sig
-end
-
-module Minitest::Parallel::Test
-  extend ::T::Sig
-end
-
-module Minitest::Parallel
-  extend ::T::Sig
 end
 
 module Minitest::RelativePosition
@@ -16637,24 +13250,8 @@ module Minitest::RelativePosition
   TEST_SIZE = ::T.let(nil, ::T.untyped)
 end
 
-module Minitest::RelativePosition
-  extend ::T::Sig
-end
-
-module Minitest::Reportable
-  extend ::T::Sig
-end
-
 module Minitest::Reporters
   VERSION = ::T.let(nil, ::T.untyped)
-end
-
-module Minitest::Reporters::ANSI::Code
-  extend ::T::Sig
-end
-
-module Minitest::Reporters::ANSI
-  extend ::T::Sig
 end
 
 class Minitest::Reporters::DefaultReporter
@@ -16771,10 +13368,6 @@ end
 class Minitest::Reporters::SpecReporter
 end
 
-module Minitest::Reporters
-  extend ::T::Sig
-end
-
 class Minitest::Runnable
   SIGNALS = ::T.let(nil, ::T.untyped)
 end
@@ -16787,14 +13380,6 @@ module Minitest::Spec::DSL
   TYPES = ::T.let(nil, ::T.untyped)
 end
 
-module Minitest::Spec::DSL::InstanceMethods
-  extend ::T::Sig
-end
-
-module Minitest::Spec::DSL
-  extend ::T::Sig
-end
-
 class Minitest::Test
   def run_with_hooks(*args); end
 
@@ -16803,16 +13388,8 @@ class Minitest::Test
   TEARDOWN_METHODS = ::T.let(nil, ::T.untyped)
 end
 
-module Minitest::Test::LifecycleHooks
-  extend ::T::Sig
-end
-
 class Minitest::Unit
   VERSION = ::T.let(nil, ::T.untyped)
-end
-
-module Minitest
-  extend ::T::Sig
 end
 
 MissingSourceFile = LoadError
@@ -16826,12 +13403,7 @@ class Module
   RUBY_RESERVED_WORDS = ::T.let(nil, ::T.untyped)
 end
 
-module Module::Concerning
-  extend ::T::Sig
-end
-
 class Module
-  extend ::T::Sig
   def self.used_modules(); end
 end
 
@@ -16841,10 +13413,6 @@ class Monitor
   def exit(); end
 
   def try_enter(); end
-end
-
-class Monitor
-  extend ::T::Sig
 end
 
 module MonitorMixin
@@ -16883,24 +13451,11 @@ class MonitorMixin::ConditionVariable
   def wait_while(); end
 end
 
-class MonitorMixin::ConditionVariable::Timeout
-  extend ::T::Sig
-end
-
-class MonitorMixin::ConditionVariable
-  extend ::T::Sig
-end
-
 module MonitorMixin
-  extend ::T::Sig
   def self.extend_object(obj); end
 end
 
 Mutex = Thread::Mutex
-
-module Mutex_m
-  extend ::T::Sig
-end
 
 class NameError
   include ::DidYouMean::Correctable
@@ -16909,20 +13464,8 @@ class NameError
   def receiver(); end
 end
 
-class NameError
-  extend ::T::Sig
-end
-
 module Nenv
   VERSION = ::T.let(nil, ::T.untyped)
-end
-
-module Nenv::Builder
-  extend ::T::Sig
-end
-
-module Nenv
-  extend ::T::Sig
 end
 
 class Net::APOP
@@ -16932,10 +13475,6 @@ class Net::APOP
 end
 
 Net::APOPSession = Net::APOP
-
-class Net::BufferedIO
-  extend ::T::Sig
-end
 
 class Net::HTTP
   def max_retries(); end
@@ -16952,78 +13491,6 @@ class Net::HTTP
   ENVIRONMENT_VARIABLE_IS_MULTIUSER_SAFE = ::T.let(nil, ::T.untyped)
 end
 
-class Net::HTTP::Copy
-  extend ::T::Sig
-end
-
-class Net::HTTP::Delete
-  extend ::T::Sig
-end
-
-class Net::HTTP::Get
-  extend ::T::Sig
-end
-
-class Net::HTTP::Head
-  extend ::T::Sig
-end
-
-class Net::HTTP::Lock
-  extend ::T::Sig
-end
-
-class Net::HTTP::Mkcol
-  extend ::T::Sig
-end
-
-class Net::HTTP::Move
-  extend ::T::Sig
-end
-
-class Net::HTTP::Options
-  extend ::T::Sig
-end
-
-class Net::HTTP::Patch
-  extend ::T::Sig
-end
-
-class Net::HTTP::Post
-  extend ::T::Sig
-end
-
-class Net::HTTP::Propfind
-  extend ::T::Sig
-end
-
-class Net::HTTP::Proppatch
-  extend ::T::Sig
-end
-
-module Net::HTTP::ProxyDelta
-  extend ::T::Sig
-end
-
-class Net::HTTP::Put
-  extend ::T::Sig
-end
-
-class Net::HTTP::Trace
-  extend ::T::Sig
-end
-
-class Net::HTTP::Unlock
-  extend ::T::Sig
-end
-
-class Net::HTTP
-  extend ::T::Sig
-end
-
-class Net::HTTPAccepted
-  extend ::T::Sig
-end
-
 class Net::HTTPAlreadyReported
   HAS_BODY = ::T.let(nil, ::T.untyped)
 end
@@ -17031,99 +13498,11 @@ end
 class Net::HTTPAlreadyReported
 end
 
-class Net::HTTPBadGateway
-  extend ::T::Sig
-end
-
-class Net::HTTPBadRequest
-  extend ::T::Sig
-end
-
-class Net::HTTPBadResponse
-  extend ::T::Sig
-end
-
 Net::HTTPClientError::EXCEPTION_TYPE = Net::HTTPServerException
-
-class Net::HTTPClientError
-  extend ::T::Sig
-end
 
 Net::HTTPClientErrorCode = Net::HTTPClientError
 
-class Net::HTTPConflict
-  extend ::T::Sig
-end
-
-class Net::HTTPContinue
-  extend ::T::Sig
-end
-
-class Net::HTTPCreated
-  extend ::T::Sig
-end
-
-class Net::HTTPError
-  extend ::T::Sig
-end
-
-module Net::HTTPExceptions
-  extend ::T::Sig
-end
-
-class Net::HTTPExpectationFailed
-  extend ::T::Sig
-end
-
-class Net::HTTPFailedDependency
-  extend ::T::Sig
-end
-
-class Net::HTTPFatalError
-  extend ::T::Sig
-end
-
 Net::HTTPFatalErrorCode = Net::HTTPClientError
-
-class Net::HTTPForbidden
-  extend ::T::Sig
-end
-
-class Net::HTTPFound
-  extend ::T::Sig
-end
-
-class Net::HTTPGatewayTimeOut
-  extend ::T::Sig
-end
-
-class Net::HTTPGenericRequest::Chunker
-  extend ::T::Sig
-end
-
-class Net::HTTPGenericRequest
-  extend ::T::Sig
-end
-
-class Net::HTTPGone
-  extend ::T::Sig
-end
-
-module Net::HTTPHeader
-  extend ::T::Sig
-end
-
-class Net::HTTPHeaderSyntaxError
-  extend ::T::Sig
-end
-
-class Net::HTTPIMUsed
-  extend ::T::Sig
-end
-
-class Net::HTTPInformation
-  extend ::T::Sig
-end
 
 class Net::HTTPInformation
 end
@@ -17133,22 +13512,6 @@ Net::HTTPInformationCode::EXCEPTION_TYPE = Net::HTTPError
 class Net::HTTPInformation
 end
 
-class Net::HTTPInsufficientStorage
-  extend ::T::Sig
-end
-
-class Net::HTTPInternalServerError
-  extend ::T::Sig
-end
-
-class Net::HTTPLengthRequired
-  extend ::T::Sig
-end
-
-class Net::HTTPLocked
-  extend ::T::Sig
-end
-
 class Net::HTTPLoopDetected
   HAS_BODY = ::T.let(nil, ::T.untyped)
 end
@@ -17156,49 +13519,17 @@ end
 class Net::HTTPLoopDetected
 end
 
-class Net::HTTPMethodNotAllowed
-  extend ::T::Sig
-end
-
 class Net::HTTPMisdirectedRequest
   HAS_BODY = ::T.let(nil, ::T.untyped)
 end
 
 class Net::HTTPMisdirectedRequest
-end
-
-class Net::HTTPMovedPermanently
-  extend ::T::Sig
 end
 
 Net::HTTPMovedTemporarily = Net::HTTPFound
 
-class Net::HTTPMultiStatus
-  extend ::T::Sig
-end
-
 Net::HTTPMultipleChoice = Net::HTTPMultipleChoices
 
-class Net::HTTPMultipleChoices
-  extend ::T::Sig
-end
-
-class Net::HTTPNetworkAuthenticationRequired
-  extend ::T::Sig
-end
-
-class Net::HTTPNoContent
-  extend ::T::Sig
-end
-
-class Net::HTTPNonAuthoritativeInformation
-  extend ::T::Sig
-end
-
-class Net::HTTPNotAcceptable
-  extend ::T::Sig
-end
-
 class Net::HTTPNotExtended
   HAS_BODY = ::T.let(nil, ::T.untyped)
 end
@@ -17206,126 +13537,26 @@ end
 class Net::HTTPNotExtended
 end
 
-class Net::HTTPNotFound
-  extend ::T::Sig
-end
-
-class Net::HTTPNotImplemented
-  extend ::T::Sig
-end
-
-class Net::HTTPNotModified
-  extend ::T::Sig
-end
-
-class Net::HTTPOK
-  extend ::T::Sig
-end
-
-class Net::HTTPPartialContent
-  extend ::T::Sig
-end
-
-class Net::HTTPPaymentRequired
-  extend ::T::Sig
-end
-
-class Net::HTTPPermanentRedirect
-  extend ::T::Sig
-end
-
-class Net::HTTPPreconditionFailed
-  extend ::T::Sig
-end
-
-class Net::HTTPPreconditionRequired
-  extend ::T::Sig
-end
-
 class Net::HTTPProcessing
   HAS_BODY = ::T.let(nil, ::T.untyped)
 end
 
 class Net::HTTPProcessing
-end
-
-class Net::HTTPProxyAuthenticationRequired
-  extend ::T::Sig
 end
 
 Net::HTTPRedirection::EXCEPTION_TYPE = Net::HTTPRetriableError
 
-class Net::HTTPRedirection
-  extend ::T::Sig
-end
-
 Net::HTTPRedirectionCode = Net::HTTPRedirection
-
-class Net::HTTPRequest
-  extend ::T::Sig
-end
-
-class Net::HTTPRequestEntityTooLarge
-  extend ::T::Sig
-end
-
-class Net::HTTPRequestHeaderFieldsTooLarge
-  extend ::T::Sig
-end
-
-class Net::HTTPRequestTimeOut
-  extend ::T::Sig
-end
 
 Net::HTTPRequestURITooLarge = Net::HTTPRequestURITooLong
 
-class Net::HTTPRequestURITooLong
-  extend ::T::Sig
-end
-
-class Net::HTTPRequestedRangeNotSatisfiable
-  extend ::T::Sig
-end
-
-class Net::HTTPResetContent
-  extend ::T::Sig
-end
-
 Net::HTTPResponceReceiver = Net::HTTPResponse
-
-class Net::HTTPResponse::Inflater
-  extend ::T::Sig
-end
-
-class Net::HTTPResponse
-  extend ::T::Sig
-end
 
 Net::HTTPRetriableCode = Net::HTTPRedirection
 
-class Net::HTTPRetriableError
-  extend ::T::Sig
-end
-
-class Net::HTTPSeeOther
-  extend ::T::Sig
-end
-
 Net::HTTPServerError::EXCEPTION_TYPE = Net::HTTPFatalError
 
-class Net::HTTPServerError
-  extend ::T::Sig
-end
-
 Net::HTTPServerErrorCode = Net::HTTPServerError
-
-class Net::HTTPServerException
-  extend ::T::Sig
-end
-
-class Net::HTTPServiceUnavailable
-  extend ::T::Sig
-end
 
 class Net::HTTP
 end
@@ -17339,53 +13570,9 @@ end
 
 Net::HTTPSuccess::EXCEPTION_TYPE = Net::HTTPError
 
-class Net::HTTPSuccess
-  extend ::T::Sig
-end
-
 Net::HTTPSuccessCode = Net::HTTPSuccess
 
-class Net::HTTPSwitchProtocol
-  extend ::T::Sig
-end
-
-class Net::HTTPTemporaryRedirect
-  extend ::T::Sig
-end
-
-class Net::HTTPTooManyRequests
-  extend ::T::Sig
-end
-
-class Net::HTTPUnauthorized
-  extend ::T::Sig
-end
-
-class Net::HTTPUnavailableForLegalReasons
-  extend ::T::Sig
-end
-
 Net::HTTPUnknownResponse::EXCEPTION_TYPE = Net::HTTPError
-
-class Net::HTTPUnknownResponse
-  extend ::T::Sig
-end
-
-class Net::HTTPUnprocessableEntity
-  extend ::T::Sig
-end
-
-class Net::HTTPUnsupportedMediaType
-  extend ::T::Sig
-end
-
-class Net::HTTPUpgradeRequired
-  extend ::T::Sig
-end
-
-class Net::HTTPUseProxy
-  extend ::T::Sig
-end
 
 class Net::HTTPVariantAlsoNegotiates
   HAS_BODY = ::T.let(nil, ::T.untyped)
@@ -17394,202 +13581,21 @@ end
 class Net::HTTPVariantAlsoNegotiates
 end
 
-class Net::HTTPVersionNotSupported
-  extend ::T::Sig
-end
-
 class Net::IMAP
   def open_timeout(); end
 
   RESPONSE_ERRORS = ::T.let(nil, ::T.untyped)
 end
 
-class Net::IMAP::Address
-  extend ::T::Sig
-end
-
-class Net::IMAP::Atom
-  extend ::T::Sig
-end
-
-class Net::IMAP::BadResponseError
-  extend ::T::Sig
-end
-
-class Net::IMAP::BodyTypeAttachment
-  extend ::T::Sig
-end
-
-class Net::IMAP::BodyTypeBasic
-  extend ::T::Sig
-end
-
-class Net::IMAP::BodyTypeExtension
-  extend ::T::Sig
-end
-
-class Net::IMAP::BodyTypeMessage
-  extend ::T::Sig
-end
-
-class Net::IMAP::BodyTypeMultipart
-  extend ::T::Sig
-end
-
-class Net::IMAP::BodyTypeText
-  extend ::T::Sig
-end
-
-class Net::IMAP::ByeResponseError
-  extend ::T::Sig
-end
-
-class Net::IMAP::ContentDisposition
-  extend ::T::Sig
-end
-
-class Net::IMAP::ContinuationRequest
-  extend ::T::Sig
-end
-
-class Net::IMAP::CramMD5Authenticator
-  extend ::T::Sig
-end
-
-class Net::IMAP::DataFormatError
-  extend ::T::Sig
-end
-
-class Net::IMAP::DigestMD5Authenticator
-  extend ::T::Sig
-end
-
-class Net::IMAP::Envelope
-  extend ::T::Sig
-end
-
-class Net::IMAP::Error
-  extend ::T::Sig
-end
-
-class Net::IMAP::FetchData
-  extend ::T::Sig
-end
-
-class Net::IMAP::FlagCountError
-  extend ::T::Sig
-end
-
-class Net::IMAP::Literal
-  extend ::T::Sig
-end
-
-class Net::IMAP::LoginAuthenticator
-  extend ::T::Sig
-end
-
-class Net::IMAP::MailboxACLItem
-  extend ::T::Sig
-end
-
-class Net::IMAP::MailboxList
-  extend ::T::Sig
-end
-
-class Net::IMAP::MailboxQuota
-  extend ::T::Sig
-end
-
-class Net::IMAP::MailboxQuotaRoot
-  extend ::T::Sig
-end
-
-class Net::IMAP::MessageSet
-  extend ::T::Sig
-end
-
-class Net::IMAP::NoResponseError
-  extend ::T::Sig
-end
-
 module Net::IMAP::NumValidator
-  extend ::T::Sig
   def self.ensure_mod_sequence_value(num); end
 
   def self.valid_mod_sequence_value?(num); end
 end
 
-class Net::IMAP::PlainAuthenticator
-  extend ::T::Sig
-end
-
-class Net::IMAP::QuotedString
-  extend ::T::Sig
-end
-
-class Net::IMAP::RawData
-  extend ::T::Sig
-end
-
-class Net::IMAP::ResponseCode
-  extend ::T::Sig
-end
-
-class Net::IMAP::ResponseError
-  extend ::T::Sig
-end
-
-class Net::IMAP::ResponseParseError
-  extend ::T::Sig
-end
-
-class Net::IMAP::ResponseParser::Token
-  extend ::T::Sig
-end
-
-class Net::IMAP::ResponseParser
-  extend ::T::Sig
-end
-
-class Net::IMAP::ResponseText
-  extend ::T::Sig
-end
-
-class Net::IMAP::StatusData
-  extend ::T::Sig
-end
-
-class Net::IMAP::TaggedResponse
-  extend ::T::Sig
-end
-
-class Net::IMAP::ThreadMember
-  extend ::T::Sig
-end
-
-class Net::IMAP::UntaggedResponse
-  extend ::T::Sig
-end
-
-class Net::IMAP
-  extend ::T::Sig
-end
-
-class Net::InternetMessageIO
-  extend ::T::Sig
-end
-
 Net::NetPrivate::HTTPRequest = Net::HTTPRequest
 
 Net::NetPrivate::Socket = Net::InternetMessageIO
-
-module Net::NetPrivate
-  extend ::T::Sig
-end
-
-class Net::OpenTimeout
-  extend ::T::Sig
-end
 
 Net::POP = Net::POP3
 
@@ -17768,109 +13774,13 @@ end
 
 Net::POPSession = Net::POP3
 
-class Net::ProtoAuthError
-  extend ::T::Sig
-end
-
-class Net::ProtoCommandError
-  extend ::T::Sig
-end
-
-class Net::ProtoFatalError
-  extend ::T::Sig
-end
-
-class Net::ProtoRetriableError
-  extend ::T::Sig
-end
-
-class Net::ProtoServerError
-  extend ::T::Sig
-end
-
-class Net::ProtoSyntaxError
-  extend ::T::Sig
-end
-
-class Net::ProtoUnknownError
-  extend ::T::Sig
-end
-
 Net::ProtocRetryError = Net::ProtoRetriableError
 
-class Net::Protocol
-  extend ::T::Sig
-end
-
-class Net::ProtocolError
-  extend ::T::Sig
-end
-
-class Net::ReadAdapter
-  extend ::T::Sig
-end
-
-class Net::ReadTimeout
-  extend ::T::Sig
-end
-
-class Net::SMTP::Response
-  extend ::T::Sig
-end
-
-class Net::SMTP
-  extend ::T::Sig
-end
-
-class Net::SMTPAuthenticationError
-  extend ::T::Sig
-end
-
-module Net::SMTPError
-  extend ::T::Sig
-end
-
-class Net::SMTPFatalError
-  extend ::T::Sig
-end
-
-class Net::SMTPServerBusy
-  extend ::T::Sig
-end
-
 Net::SMTPSession = Net::SMTP
-
-class Net::SMTPSyntaxError
-  extend ::T::Sig
-end
-
-class Net::SMTPUnknownError
-  extend ::T::Sig
-end
-
-class Net::SMTPUnsupportedCommand
-  extend ::T::Sig
-end
-
-class Net::WriteAdapter
-  extend ::T::Sig
-end
-
-module Net
-  extend ::T::Sig
-end
 
 class NilClass
   include ::JSON::Ext::Generator::GeneratorMethods::NilClass
   def to_i(); end
-end
-
-class NilClass
-  extend ::T::Sig
-end
-
-class NoMemoryError
-  extend ::T::Sig
 end
 
 class NoMethodError
@@ -17878,10 +13788,6 @@ class NoMethodError
   def args(); end
 
   def private_call?(); end
-end
-
-class NoMethodError
-  extend ::T::Sig
 end
 
 module Nokogiri
@@ -17907,20 +13813,8 @@ class Nokogiri::CSS::Parser
   Racc_token_to_s_table = ::T.let(nil, ::T.untyped)
 end
 
-module Nokogiri::CSS
-  extend ::T::Sig
-end
-
 module Nokogiri::Decorators::Slop
   XPATH_PREFIX = ::T.let(nil, ::T.untyped)
-end
-
-module Nokogiri::Decorators::Slop
-  extend ::T::Sig
-end
-
-module Nokogiri::Decorators
-  extend ::T::Sig
 end
 
 module Nokogiri::HTML
@@ -18040,14 +13934,6 @@ end
 
 Nokogiri::HTML::ElementDescription::Desc = Struct::HTMLElementDescription
 
-module Nokogiri::HTML::SAX
-  extend ::T::Sig
-end
-
-module Nokogiri::HTML
-  extend ::T::Sig
-end
-
 module Nokogiri::XML
   XML_C14N_1_0 = ::T.let(nil, ::T.untyped)
   XML_C14N_1_1 = ::T.let(nil, ::T.untyped)
@@ -18116,18 +14002,6 @@ class Nokogiri::XML::NodeSet
   IMPLIED_XPATH_CONTEXTS = ::T.let(nil, ::T.untyped)
 end
 
-module Nokogiri::XML::PP::CharacterData
-  extend ::T::Sig
-end
-
-module Nokogiri::XML::PP::Node
-  extend ::T::Sig
-end
-
-module Nokogiri::XML::PP
-  extend ::T::Sig
-end
-
 class Nokogiri::XML::ParseOptions
   COMPACT = ::T.let(nil, ::T.untyped)
   DEFAULT_HTML = ::T.let(nil, ::T.untyped)
@@ -18179,32 +14053,8 @@ class Nokogiri::XML::SAX::Parser
   ENCODINGS = ::T.let(nil, ::T.untyped)
 end
 
-module Nokogiri::XML::SAX
-  extend ::T::Sig
-end
-
 module Nokogiri::XML::Searchable
   LOOKS_LIKE_XPATH = ::T.let(nil, ::T.untyped)
-end
-
-module Nokogiri::XML::Searchable
-  extend ::T::Sig
-end
-
-module Nokogiri::XML
-  extend ::T::Sig
-end
-
-module Nokogiri::XSLT
-  extend ::T::Sig
-end
-
-module Nokogiri
-  extend ::T::Sig
-end
-
-class NotImplementedError
-  extend ::T::Sig
 end
 
 class Notiffany::Notifier
@@ -18278,10 +14128,6 @@ class Notiffany::Notifier::Tmux::Client
   CLIENT = ::T.let(nil, ::T.untyped)
 end
 
-module Notiffany
-  extend ::T::Sig
-end
-
 class Numeric
   def finite?(); end
 
@@ -18297,10 +14143,6 @@ class Numeric
   MEGABYTE = ::T.let(nil, ::T.untyped)
   PETABYTE = ::T.let(nil, ::T.untyped)
   TERABYTE = ::T.let(nil, ::T.untyped)
-end
-
-class Numeric
-  extend ::T::Sig
 end
 
 class Object
@@ -18327,7 +14169,6 @@ class Object
 end
 
 class Object
-  extend ::T::Sig
   def self.yaml_tag(url); end
 end
 
@@ -18355,12 +14196,7 @@ class ObjectSpace::WeakMap
   def values(); end
 end
 
-class ObjectSpace::WeakMap
-  extend ::T::Sig
-end
-
 module ObjectSpace
-  extend ::T::Sig
   def self.count_objects(*_); end
 
   def self.define_finalizer(*_); end
@@ -18370,126 +14206,10 @@ module ObjectSpace
   def self.undefine_finalizer(_); end
 end
 
-module Open3
-  extend ::T::Sig
-end
-
 class OpenSSL::ASN1::ASN1Data
   def indefinite_length(); end
 
   def indefinite_length=(indefinite_length); end
-end
-
-class OpenSSL::ASN1::ASN1Data
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::ASN1Error
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::BMPString
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::BitString
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::Boolean
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::Constructive
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::EndOfContent
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::Enumerated
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::GeneralString
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::GeneralizedTime
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::GraphicString
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::IA5String
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::ISO64String
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::Integer
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::Null
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::NumericString
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::ObjectId
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::OctetString
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::Primitive
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::PrintableString
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::Sequence
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::Set
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::T61String
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::UTCTime
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::UTF8String
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::UniversalString
-  extend ::T::Sig
-end
-
-class OpenSSL::ASN1::VideotexString
-  extend ::T::Sig
-end
-
-module OpenSSL::ASN1
-  extend ::T::Sig
 end
 
 class OpenSSL::BN
@@ -18502,102 +14222,6 @@ class OpenSSL::BN
   def negative?(); end
 end
 
-class OpenSSL::BN
-  extend ::T::Sig
-end
-
-class OpenSSL::BNError
-  extend ::T::Sig
-end
-
-module OpenSSL::Buffering
-  extend ::T::Sig
-end
-
-class OpenSSL::Cipher::AES
-  extend ::T::Sig
-end
-
-class OpenSSL::Cipher::AES128
-  extend ::T::Sig
-end
-
-class OpenSSL::Cipher::AES192
-  extend ::T::Sig
-end
-
-class OpenSSL::Cipher::AES256
-  extend ::T::Sig
-end
-
-class OpenSSL::Cipher::BF
-  extend ::T::Sig
-end
-
-class OpenSSL::Cipher::CAST5
-  extend ::T::Sig
-end
-
-class OpenSSL::Cipher::CipherError
-  extend ::T::Sig
-end
-
-class OpenSSL::Cipher::DES
-  extend ::T::Sig
-end
-
-class OpenSSL::Cipher::IDEA
-  extend ::T::Sig
-end
-
-class OpenSSL::Cipher::RC2
-  extend ::T::Sig
-end
-
-class OpenSSL::Cipher::RC4
-  extend ::T::Sig
-end
-
-class OpenSSL::Cipher::RC5
-  extend ::T::Sig
-end
-
-class OpenSSL::Cipher
-  extend ::T::Sig
-end
-
-class OpenSSL::Config
-  extend ::T::Sig
-end
-
-class OpenSSL::ConfigError
-  extend ::T::Sig
-end
-
-class OpenSSL::Digest
-  extend ::T::Sig
-end
-
-class OpenSSL::Engine::EngineError
-  extend ::T::Sig
-end
-
-class OpenSSL::Engine
-  extend ::T::Sig
-end
-
-module OpenSSL::ExtConfig
-  extend ::T::Sig
-end
-
-class OpenSSL::HMAC
-  extend ::T::Sig
-end
-
-class OpenSSL::HMACError
-  extend ::T::Sig
-end
-
 module OpenSSL::KDF
 end
 
@@ -18608,7 +14232,6 @@ class OpenSSL::KDF::KDFError
 end
 
 module OpenSSL::KDF
-  extend ::T::Sig
   def self.hkdf(*_); end
 
   def self.pbkdf2_hmac(*_); end
@@ -18616,164 +14239,24 @@ module OpenSSL::KDF
   def self.scrypt(*_); end
 end
 
-class OpenSSL::Netscape::SPKI
-  extend ::T::Sig
-end
-
-class OpenSSL::Netscape::SPKIError
-  extend ::T::Sig
-end
-
-module OpenSSL::Netscape
-  extend ::T::Sig
-end
-
-class OpenSSL::OCSP::BasicResponse
-  extend ::T::Sig
-end
-
-class OpenSSL::OCSP::CertificateId
-  extend ::T::Sig
-end
-
-class OpenSSL::OCSP::OCSPError
-  extend ::T::Sig
-end
-
 class OpenSSL::OCSP::Request
   def signed?(); end
 end
 
-class OpenSSL::OCSP::Request
-  extend ::T::Sig
-end
-
-class OpenSSL::OCSP::Response
-  extend ::T::Sig
-end
-
-class OpenSSL::OCSP::SingleResponse
-  extend ::T::Sig
-end
-
-module OpenSSL::OCSP
-  extend ::T::Sig
-end
-
-class OpenSSL::OpenSSLError
-  extend ::T::Sig
-end
-
-class OpenSSL::PKCS12::PKCS12Error
-  extend ::T::Sig
-end
-
-class OpenSSL::PKCS12
-  extend ::T::Sig
-end
-
-module OpenSSL::PKCS5
-  extend ::T::Sig
-end
-
-class OpenSSL::PKCS7::PKCS7Error
-  extend ::T::Sig
-end
-
-class OpenSSL::PKCS7::RecipientInfo
-  extend ::T::Sig
-end
-
 OpenSSL::PKCS7::Signer = OpenSSL::PKCS7::SignerInfo
-
-class OpenSSL::PKCS7::SignerInfo
-  extend ::T::Sig
-end
-
-class OpenSSL::PKCS7
-  extend ::T::Sig
-end
-
-class OpenSSL::PKey::DH
-  extend ::T::Sig
-end
-
-class OpenSSL::PKey::DHError
-  extend ::T::Sig
-end
-
-class OpenSSL::PKey::DSA
-  extend ::T::Sig
-end
-
-class OpenSSL::PKey::DSAError
-  extend ::T::Sig
-end
 
 class OpenSSL::PKey::EC
   EXPLICIT_CURVE = ::T.let(nil, ::T.untyped)
-end
-
-class OpenSSL::PKey::EC::Group::Error
-  extend ::T::Sig
-end
-
-class OpenSSL::PKey::EC::Group
-  extend ::T::Sig
 end
 
 class OpenSSL::PKey::EC::Point
   def to_octet_string(_); end
 end
 
-class OpenSSL::PKey::EC::Point::Error
-  extend ::T::Sig
-end
-
-class OpenSSL::PKey::EC::Point
-  extend ::T::Sig
-end
-
-class OpenSSL::PKey::EC
-  extend ::T::Sig
-end
-
-class OpenSSL::PKey::ECError
-  extend ::T::Sig
-end
-
-class OpenSSL::PKey::PKey
-  extend ::T::Sig
-end
-
-class OpenSSL::PKey::PKeyError
-  extend ::T::Sig
-end
-
 class OpenSSL::PKey::RSA
   def sign_pss(*_); end
 
   def verify_pss(*_); end
-end
-
-class OpenSSL::PKey::RSA
-  extend ::T::Sig
-end
-
-class OpenSSL::PKey::RSAError
-  extend ::T::Sig
-end
-
-module OpenSSL::PKey
-  extend ::T::Sig
-end
-
-class OpenSSL::Random::RandomError
-  extend ::T::Sig
-end
-
-module OpenSSL::Random
-  extend ::T::Sig
 end
 
 module OpenSSL::SSL
@@ -18794,10 +14277,6 @@ module OpenSSL::SSL
   TLS1_VERSION = ::T.let(nil, ::T.untyped)
 end
 
-module OpenSSL::SSL
-  extend ::T::Sig
-end
-
 module OpenSSL::X509
   V_FLAG_NO_CHECK_TIME = ::T.let(nil, ::T.untyped)
   V_FLAG_TRUSTED_FIRST = ::T.let(nil, ::T.untyped)
@@ -18807,76 +14286,20 @@ class OpenSSL::X509::Attribute
   def ==(other); end
 end
 
-class OpenSSL::X509::Attribute
-  extend ::T::Sig
-end
-
-class OpenSSL::X509::AttributeError
-  extend ::T::Sig
-end
-
 class OpenSSL::X509::CRL
   def ==(other); end
 end
 
-class OpenSSL::X509::CRL
-  extend ::T::Sig
-end
-
-class OpenSSL::X509::CRLError
-  extend ::T::Sig
-end
-
-class OpenSSL::X509::Certificate
-  extend ::T::Sig
-end
-
-class OpenSSL::X509::CertificateError
-  extend ::T::Sig
-end
-
 class OpenSSL::X509::Extension
   def ==(other); end
-end
-
-class OpenSSL::X509::Extension
-  extend ::T::Sig
-end
-
-class OpenSSL::X509::ExtensionError
-  extend ::T::Sig
-end
-
-class OpenSSL::X509::ExtensionFactory
-  extend ::T::Sig
 end
 
 class OpenSSL::X509::Name
   def to_utf8(); end
 end
 
-module OpenSSL::X509::Name::RFC2253DN
-  extend ::T::Sig
-end
-
-class OpenSSL::X509::Name
-  extend ::T::Sig
-end
-
-class OpenSSL::X509::NameError
-  extend ::T::Sig
-end
-
 class OpenSSL::X509::Request
   def ==(other); end
-end
-
-class OpenSSL::X509::Request
-  extend ::T::Sig
-end
-
-class OpenSSL::X509::RequestError
-  extend ::T::Sig
 end
 
 class OpenSSL::X509::Revoked
@@ -18885,121 +14308,18 @@ class OpenSSL::X509::Revoked
   def to_der(); end
 end
 
-class OpenSSL::X509::Revoked
-  extend ::T::Sig
-end
-
-class OpenSSL::X509::RevokedError
-  extend ::T::Sig
-end
-
-class OpenSSL::X509::Store
-  extend ::T::Sig
-end
-
-class OpenSSL::X509::StoreContext
-  extend ::T::Sig
-end
-
-class OpenSSL::X509::StoreError
-  extend ::T::Sig
-end
-
-module OpenSSL::X509
-  extend ::T::Sig
-end
-
 module OpenSSL
-  extend ::T::Sig
   def self.fips_mode(); end
-end
-
-class OpenStruct
-  extend ::T::Sig
 end
 
 OptParse = OptionParser
 
 class OptionParser
-  def abort(mesg=T.unsafe(nil)); end
-
-  def accept(*args, &blk); end
-
-  def add_officious(); end
-
-  def banner(); end
-
-  def banner=(banner); end
-
-  def base(); end
-
-  def candidate(word); end
-
-  def compsys(to, name=T.unsafe(nil)); end
-
   def def_head_option(*opts, &block); end
 
   def def_option(*opts, &block); end
 
   def def_tail_option(*opts, &block); end
-
-  def default_argv(); end
-
-  def default_argv=(default_argv); end
-
-  def define(*opts, &block); end
-
-  def define_head(*opts, &block); end
-
-  def define_tail(*opts, &block); end
-
-  def environment(env=T.unsafe(nil)); end
-
-  def getopts(*args); end
-
-  def help(); end
-
-  def inc(*args); end
-
-  def initialize(banner=T.unsafe(nil), width=T.unsafe(nil), indent=T.unsafe(nil)); end
-
-  def load(filename=T.unsafe(nil)); end
-
-  def make_switch(opts, block=T.unsafe(nil)); end
-
-  def new(); end
-
-  def on(*opts, &block); end
-
-  def on_head(*opts, &block); end
-
-  def on_tail(*opts, &block); end
-
-  def order(*argv, into: T.unsafe(nil), &nonopt); end
-
-  def order!(argv=T.unsafe(nil), into: T.unsafe(nil), &nonopt); end
-
-  def parse(*argv, into: T.unsafe(nil)); end
-
-  def parse!(argv=T.unsafe(nil), into: T.unsafe(nil)); end
-
-  def permute(*argv, into: T.unsafe(nil)); end
-
-  def permute!(argv=T.unsafe(nil), into: T.unsafe(nil)); end
-
-  def program_name(); end
-
-  def program_name=(program_name); end
-
-  def reject(*args, &blk); end
-
-  def release(); end
-
-  def release=(release); end
-
-  def remove(); end
-
-  def separator(string); end
 
   def set_banner(_); end
 
@@ -19008,30 +14328,6 @@ class OptionParser
   def set_summary_indent(_); end
 
   def set_summary_width(_); end
-
-  def summarize(to=T.unsafe(nil), width=T.unsafe(nil), max=T.unsafe(nil), indent=T.unsafe(nil), &blk); end
-
-  def summary_indent(); end
-
-  def summary_indent=(summary_indent); end
-
-  def summary_width(); end
-
-  def summary_width=(summary_width); end
-
-  def terminate(arg=T.unsafe(nil)); end
-
-  def to_a(); end
-
-  def top(); end
-
-  def ver(); end
-
-  def version(); end
-
-  def version=(version); end
-
-  def warn(mesg=T.unsafe(nil)); end
   ArgumentStyle = ::T.let(nil, ::T.untyped)
   COMPSYS_HEADER = ::T.let(nil, ::T.untyped)
   DecimalInteger = ::T.let(nil, ::T.untyped)
@@ -19054,236 +14350,32 @@ module OptionParser::Acceptables
   OctalInteger = ::T.let(nil, ::T.untyped)
 end
 
-module OptionParser::Acceptables
-  extend ::T::Sig
-end
-
 class OptionParser::AmbiguousArgument
   Reason = ::T.let(nil, ::T.untyped)
-end
-
-class OptionParser::AmbiguousArgument
 end
 
 class OptionParser::AmbiguousOption
   Reason = ::T.let(nil, ::T.untyped)
 end
 
-class OptionParser::AmbiguousOption
-end
-
-module OptionParser::Arguable
-  def getopts(*args); end
-
-  def initialize(*args); end
-
-  def options(); end
-
-  def options=(opt); end
-
-  def order!(&blk); end
-
-  def parse!(); end
-
-  def permute!(); end
-end
-
-module OptionParser::Arguable
-  extend ::T::Sig
-  def self.extend_object(obj); end
-end
-
-class OptionParser::CompletingHash
-  include ::OptionParser::Completion
-  def match(key); end
-end
-
-class OptionParser::CompletingHash
-end
-
-module OptionParser::Completion
-  def candidate(key, icase=T.unsafe(nil), pat=T.unsafe(nil)); end
-
-  def complete(key, icase=T.unsafe(nil), pat=T.unsafe(nil)); end
-
-  def convert(opt=T.unsafe(nil), val=T.unsafe(nil), *_); end
-end
-
-module OptionParser::Completion
-  extend ::T::Sig
-  def self.candidate(key, icase=T.unsafe(nil), pat=T.unsafe(nil), &block); end
-
-  def self.regexp(key, icase); end
-end
-
 class OptionParser::InvalidArgument
   Reason = ::T.let(nil, ::T.untyped)
-end
-
-class OptionParser::InvalidArgument
 end
 
 class OptionParser::InvalidOption
   Reason = ::T.let(nil, ::T.untyped)
 end
 
-class OptionParser::InvalidOption
-end
-
-class OptionParser::List
-  def accept(t, pat=T.unsafe(nil), &block); end
-
-  def add_banner(to); end
-
-  def append(*args); end
-
-  def atype(); end
-
-  def complete(id, opt, icase=T.unsafe(nil), *pat, &block); end
-
-  def compsys(*args, &block); end
-
-  def each_option(&block); end
-
-  def list(); end
-
-  def long(); end
-
-  def prepend(*args); end
-
-  def reject(t); end
-
-  def search(id, key); end
-
-  def short(); end
-
-  def summarize(*args, &block); end
-end
-
-class OptionParser::List
-end
-
 class OptionParser::MissingArgument
   Reason = ::T.let(nil, ::T.untyped)
-end
-
-class OptionParser::MissingArgument
 end
 
 class OptionParser::NeedlessArgument
   Reason = ::T.let(nil, ::T.untyped)
 end
 
-class OptionParser::NeedlessArgument
-end
-
-class OptionParser::OptionMap
-  include ::OptionParser::Completion
-end
-
-class OptionParser::OptionMap
-end
-
 class OptionParser::ParseError
-  def args(); end
-
-  def initialize(*args); end
-
-  def reason(); end
-
-  def reason=(reason); end
-
-  def recover(argv); end
-
-  def set_backtrace(array); end
-
-  def set_option(opt, eq); end
   Reason = ::T.let(nil, ::T.untyped)
-end
-
-class OptionParser::ParseError
-  def self.filter_backtrace(array); end
-end
-
-class OptionParser::Switch
-  def add_banner(to); end
-
-  def arg(); end
-
-  def block(); end
-
-  def compsys(sdone, ldone); end
-
-  def conv(); end
-
-  def desc(); end
-
-  def initialize(pattern=T.unsafe(nil), conv=T.unsafe(nil), short=T.unsafe(nil), long=T.unsafe(nil), arg=T.unsafe(nil), desc=T.unsafe(nil), block=T.unsafe(nil)); end
-
-  def long(); end
-
-  def match_nonswitch?(str); end
-
-  def pattern(); end
-
-  def short(); end
-
-  def summarize(sdone=T.unsafe(nil), ldone=T.unsafe(nil), width=T.unsafe(nil), max=T.unsafe(nil), indent=T.unsafe(nil)); end
-
-  def switch_name(); end
-end
-
-class OptionParser::Switch::NoArgument
-  def parse(arg, argv); end
-end
-
-class OptionParser::Switch::NoArgument
-  def self.incompatible_argument_styles(*_); end
-end
-
-class OptionParser::Switch::OptionalArgument
-  def parse(arg, argv, &error); end
-end
-
-class OptionParser::Switch::OptionalArgument
-end
-
-class OptionParser::Switch::PlacedArgument
-  def parse(arg, argv, &error); end
-end
-
-class OptionParser::Switch::PlacedArgument
-end
-
-class OptionParser::Switch::RequiredArgument
-  def parse(arg, argv); end
-end
-
-class OptionParser::Switch::RequiredArgument
-end
-
-class OptionParser::Switch
-  def self.guess(arg); end
-
-  def self.incompatible_argument_styles(arg, t); end
-
-  def self.pattern(); end
-end
-
-class OptionParser
-  def self.accept(*args, &blk); end
-
-  def self.getopts(*args); end
-
-  def self.inc(arg, default=T.unsafe(nil)); end
-
-  def self.reject(*args, &blk); end
-
-  def self.terminate(arg=T.unsafe(nil)); end
-
-  def self.top(); end
-
-  def self.with(*args, &block); end
 end
 
 module Overcommit
@@ -19300,37 +14392,13 @@ class Overcommit::ConfigurationLoader
   DEFAULT_CONFIG_PATH = ::T.let(nil, ::T.untyped)
 end
 
-module Overcommit::Exceptions
-  extend ::T::Sig
-end
-
-module Overcommit::GitConfig
-  extend ::T::Sig
-end
-
 module Overcommit::GitRepo
   DIFF_HUNK_REGEX = ::T.let(nil, ::T.untyped)
   SUBMODULE_STATUS_REGEX = ::T.let(nil, ::T.untyped)
 end
 
-module Overcommit::GitRepo
-  extend ::T::Sig
-end
-
 module Overcommit::Hook
   MESSAGE_TYPES = ::T.let(nil, ::T.untyped)
-end
-
-module Overcommit::Hook
-  extend ::T::Sig
-end
-
-module Overcommit::HookContext
-  extend ::T::Sig
-end
-
-module Overcommit::HookLoader
-  extend ::T::Sig
 end
 
 class Overcommit::HookSigner
@@ -19355,38 +14423,6 @@ module Overcommit::OS
   SEPARATOR = ::T.let(nil, ::T.untyped)
 end
 
-module Overcommit::OS
-  extend ::T::Sig
-end
-
-module Overcommit::Utils::FileUtils
-  extend ::T::Sig
-end
-
-module Overcommit::Utils
-  extend ::T::Sig
-end
-
-module Overcommit
-  extend ::T::Sig
-end
-
-module PP::ObjectMixin
-  extend ::T::Sig
-end
-
-module PP::PPMethods
-  extend ::T::Sig
-end
-
-class PP::SingleLine
-  extend ::T::Sig
-end
-
-class PP
-  extend ::T::Sig
-end
-
 ParseError = Racc::ParseError
 
 class Pathname
@@ -19400,34 +14436,6 @@ class Pathname
 
 end
 
-class Pathname
-  extend ::T::Sig
-end
-
-class PrettyPrint::Breakable
-  extend ::T::Sig
-end
-
-class PrettyPrint::Group
-  extend ::T::Sig
-end
-
-class PrettyPrint::GroupQueue
-  extend ::T::Sig
-end
-
-class PrettyPrint::SingleLine
-  extend ::T::Sig
-end
-
-class PrettyPrint::Text
-  extend ::T::Sig
-end
-
-class PrettyPrint
-  extend ::T::Sig
-end
-
 class Proc
   def ===(*_); end
 
@@ -19438,26 +14446,13 @@ class Proc
   def yield(*_); end
 end
 
-class Proc
-  extend ::T::Sig
-end
-
 module Process
   CLOCK_MONOTONIC_RAW_APPROX = ::T.let(nil, ::T.untyped)
   CLOCK_UPTIME_RAW = ::T.let(nil, ::T.untyped)
   CLOCK_UPTIME_RAW_APPROX = ::T.let(nil, ::T.untyped)
 end
 
-module Process::GID
-  extend ::T::Sig
-end
-
-class Process::Status
-  extend ::T::Sig
-end
-
 module Process::Sys
-  extend ::T::Sig
   def self.getegid(); end
 
 end
@@ -19481,30 +14476,16 @@ class Process::Tms
 end
 
 class Process::Tms
-  extend ::T::Sig
   def self.[](*_); end
 
   def self.members(); end
 end
 
-module Process::UID
-  extend ::T::Sig
-end
-
-class Process::Waiter
-  extend ::T::Sig
-end
-
 module Process
-  extend ::T::Sig
   def self.last_status(); end
 
   def self.setpgrp(); end
 
-end
-
-module ProgressBar::Calculators
-  extend ::T::Sig
 end
 
 class ProgressBar::Components::Bar
@@ -19528,10 +14509,6 @@ class ProgressBar::Components::Title
   DEFAULT_TITLE = ::T.let(nil, ::T.untyped)
 end
 
-module ProgressBar::Components
-  extend ::T::Sig
-end
-
 class ProgressBar::Format::Molecule
   BAR_MOLECULES = ::T.let(nil, ::T.untyped)
   MOLECULES = ::T.let(nil, ::T.untyped)
@@ -19540,10 +14517,6 @@ end
 class ProgressBar::Format::String
   ANSI_SGR_PATTERN = ::T.let(nil, ::T.untyped)
   MOLECULE_PATTERN = ::T.let(nil, ::T.untyped)
-end
-
-module ProgressBar::Format
-  extend ::T::Sig
 end
 
 class ProgressBar::Output
@@ -19558,22 +14531,10 @@ class ProgressBar::Outputs::Tty
   DEFAULT_FORMAT_STRING = ::T.let(nil, ::T.untyped)
 end
 
-module ProgressBar::Outputs
-  extend ::T::Sig
-end
-
 class ProgressBar::Progress
   DEFAULT_BEGINNING_POSITION = ::T.let(nil, ::T.untyped)
   DEFAULT_SMOOTHING = ::T.let(nil, ::T.untyped)
   DEFAULT_TOTAL = ::T.let(nil, ::T.untyped)
-end
-
-module ProgressBar::Refinements::Enumerator
-  extend ::T::Sig
-end
-
-module ProgressBar::Refinements
-  extend ::T::Sig
 end
 
 class ProgressBar::Time
@@ -19817,7 +14778,6 @@ class Psych::Handlers::DocumentStream
 end
 
 module Psych::Handlers
-  extend ::T::Sig
 end
 
 module Psych::JSON
@@ -19834,7 +14794,6 @@ module Psych::JSON::RubyEvents
 end
 
 module Psych::JSON::RubyEvents
-  extend ::T::Sig
 end
 
 class Psych::JSON::Stream
@@ -19872,11 +14831,9 @@ module Psych::JSON::YAMLEvents
 end
 
 module Psych::JSON::YAMLEvents
-  extend ::T::Sig
 end
 
 module Psych::JSON
-  extend ::T::Sig
 end
 
 module Psych::Nodes
@@ -20053,7 +15010,6 @@ class Psych::Nodes::Stream
 end
 
 module Psych::Nodes
-  extend ::T::Sig
 end
 
 class Psych::Omap
@@ -20137,11 +15093,9 @@ module Psych::Streaming::ClassMethods
 end
 
 module Psych::Streaming::ClassMethods
-  extend ::T::Sig
 end
 
 module Psych::Streaming
-  extend ::T::Sig
 end
 
 class Psych::SyntaxError
@@ -20331,11 +15285,9 @@ class Psych::Visitors::YAMLTree
 end
 
 module Psych::Visitors
-  extend ::T::Sig
 end
 
 module Psych
-  extend ::T::Sig
   def self.add_builtin_type(type_tag, &block); end
 
   def self.add_domain_type(domain, type_tag, &block); end
@@ -20379,10 +15331,6 @@ module Psych
   def self.safe_load(yaml, whitelist_classes=T.unsafe(nil), whitelist_symbols=T.unsafe(nil), aliases=T.unsafe(nil), filename=T.unsafe(nil), symbolize_names: T.unsafe(nil)); end
 
   def self.to_json(object); end
-end
-
-module QualifiedConstUtils
-  extend ::T::Sig
 end
 
 Queue = Thread::Queue
@@ -20616,7 +15564,6 @@ module RDoc::Encoding
 end
 
 module RDoc::Encoding
-  extend ::T::Sig
   def self.change_encoding(text, encoding); end
 
   def self.detect_encoding(string); end
@@ -20675,10 +15622,6 @@ end
 class RDoc::Generator::JsonIndex
 end
 
-module RDoc::Generator::Markup
-  extend ::T::Sig
-end
-
 class RDoc::Generator::POT
   DESCRIPTION = ::T.let(nil, ::T.untyped)
 end
@@ -20695,10 +15638,6 @@ class RDoc::Generator::SDoc
   RESOURCES_DIR = ::T.let(nil, ::T.untyped)
   SEARCH_INDEX_FILE = ::T.let(nil, ::T.untyped)
   TREE_FILE = ::T.let(nil, ::T.untyped)
-end
-
-module RDoc::Generator
-  extend ::T::Sig
 end
 
 class RDoc::GhostMethod
@@ -20721,10 +15660,6 @@ class RDoc::I18n::Locale
   def self.[](locale_name); end
 
   def self.[]=(locale_name, locale); end
-end
-
-module RDoc::I18n
-  extend ::T::Sig
 end
 
 class RDoc::Include
@@ -21871,7 +16806,6 @@ module RDoc::Parser::RubyTools
 end
 
 module RDoc::Parser::RubyTools
-  extend ::T::Sig
 end
 
 class RDoc::Parser::Simple
@@ -21892,7 +16826,6 @@ module RDoc::Parser::Text
 end
 
 module RDoc::Parser::Text
-  extend ::T::Sig
 end
 
 class RDoc::Parser
@@ -22424,7 +17357,6 @@ module RDoc::RI::Paths
 end
 
 module RDoc::RI::Paths
-  extend ::T::Sig
   def self.each(system=T.unsafe(nil), site=T.unsafe(nil), home=T.unsafe(nil), gems=T.unsafe(nil), *extra_dirs, &blk); end
 
   def self.gem_dir(name, version); end
@@ -22445,7 +17377,6 @@ end
 RDoc::RI::Store = RDoc::Store
 
 module RDoc::RI
-  extend ::T::Sig
 end
 
 class RDoc::Require
@@ -22862,10 +17793,6 @@ module RDoc::Text
   TO_HTML_CHARACTERS = ::T.let(nil, ::T.untyped)
 end
 
-module RDoc::Text
-  extend ::T::Sig
-end
-
 module RDoc::TokenStream
   def add_token(*tokens); end
 
@@ -22883,16 +17810,11 @@ module RDoc::TokenStream
 end
 
 module RDoc::TokenStream
-  extend ::T::Sig
   def self.to_html(token_stream); end
 end
 
 class RDoc::TopLevel
   MARSHAL_VERSION = ::T.let(nil, ::T.untyped)
-end
-
-module RDoc
-  extend ::T::Sig
 end
 
 module Racc
@@ -22903,10 +17825,6 @@ class Racc::CparseParams
 end
 
 class Racc::CparseParams
-end
-
-class Racc::ParseError
-  extend ::T::Sig
 end
 
 class Racc::Parser
@@ -22922,14 +17840,6 @@ class Racc::Parser
   Racc_Runtime_Type = ::T.let(nil, ::T.untyped)
   Racc_Runtime_Version = ::T.let(nil, ::T.untyped)
   Racc_YY_Parse_Method = ::T.let(nil, ::T.untyped)
-end
-
-class Racc::Parser
-  extend ::T::Sig
-end
-
-module Racc
-  extend ::T::Sig
 end
 
 module Rack
@@ -23068,14 +17978,6 @@ class Rack::Auth::Digest::Request
 end
 
 class Rack::Auth::Digest::Request
-end
-
-module Rack::Auth::Digest
-  extend ::T::Sig
-end
-
-module Rack::Auth
-  extend ::T::Sig
 end
 
 class Rack::Builder
@@ -23290,7 +18192,6 @@ class Rack::Handler::WEBrick
 end
 
 module Rack::Handler
-  extend ::T::Sig
   def self._const_get(str, inherit=T.unsafe(nil)); end
 
   def self.default(options=T.unsafe(nil)); end
@@ -23302,10 +18203,6 @@ module Rack::Handler
   def self.register(server, klass); end
 
   def self.try_require(prefix, const_name); end
-end
-
-module Rack::Lint::Assertion
-  extend ::T::Sig
 end
 
 class Rack::Lint::HijackWrapper
@@ -23334,10 +18231,6 @@ end
 
 module Rack::Mime
   MIME_TYPES = ::T.let(nil, ::T.untyped)
-end
-
-module Rack::Mime
-  extend ::T::Sig
 end
 
 class Rack::MockRequest
@@ -23401,10 +18294,6 @@ class Rack::Multipart::UploadedFile
 end
 
 class Rack::Multipart::UploadedFile
-end
-
-module Rack::Multipart
-  extend ::T::Sig
 end
 
 class Rack::NullLogger
@@ -23496,7 +18385,6 @@ module Rack::Reloader::Stat
 end
 
 module Rack::Reloader::Stat
-  extend ::T::Sig
 end
 
 class Rack::Reloader
@@ -23512,10 +18400,6 @@ end
 class Rack::Response
   CHUNKED = ::T.let(nil, ::T.untyped)
   TRANSFER_ENCODING = ::T.let(nil, ::T.untyped)
-end
-
-module Rack::Response::Helpers
-  extend ::T::Sig
 end
 
 class Rack::Runtime
@@ -23570,10 +18454,6 @@ class Rack::Session::Abstract::ID
   DEFAULT_OPTIONS = ::T.let(nil, ::T.untyped)
 end
 
-module Rack::Session::Abstract
-  extend ::T::Sig
-end
-
 class Rack::Session::Dalli
   def destroy_session(env, session_id, options); end
 
@@ -23604,10 +18484,6 @@ class Rack::Session::Pool
 end
 
 class Rack::Session::Pool
-end
-
-module Rack::Session
-  extend ::T::Sig
 end
 
 class Rack::ShowExceptions
@@ -23675,18 +18551,6 @@ end
 
 module Rack::Test::Methods
   METHODS = ::T.let(nil, ::T.untyped)
-end
-
-module Rack::Test::Methods
-  extend ::T::Sig
-end
-
-module Rack::Test::Utils
-  extend ::T::Sig
-end
-
-module Rack::Test
-  extend ::T::Sig
 end
 
 class Rack::URLMap
@@ -23757,31 +18621,14 @@ end
 
 module Rack::Utils::OkJson
   extend ::Rack::Utils::OkJson
-  extend ::T::Sig
-end
-
-module Rack::Utils
-  extend ::T::Sig
-end
-
-module Rack
-  extend ::T::Sig
 end
 
 class Rails::Application
   INITIAL_VARIABLES = ::T.let(nil, ::T.untyped)
 end
 
-module Rails::Application::Bootstrap
-  extend ::T::Sig
-end
-
 class Rails::Application::Configuration
   SERVE_STATIC_ASSETS_DEPRECATION_MESSAGE = ::T.let(nil, ::T.untyped)
-end
-
-module Rails::Application::Finisher
-  extend ::T::Sig
 end
 
 class Rails::ApplicationController
@@ -23799,38 +18646,6 @@ class Rails::BacktraceCleaner
   EMPTY_STRING = ::T.let(nil, ::T.untyped)
   RENDER_TEMPLATE_PATTERN = ::T.let(nil, ::T.untyped)
   SLASH = ::T.let(nil, ::T.untyped)
-end
-
-module Rails::Configuration
-  extend ::T::Sig
-end
-
-module Rails::Dom::Testing::Assertions::DomAssertions
-  extend ::T::Sig
-end
-
-module Rails::Dom::Testing::Assertions::SelectorAssertions::CountDescribable
-  extend ::T::Sig
-end
-
-module Rails::Dom::Testing::Assertions::SelectorAssertions
-  extend ::T::Sig
-end
-
-module Rails::Dom::Testing::Assertions::TagAssertions
-  extend ::T::Sig
-end
-
-module Rails::Dom::Testing::Assertions
-  extend ::T::Sig
-end
-
-module Rails::Dom::Testing
-  extend ::T::Sig
-end
-
-module Rails::Dom
-  extend ::T::Sig
 end
 
 module Rails::Generators
@@ -23898,7 +18713,6 @@ class Rails::Generators::Actions::CreateMigration
 end
 
 module Rails::Generators::Actions
-  extend ::T::Sig
 end
 
 class Rails::Generators::ActiveModel
@@ -23990,12 +18804,10 @@ module Rails::Generators::Migration::ClassMethods
 end
 
 module Rails::Generators::Migration::ClassMethods
-  extend ::T::Sig
 end
 
 module Rails::Generators::Migration
   extend ::ActiveSupport::Concern
-  extend ::T::Sig
 end
 
 class Rails::Generators::NamedBase
@@ -24097,32 +18909,11 @@ module Rails::Generators::ResourceHelpers
 end
 
 module Rails::Generators::ResourceHelpers
-  extend ::T::Sig
   def self.included(base); end
 end
 
 class Rails::Generators::TestCase
   include ::FileUtils::StreamUtils_
-end
-
-module Rails::Generators::Testing::Assertions
-  extend ::T::Sig
-end
-
-module Rails::Generators::Testing::Behaviour
-  extend ::T::Sig
-end
-
-module Rails::Generators::Testing::SetupAndTeardown
-  extend ::T::Sig
-end
-
-module Rails::Generators::Testing
-  extend ::T::Sig
-end
-
-module Rails::Generators
-  extend ::T::Sig
 end
 
 module Rails::Html
@@ -24133,10 +18924,6 @@ class Rails::Html::Sanitizer
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
-module Rails::Html
-  extend ::T::Sig
-end
-
 module Rails::Info
   def properties(); end
 
@@ -24144,7 +18931,6 @@ module Rails::Info
 end
 
 module Rails::Info
-  extend ::T::Sig
   def self.properties(); end
 
   def self.properties=(obj); end
@@ -24167,10 +18953,6 @@ end
 class Rails::InfoController
 end
 
-module Rails::Initializable
-  extend ::T::Sig
-end
-
 class Rails::MailersController
   def find_part(format); end
 
@@ -24186,10 +18968,6 @@ class Rails::MailersController
 end
 
 class Rails::MailersController
-end
-
-module Rails::Paths
-  extend ::T::Sig
 end
 
 class Rails::Rack::LogTailer
@@ -24215,10 +18993,6 @@ class Rails::Rack::Logger
   def started_request_message(request); end
 end
 
-module Rails::Rack
-  extend ::T::Sig
-end
-
 class Rails::Railtie
   ABSTRACT_RAILTIES = ::T.let(nil, ::T.untyped)
 end
@@ -24231,10 +19005,6 @@ module Rails::VERSION
   TINY = ::T.let(nil, ::T.untyped)
 end
 
-module Rails::VERSION
-  extend ::T::Sig
-end
-
 class Rails::WelcomeController
   def index(); end
 end
@@ -24242,15 +19012,10 @@ end
 class Rails::WelcomeController
 end
 
-module Rails
-  extend ::T::Sig
-end
-
 module Rake::Cloneable
 end
 
 module Rake::Cloneable
-  extend ::T::Sig
 end
 
 module Rake::DSL
@@ -24260,7 +19025,6 @@ module Rake::DSL
 end
 
 module Rake::DSL
-  extend ::T::Sig
 end
 
 module Rake::FileUtilsExt
@@ -24344,7 +19108,6 @@ module Rake::FileUtilsExt
   extend ::Rake::FileUtilsExt
   extend ::FileUtils
   extend ::FileUtils::StreamUtils_
-  extend ::T::Sig
   def self.nowrite_flag(); end
 
   def self.nowrite_flag=(nowrite_flag); end
@@ -24371,12 +19134,7 @@ module Random::Formatter
   ALPHANUMERIC = ::T.let(nil, ::T.untyped)
 end
 
-module Random::Formatter
-  extend ::T::Sig
-end
-
 class Random
-  extend ::T::Sig
   def self.urandom(_); end
 end
 
@@ -24384,24 +19142,11 @@ class Range
   RANGE_FORMATS = ::T.let(nil, ::T.untyped)
 end
 
-class Range
-  extend ::T::Sig
-end
-
-class RangeError
-  extend ::T::Sig
-end
-
 class Rational
   def to_d(precision); end
 end
 
-class Rational
-  extend ::T::Sig
-end
-
 module RbConfig
-  extend ::T::Sig
   def self.expand(val, config=T.unsafe(nil)); end
 
   def self.ruby(); end
@@ -24415,7 +19160,6 @@ module Readline
 end
 
 module Readline
-  extend ::T::Sig
   def self.basic_quote_characters(); end
 
   def self.basic_quote_characters=(basic_quote_characters); end
@@ -24496,12 +19240,7 @@ class Regexp
 end
 
 class Regexp
-  extend ::T::Sig
   def self.union(*_); end
-end
-
-class RegexpError
-  extend ::T::Sig
 end
 
 class Ripper::Filter
@@ -24541,10 +19280,6 @@ class RubyDep::Warning
   NOTICE_RECOMMENDATION = ::T.let(nil, ::T.untyped)
   PREFIX = ::T.let(nil, ::T.untyped)
   WARNING = ::T.let(nil, ::T.untyped)
-end
-
-module RubyDep
-  extend ::T::Sig
 end
 
 class RubyLex
@@ -25499,7 +20234,6 @@ class RubyToken::Token
 end
 
 module RubyToken
-  extend ::T::Sig
   def self.def_token(token_n, super_token=T.unsafe(nil), reading=T.unsafe(nil), *opts); end
 end
 
@@ -25530,7 +20264,6 @@ class RubyVM::InstructionSequence
 end
 
 class RubyVM::InstructionSequence
-  extend ::T::Sig
   def self.compile(*_); end
 
   def self.compile_file(*_); end
@@ -25551,28 +20284,7 @@ class RubyVM::InstructionSequence
 end
 
 class RubyVM
-  extend ::T::Sig
   def self.stat(*_); end
-end
-
-class RuntimeError
-  extend ::T::Sig
-end
-
-module SDoc::GitHub
-  extend ::T::Sig
-end
-
-module SDoc::Helpers
-  extend ::T::Sig
-end
-
-module SDoc::Templatable
-  extend ::T::Sig
-end
-
-module SDoc
-  extend ::T::Sig
 end
 
 module SQLite3
@@ -25593,10 +20305,6 @@ module SQLite3::Constants::ColumnType
   INTEGER = ::T.let(nil, ::T.untyped)
   NULL = ::T.let(nil, ::T.untyped)
   TEXT = ::T.let(nil, ::T.untyped)
-end
-
-module SQLite3::Constants::ColumnType
-  extend ::T::Sig
 end
 
 module SQLite3::Constants::ErrorCode
@@ -25628,10 +20336,6 @@ module SQLite3::Constants::ErrorCode
   TOOBIG = ::T.let(nil, ::T.untyped)
 end
 
-module SQLite3::Constants::ErrorCode
-  extend ::T::Sig
-end
-
 module SQLite3::Constants::Open
   AUTOPROXY = ::T.let(nil, ::T.untyped)
   CREATE = ::T.let(nil, ::T.untyped)
@@ -25656,7 +20360,6 @@ module SQLite3::Constants::Open
 end
 
 module SQLite3::Constants::Open
-  extend ::T::Sig
 end
 
 module SQLite3::Constants::TextRep
@@ -25665,14 +20368,6 @@ module SQLite3::Constants::TextRep
   UTF16BE = ::T.let(nil, ::T.untyped)
   UTF16LE = ::T.let(nil, ::T.untyped)
   UTF8 = ::T.let(nil, ::T.untyped)
-end
-
-module SQLite3::Constants::TextRep
-  extend ::T::Sig
-end
-
-module SQLite3::Constants
-  extend ::T::Sig
 end
 
 module SQLite3::Pragmas
@@ -25685,10 +20380,6 @@ module SQLite3::Pragmas
   WAL_CHECKPOINTS = ::T.let(nil, ::T.untyped)
 end
 
-module SQLite3::Pragmas
-  extend ::T::Sig
-end
-
 module SQLite3::VersionProxy
   BUILD = ::T.let(nil, ::T.untyped)
   MAJOR = ::T.let(nil, ::T.untyped)
@@ -25698,14 +20389,6 @@ module SQLite3::VersionProxy
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
-module SQLite3::VersionProxy
-  extend ::T::Sig
-end
-
-module SQLite3
-  extend ::T::Sig
-end
-
 module SampleApp42Rt
 end
 
@@ -25716,7 +20399,6 @@ class SampleApp42Rt::Application
 end
 
 module SampleApp42Rt
-  extend ::T::Sig
 end
 
 module SassC
@@ -25734,14 +20416,6 @@ module SassC::Native
   SassTag = ::T.let(nil, ::T.untyped)
 end
 
-module SassC::Native::LibC
-  extend ::T::Sig
-end
-
-module SassC::Native
-  extend ::T::Sig
-end
-
 module SassC::Rails
   VERSION = ::T.let(nil, ::T.untyped)
 end
@@ -25750,18 +20424,6 @@ class SassC::Rails::Importer
   EXTENSIONS = ::T.let(nil, ::T.untyped)
   GLOB = ::T.let(nil, ::T.untyped)
   PREFIXS = ::T.let(nil, ::T.untyped)
-end
-
-module SassC::Rails::SassTemplate::Functions
-  extend ::T::Sig
-end
-
-module SassC::Rails
-  extend ::T::Sig
-end
-
-module SassC::Script::Functions
-  extend ::T::Sig
 end
 
 class SassC::Script::Value::Bool
@@ -25780,44 +20442,19 @@ module SassC::Script::ValueConversion
   SEPARATORS = ::T.let(nil, ::T.untyped)
 end
 
-module SassC::Script::ValueConversion
-  extend ::T::Sig
-end
-
-module SassC::Script
-  extend ::T::Sig
-end
-
 module SassC::Util
   RUBY_ENGINE = ::T.let(nil, ::T.untyped)
   RUBY_VERSION_COMPONENTS = ::T.let(nil, ::T.untyped)
 end
 
-module SassC::Util
-  extend ::T::Sig
-end
-
-module SassC
-  extend ::T::Sig
-end
-
 ScanError = StringScanner::Error
-
-class ScriptError
-  extend ::T::Sig
-end
 
 module SecureRandom
 end
 
 module SecureRandom
   extend ::Random::Formatter
-  extend ::T::Sig
   def self.bytes(n); end
-end
-
-class SecurityError
-  extend ::T::Sig
 end
 
 class Set
@@ -25843,19 +20480,10 @@ class Set
   InspectKey = ::T.let(nil, ::T.untyped)
 end
 
-class Set
-  extend ::T::Sig
-end
-
-module Shellany
-  extend ::T::Sig
-end
-
 module Shellwords
 end
 
 module Shellwords
-  extend ::T::Sig
   def self.escape(str); end
 
   def self.join(array); end
@@ -25871,22 +20499,10 @@ module Shellwords
   def self.split(line); end
 end
 
-module Signal
-  extend ::T::Sig
-end
-
 class SignalException
   def signm(); end
 
   def signo(); end
-end
-
-class SignalException
-  extend ::T::Sig
-end
-
-class SimpleDelegator
-  extend ::T::Sig
 end
 
 module SingleForwardable
@@ -25903,10 +20519,6 @@ module SingleForwardable
   def single_delegate(hash); end
 end
 
-module SingleForwardable
-  extend ::T::Sig
-end
-
 module Singleton
   def _dump(depth=T.unsafe(nil)); end
 
@@ -25921,12 +20533,7 @@ module Singleton::SingletonClassMethods
   def clone(); end
 end
 
-module Singleton::SingletonClassMethods
-  extend ::T::Sig
-end
-
 module Singleton
-  extend ::T::Sig
   def self.__init__(klass); end
 end
 
@@ -26023,10 +20630,6 @@ class Socket
   TCP_NOPUSH = ::T.let(nil, ::T.untyped)
 end
 
-class Socket::AncillaryData
-  extend ::T::Sig
-end
-
 module Socket::Constants
   AF_CCITT = ::T.let(nil, ::T.untyped)
   AF_CHAOS = ::T.let(nil, ::T.untyped)
@@ -26116,30 +20719,6 @@ module Socket::Constants
   SO_WANTOOBFLAG = ::T.let(nil, ::T.untyped)
   TCP_NOOPT = ::T.let(nil, ::T.untyped)
   TCP_NOPUSH = ::T.let(nil, ::T.untyped)
-end
-
-module Socket::Constants
-  extend ::T::Sig
-end
-
-class Socket::Ifaddr
-  extend ::T::Sig
-end
-
-class Socket::Option
-  extend ::T::Sig
-end
-
-class Socket::UDPSource
-  extend ::T::Sig
-end
-
-class Socket
-  extend ::T::Sig
-end
-
-class SocketError
-  extend ::T::Sig
 end
 
 class Sorbet::Private::ConstantLookupCache
@@ -26316,7 +20895,6 @@ class Sorbet::Private::GemGeneratorTracepoint::Tracer
 end
 
 module Sorbet::Private::GemGeneratorTracepoint
-  extend ::T::Sig
   def self.main(output_dir=T.unsafe(nil)); end
 
   def self.output_file(); end
@@ -26394,7 +20972,6 @@ module Sorbet::Private::Main
 end
 
 module Sorbet::Private::Main
-  extend ::T::Sig
   def self.cyan(msg); end
 
   def self.emojify(emoji, msg); end
@@ -26414,7 +20991,6 @@ module Sorbet::Private::RealStdlib
 end
 
 module Sorbet::Private::RealStdlib
-  extend ::T::Sig
   def self.real_ancestors(mod); end
 
   def self.real_autoload?(o, klass); end
@@ -26506,7 +21082,6 @@ module Sorbet::Private::Status
 end
 
 module Sorbet::Private::Status
-  extend ::T::Sig
   def self.done(); end
 
   def self.say(message, print_without_tty: T.unsafe(nil)); end
@@ -26516,7 +21091,6 @@ module Sorbet::Private::StepInterface
 end
 
 module Sorbet::Private::StepInterface
-  extend ::T::Sig
   def self.main(); end
 
   def self.output_file(); end
@@ -26546,28 +21120,11 @@ class Sorbet::Private::TodoRBI
   def self.output_file(); end
 end
 
-module Sorbet::Private
-  extend ::T::Sig
-end
-
-class Sorbet
-  extend ::T::Sig
-end
-
-module SorbetRails::CustomFinderMethods
-  extend ::T::Sig
-end
-
-module SorbetRails
-  extend ::T::Sig
-end
-
 class SortedSet
   def initialize(*args, &block); end
 end
 
 class SortedSet
-  extend ::T::Sig
   def self.setup(); end
 end
 
@@ -26576,10 +21133,6 @@ module Sprockets
 end
 
 Sprockets::Autoload::Uglifier = Uglifier
-
-module Sprockets::Autoload
-  extend ::T::Sig
-end
 
 class Sprockets::Base
   include ::Sprockets::Dependencies
@@ -26599,10 +21152,6 @@ end
 
 module Sprockets::Bower
   POSSIBLE_BOWER_JSONS = ::T.let(nil, ::T.untyped)
-end
-
-module Sprockets::Bower
-  extend ::T::Sig
 end
 
 class Sprockets::Cache
@@ -26635,23 +21184,14 @@ module Sprockets::CoffeeScriptProcessor
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
-module Sprockets::CoffeeScriptProcessor
-  extend ::T::Sig
-end
-
 module Sprockets::CoffeeScriptTemplate
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
 module Sprockets::CoffeeScriptTemplate
-  extend ::T::Sig
   def self.cache_key(); end
 
   def self.call(*args); end
-end
-
-module Sprockets::Compressing
-  extend ::T::Sig
 end
 
 module Sprockets::Configuration
@@ -26669,27 +21209,15 @@ module Sprockets::Configuration
   include ::Sprockets::DigestUtils
 end
 
-module Sprockets::Configuration
-  extend ::T::Sig
-end
-
 module Sprockets::Dependencies
   include ::Sprockets::URIUtils
   include ::Sprockets::PathDigestUtils
   include ::Sprockets::PathUtils
 end
 
-module Sprockets::Dependencies
-  extend ::T::Sig
-end
-
 module Sprockets::DigestUtils
   DIGEST_SIZES = ::T.let(nil, ::T.untyped)
   HASH_ALGORITHMS = ::T.let(nil, ::T.untyped)
-end
-
-module Sprockets::DigestUtils
-  extend ::T::Sig
 end
 
 class Sprockets::DirectiveProcessor
@@ -26708,16 +21236,11 @@ module Sprockets::EcoProcessor
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
-module Sprockets::EcoProcessor
-  extend ::T::Sig
-end
-
 module Sprockets::EcoTemplate
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
 module Sprockets::EcoTemplate
-  extend ::T::Sig
   def self.cache_key(); end
 
   def self.call(*args); end
@@ -26727,16 +21250,11 @@ module Sprockets::EjsProcessor
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
-module Sprockets::EjsProcessor
-  extend ::T::Sig
-end
-
 module Sprockets::EjsTemplate
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
 module Sprockets::EjsTemplate
-  extend ::T::Sig
   def self.cache_key(); end
 
   def self.call(*args); end
@@ -26747,18 +21265,6 @@ module Sprockets::EncodingUtils
   CHARSET_DETECT = ::T.let(nil, ::T.untyped)
   CHARSET_SIZE = ::T.let(nil, ::T.untyped)
   CHARSET_START = ::T.let(nil, ::T.untyped)
-end
-
-module Sprockets::EncodingUtils
-  extend ::T::Sig
-end
-
-module Sprockets::Engines
-  extend ::T::Sig
-end
-
-module Sprockets::HTTPUtils
-  extend ::T::Sig
 end
 
 Sprockets::Index = Sprockets::CachedEnvironment
@@ -26775,62 +21281,30 @@ module Sprockets::Loader
   include ::Sprockets::HTTPUtils
 end
 
-module Sprockets::Loader
-  extend ::T::Sig
-end
-
 module Sprockets::ManifestUtils
   LEGACY_MANIFEST_RE = ::T.let(nil, ::T.untyped)
   MANIFEST_RE = ::T.let(nil, ::T.untyped)
 end
 
-module Sprockets::ManifestUtils
-  extend ::T::Sig
-end
-
 module Sprockets::Mime
   include ::Sprockets::Utils
-end
-
-module Sprockets::Mime
-  extend ::T::Sig
-end
-
-module Sprockets::PathDependencyUtils
-  extend ::T::Sig
 end
 
 module Sprockets::PathDigestUtils
   include ::Sprockets::PathUtils
 end
 
-module Sprockets::PathDigestUtils
-  extend ::T::Sig
-end
-
 module Sprockets::PathUtils
   SEPARATOR_PATTERN = ::T.let(nil, ::T.untyped)
 end
 
-module Sprockets::PathUtils
-  extend ::T::Sig
-end
-
 module Sprockets::Paths
   include ::Sprockets::Utils
-end
-
-module Sprockets::Paths
-  extend ::T::Sig
 end
 
 module Sprockets::Processing
   include ::Sprockets::Utils
   include ::Sprockets::URIUtils
-end
-
-module Sprockets::Processing
-  extend ::T::Sig
 end
 
 module Sprockets::ProcessorUtils
@@ -26841,40 +21315,12 @@ module Sprockets::ProcessorUtils
   VALID_METADATA_VALUE_TYPES_HASH = ::T.let(nil, ::T.untyped)
 end
 
-module Sprockets::ProcessorUtils
-  extend ::T::Sig
-end
-
 module Sprockets::Rails
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
-module Sprockets::Rails::Context
-  extend ::T::Sig
-end
-
 module Sprockets::Rails::Helper
   VIEW_ACCESSORS = ::T.let(nil, ::T.untyped)
-end
-
-module Sprockets::Rails::Helper
-  extend ::T::Sig
-end
-
-module Sprockets::Rails::HelperAssetResolvers
-  extend ::T::Sig
-end
-
-module Sprockets::Rails::RouteWrapper
-  extend ::T::Sig
-end
-
-module Sprockets::Rails::Utils
-  extend ::T::Sig
-end
-
-module Sprockets::Rails
-  extend ::T::Sig
 end
 
 class Sprockets::Railtie
@@ -26887,20 +21333,12 @@ module Sprockets::Resolve
   include ::Sprockets::URIUtils
 end
 
-module Sprockets::Resolve
-  extend ::T::Sig
-end
-
 class Sprockets::SassCompressor
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
 Sprockets::SassFunctions = Sprockets::SassProcessor::Functions
 
-module Sprockets::SassProcessor::Functions
-  extend ::T::Sig
-end
-
 class Sprockets::SassTemplate
 end
 
@@ -26913,23 +21351,11 @@ end
 
 class Sprockets::ScssTemplate
   def self.call(*args); end
-end
-
-module Sprockets::Server
-  extend ::T::Sig
 end
 
 module Sprockets::Transformers
   include ::Sprockets::Utils
   include ::Sprockets::ProcessorUtils
-end
-
-module Sprockets::Transformers
-  extend ::T::Sig
-end
-
-module Sprockets::URIUtils
-  extend ::T::Sig
 end
 
 class Sprockets::UglifierCompressor
@@ -26942,10 +21368,6 @@ end
 
 class Sprockets::Utils::Gzip
   COMPRESSABLE_MIME_TYPES = ::T.let(nil, ::T.untyped)
-end
-
-module Sprockets::Utils
-  extend ::T::Sig
 end
 
 class Sprockets::YUICompressor
@@ -26964,11 +21386,6 @@ module Sprockets
   extend ::Sprockets::PathDigestUtils
   extend ::Sprockets::HTTPUtils
   extend ::Sprockets::DigestUtils
-  extend ::T::Sig
-end
-
-class StandardError
-  extend ::T::Sig
 end
 
 class StaticPagesController
@@ -26984,16 +21401,8 @@ end
 class StaticPagesController
 end
 
-module StaticPagesHelper
-  extend ::T::Sig
-end
-
 class StopIteration
   def result(); end
-end
-
-class StopIteration
-  extend ::T::Sig
 end
 
 class String
@@ -27057,19 +21466,11 @@ class String
   BLANK_RE = ::T.let(nil, ::T.untyped)
 end
 
-class String
-  extend ::T::Sig
-end
-
 class StringIO
   def length(); end
 
   def truncate(_); end
 
-end
-
-class StringIO
-  extend ::T::Sig
 end
 
 class StringScanner
@@ -27162,12 +21563,7 @@ class StringScanner
   Version = ::T.let(nil, ::T.untyped)
 end
 
-class StringScanner::Error
-  extend ::T::Sig
-end
-
 class StringScanner
-  extend ::T::Sig
   def self.must_C_version(); end
 end
 
@@ -27203,10 +21599,6 @@ Struct::Passwd = Etc::Passwd
 
 Struct::Tms = Process::Tms
 
-class Struct
-  extend ::T::Sig
-end
-
 class Symbol
   def casecmp?(_); end
 
@@ -27216,20 +21608,8 @@ class Symbol
 
 end
 
-class Symbol
-  extend ::T::Sig
-end
-
-class SyntaxError
-  extend ::T::Sig
-end
-
 class SystemCallError
   def errno(); end
-end
-
-class SystemCallError
-  extend ::T::Sig
 end
 
 class SystemExit
@@ -27238,68 +21618,12 @@ class SystemExit
   def success?(); end
 end
 
-class SystemExit
-  extend ::T::Sig
-end
-
-class SystemStackError
-  extend ::T::Sig
-end
-
-class TCPServer
-  extend ::T::Sig
-end
-
-class TCPSocket
-  extend ::T::Sig
-end
-
-class TSort::Cyclic
-  extend ::T::Sig
-end
-
-module TSort
-  extend ::T::Sig
-end
-
-module TZInfo::CountryIndexDefinition::ClassMethods
-  extend ::T::Sig
-end
-
-module TZInfo::CountryIndexDefinition
-  extend ::T::Sig
-end
-
-module TZInfo::OffsetRationals
-  extend ::T::Sig
-end
-
 module TZInfo::RubyCoreSupport
   HALF_DAYS_IN_DAY = ::T.let(nil, ::T.untyped)
 end
 
-module TZInfo::RubyCoreSupport
-  extend ::T::Sig
-end
-
 class TZInfo::RubyDataSource
   REQUIRE_PATH = ::T.let(nil, ::T.untyped)
-end
-
-module TZInfo::TimezoneDefinition::ClassMethods
-  extend ::T::Sig
-end
-
-module TZInfo::TimezoneDefinition
-  extend ::T::Sig
-end
-
-module TZInfo::TimezoneIndexDefinition::ClassMethods
-  extend ::T::Sig
-end
-
-module TZInfo::TimezoneIndexDefinition
-  extend ::T::Sig
 end
 
 class TZInfo::ZoneinfoDataSource
@@ -27310,10 +21634,6 @@ end
 class TZInfo::ZoneinfoTimezoneInfo
   MAX_TIMESTAMP = ::T.let(nil, ::T.untyped)
   MIN_TIMESTAMP = ::T.let(nil, ::T.untyped)
-end
-
-module TZInfo
-  extend ::T::Sig
 end
 
 class Tempfile
@@ -27479,7 +21799,6 @@ class Thor::Actions::EmptyDirectory
 end
 
 module Thor::Actions
-  extend ::T::Sig
   def self.included(base); end
 end
 
@@ -27493,16 +21812,8 @@ class Thor::Arguments
   NUMERIC = ::T.let(nil, ::T.untyped)
 end
 
-module Thor::Base
-  extend ::T::Sig
-end
-
 class Thor::Command
   FILE_REGEXP = ::T.let(nil, ::T.untyped)
-end
-
-module Thor::CoreExt
-  extend ::T::Sig
 end
 
 Thor::DynamicTask = Thor::DynamicCommand
@@ -27512,14 +21823,6 @@ class Thor::Group
 end
 
 Thor::HiddenTask = Thor::HiddenCommand
-
-module Thor::Invocation
-  extend ::T::Sig
-end
-
-module Thor::LineEditor
-  extend ::T::Sig
-end
 
 class Thor::Option
   VALID_TYPES = ::T.let(nil, ::T.untyped)
@@ -27542,31 +21845,18 @@ module Thor::RakeCompat
 end
 
 module Thor::RakeCompat
-  extend ::T::Sig
   def self.included(base); end
 
   def self.rake_classes(); end
-end
-
-module Thor::Sandbox
-  extend ::T::Sig
 end
 
 module Thor::Shell
   SHELL_DELEGATED_METHODS = ::T.let(nil, ::T.untyped)
 end
 
-module Thor::Shell
-  extend ::T::Sig
-end
-
 Thor::Task = Thor::Command
 
 Thor::UndefinedTaskError = Thor::UndefinedCommandError
-
-module Thor::Util
-  extend ::T::Sig
-end
 
 class Thread
   def abort_on_exception(); end
@@ -27630,14 +21920,6 @@ class Thread
   def wakeup(); end
 end
 
-class Thread::Backtrace::Location
-  extend ::T::Sig
-end
-
-class Thread::Backtrace
-  extend ::T::Sig
-end
-
 class Thread::ConditionVariable
   def broadcast(); end
 
@@ -27646,10 +21928,6 @@ class Thread::ConditionVariable
   def signal(); end
 
   def wait(*_); end
-end
-
-class Thread::ConditionVariable
-  extend ::T::Sig
 end
 
 class Thread::Mutex
@@ -27664,10 +21942,6 @@ class Thread::Mutex
   def try_lock(); end
 
   def unlock(); end
-end
-
-class Thread::Mutex
-  extend ::T::Sig
 end
 
 class Thread::Queue
@@ -27700,10 +21974,6 @@ class Thread::Queue
   def size(); end
 end
 
-class Thread::Queue
-  extend ::T::Sig
-end
-
 class Thread::SizedQueue
   def <<(*_); end
 
@@ -27718,12 +21988,7 @@ class Thread::SizedQueue
   def push(*_); end
 end
 
-class Thread::SizedQueue
-  extend ::T::Sig
-end
-
 class Thread
-  extend ::T::Sig
   def self.abort_on_exception(); end
 
   def self.abort_on_exception=(abort_on_exception); end
@@ -27753,10 +22018,6 @@ class Thread
   def self.stop(); end
 end
 
-class ThreadError
-  extend ::T::Sig
-end
-
 class ThreadGroup
   def add(_); end
 
@@ -27766,10 +22027,6 @@ class ThreadGroup
 
   def list(); end
   Default = ::T.let(nil, ::T.untyped)
-end
-
-class ThreadGroup
-  extend ::T::Sig
 end
 
 module ThreadSafe
@@ -27949,7 +22206,6 @@ end
 
 module ThreadSafe::Util::CheapLockable
   extend ::ThreadSafe::Util::Volatile
-  extend ::T::Sig
 end
 
 class ThreadSafe::Util::PowerOfTwoTuple
@@ -27994,7 +22250,6 @@ module ThreadSafe::Util::Volatile
 end
 
 module ThreadSafe::Util::Volatile
-  extend ::T::Sig
 end
 
 class ThreadSafe::Util::VolatileTuple
@@ -28026,19 +22281,9 @@ end
 
 module ThreadSafe::Util::XorShiftRandom
   extend ::ThreadSafe::Util::XorShiftRandom
-  extend ::T::Sig
 end
 
 module ThreadSafe::Util
-  extend ::T::Sig
-end
-
-module ThreadSafe
-  extend ::T::Sig
-end
-
-module Threadsafe
-  extend ::T::Sig
 end
 
 module Tilt
@@ -28063,10 +22308,6 @@ end
 
 class Tilt::CSVTemplate
   def self.engine(); end
-end
-
-module Tilt::CompiledTemplates
-  extend ::T::Sig
 end
 
 class Tilt::ERBTemplate
@@ -28168,41 +22409,17 @@ end
 
 Tilt::TOPOBJECT = Tilt::CompiledTemplates
 
-module Tilt
-  extend ::T::Sig
-end
-
 class Time
   COMMON_YEAR_DAYS_IN_MONTH = ::T.let(nil, ::T.untyped)
   DATE_FORMATS = ::T.let(nil, ::T.untyped)
-end
-
-class Time
-  extend ::T::Sig
-end
-
-class Timeout::Error
-  extend ::T::Sig
-end
-
-module Timeout
-  extend ::T::Sig
 end
 
 class TracePoint
   def event(); end
 end
 
-class TracePoint
-  extend ::T::Sig
-end
-
 class TrueClass
   include ::JSON::Ext::Generator::GeneratorMethods::TrueClass
-end
-
-class TrueClass
-  extend ::T::Sig
 end
 
 module Turbolinks
@@ -28213,56 +22430,12 @@ module Turbolinks::Assertions
   TURBOLINKS_VISIT = ::T.let(nil, ::T.untyped)
 end
 
-module Turbolinks::Assertions
-  extend ::T::Sig
-end
-
-module Turbolinks::Controller
-  extend ::T::Sig
-end
-
-module Turbolinks::Redirection
-  extend ::T::Sig
-end
-
 module Turbolinks::Source
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
-module Turbolinks::Source
-  extend ::T::Sig
-end
-
-module Turbolinks
-  extend ::T::Sig
-end
-
-class TypeError
-  extend ::T::Sig
-end
-
-class UDPSocket
-  extend ::T::Sig
-end
-
-class UNIXServer
-  extend ::T::Sig
-end
-
-class UNIXSocket
-  extend ::T::Sig
-end
-
 module URI
   include ::URI::RFC2396_REGEXP
-end
-
-class URI::BadURIError
-  extend ::T::Sig
-end
-
-class URI::Error
-  extend ::T::Sig
 end
 
 module URI::Escape
@@ -28275,10 +22448,6 @@ module URI::Escape
   def unescape(*arg); end
 end
 
-module URI::Escape
-  extend ::T::Sig
-end
-
 class URI::FTP
   def set_typecode(v); end
 
@@ -28288,7 +22457,6 @@ class URI::FTP
 end
 
 class URI::FTP
-  extend ::T::Sig
   def self.new2(user, password, host, port, path, typecode=T.unsafe(nil), arg_check=T.unsafe(nil)); end
 end
 
@@ -28410,7 +22578,6 @@ class URI::Generic
 end
 
 class URI::Generic
-  extend ::T::Sig
   def self.build(args); end
 
   def self.build2(args); end
@@ -28426,22 +22593,6 @@ end
 
 class URI::HTTP
   def request_uri(); end
-end
-
-class URI::HTTP
-  extend ::T::Sig
-end
-
-class URI::HTTPS
-  extend ::T::Sig
-end
-
-class URI::InvalidComponentError
-  extend ::T::Sig
-end
-
-class URI::InvalidURIError
-  extend ::T::Sig
 end
 
 class URI::LDAP
@@ -28478,14 +22629,6 @@ class URI::LDAP
   def set_scope(val); end
 end
 
-class URI::LDAP
-  extend ::T::Sig
-end
-
-class URI::LDAPS
-  extend ::T::Sig
-end
-
 class URI::MailTo
   def headers(); end
 
@@ -28504,10 +22647,6 @@ class URI::MailTo
   def to_mailtext(); end
 
   def to_rfc822text(); end
-end
-
-class URI::MailTo
-  extend ::T::Sig
 end
 
 URI::Parser = URI::RFC2396_Parser
@@ -28536,18 +22675,6 @@ class URI::RFC2396_Parser
   def unescape(str, escaped=T.unsafe(nil)); end
 end
 
-class URI::RFC2396_Parser
-  extend ::T::Sig
-end
-
-module URI::RFC2396_REGEXP::PATTERN
-  extend ::T::Sig
-end
-
-module URI::RFC2396_REGEXP
-  extend ::T::Sig
-end
-
 class URI::RFC3986_Parser
   def join(*uris); end
 
@@ -28559,17 +22686,11 @@ class URI::RFC3986_Parser
   RFC3986_relative_ref = ::T.let(nil, ::T.untyped)
 end
 
-class URI::RFC3986_Parser
-  extend ::T::Sig
-end
-
 module URI::Util
-  extend ::T::Sig
   def self.make_components_hash(klass, array_hash); end
 end
 
 module URI
-  extend ::T::Sig
   extend ::URI::Escape
   def self.decode_www_form(str, enc=T.unsafe(nil), separator: T.unsafe(nil), use__charset_: T.unsafe(nil), isindex: T.unsafe(nil)); end
 
@@ -28600,49 +22721,31 @@ class UnboundMethod
   def original_name(); end
 end
 
-class UnboundMethod
-  extend ::T::Sig
-end
-
 class UncaughtThrowError
   def tag(); end
 
   def value(); end
 end
 
-class UncaughtThrowError
-  extend ::T::Sig
-end
-
 module UnicodeNormalize
 end
 
 module UnicodeNormalize
-  extend ::T::Sig
 end
 
 Visitor = Psych::Visitors::Visitor
-
-class WEBrick::HTTPServlet::AbstractServlet
-  extend ::T::Sig
-end
 
 module Warning
   def warn(_); end
 end
 
 module Warning
-  extend ::T::Sig
   extend ::Warning
 end
 
 YAML = Psych
 
 YAMLTree = Psych::Visitors::YAMLTree
-
-class ZeroDivisionError
-  extend ::T::Sig
-end
 
 module Zlib
   ASCII = ::T.let(nil, ::T.untyped)
@@ -28943,7 +23046,6 @@ class Zlib::ZStream
 end
 
 module Zlib
-  extend ::T::Sig
   def self.adler32(*_); end
 
   def self.adler32_combine(_, _1, _2); end
