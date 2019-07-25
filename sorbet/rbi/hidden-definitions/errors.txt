@@ -7293,6 +7293,8 @@
 # wrong constant name source_location
 # wrong constant name super_method
 # wrong constant name unbind
+# wrong constant name <Class:Spec>
+# wrong constant name <Class:DSL>
 # wrong constant name <Class:DefaultReporter>
 # wrong constant name <Class:HtmlReporter>
 # wrong constant name <Class:JUnitReporter>
