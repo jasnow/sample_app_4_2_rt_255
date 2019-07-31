@@ -7,7 +7,7 @@
 #
 #   https://github.com/sorbet/sorbet-typed/new/master?filename=lib/notiffany/all/notiffany.rbi
 #
-# notiffany-0.1.1
+# notiffany-0.1.2
 module Notiffany
   def self.connect(options = nil); end
 end

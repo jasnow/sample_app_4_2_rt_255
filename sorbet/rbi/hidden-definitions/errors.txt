@@ -4851,7 +4851,7 @@
 # wrong constant name transform_values
 # wrong constant name transform_values!
 # wrong constant name update
-# wrong constant name from_trusted_xml
+# wrong constant name try_convert
 # wrong constant name <Class:Gettext>
 # wrong constant name <Class:Locale>
 # wrong constant name <Class:Middleware>
@@ -7253,8 +7253,6 @@
 # wrong constant name named_captures
 # uninitialized constant MessagePack
 # uninitialized constant MessagePack
-# wrong constant name <Class:Spec>
-# wrong constant name <Class:DSL>
 # wrong constant name <Class:DefaultReporter>
 # wrong constant name <Class:HtmlReporter>
 # wrong constant name <Class:JUnitReporter>
@@ -11133,6 +11131,7 @@
 # wrong constant name my_require
 # wrong constant name patch_kernel
 # wrong constant name rails?
+# wrong constant name rb_file_paths
 # wrong constant name require_all_files
 # wrong constant name require_everything
 # wrong constant name alias
