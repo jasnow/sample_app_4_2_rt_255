@@ -10441,7 +10441,7 @@ class Hash
 end
 
 class Hash
-  def self.try_convert(_); end
+  def self.from_xml(xml, disallowed_types=T.unsafe(nil)); end
 end
 
 HashWithIndifferentAccess = ActiveSupport::HashWithIndifferentAccess
@@ -13092,10 +13092,6 @@ module Marshal
   def self.restore(*_); end
 end
 
-class MatchData
-  def named_captures(); end
-end
-
 Methods = T::Private::Methods
 
 module Mime
@@ -13143,7 +13139,37 @@ class MiniMime::Info
   BINARY_ENCODINGS = ::T.let(nil, ::T.untyped)
 end
 
-MiniTest = Minitest
+module Minitest
+end
+
+MiniTest::Assertions = Minitest::Assertions
+
+MiniTest::Expectations = Minitest::Expectations
+
+MiniTest::Guard = Minitest::Guard
+
+MiniTest::Reportable = Minitest::Reportable
+
+MiniTest::Runnable = Minitest::Runnable
+
+class Minitest::Spec
+end
+
+module Minitest::Spec::DSL
+end
+
+MiniTest::Spec::DSL::InstanceMethods = Minitest::Spec::DSL::InstanceMethods
+
+module Minitest::Spec::DSL
+end
+
+class Minitest::Spec
+end
+
+MiniTest::Test = Minitest::Test
+
+module Minitest
+end
 
 module Minitest
   ENCS = ::T.let(nil, ::T.untyped)
@@ -20887,6 +20913,8 @@ class Sorbet::Private::RequireEverything
   def self.patch_kernel(); end
 
   def self.rails?(); end
+
+  def self.rails_load_paths(); end
 
   def self.rb_file_paths(); end
 
