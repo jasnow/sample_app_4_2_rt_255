@@ -2670,10 +2670,6 @@ module ActiveRecord::AttributeMethods
   BLACKLISTED_CLASS_METHODS = ::T.let(nil, ::T.untyped)
 end
 
-module ActiveRecord::AttributeMethods::AttrNames
-  ATTR_6756273796f6e6 = ::T.let(nil, ::T.untyped)
-end
-
 module ActiveRecord::AttributeMethods::PrimaryKey::ClassMethods
   ID_ATTRIBUTE_METHODS = ::T.let(nil, ::T.untyped)
 end
@@ -2776,6 +2772,20 @@ end
 
 class ActiveRecord::FixtureSet
   MAX_ID = ::T.let(nil, ::T.untyped)
+end
+
+module ActiveRecord::LegacyYamlAdapter
+end
+
+module ActiveRecord::LegacyYamlAdapter::Rails41
+end
+
+module ActiveRecord::LegacyYamlAdapter::Rails41
+  def self.convert(klass, coder); end
+end
+
+module ActiveRecord::LegacyYamlAdapter
+  def self.convert(klass, coder); end
 end
 
 class ActiveRecord::LogSubscriber

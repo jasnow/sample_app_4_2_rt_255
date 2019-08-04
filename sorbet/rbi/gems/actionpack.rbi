@@ -191,7 +191,7 @@ class ActionController::Live::Response < ActionDispatch::Response
   def handle_conditional_get!; end
   def merge_default_headers(original, default); end
 end
-class ActionController::Live::Response::Header < Anonymous_Delegator_4
+class ActionController::Live::Response::Header < Anonymous_Delegator_3
   def []=(k, v); end
   def initialize(response, header); end
   def merge(other); end
@@ -500,7 +500,7 @@ class ActionDispatch::Journey::Format
   def self.required_path(symbol); end
   def self.required_segment(symbol); end
 end
-class Anonymous_Struct_5 < Struct
+class Anonymous_Struct_4 < Struct
   def escaper; end
   def escaper=(_); end
   def name; end
@@ -510,7 +510,7 @@ class Anonymous_Struct_5 < Struct
   def self.members; end
   def self.new(*arg0); end
 end
-class ActionDispatch::Journey::Format::Parameter < Anonymous_Struct_5
+class ActionDispatch::Journey::Format::Parameter < Anonymous_Struct_4
   def escape(value); end
 end
 module ActionDispatch::Journey::Visitors
@@ -1988,7 +1988,7 @@ module ActionController::ParamsWrapper
   def process_action(*args); end
   extend ActiveSupport::Concern
 end
-class Anonymous_Struct_6 < Struct
+class Anonymous_Struct_5 < Struct
   def exclude; end
   def exclude=(_); end
   def format; end
@@ -2006,7 +2006,7 @@ class Anonymous_Struct_6 < Struct
   def self.members; end
   def self.new(*arg0); end
 end
-class ActionController::ParamsWrapper::Options < Anonymous_Struct_6
+class ActionController::ParamsWrapper::Options < Anonymous_Struct_5
   def _default_wrap_model; end
   def include; end
   def initialize(name, format, include, exclude, klass, model); end
@@ -2602,7 +2602,7 @@ class ActionController::Base < ActionController::Metal
   extend ActiveSupport::Callbacks::ClassMethods
   extend ActiveSupport::DescendantsTracker
   extend ActiveSupport::Rescuable::ClassMethods
-  extend Anonymous_Module_7
+  extend Anonymous_Module_6
   include AbstractController::AssetPaths
   include AbstractController::Callbacks
   include AbstractController::Callbacks
@@ -2669,7 +2669,7 @@ module ActionView::RoutingUrlFor
   def self.default_url_options=(obj); end
   include ActionDispatch::Routing::UrlFor
 end
-module Anonymous_Module_7
+module Anonymous_Module_6
   def inherited(klass); end
 end
 class ActionDispatch::TestRequest < ActionDispatch::Request

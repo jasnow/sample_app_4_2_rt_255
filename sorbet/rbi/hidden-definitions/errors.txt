@@ -1156,6 +1156,7 @@
 # uninitialized constant ActiveModel::TestCase::TEARDOWN_METHODS
 # uninitialized constant ActiveModel::TestCase::UNDEFINED
 # wrong constant name <static-init>
+# wrong constant name <Class:LegacyYamlAdapter>
 # wrong constant name <Class:NullRelation>
 # wrong constant name <Class:PredicateBuilder>
 # wrong constant name <Class:SchemaDumper>
@@ -1424,6 +1425,11 @@
 # uninitialized constant ActiveRecord::ConnectionAdapters::AbstractAdapter::CALLBACK_FILTER_TYPES
 # uninitialized constant ActiveRecord::ConnectionAdapters::SQLite3Adapter::CALLBACK_FILTER_TYPES
 # uninitialized constant ActiveRecord::ConnectionAdapters::SQLite3Adapter::SIMPLE_INT
+# wrong constant name <Class:Rails41>
+# wrong constant name <static-init>
+# wrong constant name convert
+# wrong constant name <static-init>
+# wrong constant name convert
 # uninitialized constant ActiveRecord::LogSubscriber::BLACK
 # uninitialized constant ActiveRecord::LogSubscriber::BLUE
 # uninitialized constant ActiveRecord::LogSubscriber::BOLD
