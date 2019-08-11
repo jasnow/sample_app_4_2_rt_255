@@ -1157,6 +1157,7 @@
 # wrong constant name <Class:LegacyYamlAdapter>
 # wrong constant name <Class:NullRelation>
 # wrong constant name <Class:PredicateBuilder>
+# wrong constant name <Class:Schema>
 # wrong constant name <Class:SchemaDumper>
 # wrong constant name <Class:StatementCache>
 # wrong constant name aliased_table_for
@@ -1541,6 +1542,8 @@
 # uninitialized constant ActiveRecord::Relation::VALID_UNSCOPING_VALUES
 # wrong constant name define
 # wrong constant name migrations_paths
+# wrong constant name <static-init>
+# wrong constant name define
 # wrong constant name dump
 # wrong constant name ignore_tables
 # wrong constant name ignore_tables=
@@ -7169,8 +7172,6 @@
 # wrong constant name restore
 # uninitialized constant MessagePack
 # uninitialized constant MessagePack
-# wrong constant name <Class:Spec>
-# wrong constant name <Class:DSL>
 # wrong constant name <Class:DefaultReporter>
 # wrong constant name <Class:HtmlReporter>
 # wrong constant name <Class:JUnitReporter>

@@ -129,9 +129,6 @@ module ActionController::HttpAuthentication::Token
   TOKEN_REGEX = ::T.let(nil, ::T.untyped)
 end
 
-class ActionController::Live::Response::Header
-end
-
 class ActionController::Live::SSE
   WHITELISTED_OPTIONS = ::T.let(nil, ::T.untyped)
 end
@@ -2679,9 +2676,6 @@ module ActiveRecord::AttributeMethods::Read
   ReaderMethodCache = ::T.let(nil, ::T.untyped)
 end
 
-class ActiveRecord::AttributeMethods::TimeZoneConversion::TimeZoneConverter
-end
-
 module ActiveRecord::AttributeMethods::Write
   WriterMethodCache = ::T.let(nil, ::T.untyped)
 end
@@ -3047,6 +3041,10 @@ class ActiveRecord::Schema
   def migrations_paths(); end
 end
 
+class ActiveRecord::Schema
+  def self.define(info=T.unsafe(nil), &block); end
+end
+
 class ActiveRecord::SchemaDumper
   def dump(stream); end
 
@@ -3296,9 +3294,6 @@ end
 module ActiveRecord::Transactions
   ACTIONS = ::T.let(nil, ::T.untyped)
   CALLBACK_WARN_MESSAGE = ::T.let(nil, ::T.untyped)
-end
-
-class ActiveRecord::Type::Serialized
 end
 
 module ActiveRecord::VERSION
@@ -12786,9 +12781,6 @@ end
 module Mail::Parsers
 end
 
-class Mail::PartsList
-end
-
 class Mail::PhraseList
   def initialize(string); end
 
@@ -12987,37 +12979,7 @@ class MiniMime::Info
   BINARY_ENCODINGS = ::T.let(nil, ::T.untyped)
 end
 
-module Minitest
-end
-
-MiniTest::Assertions = Minitest::Assertions
-
-MiniTest::Expectations = Minitest::Expectations
-
-MiniTest::Guard = Minitest::Guard
-
-MiniTest::Reportable = Minitest::Reportable
-
-MiniTest::Runnable = Minitest::Runnable
-
-class Minitest::Spec
-end
-
-module Minitest::Spec::DSL
-end
-
-MiniTest::Spec::DSL::InstanceMethods = Minitest::Spec::DSL::InstanceMethods
-
-module Minitest::Spec::DSL
-end
-
-class Minitest::Spec
-end
-
-MiniTest::Test = Minitest::Test
-
-module Minitest
-end
+MiniTest = Minitest
 
 module Minitest
   ENCS = ::T.let(nil, ::T.untyped)
@@ -13288,9 +13250,13 @@ end
 class Net::HTTPAlreadyReported
 end
 
-Net::HTTPClientError::EXCEPTION_TYPE = Net::HTTPServerException
+class Net::HTTPClientError
+end
 
-Net::HTTPClientErrorCode = Net::HTTPClientError
+Net::HTTPClientErrorCode::EXCEPTION_TYPE = Net::HTTPServerException
+
+class Net::HTTPClientError
+end
 
 Net::HTTPFatalErrorCode = Net::HTTPClientError
 
@@ -13334,9 +13300,13 @@ end
 class Net::HTTPProcessing
 end
 
-Net::HTTPRedirection::EXCEPTION_TYPE = Net::HTTPRetriableError
+class Net::HTTPRedirection
+end
 
-Net::HTTPRedirectionCode = Net::HTTPRedirection
+Net::HTTPRedirectionCode::EXCEPTION_TYPE = Net::HTTPRetriableError
+
+class Net::HTTPRedirection
+end
 
 Net::HTTPRequestURITooLarge = Net::HTTPRequestURITooLong
 
@@ -13344,9 +13314,13 @@ Net::HTTPResponceReceiver = Net::HTTPResponse
 
 Net::HTTPRetriableCode = Net::HTTPRedirection
 
-Net::HTTPServerError::EXCEPTION_TYPE = Net::HTTPFatalError
+class Net::HTTPServerError
+end
 
-Net::HTTPServerErrorCode = Net::HTTPServerError
+Net::HTTPServerErrorCode::EXCEPTION_TYPE = Net::HTTPFatalError
+
+class Net::HTTPServerError
+end
 
 class Net::HTTP
 end
@@ -13358,9 +13332,13 @@ Net::HTTPSession::ProxyMod = Net::HTTP::ProxyDelta
 class Net::HTTP
 end
 
-Net::HTTPSuccess::EXCEPTION_TYPE = Net::HTTPError
+class Net::HTTPSuccess
+end
 
-Net::HTTPSuccessCode = Net::HTTPSuccess
+Net::HTTPSuccessCode::EXCEPTION_TYPE = Net::HTTPError
+
+class Net::HTTPSuccess
+end
 
 Net::HTTPUnknownResponse::EXCEPTION_TYPE = Net::HTTPError
 
@@ -14145,6 +14123,14 @@ end
 
 module Overcommit::OS
   SEPARATOR = ::T.let(nil, ::T.untyped)
+end
+
+module Parlour
+  VERSION = ::T.let(nil, ::T.untyped)
+end
+
+class Parlour::RbiGenerator::Parameter
+  PREFIXES = ::T.let(nil, ::T.untyped)
 end
 
 ParseError = Racc::ParseError
@@ -20849,6 +20835,8 @@ class Sorbet::Private::TodoRBI
 
   def self.output_file(); end
 end
+
+SorbetRails::ModelPlugins::Base::Parameter = Parlour::RbiGenerator::Parameter
 
 class SortedSet
   def initialize(*args, &block); end
