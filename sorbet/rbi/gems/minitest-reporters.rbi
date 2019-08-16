@@ -7,7 +7,7 @@
 #
 #   https://github.com/sorbet/sorbet-typed/new/master?filename=lib/minitest-reporters/all/minitest-reporters.rbi
 #
-# minitest-reporters-1.3.6
+# minitest-reporters-1.3.8
 module Minitest
 end
 module Minitest::RelativePosition
@@ -71,6 +71,7 @@ module Minitest::Reporters::ANSI::Code
   include ANSI::Code
 end
 class Minitest::Reporters::ProgressReporter < Minitest::Reporters::BaseReporter
+  def before_test(test); end
   def color; end
   def color=(color); end
   def initialize(options = nil); end
