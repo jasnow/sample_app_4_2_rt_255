@@ -7,7 +7,7 @@
 #
 #   https://github.com/sorbet/sorbet-typed/new/master?filename=lib/overcommit/all/overcommit.rbi
 #
-# overcommit-0.49.0
+# overcommit-0.49.1
 module Overcommit
 end
 module Overcommit::OS
