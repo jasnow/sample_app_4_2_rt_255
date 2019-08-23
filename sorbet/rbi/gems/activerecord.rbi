@@ -2811,6 +2811,7 @@ class ActiveRecord::Base
   def self.include_root_in_json; end
   def self.include_root_in_json=(val); end
   def self.include_root_in_json?; end
+  def self.inherited(child); end
   def self.local_stored_attributes; end
   def self.local_stored_attributes=(arg0); end
   def self.lock_optimistically; end
@@ -2836,6 +2837,7 @@ class ActiveRecord::Base
   def self.record_timestamps; end
   def self.record_timestamps=(val); end
   def self.record_timestamps?; end
+  def self.sbr_old_inherited(subclass); end
   def self.schema_format; end
   def self.schema_format=(obj); end
   def self.schema_migrations_table_name; end

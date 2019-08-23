@@ -6243,8 +6243,6 @@
 # wrong constant name finite?
 # wrong constant name floor$2
 # wrong constant name infinite?
-# wrong constant name negative?
-# wrong constant name positive?
 # wrong constant name round$1
 # wrong constant name step$2
 # wrong constant name truncate$1
