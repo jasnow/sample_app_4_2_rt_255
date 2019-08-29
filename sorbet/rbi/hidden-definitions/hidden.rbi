@@ -547,15 +547,6 @@ end
 class ActionDispatch::Session::CacheStore
 end
 
-class ActionDispatch::Session::MemCacheStore
-  include ::ActionDispatch::Session::Compatibility
-  include ::ActionDispatch::Session::StaleSessionCheck
-  include ::ActionDispatch::Session::SessionObject
-end
-
-class ActionDispatch::Session::MemCacheStore
-end
-
 class ActionDispatch::ShowExceptions
   FAILSAFE_RESPONSE = ::T.let(nil, ::T.untyped)
 end
@@ -3319,26 +3310,6 @@ class ActiveSupport::Cache::FileStore
   FILEPATH_MAX_SIZE = ::T.let(nil, ::T.untyped)
 end
 
-class ActiveSupport::Cache::MemCacheStore
-  def initialize(*addresses); end
-
-  def stats(); end
-  ESCAPE_KEY_CHARS = ::T.let(nil, ::T.untyped)
-end
-
-module ActiveSupport::Cache::MemCacheStore::LocalCacheWithRaw
-  def read_entry(key, options); end
-
-  def write_entry(key, entry, options); end
-end
-
-module ActiveSupport::Cache::MemCacheStore::LocalCacheWithRaw
-end
-
-class ActiveSupport::Cache::MemCacheStore
-  def self.build_mem_cache(*addresses); end
-end
-
 class ActiveSupport::Cache::MemoryStore
   def cached_size(key, entry); end
 
@@ -4885,38 +4856,6 @@ class Crass::Tokenizer
   RE_WHITESPACE_ANCHORED = ::T.let(nil, ::T.untyped)
 end
 
-module Dalli
-  VERSION = ::T.let(nil, ::T.untyped)
-end
-
-class Dalli::Client
-  CACHE_NILS = ::T.let(nil, ::T.untyped)
-end
-
-class Dalli::Ring
-  POINTS_PER_SERVER = ::T.let(nil, ::T.untyped)
-end
-
-class Dalli::Server
-  CAS_HEADER = ::T.let(nil, ::T.untyped)
-  DEFAULTS = ::T.let(nil, ::T.untyped)
-  DEFAULT_PORT = ::T.let(nil, ::T.untyped)
-  DEFAULT_WEIGHT = ::T.let(nil, ::T.untyped)
-  FLAG_COMPRESSED = ::T.let(nil, ::T.untyped)
-  FLAG_SERIALIZED = ::T.let(nil, ::T.untyped)
-  FORMAT = ::T.let(nil, ::T.untyped)
-  HEADER = ::T.let(nil, ::T.untyped)
-  KV_HEADER = ::T.let(nil, ::T.untyped)
-  MAX_ACCEPTABLE_EXPIRATION_INTERVAL = ::T.let(nil, ::T.untyped)
-  NORMAL_HEADER = ::T.let(nil, ::T.untyped)
-  NOT_FOUND = ::T.let(nil, ::T.untyped)
-  OPCODES = ::T.let(nil, ::T.untyped)
-  OP_FORMAT = ::T.let(nil, ::T.untyped)
-  REQUEST = ::T.let(nil, ::T.untyped)
-  RESPONSE = ::T.let(nil, ::T.untyped)
-  RESPONSE_CODES = ::T.let(nil, ::T.untyped)
-end
-
 class Date
   DATE_FORMATS = ::T.let(nil, ::T.untyped)
 end
@@ -5785,8 +5724,6 @@ class File
 
   def self.mkfifo(*_); end
 
-  def self.probe_stat_in(dir); end
-
 end
 
 module FileUtils
@@ -6450,7 +6387,7 @@ class Hash
 end
 
 class Hash
-  def self.from_xml(xml, disallowed_types=T.unsafe(nil)); end
+  def self.try_convert(_); end
 end
 
 HashWithIndifferentAccess = ActiveSupport::HashWithIndifferentAccess
@@ -9293,14 +9230,6 @@ class Minitest::Runnable
   SIGNALS = ::T.let(nil, ::T.untyped)
 end
 
-class Minitest::Spec
-  TYPES = ::T.let(nil, ::T.untyped)
-end
-
-module Minitest::Spec::DSL
-  TYPES = ::T.let(nil, ::T.untyped)
-end
-
 class Minitest::Test
   def run_with_hooks(*args); end
 
@@ -9356,6 +9285,8 @@ module MonitorMixin
   def synchronize(); end
 
   def try_mon_enter(); end
+  EXCEPTION_IMMEDIATE = ::T.let(nil, ::T.untyped)
+  EXCEPTION_NEVER = ::T.let(nil, ::T.untyped)
 end
 
 class MonitorMixin::ConditionVariable
@@ -9417,13 +9348,9 @@ end
 class Net::HTTPAlreadyReported
 end
 
-class Net::HTTPClientError
-end
+Net::HTTPClientError::EXCEPTION_TYPE = Net::HTTPServerException
 
-Net::HTTPClientErrorCode::EXCEPTION_TYPE = Net::HTTPServerException
-
-class Net::HTTPClientError
-end
+Net::HTTPClientErrorCode = Net::HTTPClientError
 
 Net::HTTPFatalErrorCode = Net::HTTPClientError
 
@@ -9467,13 +9394,9 @@ end
 class Net::HTTPProcessing
 end
 
-class Net::HTTPRedirection
-end
+Net::HTTPRedirection::EXCEPTION_TYPE = Net::HTTPRetriableError
 
-Net::HTTPRedirectionCode::EXCEPTION_TYPE = Net::HTTPRetriableError
-
-class Net::HTTPRedirection
-end
+Net::HTTPRedirectionCode = Net::HTTPRedirection
 
 Net::HTTPRequestURITooLarge = Net::HTTPRequestURITooLong
 
@@ -9481,13 +9404,9 @@ Net::HTTPResponceReceiver = Net::HTTPResponse
 
 Net::HTTPRetriableCode = Net::HTTPRedirection
 
-class Net::HTTPServerError
-end
+Net::HTTPServerError::EXCEPTION_TYPE = Net::HTTPFatalError
 
-Net::HTTPServerErrorCode::EXCEPTION_TYPE = Net::HTTPFatalError
-
-class Net::HTTPServerError
-end
+Net::HTTPServerErrorCode = Net::HTTPServerError
 
 class Net::HTTP
 end
@@ -11330,7 +11249,7 @@ class RDoc::Comment
 
   def format=(format); end
 
-  def initialize(text=T.unsafe(nil), location=T.unsafe(nil)); end
+  def initialize(text=T.unsafe(nil), location=T.unsafe(nil), language=T.unsafe(nil)); end
 
   def location(); end
 
@@ -12313,29 +12232,15 @@ class RDoc::Parser::C
 
   def do_boot_defclass(); end
 
-  def do_classes(); end
+  def do_classes_and_modules(); end
 
   def do_constants(); end
-
-  def do_define_class(); end
-
-  def do_define_class_under(); end
-
-  def do_define_module(); end
-
-  def do_define_module_under(); end
 
   def do_includes(); end
 
   def do_methods(); end
 
   def do_missing(); end
-
-  def do_modules(); end
-
-  def do_singleton_class(); end
-
-  def do_struct_define_without_accessor(); end
 
   def enclosure_dependencies(); end
 
@@ -13663,9 +13568,9 @@ module RDoc::Text
 end
 
 module RDoc::TokenStream
-  def add_token(*tokens); end
+  def add_token(token); end
 
-  def add_tokens(*tokens); end
+  def add_tokens(tokens); end
 
   def collect_tokens(); end
 
@@ -14321,20 +14226,6 @@ end
 
 class Rack::Session::Abstract::ID
   DEFAULT_OPTIONS = ::T.let(nil, ::T.untyped)
-end
-
-class Rack::Session::Dalli
-  def destroy_session(env, session_id, options); end
-
-  def mutex(); end
-
-  def pool(); end
-
-  def set_session(env, session_id, new_session, options); end
-  DEFAULT_DALLI_OPTIONS = ::T.let(nil, ::T.untyped)
-end
-
-class Rack::Session::Dalli
 end
 
 class Rack::Session::Pool

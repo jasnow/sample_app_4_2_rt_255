@@ -332,6 +332,8 @@
 # uninitialized constant ActionDispatch::Response::DATE
 # uninitialized constant ActionDispatch::Response::DEFAULT_CACHE_CONTROL
 # uninitialized constant ActionDispatch::Response::ETAG
+# uninitialized constant ActionDispatch::Response::EXCEPTION_IMMEDIATE
+# uninitialized constant ActionDispatch::Response::EXCEPTION_NEVER
 # uninitialized constant ActionDispatch::Response::FILTERED
 # uninitialized constant ActionDispatch::Response::LAST_MODIFIED
 # uninitialized constant ActionDispatch::Response::MUST_REVALIDATE
@@ -371,9 +373,6 @@
 # wrong constant name <static-init>
 # wrong constant name default_hsts_options
 # uninitialized constant ActionDispatch::Session::CacheStore::DEFAULT_OPTIONS
-# wrong constant name <static-init>
-# uninitialized constant ActionDispatch::Session::MemCacheStore::DEFAULT_DALLI_OPTIONS
-# uninitialized constant ActionDispatch::Session::MemCacheStore::DEFAULT_OPTIONS
 # wrong constant name <static-init>
 # uninitialized constant ActionDispatch::TestRequest::BROWSER_LIKE_ACCEPTS
 # uninitialized constant ActionDispatch::TestRequest::DEFAULT_PORTS
@@ -1422,7 +1421,11 @@
 # wrong constant name object_class=
 # wrong constant name <static-init>
 # uninitialized constant ActiveRecord::ConnectionAdapters::AbstractAdapter::CALLBACK_FILTER_TYPES
+# uninitialized constant ActiveRecord::ConnectionAdapters::AbstractAdapter::EXCEPTION_IMMEDIATE
+# uninitialized constant ActiveRecord::ConnectionAdapters::AbstractAdapter::EXCEPTION_NEVER
 # uninitialized constant ActiveRecord::ConnectionAdapters::SQLite3Adapter::CALLBACK_FILTER_TYPES
+# uninitialized constant ActiveRecord::ConnectionAdapters::SQLite3Adapter::EXCEPTION_IMMEDIATE
+# uninitialized constant ActiveRecord::ConnectionAdapters::SQLite3Adapter::EXCEPTION_NEVER
 # uninitialized constant ActiveRecord::ConnectionAdapters::SQLite3Adapter::SIMPLE_INT
 # wrong constant name <Class:Rails41>
 # wrong constant name <static-init>
@@ -1651,17 +1654,8 @@
 # wrong constant name structure_dump
 # wrong constant name structure_load
 # wrong constant name <static-init>
-# wrong constant name <Class:MemCacheStore>
 # wrong constant name <Class:MemoryStore>
 # wrong constant name <Class:NullStore>
-# wrong constant name <Class:LocalCacheWithRaw>
-# wrong constant name initialize
-# wrong constant name stats
-# wrong constant name read_entry
-# wrong constant name write_entry
-# wrong constant name <static-init>
-# wrong constant name <static-init>
-# wrong constant name build_mem_cache
 # wrong constant name cached_size
 # wrong constant name prune
 # wrong constant name pruning?
@@ -2729,7 +2723,6 @@
 # wrong constant name lchown$1
 # wrong constant name lutime
 # wrong constant name mkfifo
-# wrong constant name probe_stat_in
 # wrong constant name realdirpath$1
 # wrong constant name realpath$1
 # wrong constant name umask$1
@@ -2976,7 +2969,7 @@
 # wrong constant name transform_values
 # wrong constant name transform_values!
 # wrong constant name update
-# wrong constant name from_xml
+# wrong constant name try_convert
 # wrong constant name <Class:Gettext>
 # wrong constant name <Class:Locale>
 # wrong constant name <Class:Middleware>
@@ -3677,6 +3670,8 @@
 # wrong constant name path
 # wrong constant name exit_value
 # wrong constant name reason
+# uninitialized constant Logger::LogDevice::EXCEPTION_IMMEDIATE
+# uninitialized constant Logger::LogDevice::EXCEPTION_NEVER
 # uninitialized constant Logger::LogDevice::SiD
 # uninitialized constant Lumberjack::Device::LogFile::DEFAULT_ADDITIONAL_LINES_TEMPLATE
 # uninitialized constant Lumberjack::Device::LogFile::DEFAULT_FIRST_LINE_TEMPLATE
@@ -5868,11 +5863,6 @@
 # wrong constant name record_print_failures_if_any
 # wrong constant name record_print_status
 # wrong constant name <static-init>
-# uninitialized constant Minitest::Spec::E
-# uninitialized constant Minitest::Spec::PASSTHROUGH_EXCEPTIONS
-# uninitialized constant Minitest::Spec::SIGNALS
-# uninitialized constant Minitest::Spec::TEARDOWN_METHODS
-# uninitialized constant Minitest::Spec::UNDEFINED
 # uninitialized constant Minitest::Test::E
 # uninitialized constant Minitest::Test::SIGNALS
 # uninitialized constant Minitest::Test::UNDEFINED
@@ -5923,6 +5913,8 @@
 # wrong constant name remove_method$1
 # wrong constant name undef_method
 # wrong constant name used_modules
+# uninitialized constant Monitor::EXCEPTION_IMMEDIATE
+# uninitialized constant Monitor::EXCEPTION_NEVER
 # wrong constant name enter
 # wrong constant name exit
 # wrong constant name try_enter
@@ -5991,6 +5983,8 @@
 # wrong constant name <static-init>
 # undefined method `fetch$1' for class `Net::IMAP'
 # undefined method `uid_fetch$1' for class `Net::IMAP'
+# uninitialized constant Net::IMAP::EXCEPTION_IMMEDIATE
+# uninitialized constant Net::IMAP::EXCEPTION_NEVER
 # uninitialized constant Net::IMAP::OPENSSL_FIPS
 # uninitialized constant Net::IMAP::OPENSSL_LIBRARY_VERSION
 # uninitialized constant Net::IMAP::OPENSSL_VERSION
@@ -7342,18 +7336,11 @@
 # wrong constant name do_aliases
 # wrong constant name do_attrs
 # wrong constant name do_boot_defclass
-# wrong constant name do_classes
+# wrong constant name do_classes_and_modules
 # wrong constant name do_constants
-# wrong constant name do_define_class
-# wrong constant name do_define_class_under
-# wrong constant name do_define_module
-# wrong constant name do_define_module_under
 # wrong constant name do_includes
 # wrong constant name do_methods
 # wrong constant name do_missing
-# wrong constant name do_modules
-# wrong constant name do_singleton_class
-# wrong constant name do_struct_define_without_accessor
 # wrong constant name enclosure_dependencies
 # wrong constant name find_alias_comment
 # wrong constant name find_attr_comment
@@ -8256,12 +8243,6 @@
 # wrong constant name logging_middleware
 # wrong constant name middleware
 # wrong constant name start
-# uninitialized constant Rack::Session::Dalli::DEFAULT_OPTIONS
-# wrong constant name destroy_session
-# wrong constant name mutex
-# wrong constant name pool
-# wrong constant name set_session
-# wrong constant name <static-init>
 # wrong constant name destroy_session
 # wrong constant name generate_sid
 # wrong constant name mutex

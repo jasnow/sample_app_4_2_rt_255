@@ -7,7 +7,7 @@
 #
 #   https://github.com/sorbet/sorbet-typed/new/master?filename=lib/rdoc/all/rdoc.rbi
 #
-# rdoc-6.1.1
+# rdoc-6.2.0
 module RDoc
   def self.load_yaml; end
 end
@@ -464,7 +464,6 @@ class RDoc::Markup::Parser
   def build_list(margin); end
   def build_paragraph(margin); end
   def build_verbatim(margin); end
-  def char_pos(byte_offset); end
   def debug; end
   def debug=(arg0); end
   def get; end
@@ -476,7 +475,6 @@ class RDoc::Markup::Parser
   def self.tokenize(str); end
   def setup_scanner(input); end
   def skip(token_type, error = nil); end
-  def token_pos(byte_offset); end
   def tokenize(input); end
   def tokens; end
   def unget; end
@@ -485,6 +483,16 @@ end
 class RDoc::Markup::Parser::Error < RuntimeError
 end
 class RDoc::Markup::Parser::ParseError < RDoc::Markup::Parser::Error
+end
+class RDoc::Markup::Parser::MyStringScanner
+  def [](i); end
+  def eos?; end
+  def initialize(input); end
+  def matched; end
+  def newline!; end
+  def pos; end
+  def scan(re); end
+  def unscan(s); end
 end
 class RDoc::Markup::PreProcess
   def find_include_file(name); end
@@ -515,6 +523,8 @@ end
 module RDoc::Text
   def expand_tabs(text); end
   def flush_left(text); end
+  def language; end
+  def language=(arg0); end
   def markup(text); end
   def normalize_comment(text); end
   def parse(text, format = nil); end

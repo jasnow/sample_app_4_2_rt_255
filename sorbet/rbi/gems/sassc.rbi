@@ -7,7 +7,7 @@
 #
 #   https://github.com/sorbet/sorbet-typed/new/master?filename=lib/sassc/all/sassc.rbi
 #
-# sassc-2.1.0
+# sassc-2.2.0
 module SassC
   def self.load_paths; end
 end
@@ -489,10 +489,6 @@ class SassC::FunctionsHandler
   def initialize(options); end
   def setup(native_options); end
   def to_native_value(sass_value); end
-end
-class SassC::FunctionsHandler::FunctionWrapper
-  def self.options; end
-  def self.options=(arg0); end
 end
 class SassC::Dependency
   def filename; end

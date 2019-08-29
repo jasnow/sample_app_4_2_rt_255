@@ -58,7 +58,7 @@ class Hash
   def reverse_merge(other_hash); end
   def reverse_update(other_hash); end
   def self.from_trusted_xml(xml); end
-  def self.try_convert(arg0); end
+  def self.from_xml(xml, disallowed_types = nil); end
   def slice!(*keys); end
   def stringify_keys!; end
   def stringify_keys; end
@@ -1639,7 +1639,7 @@ class Exception
 end
 class File < IO
   def self.empty?(arg0); end
-  def self.join(*arg0); end
+  def self.probe_stat_in(dir); end
 end
 module Marshal
   def self.load_with_autoloading(source, proc = nil); end
