@@ -1639,7 +1639,7 @@ class Exception
 end
 class File < IO
   def self.empty?(arg0); end
-  def self.probe_stat_in(dir); end
+  def self.join(*arg0); end
 end
 module Marshal
   def self.load_with_autoloading(source, proc = nil); end
