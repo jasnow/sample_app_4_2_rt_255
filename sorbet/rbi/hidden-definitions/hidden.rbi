@@ -3760,7 +3760,6 @@ class Array
   def to_csv(**options); end
 
   def to_h(); end
-
 end
 
 class Array
@@ -3833,7 +3832,6 @@ class BigDecimal
   def to_d(); end
 
   def to_digits(); end
-
   DEFAULT_STRING_FORMAT = ::T.let(nil, ::T.untyped)
   EXCEPTION_NaN = ::T.let(nil, ::T.untyped)
   SIGN_NaN = ::T.let(nil, ::T.untyped)
@@ -5068,7 +5066,6 @@ end
 
 class Enumerator
   def each_with_index(); end
-
 end
 
 class Enumerator::Generator
@@ -5315,7 +5312,6 @@ end
 
 class Exception
   def full_message(*_); end
-
 end
 
 class Exception
@@ -5643,7 +5639,6 @@ class File
   def self.mkfifo(*_); end
 
   def self.probe_stat_in(dir); end
-
 end
 
 module FileUtils
@@ -5712,7 +5707,6 @@ end
 class Float
   include ::JSON::Ext::Generator::GeneratorMethods::Float
   def to_d(precision=T.unsafe(nil)); end
-
 end
 
 module Forwardable
@@ -6830,7 +6824,6 @@ class IO
   def self.foreach(*_); end
 
   def self.pipe(*_); end
-
 end
 
 class IPAddr
@@ -7587,7 +7580,6 @@ class Integer
   def to_bn(); end
 
   def to_d(); end
-
   GMP_VERSION = ::T.let(nil, ::T.untyped)
 end
 
@@ -9279,6 +9271,8 @@ end
 
 Net::HTTPInformationCode::EXCEPTION_TYPE = Net::HTTPError
 
+Net::HTTPInformationCode = Net::HTTPInformation
+
 class Net::HTTPInformation
 end
 
@@ -9335,6 +9329,8 @@ Net::HTTPSession::ProxyDelta = Net::HTTP::ProxyDelta
 
 Net::HTTPSession::ProxyMod = Net::HTTP::ProxyDelta
 
+Net::HTTPSession = Net::HTTP
+
 class Net::HTTP
 end
 
@@ -9353,7 +9349,6 @@ end
 
 class Net::IMAP
   def open_timeout(); end
-
   RESPONSE_ERRORS = ::T.let(nil, ::T.untyped)
 end
 
@@ -10137,7 +10132,6 @@ class Pathname
   def glob(*_); end
 
   def make_symlink(_); end
-
 end
 
 class Proc
@@ -10156,7 +10150,6 @@ end
 
 module Process::Sys
   def self.getegid(); end
-
 end
 
 class Process::Tms
@@ -10187,7 +10180,6 @@ module Process
   def self.last_status(); end
 
   def self.setpgrp(); end
-
 end
 
 class ProgressBar::Components::Bar
@@ -14804,7 +14796,6 @@ end
 
 module Random::Formatter
   def alphanumeric(n=T.unsafe(nil)); end
-
   ALPHANUMERIC = ::T.let(nil, ::T.untyped)
 end
 
@@ -17144,7 +17135,6 @@ class String
   def unicode_normalized?(*_); end
 
   def unpack1(_); end
-
   BLANK_RE = ::T.let(nil, ::T.untyped)
 end
 
@@ -17152,7 +17142,6 @@ class StringIO
   def length(); end
 
   def truncate(_); end
-
 end
 
 class StringScanner
