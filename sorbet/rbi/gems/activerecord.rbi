@@ -1063,6 +1063,13 @@ module ActiveRecord::Tasks
 end
 class ActiveRecord::Railtie < Rails::Railtie
 end
+module ActiveRecord::Enum
+  def _enum_methods_module; end
+  def detect_enum_conflict!(enum_name, method_name, klass_method = nil); end
+  def enum(*args, **kwargs); end
+  def inherited(base); end
+  def self.extended(base); end
+end
 class ActiveRecord::LogSubscriber < ActiveSupport::LogSubscriber
   def self.reset_runtime; end
   def self.runtime; end
@@ -1384,13 +1391,6 @@ end
 module ActiveRecord::Explain
   def collecting_queries_for_explain; end
   def exec_explain(queries); end
-end
-module ActiveRecord::Enum
-  def _enum_methods_module; end
-  def detect_enum_conflict!(enum_name, method_name, klass_method = nil); end
-  def enum(definitions); end
-  def inherited(base); end
-  def self.extended(base); end
 end
 module ActiveRecord::Core
   def <=>(other_object); end
