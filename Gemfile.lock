@@ -44,6 +44,7 @@ GEM
     coderay (1.1.2)
     concurrent-ruby (1.1.5)
     crass (1.0.4)
+    dalli (2.7.10)
     debug_inspector (0.0.3)
     erubis (2.7.0)
     execjs (2.7.0)
@@ -149,6 +150,7 @@ GEM
     rb-inotify (0.10.0)
       ffi (~> 1.0)
     rdoc (6.2.0)
+    redis (4.1.2)
     ruby-progressbar (1.10.1)
     ruby_dep (1.5.0)
     sassc (2.2.0)
@@ -197,17 +199,20 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
+  dalli
   guard
   guard-minitest
   jbuilder
   jquery-rails
   mini_backtrace
+  minitest
   minitest-reporters
   overcommit
   pg
   rails (= 4.2.11.1)
   rails-html-sanitizer
   rails_12factor
+  redis
   sassc-rails
   sdoc
   sorbet
