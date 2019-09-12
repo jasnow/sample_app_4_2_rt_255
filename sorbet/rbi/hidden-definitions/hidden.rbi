@@ -547,6 +547,15 @@ end
 class ActionDispatch::Session::CacheStore
 end
 
+class ActionDispatch::Session::MemCacheStore
+  include ::ActionDispatch::Session::Compatibility
+  include ::ActionDispatch::Session::StaleSessionCheck
+  include ::ActionDispatch::Session::SessionObject
+end
+
+class ActionDispatch::Session::MemCacheStore
+end
+
 class ActionDispatch::ShowExceptions
   FAILSAFE_RESPONSE = ::T.let(nil, ::T.untyped)
 end
@@ -3310,6 +3319,26 @@ class ActiveSupport::Cache::FileStore
   FILEPATH_MAX_SIZE = ::T.let(nil, ::T.untyped)
 end
 
+class ActiveSupport::Cache::MemCacheStore
+  def initialize(*addresses); end
+
+  def stats(); end
+  ESCAPE_KEY_CHARS = ::T.let(nil, ::T.untyped)
+end
+
+module ActiveSupport::Cache::MemCacheStore::LocalCacheWithRaw
+  def read_entry(key, options); end
+
+  def write_entry(key, entry, options); end
+end
+
+module ActiveSupport::Cache::MemCacheStore::LocalCacheWithRaw
+end
+
+class ActiveSupport::Cache::MemCacheStore
+  def self.build_mem_cache(*addresses); end
+end
+
 class ActiveSupport::Cache::MemoryStore
   def cached_size(key, entry); end
 
@@ -4772,6 +4801,38 @@ class Crass::Tokenizer
   RE_UNICODE_RANGE_START = ::T.let(nil, ::T.untyped)
   RE_WHITESPACE = ::T.let(nil, ::T.untyped)
   RE_WHITESPACE_ANCHORED = ::T.let(nil, ::T.untyped)
+end
+
+module Dalli
+  VERSION = ::T.let(nil, ::T.untyped)
+end
+
+class Dalli::Client
+  CACHE_NILS = ::T.let(nil, ::T.untyped)
+end
+
+class Dalli::Ring
+  POINTS_PER_SERVER = ::T.let(nil, ::T.untyped)
+end
+
+class Dalli::Server
+  CAS_HEADER = ::T.let(nil, ::T.untyped)
+  DEFAULTS = ::T.let(nil, ::T.untyped)
+  DEFAULT_PORT = ::T.let(nil, ::T.untyped)
+  DEFAULT_WEIGHT = ::T.let(nil, ::T.untyped)
+  FLAG_COMPRESSED = ::T.let(nil, ::T.untyped)
+  FLAG_SERIALIZED = ::T.let(nil, ::T.untyped)
+  FORMAT = ::T.let(nil, ::T.untyped)
+  HEADER = ::T.let(nil, ::T.untyped)
+  KV_HEADER = ::T.let(nil, ::T.untyped)
+  MAX_ACCEPTABLE_EXPIRATION_INTERVAL = ::T.let(nil, ::T.untyped)
+  NORMAL_HEADER = ::T.let(nil, ::T.untyped)
+  NOT_FOUND = ::T.let(nil, ::T.untyped)
+  OPCODES = ::T.let(nil, ::T.untyped)
+  OP_FORMAT = ::T.let(nil, ::T.untyped)
+  REQUEST = ::T.let(nil, ::T.untyped)
+  RESPONSE = ::T.let(nil, ::T.untyped)
+  RESPONSE_CODES = ::T.let(nil, ::T.untyped)
 end
 
 class Date
@@ -9150,6 +9211,14 @@ class Minitest::Runnable
   SIGNALS = ::T.let(nil, ::T.untyped)
 end
 
+class Minitest::Spec
+  TYPES = ::T.let(nil, ::T.untyped)
+end
+
+module Minitest::Spec::DSL
+  TYPES = ::T.let(nil, ::T.untyped)
+end
+
 class Minitest::Test
   def run_with_hooks(*args); end
 
@@ -9268,19 +9337,19 @@ end
 class Net::HTTPAlreadyReported
 end
 
-Net::HTTPClientError::EXCEPTION_TYPE = Net::HTTPServerException
-
 Net::HTTPClientErrorCode = Net::HTTPClientError
 
-Net::HTTPFatalErrorCode = Net::HTTPClientError
-
-class Net::HTTPInformation
+class Net::HTTPClientError
 end
 
-Net::HTTPInformationCode::EXCEPTION_TYPE = Net::HTTPError
+Net::HTTPFatalErrorCode::EXCEPTION_TYPE = Net::HTTPServerException
 
-class Net::HTTPInformation
+class Net::HTTPClientError
 end
+
+Net::HTTPInformation::EXCEPTION_TYPE = Net::HTTPError
+
+Net::HTTPInformationCode = Net::HTTPInformation
 
 class Net::HTTPLoopDetected
   HAS_BODY = ::T.let(nil, ::T.untyped)
@@ -9314,19 +9383,27 @@ end
 class Net::HTTPProcessing
 end
 
-Net::HTTPRedirection::EXCEPTION_TYPE = Net::HTTPRetriableError
-
 Net::HTTPRedirectionCode = Net::HTTPRedirection
 
 Net::HTTPRequestURITooLarge = Net::HTTPRequestURITooLong
 
 Net::HTTPResponceReceiver = Net::HTTPResponse
 
-Net::HTTPRetriableCode = Net::HTTPRedirection
+class Net::HTTPRedirection
+end
 
-Net::HTTPServerError::EXCEPTION_TYPE = Net::HTTPFatalError
+Net::HTTPRetriableCode::EXCEPTION_TYPE = Net::HTTPRetriableError
 
-Net::HTTPServerErrorCode = Net::HTTPServerError
+class Net::HTTPRedirection
+end
+
+class Net::HTTPServerError
+end
+
+Net::HTTPServerErrorCode::EXCEPTION_TYPE = Net::HTTPFatalError
+
+class Net::HTTPServerError
+end
 
 class Net::HTTP
 end
@@ -9338,9 +9415,13 @@ Net::HTTPSession::ProxyMod = Net::HTTP::ProxyDelta
 class Net::HTTP
 end
 
-Net::HTTPSuccess::EXCEPTION_TYPE = Net::HTTPError
+class Net::HTTPSuccess
+end
 
-Net::HTTPSuccessCode = Net::HTTPSuccess
+Net::HTTPSuccessCode::EXCEPTION_TYPE = Net::HTTPError
+
+class Net::HTTPSuccess
+end
 
 Net::HTTPUnknownResponse::EXCEPTION_TYPE = Net::HTTPError
 
@@ -10037,6 +10118,12 @@ module OpenSSL::SSL
   TLS1_2_VERSION = ::T.let(nil, ::T.untyped)
   TLS1_3_VERSION = ::T.let(nil, ::T.untyped)
   TLS1_VERSION = ::T.let(nil, ::T.untyped)
+end
+
+class OpenSSL::SSL::SSLSocket
+  def alpn_protocol(); end
+
+  def tmp_key(); end
 end
 
 module OpenSSL::X509
@@ -14140,6 +14227,20 @@ class Rack::Session::Abstract::ID
   DEFAULT_OPTIONS = ::T.let(nil, ::T.untyped)
 end
 
+class Rack::Session::Dalli
+  def destroy_session(env, session_id, options); end
+
+  def mutex(); end
+
+  def pool(); end
+
+  def set_session(env, session_id, new_session, options); end
+  DEFAULT_DALLI_OPTIONS = ::T.let(nil, ::T.untyped)
+end
+
+class Rack::Session::Dalli
+end
+
 class Rack::Session::Pool
   def destroy_session(env, session_id, options); end
 
@@ -14907,6 +15008,74 @@ module Readline
   def self.vi_editing_mode(); end
 
   def self.vi_editing_mode?(); end
+end
+
+class Redis
+  Boolify = ::T.let(nil, ::T.untyped)
+  BoolifySet = ::T.let(nil, ::T.untyped)
+  Floatify = ::T.let(nil, ::T.untyped)
+  FloatifyPairs = ::T.let(nil, ::T.untyped)
+  Hashify = ::T.let(nil, ::T.untyped)
+  HashifyClusterNodeInfo = ::T.let(nil, ::T.untyped)
+  HashifyClusterNodes = ::T.let(nil, ::T.untyped)
+  HashifyClusterSlaves = ::T.let(nil, ::T.untyped)
+  HashifyClusterSlots = ::T.let(nil, ::T.untyped)
+  HashifyInfo = ::T.let(nil, ::T.untyped)
+  HashifyStreamEntries = ::T.let(nil, ::T.untyped)
+  HashifyStreamPendingDetails = ::T.let(nil, ::T.untyped)
+  HashifyStreamPendings = ::T.let(nil, ::T.untyped)
+  HashifyStreams = ::T.let(nil, ::T.untyped)
+  Noop = ::T.let(nil, ::T.untyped)
+  VERSION = ::T.let(nil, ::T.untyped)
+end
+
+class Redis::Client
+  DEFAULTS = ::T.let(nil, ::T.untyped)
+end
+
+module Redis::Cluster::KeySlotConverter
+  HASH_SLOTS = ::T.let(nil, ::T.untyped)
+  XMODEM_CRC16_LOOKUP = ::T.let(nil, ::T.untyped)
+end
+
+class Redis::Cluster::Node
+  ROLE_SLAVE = ::T.let(nil, ::T.untyped)
+end
+
+module Redis::Cluster::NodeKey
+  DEFAULT_SCHEME = ::T.let(nil, ::T.untyped)
+  DELIMITER = ::T.let(nil, ::T.untyped)
+  SECURE_SCHEME = ::T.let(nil, ::T.untyped)
+end
+
+class Redis::Cluster::Option
+  DEFAULT_SCHEME = ::T.let(nil, ::T.untyped)
+  SECURE_SCHEME = ::T.let(nil, ::T.untyped)
+  VALID_SCHEMES = ::T.let(nil, ::T.untyped)
+end
+
+class Redis::Cluster::Slot
+  ROLE_SLAVE = ::T.let(nil, ::T.untyped)
+end
+
+module Redis::Connection::CommandHelper
+  COMMAND_DELIMITER = ::T.let(nil, ::T.untyped)
+end
+
+class Redis::Connection::Ruby
+  ASTERISK = ::T.let(nil, ::T.untyped)
+  COLON = ::T.let(nil, ::T.untyped)
+  DOLLAR = ::T.let(nil, ::T.untyped)
+  MINUS = ::T.let(nil, ::T.untyped)
+  PLUS = ::T.let(nil, ::T.untyped)
+end
+
+module Redis::Connection::SocketMixin
+  CRLF = ::T.let(nil, ::T.untyped)
+end
+
+class Redis::Future
+  FutureNotReady = ::T.let(nil, ::T.untyped)
 end
 
 class Regexp
