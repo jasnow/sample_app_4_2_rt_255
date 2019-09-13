@@ -2643,8 +2643,20 @@
 # wrong constant name initialize$1
 # wrong constant name exception
 # wrong constant name to_tty?
+# undefined method `Fail$1' for module `Exception2MessageMapper'
+# Did you mean?  fail
+#                Fail
+# undefined method `Raise$1' for module `Exception2MessageMapper'
+# Did you mean?  raise
+#                Raise
+# undefined method `fail$1' for module `Exception2MessageMapper'
+# Did you mean?  fail
+#                Fail
 # wrong constant name <Class:ErrNotRegisteredException>
+# wrong constant name Fail$1
+# wrong constant name Raise$1
 # wrong constant name bind
+# wrong constant name fail$1
 # wrong constant name <static-init>
 # uninitialized constant Exception2MessageMapper::Fail
 # uninitialized constant Exception2MessageMapper::Raise
@@ -6278,6 +6290,8 @@
 # undefined method `basename$1' for class `Pathname'
 # undefined method `binread$1' for class `Pathname'
 # undefined method `binwrite$1' for class `Pathname'
+# undefined method `children$1' for class `Pathname'
+# undefined method `each_child$1' for class `Pathname'
 # undefined method `each_line$2' for class `Pathname'
 # undefined method `expand_path$1' for class `Pathname'
 # undefined method `find$2' for class `Pathname'
@@ -6293,6 +6307,8 @@
 # wrong constant name basename$1
 # wrong constant name binread$1
 # wrong constant name binwrite$1
+# wrong constant name children$1
+# wrong constant name each_child$1
 # wrong constant name each_line$2
 # wrong constant name empty?
 # wrong constant name expand_path$1

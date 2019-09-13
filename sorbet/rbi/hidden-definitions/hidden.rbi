@@ -5387,6 +5387,7 @@ end
 
 module Exception2MessageMapper
   def bind(cl); end
+
 end
 
 Exception2MessageMapper::E2MM = Exception2MessageMapper
@@ -9337,15 +9338,15 @@ end
 class Net::HTTPAlreadyReported
 end
 
-Net::HTTPClientErrorCode = Net::HTTPClientError
+class Net::HTTPClientError
+end
+
+Net::HTTPClientErrorCode::EXCEPTION_TYPE = Net::HTTPServerException
 
 class Net::HTTPClientError
 end
 
-Net::HTTPFatalErrorCode::EXCEPTION_TYPE = Net::HTTPServerException
-
-class Net::HTTPClientError
-end
+Net::HTTPFatalErrorCode = Net::HTTPClientError
 
 Net::HTTPInformation::EXCEPTION_TYPE = Net::HTTPError
 
@@ -9383,19 +9384,15 @@ end
 class Net::HTTPProcessing
 end
 
+Net::HTTPRedirection::EXCEPTION_TYPE = Net::HTTPRetriableError
+
 Net::HTTPRedirectionCode = Net::HTTPRedirection
 
 Net::HTTPRequestURITooLarge = Net::HTTPRequestURITooLong
 
 Net::HTTPResponceReceiver = Net::HTTPResponse
 
-class Net::HTTPRedirection
-end
-
-Net::HTTPRetriableCode::EXCEPTION_TYPE = Net::HTTPRetriableError
-
-class Net::HTTPRedirection
-end
+Net::HTTPRetriableCode = Net::HTTPRedirection
 
 class Net::HTTPServerError
 end
@@ -9415,13 +9412,9 @@ Net::HTTPSession::ProxyMod = Net::HTTP::ProxyDelta
 class Net::HTTP
 end
 
-class Net::HTTPSuccess
-end
+Net::HTTPSuccess::EXCEPTION_TYPE = Net::HTTPError
 
-Net::HTTPSuccessCode::EXCEPTION_TYPE = Net::HTTPError
-
-class Net::HTTPSuccess
-end
+Net::HTTPSuccessCode = Net::HTTPSuccess
 
 Net::HTTPUnknownResponse::EXCEPTION_TYPE = Net::HTTPError
 
