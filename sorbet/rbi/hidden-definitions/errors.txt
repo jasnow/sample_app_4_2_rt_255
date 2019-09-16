@@ -1801,20 +1801,6 @@
 # wrong constant name finish
 # wrong constant name patterns
 # wrong constant name start
-# uninitialized constant ApplicationController::ACTION_OPTIONS
-# uninitialized constant ApplicationController::AUTHENTICITY_TOKEN_LENGTH
-# uninitialized constant ApplicationController::CALLBACK_FILTER_TYPES
-# uninitialized constant ApplicationController::DEFAULT_PROTECTED_INSTANCE_VARIABLES
-# uninitialized constant ApplicationController::DEFAULT_SEND_FILE_DISPOSITION
-# uninitialized constant ApplicationController::DEFAULT_SEND_FILE_TYPE
-# uninitialized constant ApplicationController::EXCLUDE_PARAMETERS
-# uninitialized constant ApplicationController::MODULES
-# uninitialized constant ApplicationController::PROTECTED_IVARS
-# uninitialized constant ApplicationController::REDIRECT_OPTIONS
-# uninitialized constant ApplicationController::RENDERERS
-# uninitialized constant ApplicationController::RENDER_FORMATS_IN_PRIORITY
-# uninitialized constant ApplicationController::URL_OPTIONS
-# wrong constant name <static-init>
 # undefined method `[]$2' for class `Array'
 # undefined method `[]=$2' for class `Array'
 # undefined method `append$1' for class `Array'
@@ -9039,11 +9025,6 @@
 # uninitialized constant SQLite3::Blob::BLANK_RE
 # wrong constant name <static-init>
 # wrong constant name <static-init>
-# wrong constant name <Class:Application>
-# uninitialized constant SampleApp42Rt::Application::ABSTRACT_RAILTIES
-# uninitialized constant SampleApp42Rt::Application::INITIAL_VARIABLES
-# wrong constant name <static-init>
-# wrong constant name <static-init>
 # wrong constant name <static-init>
 # wrong constant name bytes
 # wrong constant name ==
@@ -9354,24 +9335,6 @@
 # uninitialized constant Sprockets::Transformers::VALID_METADATA_TYPES
 # uninitialized constant Sprockets::Transformers::VALID_METADATA_VALUE_TYPES
 # uninitialized constant Sprockets::Transformers::VALID_METADATA_VALUE_TYPES_HASH
-# uninitialized constant StaticPagesController::ACTION_OPTIONS
-# uninitialized constant StaticPagesController::AUTHENTICITY_TOKEN_LENGTH
-# uninitialized constant StaticPagesController::CALLBACK_FILTER_TYPES
-# uninitialized constant StaticPagesController::DEFAULT_PROTECTED_INSTANCE_VARIABLES
-# uninitialized constant StaticPagesController::DEFAULT_SEND_FILE_DISPOSITION
-# uninitialized constant StaticPagesController::DEFAULT_SEND_FILE_TYPE
-# uninitialized constant StaticPagesController::EXCLUDE_PARAMETERS
-# uninitialized constant StaticPagesController::MODULES
-# uninitialized constant StaticPagesController::PROTECTED_IVARS
-# uninitialized constant StaticPagesController::REDIRECT_OPTIONS
-# uninitialized constant StaticPagesController::RENDERERS
-# uninitialized constant StaticPagesController::RENDER_FORMATS_IN_PRIORITY
-# uninitialized constant StaticPagesController::URL_OPTIONS
-# wrong constant name about
-# wrong constant name contact
-# wrong constant name help
-# wrong constant name home
-# wrong constant name <static-init>
 # wrong constant name result
 # undefined method `[]$2' for class `String'
 # undefined method `byteslice$2' for class `String'

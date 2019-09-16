@@ -3728,12 +3728,6 @@ module ActiveSupport::XmlMini_REXML
   CONTENT_KEY = ::T.let(nil, ::T.untyped)
 end
 
-class ApplicationController
-end
-
-class ApplicationController
-end
-
 module Arel
   VERSION = ::T.let(nil, ::T.untyped)
 end
@@ -9338,15 +9332,15 @@ end
 class Net::HTTPAlreadyReported
 end
 
-class Net::HTTPClientError
-end
-
-Net::HTTPClientErrorCode::EXCEPTION_TYPE = Net::HTTPServerException
+Net::HTTPClientErrorCode = Net::HTTPClientError
 
 class Net::HTTPClientError
 end
 
-Net::HTTPFatalErrorCode = Net::HTTPClientError
+Net::HTTPFatalErrorCode::EXCEPTION_TYPE = Net::HTTPServerException
+
+class Net::HTTPClientError
+end
 
 class Net::HTTPInformation
 end
@@ -16237,18 +16231,6 @@ module SQLite3::VersionProxy
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
-module SampleApp42Rt
-end
-
-class SampleApp42Rt::Application
-end
-
-class SampleApp42Rt::Application
-end
-
-module SampleApp42Rt
-end
-
 module SassC
   VERSION = ::T.let(nil, ::T.untyped)
 end
@@ -17242,19 +17224,6 @@ module Sprockets
   extend ::Sprockets::PathDigestUtils
   extend ::Sprockets::HTTPUtils
   extend ::Sprockets::DigestUtils
-end
-
-class StaticPagesController
-  def about(); end
-
-  def contact(); end
-
-  def help(); end
-
-  def home(); end
-end
-
-class StaticPagesController
 end
 
 class StopIteration
