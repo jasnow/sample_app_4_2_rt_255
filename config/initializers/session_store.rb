@@ -1,4 +1,4 @@
-# typed: ignore
+# typed: strict
 # Be sure to restart your server when you modify this file.
 
 Rails.application.config.session_store :cookie_store, key: '_sample_app_4_2_rt_255_session'

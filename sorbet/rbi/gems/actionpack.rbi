@@ -268,6 +268,7 @@ class ActionController::Parameters < ActiveSupport::HashWithIndifferentAccess
   def transform_values; end
   def unpermitted_keys(params); end
   def unpermitted_parameters!(params); end
+  include SorbetRails::CustomParamsMethods
 end
 module ActionController::StrongParameters
   def params; end

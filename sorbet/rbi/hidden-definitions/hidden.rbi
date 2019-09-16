@@ -9348,9 +9348,13 @@ end
 
 Net::HTTPFatalErrorCode = Net::HTTPClientError
 
-Net::HTTPInformation::EXCEPTION_TYPE = Net::HTTPError
+class Net::HTTPInformation
+end
 
-Net::HTTPInformationCode = Net::HTTPInformation
+Net::HTTPInformationCode::EXCEPTION_TYPE = Net::HTTPError
+
+class Net::HTTPInformation
+end
 
 class Net::HTTPLoopDetected
   HAS_BODY = ::T.let(nil, ::T.untyped)
@@ -9384,15 +9388,19 @@ end
 class Net::HTTPProcessing
 end
 
-Net::HTTPRedirection::EXCEPTION_TYPE = Net::HTTPRetriableError
-
 Net::HTTPRedirectionCode = Net::HTTPRedirection
 
 Net::HTTPRequestURITooLarge = Net::HTTPRequestURITooLong
 
 Net::HTTPResponceReceiver = Net::HTTPResponse
 
-Net::HTTPRetriableCode = Net::HTTPRedirection
+class Net::HTTPRedirection
+end
+
+Net::HTTPRetriableCode::EXCEPTION_TYPE = Net::HTTPRetriableError
+
+class Net::HTTPRedirection
+end
 
 class Net::HTTPServerError
 end
@@ -9412,9 +9420,13 @@ Net::HTTPSession::ProxyMod = Net::HTTP::ProxyDelta
 class Net::HTTP
 end
 
-Net::HTTPSuccess::EXCEPTION_TYPE = Net::HTTPError
+class Net::HTTPSuccess
+end
 
-Net::HTTPSuccessCode = Net::HTTPSuccess
+Net::HTTPSuccessCode::EXCEPTION_TYPE = Net::HTTPError
+
+class Net::HTTPSuccess
+end
 
 Net::HTTPUnknownResponse::EXCEPTION_TYPE = Net::HTTPError
 
@@ -17258,14 +17270,6 @@ class String
   def []=(*_); end
 
   def casecmp?(_); end
-
-  def delete_prefix(_); end
-
-  def delete_prefix!(_); end
-
-  def delete_suffix(_); end
-
-  def delete_suffix!(_); end
 
   def each_grapheme_cluster(); end
 
