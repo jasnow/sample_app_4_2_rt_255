@@ -554,6 +554,19 @@ end
 class ActiveRecord::Scoping::ScopeRegistry
   def self.value_for(*args, &block); end
 end
+module Anonymous_ActiveRecord_AttributeMethods_GeneratedAttributeMethods_3
+  def reset_version!(*args); end
+  def restore_version!(*args); end
+  def version; end
+  def version=(value); end
+  def version?(*args); end
+  def version_before_type_cast(*args); end
+  def version_came_from_user?(*args); end
+  def version_change(*args); end
+  def version_changed?(*args); end
+  def version_was(*args); end
+  def version_will_change!(*args); end
+end
 class ActiveSupport::TestCase < Minitest::Test
   def config; end
   def config=(arg0); end

@@ -269,7 +269,7 @@ class ActiveRecord::Type::Float < ActiveRecord::Type::Value
   def type_cast_for_database(value); end
   include ActiveRecord::Type::Numeric
 end
-class ActiveRecord::Type::Serialized < Anonymous_Delegator_10
+class ActiveRecord::Type::Serialized < Anonymous_Delegator_11
   def accessor; end
   def changed_in_place?(raw_old_value, value); end
   def coder; end
@@ -672,7 +672,7 @@ class ActiveRecord::Migration::CheckPending
   def connection; end
   def initialize(app); end
 end
-class Anonymous_Struct_11 < Struct
+class Anonymous_Struct_12 < Struct
   def reverting; end
   def reverting=(_); end
   def self.[](*arg0); end
@@ -680,11 +680,11 @@ class Anonymous_Struct_11 < Struct
   def self.members; end
   def self.new(*arg0); end
 end
-class ActiveRecord::Migration::ReversibleBlockHelper < Anonymous_Struct_11
+class ActiveRecord::Migration::ReversibleBlockHelper < Anonymous_Struct_12
   def down; end
   def up; end
 end
-class Anonymous_Struct_12 < Struct
+class Anonymous_Struct_13 < Struct
   def filename; end
   def filename=(_); end
   def name; end
@@ -698,7 +698,7 @@ class Anonymous_Struct_12 < Struct
   def version; end
   def version=(_); end
 end
-class ActiveRecord::MigrationProxy < Anonymous_Struct_12
+class ActiveRecord::MigrationProxy < Anonymous_Struct_13
   def announce(*args, &block); end
   def basename; end
   def disable_ddl_transaction(*args, &block); end
@@ -763,7 +763,7 @@ module ActiveRecord::Migration::JoinTable
   def find_join_table_name(table_1, table_2, options = nil); end
   def join_table_name(table_1, table_2); end
 end
-class Anonymous_Struct_13 < Struct
+class Anonymous_Struct_14 < Struct
   def columns; end
   def columns=(_); end
   def lengths; end
@@ -787,9 +787,9 @@ class Anonymous_Struct_13 < Struct
   def where; end
   def where=(_); end
 end
-class ActiveRecord::ConnectionAdapters::IndexDefinition < Anonymous_Struct_13
+class ActiveRecord::ConnectionAdapters::IndexDefinition < Anonymous_Struct_14
 end
-class Anonymous_Struct_14 < Struct
+class Anonymous_Struct_15 < Struct
   def after; end
   def after=(_); end
   def cast_type; end
@@ -819,10 +819,10 @@ class Anonymous_Struct_14 < Struct
   def type; end
   def type=(_); end
 end
-class ActiveRecord::ConnectionAdapters::ColumnDefinition < Anonymous_Struct_14
+class ActiveRecord::ConnectionAdapters::ColumnDefinition < Anonymous_Struct_15
   def primary_key?; end
 end
-class Anonymous_Struct_15 < Struct
+class Anonymous_Struct_16 < Struct
   def column; end
   def column=(_); end
   def options; end
@@ -834,9 +834,9 @@ class Anonymous_Struct_15 < Struct
   def type; end
   def type=(_); end
 end
-class ActiveRecord::ConnectionAdapters::ChangeColumnDefinition < Anonymous_Struct_15
+class ActiveRecord::ConnectionAdapters::ChangeColumnDefinition < Anonymous_Struct_16
 end
-class Anonymous_Struct_16 < Struct
+class Anonymous_Struct_17 < Struct
   def from_table; end
   def from_table=(_); end
   def options; end
@@ -848,7 +848,7 @@ class Anonymous_Struct_16 < Struct
   def to_table; end
   def to_table=(_); end
 end
-class ActiveRecord::ConnectionAdapters::ForeignKeyDefinition < Anonymous_Struct_16
+class ActiveRecord::ConnectionAdapters::ForeignKeyDefinition < Anonymous_Struct_17
   def column; end
   def custom_primary_key?; end
   def default_primary_key; end
@@ -1777,7 +1777,7 @@ end
 module ActiveRecord::AttributeMethods::TimeZoneConversion
   extend ActiveSupport::Concern
 end
-class ActiveRecord::AttributeMethods::TimeZoneConversion::TimeZoneConverter < Anonymous_Delegator_17
+class ActiveRecord::AttributeMethods::TimeZoneConversion::TimeZoneConverter < Anonymous_Delegator_18
   def convert_time_to_time_zone(value); end
   def type_cast_from_database(value); end
   def type_cast_from_user(value); end
@@ -2983,10 +2983,10 @@ class ActiveRecord::Base
   include ActiveRecord::Validations
   include ActiveSupport::Callbacks
   include ActiveSupport::Callbacks
-  include Anonymous_ActiveRecord_AttributeMethods_GeneratedAttributeMethods_18
+  include Anonymous_ActiveRecord_AttributeMethods_GeneratedAttributeMethods_19
   include GlobalID::Identification
 end
-module Anonymous_ActiveRecord_AttributeMethods_GeneratedAttributeMethods_18
+module Anonymous_ActiveRecord_AttributeMethods_GeneratedAttributeMethods_19
   def self.lock; end
   def self.locked?; end
   def self.synchronize(&block); end
@@ -3132,9 +3132,9 @@ class ActiveRecord::SchemaMigration < ActiveRecord::Base
   def self.table_name; end
   def version; end
   include ActiveRecord::SchemaMigration::GeneratedAssociationMethods
-  include Anonymous_ActiveRecord_AttributeMethods_GeneratedAttributeMethods_19
+  include Anonymous_ActiveRecord_AttributeMethods_GeneratedAttributeMethods_3
 end
-module Anonymous_ActiveRecord_AttributeMethods_GeneratedAttributeMethods_19
+module Anonymous_ActiveRecord_AttributeMethods_GeneratedAttributeMethods_3
   def self.lock; end
   def self.locked?; end
   def self.synchronize(&block); end
@@ -3207,6 +3207,12 @@ class ActiveRecord::ConnectionAdapters::Column
   def with_type(type); end
 end
 module ActiveRecord::ConnectionAdapters::Column::Format
+end
+module ActiveRecord::LegacyYamlAdapter
+  def self.convert(klass, coder); end
+end
+module ActiveRecord::LegacyYamlAdapter::Rails41
+  def self.convert(klass, coder); end
 end
 class ActiveRecord::Associations::Preloader
   def grouped_records(association, records); end
