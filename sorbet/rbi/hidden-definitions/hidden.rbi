@@ -7111,12 +7111,12 @@ class Net::HTTPAlreadyReported
   HAS_BODY = ::T.let(nil, ::T.untyped)
 end
 
+Net::HTTPClientErrorCode = Net::HTTPClientError
+
 class Net::HTTPClientError
 end
 
-Net::HTTPClientErrorCode::EXCEPTION_TYPE = Net::HTTPServerException
-
-Net::HTTPFatalErrorCode = Net::HTTPClientError
+Net::HTTPFatalErrorCode::EXCEPTION_TYPE = Net::HTTPServerException
 
 class Net::HTTPInformation
 end
