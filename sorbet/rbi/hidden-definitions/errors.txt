@@ -971,6 +971,7 @@
 # uninitialized constant ActiveModel::TestCase::UNDEFINED
 # wrong constant name <Class:NullRelation>
 # wrong constant name <Class:PredicateBuilder>
+# wrong constant name <Class:Schema>
 # wrong constant name <Class:SchemaDumper>
 # wrong constant name <Class:StatementCache>
 # wrong constant name aliased_table_for
