@@ -4478,15 +4478,15 @@ module FileUtils
 end
 
 module FileUtils::DryRun
-  include ::FileUtils::LowMethods
   include ::FileUtils
   include ::FileUtils::StreamUtils_
+  include ::FileUtils::LowMethods
 end
 
 module FileUtils::NoWrite
-  include ::FileUtils::LowMethods
   include ::FileUtils
   include ::FileUtils::StreamUtils_
+  include ::FileUtils::LowMethods
 end
 
 module FileUtils::Verbose
@@ -7324,7 +7324,6 @@ class NilClass
 end
 
 class NoMethodError
-  include ::DidYouMean::Correctable
   def args(); end
 
   def private_call?(); end
@@ -7675,8 +7674,8 @@ class Numeric
 end
 
 class Object
-  include ::PP::ObjectMixin
   include ::JSON::Ext::Generator::GeneratorMethods::Object
+  include ::PP::ObjectMixin
   def to_yaml(options=T.unsafe(nil)); end
   ARGF = ::T.let(nil, ::T.untyped)
   ARGV = ::T.let(nil, ::T.untyped)
