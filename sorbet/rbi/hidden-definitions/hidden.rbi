@@ -649,9 +649,6 @@ class ActionView::AbstractRenderer
   def with_layout_format(*args, &block); end
 end
 
-class ActionView::ActionViewError
-end
-
 class ActionView::Base
   include ::ActionView::Context
   include ::ActionView::CompiledTemplates
@@ -745,9 +742,6 @@ class ActionView::Digestor
   def nested_dependencies(); end
 
   def options(); end
-end
-
-class ActionView::EncodingError
 end
 
 module ActionView::Helpers::AssetUrlHelper
@@ -981,8 +975,6 @@ end
 
 class ActionView::MissingTemplate
   def initialize(paths, path, prefixes, partial, details, *_); end
-
-  def path(); end
 end
 
 class ActionView::OutputBuffer
@@ -1139,8 +1131,6 @@ class ActionView::Template::Text
 
   def type=(type); end
 end
-
-ActionView::TemplateError = ActionView::Template::Error
 
 class ActionView::TemplateRenderer
   def render(context, options); end
@@ -7111,12 +7101,11 @@ class Net::HTTPAlreadyReported
   HAS_BODY = ::T.let(nil, ::T.untyped)
 end
 
+Net::HTTPClientError::EXCEPTION_TYPE = Net::HTTPServerException
+
 Net::HTTPClientErrorCode = Net::HTTPClientError
 
-class Net::HTTPClientError
-end
-
-Net::HTTPFatalErrorCode::EXCEPTION_TYPE = Net::HTTPServerException
+Net::HTTPFatalErrorCode = Net::HTTPClientError
 
 class Net::HTTPInformation
 end
@@ -7143,10 +7132,9 @@ class Net::HTTPProcessing
   HAS_BODY = ::T.let(nil, ::T.untyped)
 end
 
-class Net::HTTPRedirection
-end
+Net::HTTPRedirection::EXCEPTION_TYPE = Net::HTTPRetriableError
 
-Net::HTTPRedirectionCode::EXCEPTION_TYPE = Net::HTTPRetriableError
+Net::HTTPRedirectionCode = Net::HTTPRedirection
 
 Net::HTTPRequestURITooLarge = Net::HTTPRequestURITooLong
 
@@ -7154,10 +7142,9 @@ Net::HTTPResponceReceiver = Net::HTTPResponse
 
 Net::HTTPRetriableCode = Net::HTTPRedirection
 
-class Net::HTTPServerError
-end
+Net::HTTPServerError::EXCEPTION_TYPE = Net::HTTPFatalError
 
-Net::HTTPServerErrorCode::EXCEPTION_TYPE = Net::HTTPFatalError
+Net::HTTPServerErrorCode = Net::HTTPServerError
 
 class Net::HTTP
 end

@@ -7,7 +7,7 @@
 #
 #   https://github.com/sorbet/sorbet-typed/new/master?filename=lib/uglifier/all/uglifier.rbi
 #
-# uglifier-4.1.20
+# uglifier-4.2.0
 class Uglifier
   def comment_options; end
   def comment_setting; end
@@ -16,11 +16,18 @@ class Uglifier
   def compress(source); end
   def compressor_options; end
   def conditional_option(value, defaults, overrides = nil); end
+  def context; end
+  def context_lines_message(source, line_number, column); end
   def enclose_options; end
   def encode_regexp(regexp); end
-  def error_message(result); end
+  def error_context_format_options(low, high, line_index, column); end
+  def error_context_lines; end
+  def error_message(result, options); end
   def extract_source_mapping_url(source); end
+  def format_error_line(line, options); end
+  def format_lines(lines, options); end
   def harmony?; end
+  def harmony_error_message(message); end
   def ie8?; end
   def initialize(options = nil); end
   def input_source_map(source, generate_map); end
@@ -31,7 +38,7 @@ class Uglifier
   def negate_iife_block; end
   def output_options; end
   def parse_options; end
-  def parse_result(result, generate_map); end
+  def parse_result(result, generate_map, options); end
   def parse_source_map_options; end
   def quote_style; end
   def read_source(source); end
