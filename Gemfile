@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.2.11.1'
 
-ruby '2.5.6'
+ruby '2.5.7'
 
 gem 'sassc-rails'
 gem 'uglifier'
