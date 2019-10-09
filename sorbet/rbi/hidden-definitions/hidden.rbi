@@ -5657,6 +5657,8 @@ class File
   def self.lutime(*_); end
 
   def self.mkfifo(*_); end
+
+  def self.probe_stat_in(dir); end
 end
 
 module FileUtils
@@ -9014,37 +9016,7 @@ class MiniMime::Info
   BINARY_ENCODINGS = ::T.let(nil, ::T.untyped)
 end
 
-module Minitest
-end
-
-MiniTest::Assertions = Minitest::Assertions
-
-MiniTest::Expectations = Minitest::Expectations
-
-MiniTest::Guard = Minitest::Guard
-
-MiniTest::Reportable = Minitest::Reportable
-
-MiniTest::Runnable = Minitest::Runnable
-
-class Minitest::Spec
-end
-
-module Minitest::Spec::DSL
-end
-
-MiniTest::Spec::DSL::InstanceMethods = Minitest::Spec::DSL::InstanceMethods
-
-module Minitest::Spec::DSL
-end
-
-class Minitest::Spec
-end
-
-MiniTest::Test = Minitest::Test
-
-module Minitest
-end
+MiniTest = Minitest
 
 module Minitest
   ENCS = ::T.let(nil, ::T.untyped)
@@ -9311,8 +9283,6 @@ class Net::HTTP
   ENVIRONMENT_VARIABLE_IS_MULTIUSER_SAFE = ::T.let(nil, ::T.untyped)
 end
 
-Net::HTTP::ProxyMod = Net::HTTP::ProxyDelta
-
 class Net::HTTPAlreadyReported
   HAS_BODY = ::T.let(nil, ::T.untyped)
 end
@@ -9326,9 +9296,13 @@ Net::HTTPClientErrorCode = Net::HTTPClientError
 
 Net::HTTPFatalErrorCode = Net::HTTPClientError
 
-Net::HTTPInformation::EXCEPTION_TYPE = Net::HTTPError
+class Net::HTTPInformation
+end
 
-Net::HTTPInformationCode = Net::HTTPInformation
+Net::HTTPInformationCode::EXCEPTION_TYPE = Net::HTTPError
+
+class Net::HTTPInformation
+end
 
 class Net::HTTPLoopDetected
   HAS_BODY = ::T.let(nil, ::T.untyped)
@@ -9376,11 +9350,23 @@ Net::HTTPServerError::EXCEPTION_TYPE = Net::HTTPFatalError
 
 Net::HTTPServerErrorCode = Net::HTTPServerError
 
-Net::HTTPSession = Net::HTTP
+class Net::HTTP
+end
 
-Net::HTTPSuccess::EXCEPTION_TYPE = Net::HTTPError
+Net::HTTPSession::ProxyDelta = Net::HTTP::ProxyDelta
 
-Net::HTTPSuccessCode = Net::HTTPSuccess
+Net::HTTPSession::ProxyMod = Net::HTTP::ProxyDelta
+
+class Net::HTTP
+end
+
+class Net::HTTPSuccess
+end
+
+Net::HTTPSuccessCode::EXCEPTION_TYPE = Net::HTTPError
+
+class Net::HTTPSuccess
+end
 
 Net::HTTPUnknownResponse::EXCEPTION_TYPE = Net::HTTPError
 
@@ -16904,18 +16890,25 @@ module Sprockets
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
+Sprockets::Autoload::SassC = SassC
+
 Sprockets::Autoload::Uglifier = Uglifier
 
+class Sprockets::BabelProcessor
+  VERSION = ::T.let(nil, ::T.untyped)
+end
+
 class Sprockets::Base
+  include ::Sprockets::SourceMapUtils
   include ::Sprockets::Dependencies
   include ::Sprockets::Compressing
+  include ::Sprockets::Exporting
   include ::Sprockets::Loader
   include ::Sprockets::DigestUtils
   include ::Sprockets::Transformers
   include ::Sprockets::PathDependencyUtils
   include ::Sprockets::Processing
   include ::Sprockets::Mime
-  include ::Sprockets::Engines
   include ::Sprockets::Utils
   include ::Sprockets::URIUtils
   include ::Sprockets::PathDigestUtils
@@ -16933,6 +16926,8 @@ end
 
 class Sprockets::Cache::FileStore
   DEFAULT_MAX_SIZE = ::T.let(nil, ::T.untyped)
+  EXCLUDED_DIRS = ::T.let(nil, ::T.untyped)
+  GITKEEP_FILES = ::T.let(nil, ::T.untyped)
 end
 
 class Sprockets::Cache::MemoryStore
@@ -16940,6 +16935,8 @@ class Sprockets::Cache::MemoryStore
 end
 
 class Sprockets::Cache::NullStore
+  def clear(options=T.unsafe(nil)); end
+
   def get(key); end
 
   def set(key, value); end
@@ -16956,22 +16953,12 @@ module Sprockets::CoffeeScriptProcessor
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
-module Sprockets::CoffeeScriptTemplate
-  VERSION = ::T.let(nil, ::T.untyped)
-end
-
-module Sprockets::CoffeeScriptTemplate
-  def self.cache_key(); end
-
-  def self.call(*args); end
-end
-
 module Sprockets::Configuration
   include ::Sprockets::Dependencies
   include ::Sprockets::Compressing
+  include ::Sprockets::Exporting
   include ::Sprockets::Processing
   include ::Sprockets::Transformers
-  include ::Sprockets::Engines
   include ::Sprockets::Mime
   include ::Sprockets::Utils
   include ::Sprockets::URIUtils
@@ -16994,42 +16981,14 @@ end
 
 class Sprockets::DirectiveProcessor
   DIRECTIVE_PATTERN = ::T.let(nil, ::T.untyped)
-  VERSION = ::T.let(nil, ::T.untyped)
-end
-
-class Sprockets::ERBTemplate
-  def call(*args); end
-end
-
-class Sprockets::ERBTemplate
 end
 
 module Sprockets::EcoProcessor
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
-module Sprockets::EcoTemplate
-  VERSION = ::T.let(nil, ::T.untyped)
-end
-
-module Sprockets::EcoTemplate
-  def self.cache_key(); end
-
-  def self.call(*args); end
-end
-
 module Sprockets::EjsProcessor
   VERSION = ::T.let(nil, ::T.untyped)
-end
-
-module Sprockets::EjsTemplate
-  VERSION = ::T.let(nil, ::T.untyped)
-end
-
-module Sprockets::EjsTemplate
-  def self.cache_key(); end
-
-  def self.call(*args); end
 end
 
 module Sprockets::EncodingUtils
@@ -17039,7 +16998,9 @@ module Sprockets::EncodingUtils
   CHARSET_START = ::T.let(nil, ::T.untyped)
 end
 
-Sprockets::Index = Sprockets::CachedEnvironment
+class Sprockets::JSMincCompressor
+  VERSION = ::T.let(nil, ::T.untyped)
+end
 
 module Sprockets::Loader
   include ::Sprockets::Transformers
@@ -17047,14 +17008,12 @@ module Sprockets::Loader
   include ::Sprockets::PathDependencyUtils
   include ::Sprockets::PathUtils
   include ::Sprockets::Processing
-  include ::Sprockets::Mime
+  include ::Sprockets::Utils
   include ::Sprockets::URIUtils
   include ::Sprockets::ProcessorUtils
-  include ::Sprockets::HTTPUtils
 end
 
 module Sprockets::ManifestUtils
-  LEGACY_MANIFEST_RE = ::T.let(nil, ::T.untyped)
   MANIFEST_RE = ::T.let(nil, ::T.untyped)
 end
 
@@ -17087,6 +17046,11 @@ module Sprockets::ProcessorUtils
   VALID_METADATA_VALUE_TYPES_HASH = ::T.let(nil, ::T.untyped)
 end
 
+class Sprockets::ProcessorUtils::CompositeProcessor
+  PLURAL = ::T.let(nil, ::T.untyped)
+  SINGULAR = ::T.let(nil, ::T.untyped)
+end
+
 module Sprockets::Rails
   VERSION = ::T.let(nil, ::T.untyped)
 end
@@ -17111,18 +17075,17 @@ end
 
 Sprockets::SassFunctions = Sprockets::SassProcessor::Functions
 
-class Sprockets::SassTemplate
+module Sprockets::Server
+  ALLOWED_REQUEST_METHODS = ::T.let(nil, ::T.untyped)
 end
 
-class Sprockets::SassTemplate
-  def self.call(*args); end
-end
-
-class Sprockets::ScssTemplate
-end
-
-class Sprockets::ScssTemplate
-  def self.call(*args); end
+module Sprockets::SourceMapUtils
+  BASE64_DIGITS = ::T.let(nil, ::T.untyped)
+  BASE64_VALUES = ::T.let(nil, ::T.untyped)
+  VLQ_BASE = ::T.let(nil, ::T.untyped)
+  VLQ_BASE_MASK = ::T.let(nil, ::T.untyped)
+  VLQ_BASE_SHIFT = ::T.let(nil, ::T.untyped)
+  VLQ_CONTINUATION_BIT = ::T.let(nil, ::T.untyped)
 end
 
 module Sprockets::Transformers
@@ -17132,10 +17095,6 @@ end
 
 class Sprockets::UglifierCompressor
   VERSION = ::T.let(nil, ::T.untyped)
-end
-
-module Sprockets::Utils
-  UNBOUND_METHODS_BIND_TO_ANY_OBJECT = ::T.let(nil, ::T.untyped)
 end
 
 class Sprockets::Utils::Gzip
@@ -17149,9 +17108,9 @@ end
 module Sprockets
   extend ::Sprockets::Dependencies
   extend ::Sprockets::Compressing
+  extend ::Sprockets::Exporting
   extend ::Sprockets::Processing
   extend ::Sprockets::Transformers
-  extend ::Sprockets::Engines
   extend ::Sprockets::Mime
   extend ::Sprockets::Utils
   extend ::Sprockets::URIUtils
@@ -17166,10 +17125,6 @@ end
 
 class String
   include ::JSON::Ext::Generator::GeneratorMethods::String
-  def +@(); end
-
-  def -@(); end
-
   def []=(*_); end
 
   def casecmp?(_); end
