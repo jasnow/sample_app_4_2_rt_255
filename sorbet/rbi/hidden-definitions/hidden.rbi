@@ -17131,8 +17131,6 @@ class String
 
   def each_grapheme_cluster(); end
 
-  def encode(*_); end
-
   def encode!(*_); end
 
   def ext(newext=T.unsafe(nil)); end
