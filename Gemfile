@@ -21,6 +21,7 @@ group :development, :test do
   gem 'sqlite3', '1.3.13' # 2/7/2019: LOCKED DOWN
   gem 'byebug'
   gem 'spring'
+  gem 'brakeman'
 end
 
 group :test do

@@ -37,12 +37,13 @@ GEM
       tzinfo (~> 1.1)
     ansi (1.5.0)
     arel (6.0.4)
+    brakeman (4.6.1)
     builder (3.2.3)
     byebug (11.0.1)
     childprocess (3.0.0)
     coderay (1.1.2)
     concurrent-ruby (1.1.5)
-    crass (1.0.4)
+    crass (1.0.5)
     dalli (2.7.10)
     debug_inspector (0.0.3)
     erubis (2.7.0)
@@ -161,12 +162,12 @@ GEM
     sdoc (1.0.0)
       rdoc (>= 5.0)
     shellany (0.0.1)
-    sorbet (0.4.4869)
-      sorbet-static (= 0.4.4869)
+    sorbet (0.4.4878)
+      sorbet-static (= 0.4.4878)
     sorbet-rails (0.5.7)
       parlour (~> 0.8.0)
-    sorbet-runtime (0.4.4869)
-    sorbet-static (0.4.4869-universal-darwin-14)
+    sorbet-runtime (0.4.4878)
+    sorbet-static (0.4.4878-universal-darwin-14)
     spring (2.1.0)
     sprockets (4.0.0)
       concurrent-ruby (~> 1.0)
@@ -195,6 +196,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  brakeman
   byebug
   dalli
   guard
