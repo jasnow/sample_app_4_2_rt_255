@@ -3836,6 +3836,16 @@ class Binding
   def irb(); end
 end
 
+module Brakeman
+  CONFIG_FILES = ::T.let(nil, ::T.untyped)
+  Errors_Found_Exit_Code = ::T.let(nil, ::T.untyped)
+  Missing_Checks_Exit_Code = ::T.let(nil, ::T.untyped)
+  No_App_Found_Exit_Code = ::T.let(nil, ::T.untyped)
+  Not_Latest_Version_Exit_Code = ::T.let(nil, ::T.untyped)
+  Version = ::T.let(nil, ::T.untyped)
+  Warnings_Found_Exit_Code = ::T.let(nil, ::T.untyped)
+end
+
 Bundler::Deprecate = Gem::Deprecate
 
 class Bundler::Env
@@ -9243,6 +9253,8 @@ class Net::HTTP
   ENVIRONMENT_VARIABLE_IS_MULTIUSER_SAFE = ::T.let(nil, ::T.untyped)
 end
 
+Net::HTTP::ProxyMod = Net::HTTP::ProxyDelta
+
 class Net::HTTPAlreadyReported
   HAS_BODY = ::T.let(nil, ::T.untyped)
 end
@@ -9256,13 +9268,9 @@ Net::HTTPClientErrorCode = Net::HTTPClientError
 
 Net::HTTPFatalErrorCode = Net::HTTPClientError
 
-class Net::HTTPInformation
-end
+Net::HTTPInformation::EXCEPTION_TYPE = Net::HTTPError
 
-Net::HTTPInformationCode::EXCEPTION_TYPE = Net::HTTPError
-
-class Net::HTTPInformation
-end
+Net::HTTPInformationCode = Net::HTTPInformation
 
 class Net::HTTPLoopDetected
   HAS_BODY = ::T.let(nil, ::T.untyped)
@@ -9310,23 +9318,11 @@ Net::HTTPServerError::EXCEPTION_TYPE = Net::HTTPFatalError
 
 Net::HTTPServerErrorCode = Net::HTTPServerError
 
-class Net::HTTP
-end
+Net::HTTPSession = Net::HTTP
 
-Net::HTTPSession::ProxyDelta = Net::HTTP::ProxyDelta
+Net::HTTPSuccess::EXCEPTION_TYPE = Net::HTTPError
 
-Net::HTTPSession::ProxyMod = Net::HTTP::ProxyDelta
-
-class Net::HTTP
-end
-
-class Net::HTTPSuccess
-end
-
-Net::HTTPSuccessCode::EXCEPTION_TYPE = Net::HTTPError
-
-class Net::HTTPSuccess
-end
+Net::HTTPSuccessCode = Net::HTTPSuccess
 
 Net::HTTPUnknownResponse::EXCEPTION_TYPE = Net::HTTPError
 
