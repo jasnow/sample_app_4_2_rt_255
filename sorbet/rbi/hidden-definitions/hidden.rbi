@@ -5627,8 +5627,6 @@ class File
   def self.lutime(*_); end
 
   def self.mkfifo(*_); end
-
-  def self.probe_stat_in(dir); end
 end
 
 module FileUtils

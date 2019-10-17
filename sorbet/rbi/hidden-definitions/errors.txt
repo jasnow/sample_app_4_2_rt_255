@@ -2397,7 +2397,6 @@
 # wrong constant name exists?
 # wrong constant name lutime
 # wrong constant name mkfifo
-# wrong constant name probe_stat_in
 # wrong constant name ruby
 # wrong constant name safe_ln
 # wrong constant name sh
