@@ -3748,6 +3748,7 @@ class Array
   def to_csv(**options); end
 
   def to_h(); end
+
 end
 
 class Array
@@ -5312,6 +5313,7 @@ end
 
 module Exception2MessageMapper
   def bind(cl); end
+
 end
 
 Exception2MessageMapper::E2MM = Exception2MessageMapper
@@ -5627,6 +5629,8 @@ class File
   def self.lutime(*_); end
 
   def self.mkfifo(*_); end
+
+  def self.probe_stat_in(dir); end
 end
 
 module FileUtils
@@ -5904,6 +5908,7 @@ class Guard::Dsl
 end
 
 class Guard::Guardfile::Evaluator
+  DEFAULT_GUARDFILES = ::T.let(nil, ::T.untyped)
   ERROR_NO_GUARDFILE = ::T.let(nil, ::T.untyped)
   ERROR_NO_PLUGINS = ::T.let(nil, ::T.untyped)
 end
@@ -6257,8 +6262,6 @@ class Hash
   def default_proc(); end
 
   def default_proc=(default_proc); end
-
-  def dig(*_); end
 
   def fetch_values(*_); end
 
@@ -6810,8 +6813,6 @@ class IO
   def self.default_console_size(); end
 
   def self.foreach(*_); end
-
-  def self.pipe(*_); end
 end
 
 class IPAddr
@@ -9255,8 +9256,6 @@ class Net::HTTP
   ENVIRONMENT_VARIABLE_IS_MULTIUSER_SAFE = ::T.let(nil, ::T.untyped)
 end
 
-Net::HTTP::ProxyMod = Net::HTTP::ProxyDelta
-
 class Net::HTTPAlreadyReported
   HAS_BODY = ::T.let(nil, ::T.untyped)
 end
@@ -9270,9 +9269,13 @@ Net::HTTPClientErrorCode = Net::HTTPClientError
 
 Net::HTTPFatalErrorCode = Net::HTTPClientError
 
-Net::HTTPInformation::EXCEPTION_TYPE = Net::HTTPError
+class Net::HTTPInformation
+end
 
-Net::HTTPInformationCode = Net::HTTPInformation
+Net::HTTPInformationCode::EXCEPTION_TYPE = Net::HTTPError
+
+class Net::HTTPInformation
+end
 
 class Net::HTTPLoopDetected
   HAS_BODY = ::T.let(nil, ::T.untyped)
@@ -9320,7 +9323,15 @@ Net::HTTPServerError::EXCEPTION_TYPE = Net::HTTPFatalError
 
 Net::HTTPServerErrorCode = Net::HTTPServerError
 
-Net::HTTPSession = Net::HTTP
+class Net::HTTP
+end
+
+Net::HTTPSession::ProxyDelta = Net::HTTP::ProxyDelta
+
+Net::HTTPSession::ProxyMod = Net::HTTP::ProxyDelta
+
+class Net::HTTP
+end
 
 Net::HTTPSuccess::EXCEPTION_TYPE = Net::HTTPError
 
@@ -9337,6 +9348,7 @@ end
 
 class Net::IMAP
   def open_timeout(); end
+
   RESPONSE_ERRORS = ::T.let(nil, ::T.untyped)
 end
 
@@ -14805,6 +14817,7 @@ end
 
 module Random::Formatter
   def alphanumeric(n=T.unsafe(nil)); end
+
   ALPHANUMERIC = ::T.let(nil, ::T.untyped)
 end
 
@@ -18057,6 +18070,7 @@ module URI
   def self.encode_www_form_component(str, enc=T.unsafe(nil)); end
 
   def self.get_encoding(label); end
+
 end
 
 class Uglifier

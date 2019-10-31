@@ -7,7 +7,7 @@
 #
 #   https://github.com/sorbet/sorbet-typed/new/master?filename=lib/minitest-reporters/all/minitest-reporters.rbi
 #
-# minitest-reporters-1.4.1
+# minitest-reporters-1.4.2
 module Minitest
 end
 module Minitest::RelativePosition

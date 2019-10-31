@@ -26,7 +26,7 @@ class Array
   def to(position); end
   def to_default_s; end
   def to_formatted_s(format = nil); end
-  def to_json(options = nil); end
+  def to_json(*arg0); end
   def to_json_with_active_support_encoder(options = nil); end
   def to_json_without_active_support_encoder(*arg0); end
   def to_param; end
@@ -64,7 +64,7 @@ class Hash
   def stringify_keys; end
   def symbolize_keys!; end
   def symbolize_keys; end
-  def to_json(options = nil); end
+  def to_json(*arg0); end
   def to_json_with_active_support_encoder(options = nil); end
   def to_json_without_active_support_encoder(*arg0); end
   def to_options!; end
@@ -428,7 +428,7 @@ class Object < BasicObject
   def presence; end
   def presence_in(another_object); end
   def present?; end
-  def to_json(options = nil); end
+  def to_json(*arg0); end
   def to_json_with_active_support_encoder(options = nil); end
   def to_json_without_active_support_encoder(*arg0); end
   def to_param; end
@@ -441,7 +441,7 @@ end
 class NilClass
   def as_json(options = nil); end
   def blank?; end
-  def to_json(options = nil); end
+  def to_json(*arg0); end
   def to_json_with_active_support_encoder(options = nil); end
   def to_json_without_active_support_encoder(*arg0); end
   def to_param; end
@@ -451,7 +451,7 @@ end
 class FalseClass
   def as_json(options = nil); end
   def blank?; end
-  def to_json(options = nil); end
+  def to_json(*arg0); end
   def to_json_with_active_support_encoder(options = nil); end
   def to_json_without_active_support_encoder(*arg0); end
   def to_param; end
@@ -459,7 +459,7 @@ end
 class TrueClass
   def as_json(options = nil); end
   def blank?; end
-  def to_json(options = nil); end
+  def to_json(*arg0); end
   def to_json_with_active_support_encoder(options = nil); end
   def to_json_without_active_support_encoder(*arg0); end
   def to_param; end
@@ -506,7 +506,7 @@ class String
   def to(position); end
   def to_date; end
   def to_datetime; end
-  def to_json(options = nil); end
+  def to_json(*arg0); end
   def to_json_with_active_support_encoder(options = nil); end
   def to_json_without_active_support_encoder(*arg0); end
   def to_time(form = nil); end
@@ -1007,7 +1007,7 @@ class Integer < Numeric
   def ordinal; end
   def ordinalize; end
   def to_default_s(*arg0); end
-  def to_json(options = nil); end
+  def to_json(*arg0); end
   def to_json_with_active_support_encoder(options = nil); end
   def to_json_without_active_support_encoder(*arg0); end
   def year; end
@@ -1043,7 +1043,7 @@ end
 class Float < Numeric
   def as_json(options = nil); end
   def to_default_s; end
-  def to_json(options = nil); end
+  def to_json(*arg0); end
   def to_json_with_active_support_encoder(options = nil); end
   def to_json_without_active_support_encoder(*arg0); end
 end
@@ -1639,7 +1639,7 @@ class Exception
 end
 class File < IO
   def self.empty?(arg0); end
-  def self.probe_stat_in(dir); end
+  def self.join(*arg0); end
 end
 module Marshal
   def self.load_with_autoloading(source, proc = nil); end
