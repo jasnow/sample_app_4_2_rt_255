@@ -7,7 +7,7 @@
 #
 #   https://github.com/sorbet/sorbet-typed/new/master?filename=lib/guard/all/guard.rbi
 #
-# guard-2.16.0
+# guard-2.16.1
 module Guard
   def self._evaluate(options); end
   def self._guardfile_deprecated_check(modified); end
