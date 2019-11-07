@@ -36,6 +36,9 @@
 # wrong constant name <RESERVED_121>
 # wrong constant name <RESERVED_122>
 # wrong constant name <RESERVED_123>
+# wrong constant name <RESERVED_124>
+# wrong constant name <RESERVED_125>
+# wrong constant name <RESERVED_126>
 # wrong constant name <RESERVED_12>
 # wrong constant name <RESERVED_13>
 # wrong constant name <RESERVED_14>
@@ -685,7 +688,7 @@
 # wrong constant name <Class:RadioButtonBuilder>
 # uninitialized constant ActionView::Helpers::Tags::CollectionRadioButtons::TAG_PREFIXES
 # wrong constant name render
-# undefined method `radio_button<defaultArg>1' for class `#<Class:0x00007fce60852b50>'
+# undefined method `radio_button<defaultArg>1' for class `#<Class:0x00007ff4edb8ed88>'
 # wrong constant name radio_button<defaultArg>1
 # wrong constant name radio_button
 # wrong constant name <static-init>
@@ -9150,7 +9153,7 @@
 # uninitialized constant Rails::Generators::TestCase::VERSION
 # wrong constant name properties
 # wrong constant name properties=
-# undefined singleton method `property<defaultArg>1' for `#<Module:0x00007fce5bce4d58>'
+# undefined singleton method `property<defaultArg>1' for `#<Module:0x00007ff4edd03510>'
 # wrong constant name <static-init>
 # wrong constant name properties
 # wrong constant name properties=
