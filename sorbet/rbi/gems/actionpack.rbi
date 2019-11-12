@@ -1319,6 +1319,72 @@ module ActionController::Helpers::ClassMethods
   def helpers; end
   def modules_for_helpers(args); end
 end
+class ActionDispatch::Routing::RouteWrapper < SimpleDelegator
+  def action; end
+  def constraints; end
+  def controller; end
+  def endpoint; end
+  def engine?; end
+  def internal?; end
+  def json_regexp; end
+  def name; end
+  def path; end
+  def rack_app; end
+  def regexp; end
+  def reqs; end
+  def verb; end
+end
+class ActionDispatch::Routing::RoutesInspector
+  def collect_engine_routes(route); end
+  def collect_routes(routes); end
+  def filter_routes(filter); end
+  def format(formatter, filter = nil); end
+  def initialize(routes); end
+end
+class ActionDispatch::Routing::ConsoleFormatter
+  def draw_header(routes); end
+  def draw_section(routes); end
+  def header(routes); end
+  def initialize; end
+  def no_routes; end
+  def result; end
+  def section(routes); end
+  def section_title(title); end
+  def widths(routes); end
+end
+class ActionDispatch::Routing::HtmlTableFormatter
+  def header(routes); end
+  def initialize(view); end
+  def no_routes; end
+  def result; end
+  def section(routes); end
+  def section_title(title); end
+end
+class ActionDispatch::DebugExceptions
+  def call(env); end
+  def initialize(app, routes_app = nil); end
+  def log_error(env, wrapper); end
+  def logger(env); end
+  def render(status, body, format); end
+  def render_exception(request, exception); end
+  def routes_inspector(exception); end
+  def stderr_logger; end
+end
+class ActionDispatch::RemoteIp
+  def call(env); end
+  def check_ip; end
+  def initialize(app, check_ip_spoofing = nil, custom_proxies = nil); end
+  def proxies; end
+end
+class ActionDispatch::RemoteIp::IpSpoofAttackError < StandardError
+end
+class ActionDispatch::RemoteIp::GetIp
+  def calculate_ip; end
+  def filter_proxies(ips); end
+  def initialize(env, middleware); end
+  def ips_from(header); end
+  def to_s; end
+end
 class ActionDispatch::MiddlewareStack
   def [](i); end
   def assert_index(index, where); end
@@ -1385,72 +1451,6 @@ class ActionDispatch::PublicExceptions
   def render(status, content_type, body); end
   def render_format(status, content_type, body); end
   def render_html(status); end
-end
-class ActionDispatch::Routing::RouteWrapper < SimpleDelegator
-  def action; end
-  def constraints; end
-  def controller; end
-  def endpoint; end
-  def engine?; end
-  def internal?; end
-  def json_regexp; end
-  def name; end
-  def path; end
-  def rack_app; end
-  def regexp; end
-  def reqs; end
-  def verb; end
-end
-class ActionDispatch::Routing::RoutesInspector
-  def collect_engine_routes(route); end
-  def collect_routes(routes); end
-  def filter_routes(filter); end
-  def format(formatter, filter = nil); end
-  def initialize(routes); end
-end
-class ActionDispatch::Routing::ConsoleFormatter
-  def draw_header(routes); end
-  def draw_section(routes); end
-  def header(routes); end
-  def initialize; end
-  def no_routes; end
-  def result; end
-  def section(routes); end
-  def section_title(title); end
-  def widths(routes); end
-end
-class ActionDispatch::Routing::HtmlTableFormatter
-  def header(routes); end
-  def initialize(view); end
-  def no_routes; end
-  def result; end
-  def section(routes); end
-  def section_title(title); end
-end
-class ActionDispatch::DebugExceptions
-  def call(env); end
-  def initialize(app, routes_app = nil); end
-  def log_error(env, wrapper); end
-  def logger(env); end
-  def render(status, body, format); end
-  def render_exception(env, exception); end
-  def routes_inspector(exception); end
-  def stderr_logger; end
-end
-class ActionDispatch::RemoteIp
-  def call(env); end
-  def check_ip; end
-  def initialize(app, check_ip_spoofing = nil, custom_proxies = nil); end
-  def proxies; end
-end
-class ActionDispatch::RemoteIp::IpSpoofAttackError < StandardError
-end
-class ActionDispatch::RemoteIp::GetIp
-  def calculate_ip; end
-  def filter_proxies(ips); end
-  def initialize(env, middleware); end
-  def ips_from(header); end
-  def to_s; end
 end
 class ActionDispatch::Reloader
   def _cleanup_callbacks; end
@@ -1648,6 +1648,7 @@ module AbstractController::Collector
   def tiff(*args, &block); end
   def url_encoded_form(*args, &block); end
   def vcf(*args, &block); end
+  def web_console_v2(*args, &block); end
   def xml(*args, &block); end
   def yaml(*args, &block); end
   def zip(*args, &block); end

@@ -688,7 +688,7 @@
 # wrong constant name <Class:RadioButtonBuilder>
 # uninitialized constant ActionView::Helpers::Tags::CollectionRadioButtons::TAG_PREFIXES
 # wrong constant name render
-# undefined method `radio_button<defaultArg>1' for class `#<Class:0x00007ff4edb8ed88>'
+# undefined method `radio_button<defaultArg>1' for class `#<Class:0x00007fbb257b07e0>'
 # wrong constant name radio_button<defaultArg>1
 # wrong constant name radio_button
 # wrong constant name <static-init>
@@ -2831,10 +2831,10 @@
 # wrong constant name name=
 # wrong constant name passwd
 # wrong constant name passwd=
-# uninitialized constant Etc::Group::Elem
 # wrong constant name []
 # wrong constant name each
 # wrong constant name members
+# wrong constant name <Class:Group>
 # wrong constant name change
 # wrong constant name change=
 # wrong constant name dir
@@ -2855,10 +2855,10 @@
 # wrong constant name uclass=
 # wrong constant name uid
 # wrong constant name uid=
-# uninitialized constant Etc::Passwd::Elem
 # wrong constant name []
 # wrong constant name each
 # wrong constant name members
+# wrong constant name <Class:Passwd>
 # wrong constant name full_message
 # wrong constant name exception
 # wrong constant name to_tty?
@@ -2909,7 +2909,6 @@
 # wrong constant name exists?
 # wrong constant name lutime
 # wrong constant name mkfifo
-# wrong constant name probe_stat_in
 # wrong constant name ruby
 # wrong constant name safe_ln
 # wrong constant name sh
@@ -2986,7 +2985,6 @@
 # wrong constant name []
 # wrong constant name members
 # wrong constant name <static-init>
-# uninitialized constant Gem::Specification::Elem
 # wrong constant name correct_for_windows_path
 # wrong constant name <Class:BaseLocator>
 # wrong constant name <Class:BlockLocator>
@@ -3180,7 +3178,7 @@
 # wrong constant name transform_values
 # wrong constant name transform_values!
 # wrong constant name update
-# wrong constant name try_convert
+# wrong constant name from_trusted_xml
 # wrong constant name <Class:Gettext>
 # wrong constant name <Class:Locale>
 # wrong constant name <Class:Middleware>
@@ -6642,6 +6640,1212 @@
 # wrong constant name fips_mode
 # uninitialized constant Opus
 # uninitialized constant Opus
+# wrong constant name <Class:ActiveSqlTransaction>
+# wrong constant name <Class:AdminShutdown>
+# wrong constant name <Class:AmbiguousAlias>
+# wrong constant name <Class:AmbiguousColumn>
+# wrong constant name <Class:AmbiguousFunction>
+# wrong constant name <Class:AmbiguousParameter>
+# wrong constant name <Class:ArraySubscriptError>
+# wrong constant name <Class:AssertFailure>
+# wrong constant name <Class:BadCopyFileFormat>
+# wrong constant name <Class:BinaryEncoder>
+# wrong constant name <Class:BranchTransactionAlreadyActive>
+# uninitialized constant PG::CONNECTION_AUTH_OK
+# uninitialized constant PG::CONNECTION_AWAITING_RESPONSE
+# uninitialized constant PG::CONNECTION_BAD
+# uninitialized constant PG::CONNECTION_MADE
+# uninitialized constant PG::CONNECTION_NEEDED
+# uninitialized constant PG::CONNECTION_OK
+# uninitialized constant PG::CONNECTION_SETENV
+# uninitialized constant PG::CONNECTION_SSL_STARTUP
+# uninitialized constant PG::CONNECTION_STARTED
+# wrong constant name <Class:CannotCoerce>
+# wrong constant name <Class:CannotConnectNow>
+# wrong constant name <Class:CantChangeRuntimeParam>
+# wrong constant name <Class:CardinalityViolation>
+# wrong constant name <Class:CaseNotFound>
+# wrong constant name <Class:CharacterNotInRepertoire>
+# wrong constant name <Class:CheckViolation>
+# wrong constant name <Class:CollationMismatch>
+# wrong constant name <Class:CompositeDecoder>
+# wrong constant name <Class:CompositeEncoder>
+# wrong constant name <Class:ConfigFileError>
+# wrong constant name <Class:ConfigurationLimitExceeded>
+# wrong constant name <Class:ConnectionBad>
+# wrong constant name <Class:ConnectionDoesNotExist>
+# wrong constant name <Class:ConnectionException>
+# wrong constant name <Class:ConnectionFailure>
+# wrong constant name <Class:CopyDecoder>
+# wrong constant name <Class:CopyEncoder>
+# wrong constant name <Class:CrashShutdown>
+# wrong constant name <Class:DataCorrupted>
+# wrong constant name <Class:DataException>
+# wrong constant name <Class:DatabaseDropped>
+# wrong constant name <Class:DatatypeMismatch>
+# wrong constant name <Class:DatetimeFieldOverflow>
+# wrong constant name <Class:DependentObjectsStillExist>
+# wrong constant name <Class:DependentPrivilegeDescriptorsStillExist>
+# wrong constant name <Class:DiagnosticsException>
+# wrong constant name <Class:DiskFull>
+# wrong constant name <Class:DivisionByZero>
+# wrong constant name <Class:DuplicateAlias>
+# wrong constant name <Class:DuplicateColumn>
+# wrong constant name <Class:DuplicateCursor>
+# wrong constant name <Class:DuplicateDatabase>
+# wrong constant name <Class:DuplicateFile>
+# wrong constant name <Class:DuplicateFunction>
+# wrong constant name <Class:DuplicateObject>
+# wrong constant name <Class:DuplicatePstatement>
+# wrong constant name <Class:DuplicateSchema>
+# wrong constant name <Class:DuplicateTable>
+# wrong constant name <Class:EREContainingSqlNotPermitted>
+# wrong constant name <Class:EREModifyingSqlDataNotPermitted>
+# wrong constant name <Class:EREProhibitedSqlStatementAttempted>
+# wrong constant name <Class:EREReadingSqlDataNotPermitted>
+# wrong constant name <Class:ERIEEventTriggerProtocolViolated>
+# wrong constant name <Class:ERIEInvalidSqlstateReturned>
+# wrong constant name <Class:ERIENullValueNotAllowed>
+# wrong constant name <Class:ERIESrfProtocolViolated>
+# wrong constant name <Class:ERIETriggerProtocolViolated>
+# wrong constant name <Class:ErrorInAssignment>
+# wrong constant name <Class:EscapeCharacterConflict>
+# wrong constant name <Class:ExclusionViolation>
+# wrong constant name <Class:ExternalRoutineException>
+# wrong constant name <Class:ExternalRoutineInvocationException>
+# wrong constant name <Class:FdwColumnNameNotFound>
+# wrong constant name <Class:FdwDynamicParameterValueNeeded>
+# wrong constant name <Class:FdwError>
+# wrong constant name <Class:FdwFunctionSequenceError>
+# wrong constant name <Class:FdwInconsistentDescriptorInformation>
+# wrong constant name <Class:FdwInvalidAttributeValue>
+# wrong constant name <Class:FdwInvalidColumnName>
+# wrong constant name <Class:FdwInvalidColumnNumber>
+# wrong constant name <Class:FdwInvalidDataType>
+# wrong constant name <Class:FdwInvalidDataTypeDescriptors>
+# wrong constant name <Class:FdwInvalidDescriptorFieldIdentifier>
+# wrong constant name <Class:FdwInvalidHandle>
+# wrong constant name <Class:FdwInvalidOptionIndex>
+# wrong constant name <Class:FdwInvalidOptionName>
+# wrong constant name <Class:FdwInvalidStringFormat>
+# wrong constant name <Class:FdwInvalidStringLengthOrBufferLength>
+# wrong constant name <Class:FdwInvalidUseOfNullPointer>
+# wrong constant name <Class:FdwNoSchemas>
+# wrong constant name <Class:FdwOptionNameNotFound>
+# wrong constant name <Class:FdwOutOfMemory>
+# wrong constant name <Class:FdwReplyHandle>
+# wrong constant name <Class:FdwSchemaNotFound>
+# wrong constant name <Class:FdwTableNotFound>
+# wrong constant name <Class:FdwTooManyHandles>
+# wrong constant name <Class:FdwUnableToCreateExecution>
+# wrong constant name <Class:FdwUnableToCreateReply>
+# wrong constant name <Class:FdwUnableToEstablishConnection>
+# wrong constant name <Class:FeatureNotSupported>
+# wrong constant name <Class:FloatingPointException>
+# wrong constant name <Class:ForeignKeyViolation>
+# wrong constant name <Class:GeneratedAlways>
+# wrong constant name <Class:GroupingError>
+# wrong constant name <Class:HeldCursorRequiresSameIsolationLevel>
+# uninitialized constant PG::INVALID_OID
+# uninitialized constant PG::INV_READ
+# uninitialized constant PG::INV_WRITE
+# wrong constant name <Class:IdleInTransactionSessionTimeout>
+# wrong constant name <Class:InFailedSqlTransaction>
+# wrong constant name <Class:InappropriateAccessModeForBranchTransaction>
+# wrong constant name <Class:InappropriateIsolationLevelForBranchTransaction>
+# wrong constant name <Class:IndeterminateCollation>
+# wrong constant name <Class:IndeterminateDatatype>
+# wrong constant name <Class:IndexCorrupted>
+# wrong constant name <Class:IndicatorOverflow>
+# wrong constant name <Class:InsufficientPrivilege>
+# wrong constant name <Class:InsufficientResources>
+# wrong constant name <Class:IntegrityConstraintViolation>
+# wrong constant name <Class:InternalError>
+# wrong constant name <Class:IntervalFieldOverflow>
+# wrong constant name <Class:InvalidArgumentForLog>
+# wrong constant name <Class:InvalidArgumentForNthValue>
+# wrong constant name <Class:InvalidArgumentForNtile>
+# wrong constant name <Class:InvalidArgumentForPowerFunction>
+# wrong constant name <Class:InvalidArgumentForWidthBucketFunction>
+# wrong constant name <Class:InvalidAuthorizationSpecification>
+# wrong constant name <Class:InvalidBinaryRepresentation>
+# wrong constant name <Class:InvalidCatalogName>
+# wrong constant name <Class:InvalidChangeOfResultFields>
+# wrong constant name <Class:InvalidCharacterValueForCast>
+# wrong constant name <Class:InvalidColumnDefinition>
+# wrong constant name <Class:InvalidColumnReference>
+# wrong constant name <Class:InvalidCursorDefinition>
+# wrong constant name <Class:InvalidCursorName>
+# wrong constant name <Class:InvalidCursorState>
+# wrong constant name <Class:InvalidDatabaseDefinition>
+# wrong constant name <Class:InvalidDatetimeFormat>
+# wrong constant name <Class:InvalidEscapeCharacter>
+# wrong constant name <Class:InvalidEscapeOctet>
+# wrong constant name <Class:InvalidEscapeSequence>
+# wrong constant name <Class:InvalidForeignKey>
+# wrong constant name <Class:InvalidFunctionDefinition>
+# wrong constant name <Class:InvalidGrantOperation>
+# wrong constant name <Class:InvalidGrantor>
+# wrong constant name <Class:InvalidIndicatorParameterValue>
+# wrong constant name <Class:InvalidName>
+# wrong constant name <Class:InvalidObjectDefinition>
+# uninitialized constant PG::InvalidOid
+# wrong constant name <Class:InvalidParameterValue>
+# wrong constant name <Class:InvalidPassword>
+# wrong constant name <Class:InvalidPrecedingOrFollowingSize>
+# wrong constant name <Class:InvalidPstatementDefinition>
+# wrong constant name <Class:InvalidRecursion>
+# wrong constant name <Class:InvalidRegularExpression>
+# wrong constant name <Class:InvalidResultStatus>
+# wrong constant name <Class:InvalidRoleSpecification>
+# wrong constant name <Class:InvalidRowCountInLimitClause>
+# wrong constant name <Class:InvalidRowCountInResultOffsetClause>
+# wrong constant name <Class:InvalidSchemaDefinition>
+# wrong constant name <Class:InvalidSchemaName>
+# wrong constant name <Class:InvalidSqlStatementName>
+# wrong constant name <Class:InvalidTableDefinition>
+# wrong constant name <Class:InvalidTablesampleArgument>
+# wrong constant name <Class:InvalidTablesampleRepeat>
+# wrong constant name <Class:InvalidTextRepresentation>
+# wrong constant name <Class:InvalidTimeZoneDisplacementValue>
+# wrong constant name <Class:InvalidTransactionInitiation>
+# wrong constant name <Class:InvalidTransactionState>
+# wrong constant name <Class:InvalidTransactionTermination>
+# wrong constant name <Class:InvalidUseOfEscapeCharacter>
+# wrong constant name <Class:InvalidXmlComment>
+# wrong constant name <Class:InvalidXmlContent>
+# wrong constant name <Class:InvalidXmlDocument>
+# wrong constant name <Class:InvalidXmlProcessingInstruction>
+# wrong constant name <Class:IoError>
+# wrong constant name <Class:LEInvalidSpecification>
+# wrong constant name <Class:LocatorException>
+# wrong constant name <Class:LockFileExists>
+# wrong constant name <Class:LockNotAvailable>
+# wrong constant name <Class:MostSpecificTypeMismatch>
+# wrong constant name <Class:NameTooLong>
+# wrong constant name <Class:NoActiveSqlTransaction>
+# wrong constant name <Class:NoActiveSqlTransactionForBranchTransaction>
+# wrong constant name <Class:NoDataFound>
+# wrong constant name <Class:NoResultError>
+# wrong constant name <Class:NonstandardUseOfEscapeCharacter>
+# wrong constant name <Class:NotAnXmlDocument>
+# wrong constant name <Class:NotNullViolation>
+# wrong constant name <Class:NullValueNoIndicatorParameter>
+# wrong constant name <Class:NullValueNotAllowed>
+# wrong constant name <Class:NumericValueOutOfRange>
+# wrong constant name <Class:ObjectInUse>
+# wrong constant name <Class:ObjectNotInPrerequisiteState>
+# wrong constant name <Class:OperatorIntervention>
+# wrong constant name <Class:OutOfMemory>
+# uninitialized constant PG::PGRES_BAD_RESPONSE
+# uninitialized constant PG::PGRES_COMMAND_OK
+# uninitialized constant PG::PGRES_COPY_BOTH
+# uninitialized constant PG::PGRES_COPY_IN
+# uninitialized constant PG::PGRES_COPY_OUT
+# uninitialized constant PG::PGRES_EMPTY_QUERY
+# uninitialized constant PG::PGRES_FATAL_ERROR
+# uninitialized constant PG::PGRES_NONFATAL_ERROR
+# uninitialized constant PG::PGRES_POLLING_FAILED
+# uninitialized constant PG::PGRES_POLLING_OK
+# uninitialized constant PG::PGRES_POLLING_READING
+# uninitialized constant PG::PGRES_POLLING_WRITING
+# uninitialized constant PG::PGRES_SINGLE_TUPLE
+# uninitialized constant PG::PGRES_TUPLES_OK
+# uninitialized constant PG::PG_DIAG_COLUMN_NAME
+# uninitialized constant PG::PG_DIAG_CONSTRAINT_NAME
+# uninitialized constant PG::PG_DIAG_CONTEXT
+# uninitialized constant PG::PG_DIAG_DATATYPE_NAME
+# uninitialized constant PG::PG_DIAG_INTERNAL_POSITION
+# uninitialized constant PG::PG_DIAG_INTERNAL_QUERY
+# uninitialized constant PG::PG_DIAG_MESSAGE_DETAIL
+# uninitialized constant PG::PG_DIAG_MESSAGE_HINT
+# uninitialized constant PG::PG_DIAG_MESSAGE_PRIMARY
+# uninitialized constant PG::PG_DIAG_SCHEMA_NAME
+# uninitialized constant PG::PG_DIAG_SEVERITY
+# uninitialized constant PG::PG_DIAG_SOURCE_FILE
+# uninitialized constant PG::PG_DIAG_SOURCE_FUNCTION
+# uninitialized constant PG::PG_DIAG_SOURCE_LINE
+# uninitialized constant PG::PG_DIAG_SQLSTATE
+# uninitialized constant PG::PG_DIAG_STATEMENT_POSITION
+# uninitialized constant PG::PG_DIAG_TABLE_NAME
+# uninitialized constant PG::PQERRORS_DEFAULT
+# uninitialized constant PG::PQERRORS_TERSE
+# uninitialized constant PG::PQERRORS_VERBOSE
+# uninitialized constant PG::PQPING_NO_ATTEMPT
+# uninitialized constant PG::PQPING_NO_RESPONSE
+# uninitialized constant PG::PQPING_OK
+# uninitialized constant PG::PQPING_REJECT
+# uninitialized constant PG::PQTRANS_ACTIVE
+# uninitialized constant PG::PQTRANS_IDLE
+# uninitialized constant PG::PQTRANS_INERROR
+# uninitialized constant PG::PQTRANS_INTRANS
+# uninitialized constant PG::PQTRANS_UNKNOWN
+# wrong constant name <Class:PlpgsqlError>
+# wrong constant name <Class:ProgramLimitExceeded>
+# wrong constant name <Class:ProtocolViolation>
+# wrong constant name <Class:QueryCanceled>
+# wrong constant name <Class:RaiseException>
+# wrong constant name <Class:ReadOnlySqlTransaction>
+# wrong constant name <Class:ReservedName>
+# wrong constant name <Class:RestrictViolation>
+# uninitialized constant PG::SEEK_CUR
+# uninitialized constant PG::SEEK_END
+# uninitialized constant PG::SEEK_SET
+# wrong constant name <Class:SEInvalidSpecification>
+# wrong constant name <Class:SREFunctionExecutedNoReturnStatement>
+# wrong constant name <Class:SREModifyingSqlDataNotPermitted>
+# wrong constant name <Class:SREProhibitedSqlStatementAttempted>
+# wrong constant name <Class:SREReadingSqlDataNotPermitted>
+# wrong constant name <Class:SavepointException>
+# wrong constant name <Class:SchemaAndDataStatementMixingNotSupported>
+# wrong constant name <Class:SequenceGeneratorLimitExceeded>
+# wrong constant name <Class:ServerError>
+# wrong constant name <Class:SimpleCoder>
+# wrong constant name <Class:SimpleDecoder>
+# wrong constant name <Class:SimpleEncoder>
+# wrong constant name <Class:SnapshotTooOld>
+# wrong constant name <Class:SqlRoutineException>
+# wrong constant name <Class:SqlStatementNotYetComplete>
+# wrong constant name <Class:SqlclientUnableToEstablishSqlconnection>
+# wrong constant name <Class:SqlserverRejectedEstablishmentOfSqlconnection>
+# wrong constant name <Class:StackedDiagnosticsAccessedWithoutActiveHandler>
+# wrong constant name <Class:StatementTooComplex>
+# wrong constant name <Class:StringDataLengthMismatch>
+# wrong constant name <Class:StringDataRightTruncation>
+# wrong constant name <Class:SubstringError>
+# wrong constant name <Class:SyntaxError>
+# wrong constant name <Class:SyntaxErrorOrAccessRuleViolation>
+# wrong constant name <Class:SystemError>
+# wrong constant name <Class:TRDeadlockDetected>
+# wrong constant name <Class:TRIntegrityConstraintViolation>
+# wrong constant name <Class:TRSerializationFailure>
+# wrong constant name <Class:TRStatementCompletionUnknown>
+# wrong constant name <Class:TooManyArguments>
+# wrong constant name <Class:TooManyColumns>
+# wrong constant name <Class:TooManyConnections>
+# wrong constant name <Class:TooManyRows>
+# wrong constant name <Class:TransactionResolutionUnknown>
+# wrong constant name <Class:TransactionRollback>
+# wrong constant name <Class:TriggeredActionException>
+# wrong constant name <Class:TriggeredDataChangeViolation>
+# wrong constant name <Class:TrimError>
+# wrong constant name <Class:TypeMapAllStrings>
+# wrong constant name <Class:UnableToSend>
+# wrong constant name <Class:UndefinedColumn>
+# wrong constant name <Class:UndefinedFile>
+# wrong constant name <Class:UndefinedFunction>
+# wrong constant name <Class:UndefinedObject>
+# wrong constant name <Class:UndefinedParameter>
+# wrong constant name <Class:UndefinedTable>
+# wrong constant name <Class:UniqueViolation>
+# wrong constant name <Class:UnterminatedCString>
+# wrong constant name <Class:UntranslatableCharacter>
+# wrong constant name <Class:WindowingError>
+# wrong constant name <Class:WithCheckOptionViolation>
+# wrong constant name <Class:WrongObjectType>
+# wrong constant name <Class:ZeroLengthCharacterString>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# uninitialized constant PG::BasicTypeMapForQueries::CODERS_BY_NAME
+# uninitialized constant PG::BasicTypeMapForQueries::ValidDirections
+# uninitialized constant PG::BasicTypeMapForQueries::ValidFormats
+# uninitialized constant PG::BinaryDecoder::Boolean::FORMAT_ERROR_MASK
+# uninitialized constant PG::BinaryDecoder::Boolean::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::BinaryDecoder::Boolean::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::BinaryDecoder::Boolean::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::BinaryDecoder::Boolean::Params
+# uninitialized constant PG::BinaryDecoder::Boolean::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::BinaryDecoder::Boolean::TIMESTAMP_APP_UTC
+# uninitialized constant PG::BinaryDecoder::Boolean::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::BinaryDecoder::Boolean::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::BinaryDecoder::Bytea::FORMAT_ERROR_MASK
+# uninitialized constant PG::BinaryDecoder::Bytea::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::BinaryDecoder::Bytea::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::BinaryDecoder::Bytea::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::BinaryDecoder::Bytea::Params
+# uninitialized constant PG::BinaryDecoder::Bytea::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::BinaryDecoder::Bytea::TIMESTAMP_APP_UTC
+# uninitialized constant PG::BinaryDecoder::Bytea::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::BinaryDecoder::Bytea::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::BinaryDecoder::Float::FORMAT_ERROR_MASK
+# uninitialized constant PG::BinaryDecoder::Float::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::BinaryDecoder::Float::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::BinaryDecoder::Float::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::BinaryDecoder::Float::Params
+# uninitialized constant PG::BinaryDecoder::Float::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::BinaryDecoder::Float::TIMESTAMP_APP_UTC
+# uninitialized constant PG::BinaryDecoder::Float::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::BinaryDecoder::Float::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::BinaryDecoder::Integer::FORMAT_ERROR_MASK
+# uninitialized constant PG::BinaryDecoder::Integer::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::BinaryDecoder::Integer::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::BinaryDecoder::Integer::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::BinaryDecoder::Integer::Params
+# uninitialized constant PG::BinaryDecoder::Integer::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::BinaryDecoder::Integer::TIMESTAMP_APP_UTC
+# uninitialized constant PG::BinaryDecoder::Integer::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::BinaryDecoder::Integer::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::BinaryDecoder::String::FORMAT_ERROR_MASK
+# uninitialized constant PG::BinaryDecoder::String::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::BinaryDecoder::String::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::BinaryDecoder::String::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::BinaryDecoder::String::Params
+# uninitialized constant PG::BinaryDecoder::String::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::BinaryDecoder::String::TIMESTAMP_APP_UTC
+# uninitialized constant PG::BinaryDecoder::String::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::BinaryDecoder::String::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::BinaryDecoder::Timestamp::FORMAT_ERROR_MASK
+# uninitialized constant PG::BinaryDecoder::Timestamp::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::BinaryDecoder::Timestamp::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::BinaryDecoder::Timestamp::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::BinaryDecoder::Timestamp::Params
+# uninitialized constant PG::BinaryDecoder::Timestamp::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::BinaryDecoder::Timestamp::TIMESTAMP_APP_UTC
+# uninitialized constant PG::BinaryDecoder::Timestamp::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::BinaryDecoder::Timestamp::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::BinaryDecoder::TimestampLocal::CFUNC
+# uninitialized constant PG::BinaryDecoder::TimestampLocal::FORMAT_ERROR_MASK
+# uninitialized constant PG::BinaryDecoder::TimestampLocal::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::BinaryDecoder::TimestampLocal::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::BinaryDecoder::TimestampLocal::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::BinaryDecoder::TimestampLocal::Params
+# uninitialized constant PG::BinaryDecoder::TimestampLocal::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::BinaryDecoder::TimestampLocal::TIMESTAMP_APP_UTC
+# uninitialized constant PG::BinaryDecoder::TimestampLocal::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::BinaryDecoder::TimestampLocal::TIMESTAMP_DB_UTC
+# uninitialized constant PG::BinaryDecoder::TimestampUtc::CFUNC
+# uninitialized constant PG::BinaryDecoder::TimestampUtc::FORMAT_ERROR_MASK
+# uninitialized constant PG::BinaryDecoder::TimestampUtc::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::BinaryDecoder::TimestampUtc::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::BinaryDecoder::TimestampUtc::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::BinaryDecoder::TimestampUtc::Params
+# uninitialized constant PG::BinaryDecoder::TimestampUtc::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::BinaryDecoder::TimestampUtc::TIMESTAMP_APP_UTC
+# uninitialized constant PG::BinaryDecoder::TimestampUtc::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::BinaryDecoder::TimestampUtc::TIMESTAMP_DB_UTC
+# uninitialized constant PG::BinaryDecoder::TimestampUtcToLocal::CFUNC
+# uninitialized constant PG::BinaryDecoder::TimestampUtcToLocal::FORMAT_ERROR_MASK
+# uninitialized constant PG::BinaryDecoder::TimestampUtcToLocal::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::BinaryDecoder::TimestampUtcToLocal::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::BinaryDecoder::TimestampUtcToLocal::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::BinaryDecoder::TimestampUtcToLocal::Params
+# uninitialized constant PG::BinaryDecoder::TimestampUtcToLocal::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::BinaryDecoder::TimestampUtcToLocal::TIMESTAMP_APP_UTC
+# uninitialized constant PG::BinaryDecoder::TimestampUtcToLocal::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::BinaryDecoder::TimestampUtcToLocal::TIMESTAMP_DB_UTC
+# uninitialized constant PG::BinaryDecoder::ToBase64::FORMAT_ERROR_MASK
+# uninitialized constant PG::BinaryDecoder::ToBase64::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::BinaryDecoder::ToBase64::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::BinaryDecoder::ToBase64::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::BinaryDecoder::ToBase64::Params
+# uninitialized constant PG::BinaryDecoder::ToBase64::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::BinaryDecoder::ToBase64::TIMESTAMP_APP_UTC
+# uninitialized constant PG::BinaryDecoder::ToBase64::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::BinaryDecoder::ToBase64::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# wrong constant name <Class:Boolean>
+# wrong constant name <Class:Bytea>
+# wrong constant name <Class:FromBase64>
+# wrong constant name <Class:Int2>
+# wrong constant name <Class:Int4>
+# wrong constant name <Class:Int8>
+# wrong constant name <Class:String>
+# uninitialized constant PG::BinaryEncoder::Boolean::FORMAT_ERROR_MASK
+# uninitialized constant PG::BinaryEncoder::Boolean::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::BinaryEncoder::Boolean::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::BinaryEncoder::Boolean::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::BinaryEncoder::Boolean::Params
+# uninitialized constant PG::BinaryEncoder::Boolean::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::BinaryEncoder::Boolean::TIMESTAMP_APP_UTC
+# uninitialized constant PG::BinaryEncoder::Boolean::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::BinaryEncoder::Boolean::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::BinaryEncoder::Bytea::FORMAT_ERROR_MASK
+# uninitialized constant PG::BinaryEncoder::Bytea::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::BinaryEncoder::Bytea::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::BinaryEncoder::Bytea::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::BinaryEncoder::Bytea::Params
+# uninitialized constant PG::BinaryEncoder::Bytea::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::BinaryEncoder::Bytea::TIMESTAMP_APP_UTC
+# uninitialized constant PG::BinaryEncoder::Bytea::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::BinaryEncoder::Bytea::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::BinaryEncoder::FromBase64::FORMAT_ERROR_MASK
+# uninitialized constant PG::BinaryEncoder::FromBase64::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::BinaryEncoder::FromBase64::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::BinaryEncoder::FromBase64::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::BinaryEncoder::FromBase64::Params
+# uninitialized constant PG::BinaryEncoder::FromBase64::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::BinaryEncoder::FromBase64::TIMESTAMP_APP_UTC
+# uninitialized constant PG::BinaryEncoder::FromBase64::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::BinaryEncoder::FromBase64::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::BinaryEncoder::Int2::FORMAT_ERROR_MASK
+# uninitialized constant PG::BinaryEncoder::Int2::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::BinaryEncoder::Int2::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::BinaryEncoder::Int2::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::BinaryEncoder::Int2::Params
+# uninitialized constant PG::BinaryEncoder::Int2::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::BinaryEncoder::Int2::TIMESTAMP_APP_UTC
+# uninitialized constant PG::BinaryEncoder::Int2::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::BinaryEncoder::Int2::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::BinaryEncoder::Int4::FORMAT_ERROR_MASK
+# uninitialized constant PG::BinaryEncoder::Int4::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::BinaryEncoder::Int4::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::BinaryEncoder::Int4::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::BinaryEncoder::Int4::Params
+# uninitialized constant PG::BinaryEncoder::Int4::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::BinaryEncoder::Int4::TIMESTAMP_APP_UTC
+# uninitialized constant PG::BinaryEncoder::Int4::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::BinaryEncoder::Int4::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::BinaryEncoder::Int8::FORMAT_ERROR_MASK
+# uninitialized constant PG::BinaryEncoder::Int8::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::BinaryEncoder::Int8::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::BinaryEncoder::Int8::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::BinaryEncoder::Int8::Params
+# uninitialized constant PG::BinaryEncoder::Int8::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::BinaryEncoder::Int8::TIMESTAMP_APP_UTC
+# uninitialized constant PG::BinaryEncoder::Int8::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::BinaryEncoder::Int8::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::BinaryEncoder::String::FORMAT_ERROR_MASK
+# uninitialized constant PG::BinaryEncoder::String::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::BinaryEncoder::String::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::BinaryEncoder::String::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::BinaryEncoder::String::Params
+# uninitialized constant PG::BinaryEncoder::String::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::BinaryEncoder::String::TIMESTAMP_APP_UTC
+# uninitialized constant PG::BinaryEncoder::String::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::BinaryEncoder::String::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# uninitialized constant PG::CompositeDecoder::FORMAT_ERROR_MASK
+# uninitialized constant PG::CompositeDecoder::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::CompositeDecoder::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::CompositeDecoder::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::CompositeDecoder::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::CompositeDecoder::TIMESTAMP_APP_UTC
+# uninitialized constant PG::CompositeDecoder::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::CompositeDecoder::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::CompositeEncoder::FORMAT_ERROR_MASK
+# uninitialized constant PG::CompositeEncoder::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::CompositeEncoder::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::CompositeEncoder::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::CompositeEncoder::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::CompositeEncoder::TIMESTAMP_APP_UTC
+# uninitialized constant PG::CompositeEncoder::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::CompositeEncoder::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# uninitialized constant PG::Connection::CONNECTION_AUTH_OK
+# uninitialized constant PG::Connection::CONNECTION_AWAITING_RESPONSE
+# uninitialized constant PG::Connection::CONNECTION_BAD
+# uninitialized constant PG::Connection::CONNECTION_MADE
+# uninitialized constant PG::Connection::CONNECTION_NEEDED
+# uninitialized constant PG::Connection::CONNECTION_OK
+# uninitialized constant PG::Connection::CONNECTION_SETENV
+# uninitialized constant PG::Connection::CONNECTION_SSL_STARTUP
+# uninitialized constant PG::Connection::CONNECTION_STARTED
+# uninitialized constant PG::Connection::INVALID_OID
+# uninitialized constant PG::Connection::INV_READ
+# uninitialized constant PG::Connection::INV_WRITE
+# uninitialized constant PG::Connection::InvalidOid
+# uninitialized constant PG::Connection::PGRES_BAD_RESPONSE
+# uninitialized constant PG::Connection::PGRES_COMMAND_OK
+# uninitialized constant PG::Connection::PGRES_COPY_BOTH
+# uninitialized constant PG::Connection::PGRES_COPY_IN
+# uninitialized constant PG::Connection::PGRES_COPY_OUT
+# uninitialized constant PG::Connection::PGRES_EMPTY_QUERY
+# uninitialized constant PG::Connection::PGRES_FATAL_ERROR
+# uninitialized constant PG::Connection::PGRES_NONFATAL_ERROR
+# uninitialized constant PG::Connection::PGRES_POLLING_FAILED
+# uninitialized constant PG::Connection::PGRES_POLLING_OK
+# uninitialized constant PG::Connection::PGRES_POLLING_READING
+# uninitialized constant PG::Connection::PGRES_POLLING_WRITING
+# uninitialized constant PG::Connection::PGRES_SINGLE_TUPLE
+# uninitialized constant PG::Connection::PGRES_TUPLES_OK
+# uninitialized constant PG::Connection::PG_DIAG_COLUMN_NAME
+# uninitialized constant PG::Connection::PG_DIAG_CONSTRAINT_NAME
+# uninitialized constant PG::Connection::PG_DIAG_CONTEXT
+# uninitialized constant PG::Connection::PG_DIAG_DATATYPE_NAME
+# uninitialized constant PG::Connection::PG_DIAG_INTERNAL_POSITION
+# uninitialized constant PG::Connection::PG_DIAG_INTERNAL_QUERY
+# uninitialized constant PG::Connection::PG_DIAG_MESSAGE_DETAIL
+# uninitialized constant PG::Connection::PG_DIAG_MESSAGE_HINT
+# uninitialized constant PG::Connection::PG_DIAG_MESSAGE_PRIMARY
+# uninitialized constant PG::Connection::PG_DIAG_SCHEMA_NAME
+# uninitialized constant PG::Connection::PG_DIAG_SEVERITY
+# uninitialized constant PG::Connection::PG_DIAG_SOURCE_FILE
+# uninitialized constant PG::Connection::PG_DIAG_SOURCE_FUNCTION
+# uninitialized constant PG::Connection::PG_DIAG_SOURCE_LINE
+# uninitialized constant PG::Connection::PG_DIAG_SQLSTATE
+# uninitialized constant PG::Connection::PG_DIAG_STATEMENT_POSITION
+# uninitialized constant PG::Connection::PG_DIAG_TABLE_NAME
+# uninitialized constant PG::Connection::PQERRORS_DEFAULT
+# uninitialized constant PG::Connection::PQERRORS_TERSE
+# uninitialized constant PG::Connection::PQERRORS_VERBOSE
+# uninitialized constant PG::Connection::PQPING_NO_ATTEMPT
+# uninitialized constant PG::Connection::PQPING_NO_RESPONSE
+# uninitialized constant PG::Connection::PQPING_OK
+# uninitialized constant PG::Connection::PQPING_REJECT
+# uninitialized constant PG::Connection::PQTRANS_ACTIVE
+# uninitialized constant PG::Connection::PQTRANS_IDLE
+# uninitialized constant PG::Connection::PQTRANS_INERROR
+# uninitialized constant PG::Connection::PQTRANS_INTRANS
+# uninitialized constant PG::Connection::PQTRANS_UNKNOWN
+# uninitialized constant PG::Connection::SEEK_CUR
+# uninitialized constant PG::Connection::SEEK_END
+# uninitialized constant PG::Connection::SEEK_SET
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# uninitialized constant PG::CopyDecoder::FORMAT_ERROR_MASK
+# uninitialized constant PG::CopyDecoder::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::CopyDecoder::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::CopyDecoder::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::CopyDecoder::Params
+# uninitialized constant PG::CopyDecoder::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::CopyDecoder::TIMESTAMP_APP_UTC
+# uninitialized constant PG::CopyDecoder::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::CopyDecoder::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::CopyEncoder::FORMAT_ERROR_MASK
+# uninitialized constant PG::CopyEncoder::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::CopyEncoder::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::CopyEncoder::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::CopyEncoder::Params
+# uninitialized constant PG::CopyEncoder::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::CopyEncoder::TIMESTAMP_APP_UTC
+# uninitialized constant PG::CopyEncoder::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::CopyEncoder::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# uninitialized constant PG::Result::CONNECTION_AUTH_OK
+# uninitialized constant PG::Result::CONNECTION_AWAITING_RESPONSE
+# uninitialized constant PG::Result::CONNECTION_BAD
+# uninitialized constant PG::Result::CONNECTION_MADE
+# uninitialized constant PG::Result::CONNECTION_NEEDED
+# uninitialized constant PG::Result::CONNECTION_OK
+# uninitialized constant PG::Result::CONNECTION_SETENV
+# uninitialized constant PG::Result::CONNECTION_SSL_STARTUP
+# uninitialized constant PG::Result::CONNECTION_STARTED
+# uninitialized constant PG::Result::Elem
+# uninitialized constant PG::Result::INVALID_OID
+# uninitialized constant PG::Result::INV_READ
+# uninitialized constant PG::Result::INV_WRITE
+# uninitialized constant PG::Result::InvalidOid
+# uninitialized constant PG::Result::PGRES_BAD_RESPONSE
+# uninitialized constant PG::Result::PGRES_COMMAND_OK
+# uninitialized constant PG::Result::PGRES_COPY_BOTH
+# uninitialized constant PG::Result::PGRES_COPY_IN
+# uninitialized constant PG::Result::PGRES_COPY_OUT
+# uninitialized constant PG::Result::PGRES_EMPTY_QUERY
+# uninitialized constant PG::Result::PGRES_FATAL_ERROR
+# uninitialized constant PG::Result::PGRES_NONFATAL_ERROR
+# uninitialized constant PG::Result::PGRES_POLLING_FAILED
+# uninitialized constant PG::Result::PGRES_POLLING_OK
+# uninitialized constant PG::Result::PGRES_POLLING_READING
+# uninitialized constant PG::Result::PGRES_POLLING_WRITING
+# uninitialized constant PG::Result::PGRES_SINGLE_TUPLE
+# uninitialized constant PG::Result::PGRES_TUPLES_OK
+# uninitialized constant PG::Result::PG_DIAG_COLUMN_NAME
+# uninitialized constant PG::Result::PG_DIAG_CONSTRAINT_NAME
+# uninitialized constant PG::Result::PG_DIAG_CONTEXT
+# uninitialized constant PG::Result::PG_DIAG_DATATYPE_NAME
+# uninitialized constant PG::Result::PG_DIAG_INTERNAL_POSITION
+# uninitialized constant PG::Result::PG_DIAG_INTERNAL_QUERY
+# uninitialized constant PG::Result::PG_DIAG_MESSAGE_DETAIL
+# uninitialized constant PG::Result::PG_DIAG_MESSAGE_HINT
+# uninitialized constant PG::Result::PG_DIAG_MESSAGE_PRIMARY
+# uninitialized constant PG::Result::PG_DIAG_SCHEMA_NAME
+# uninitialized constant PG::Result::PG_DIAG_SEVERITY
+# uninitialized constant PG::Result::PG_DIAG_SOURCE_FILE
+# uninitialized constant PG::Result::PG_DIAG_SOURCE_FUNCTION
+# uninitialized constant PG::Result::PG_DIAG_SOURCE_LINE
+# uninitialized constant PG::Result::PG_DIAG_SQLSTATE
+# uninitialized constant PG::Result::PG_DIAG_STATEMENT_POSITION
+# uninitialized constant PG::Result::PG_DIAG_TABLE_NAME
+# uninitialized constant PG::Result::PQERRORS_DEFAULT
+# uninitialized constant PG::Result::PQERRORS_TERSE
+# uninitialized constant PG::Result::PQERRORS_VERBOSE
+# uninitialized constant PG::Result::PQPING_NO_ATTEMPT
+# uninitialized constant PG::Result::PQPING_NO_RESPONSE
+# uninitialized constant PG::Result::PQPING_OK
+# uninitialized constant PG::Result::PQPING_REJECT
+# uninitialized constant PG::Result::PQTRANS_ACTIVE
+# uninitialized constant PG::Result::PQTRANS_IDLE
+# uninitialized constant PG::Result::PQTRANS_INERROR
+# uninitialized constant PG::Result::PQTRANS_INTRANS
+# uninitialized constant PG::Result::PQTRANS_UNKNOWN
+# uninitialized constant PG::Result::SEEK_CUR
+# uninitialized constant PG::Result::SEEK_END
+# uninitialized constant PG::Result::SEEK_SET
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# uninitialized constant PG::SimpleCoder::FORMAT_ERROR_MASK
+# uninitialized constant PG::SimpleCoder::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::SimpleCoder::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::SimpleCoder::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::SimpleCoder::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::SimpleCoder::TIMESTAMP_APP_UTC
+# uninitialized constant PG::SimpleCoder::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::SimpleCoder::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::SimpleDecoder::FORMAT_ERROR_MASK
+# uninitialized constant PG::SimpleDecoder::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::SimpleDecoder::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::SimpleDecoder::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::SimpleDecoder::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::SimpleDecoder::TIMESTAMP_APP_UTC
+# uninitialized constant PG::SimpleDecoder::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::SimpleDecoder::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::SimpleEncoder::FORMAT_ERROR_MASK
+# uninitialized constant PG::SimpleEncoder::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::SimpleEncoder::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::SimpleEncoder::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::SimpleEncoder::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::SimpleEncoder::TIMESTAMP_APP_UTC
+# uninitialized constant PG::SimpleEncoder::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::SimpleEncoder::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# uninitialized constant PG::TextDecoder::Array::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextDecoder::Array::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextDecoder::Array::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextDecoder::Array::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextDecoder::Array::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextDecoder::Array::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextDecoder::Array::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextDecoder::Array::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextDecoder::Boolean::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextDecoder::Boolean::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextDecoder::Boolean::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextDecoder::Boolean::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextDecoder::Boolean::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextDecoder::Boolean::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextDecoder::Boolean::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextDecoder::Boolean::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextDecoder::Bytea::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextDecoder::Bytea::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextDecoder::Bytea::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextDecoder::Bytea::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextDecoder::Bytea::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextDecoder::Bytea::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextDecoder::Bytea::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextDecoder::Bytea::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextDecoder::CopyRow::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextDecoder::CopyRow::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextDecoder::CopyRow::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextDecoder::CopyRow::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextDecoder::CopyRow::Params
+# uninitialized constant PG::TextDecoder::CopyRow::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextDecoder::CopyRow::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextDecoder::CopyRow::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextDecoder::CopyRow::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextDecoder::Date::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextDecoder::Date::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextDecoder::Date::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextDecoder::Date::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextDecoder::Date::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextDecoder::Date::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextDecoder::Date::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextDecoder::Date::TIMESTAMP_DB_UTC
+# uninitialized constant PG::TextDecoder::Float::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextDecoder::Float::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextDecoder::Float::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextDecoder::Float::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextDecoder::Float::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextDecoder::Float::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextDecoder::Float::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextDecoder::Float::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextDecoder::FromBase64::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextDecoder::FromBase64::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextDecoder::FromBase64::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextDecoder::FromBase64::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextDecoder::FromBase64::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextDecoder::FromBase64::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextDecoder::FromBase64::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextDecoder::FromBase64::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextDecoder::Identifier::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextDecoder::Identifier::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextDecoder::Identifier::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextDecoder::Identifier::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextDecoder::Identifier::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextDecoder::Identifier::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextDecoder::Identifier::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextDecoder::Identifier::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextDecoder::Inet::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextDecoder::Inet::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextDecoder::Inet::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextDecoder::Inet::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextDecoder::Inet::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextDecoder::Inet::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextDecoder::Inet::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextDecoder::Inet::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextDecoder::Integer::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextDecoder::Integer::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextDecoder::Integer::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextDecoder::Integer::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextDecoder::Integer::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextDecoder::Integer::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextDecoder::Integer::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextDecoder::Integer::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextDecoder::JSON::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextDecoder::JSON::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextDecoder::JSON::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextDecoder::JSON::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextDecoder::JSON::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextDecoder::JSON::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextDecoder::JSON::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextDecoder::JSON::TIMESTAMP_DB_UTC
+# uninitialized constant PG::TextDecoder::Numeric::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextDecoder::Numeric::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextDecoder::Numeric::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextDecoder::Numeric::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextDecoder::Numeric::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextDecoder::Numeric::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextDecoder::Numeric::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextDecoder::Numeric::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextDecoder::String::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextDecoder::String::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextDecoder::String::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextDecoder::String::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextDecoder::String::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextDecoder::String::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextDecoder::String::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextDecoder::String::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextDecoder::Timestamp::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextDecoder::Timestamp::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextDecoder::Timestamp::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextDecoder::Timestamp::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextDecoder::Timestamp::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextDecoder::Timestamp::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextDecoder::Timestamp::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextDecoder::Timestamp::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextDecoder::TimestampLocal::CFUNC
+# uninitialized constant PG::TextDecoder::TimestampLocal::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextDecoder::TimestampLocal::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextDecoder::TimestampLocal::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextDecoder::TimestampLocal::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextDecoder::TimestampLocal::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextDecoder::TimestampLocal::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextDecoder::TimestampLocal::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextDecoder::TimestampLocal::TIMESTAMP_DB_UTC
+# uninitialized constant PG::TextDecoder::TimestampUtc::CFUNC
+# uninitialized constant PG::TextDecoder::TimestampUtc::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextDecoder::TimestampUtc::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextDecoder::TimestampUtc::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextDecoder::TimestampUtc::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextDecoder::TimestampUtc::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextDecoder::TimestampUtc::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextDecoder::TimestampUtc::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextDecoder::TimestampUtc::TIMESTAMP_DB_UTC
+# uninitialized constant PG::TextDecoder::TimestampUtcToLocal::CFUNC
+# uninitialized constant PG::TextDecoder::TimestampUtcToLocal::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextDecoder::TimestampUtcToLocal::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextDecoder::TimestampUtcToLocal::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextDecoder::TimestampUtcToLocal::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextDecoder::TimestampUtcToLocal::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextDecoder::TimestampUtcToLocal::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextDecoder::TimestampUtcToLocal::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextDecoder::TimestampUtcToLocal::TIMESTAMP_DB_UTC
+# uninitialized constant PG::TextEncoder::Array::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextEncoder::Array::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextEncoder::Array::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextEncoder::Array::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextEncoder::Array::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextEncoder::Array::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextEncoder::Array::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextEncoder::Array::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextEncoder::Boolean::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextEncoder::Boolean::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextEncoder::Boolean::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextEncoder::Boolean::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextEncoder::Boolean::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextEncoder::Boolean::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextEncoder::Boolean::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextEncoder::Boolean::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextEncoder::Bytea::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextEncoder::Bytea::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextEncoder::Bytea::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextEncoder::Bytea::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextEncoder::Bytea::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextEncoder::Bytea::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextEncoder::Bytea::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextEncoder::Bytea::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextEncoder::CopyRow::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextEncoder::CopyRow::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextEncoder::CopyRow::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextEncoder::CopyRow::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextEncoder::CopyRow::Params
+# uninitialized constant PG::TextEncoder::CopyRow::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextEncoder::CopyRow::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextEncoder::CopyRow::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextEncoder::CopyRow::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextEncoder::Date::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextEncoder::Date::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextEncoder::Date::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextEncoder::Date::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextEncoder::Date::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextEncoder::Date::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextEncoder::Date::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextEncoder::Date::TIMESTAMP_DB_UTC
+# uninitialized constant PG::TextEncoder::Float::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextEncoder::Float::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextEncoder::Float::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextEncoder::Float::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextEncoder::Float::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextEncoder::Float::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextEncoder::Float::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextEncoder::Float::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextEncoder::Identifier::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextEncoder::Identifier::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextEncoder::Identifier::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextEncoder::Identifier::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextEncoder::Identifier::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextEncoder::Identifier::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextEncoder::Identifier::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextEncoder::Identifier::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextEncoder::Inet::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextEncoder::Inet::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextEncoder::Inet::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextEncoder::Inet::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextEncoder::Inet::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextEncoder::Inet::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextEncoder::Inet::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextEncoder::Inet::TIMESTAMP_DB_UTC
+# uninitialized constant PG::TextEncoder::Integer::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextEncoder::Integer::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextEncoder::Integer::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextEncoder::Integer::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextEncoder::Integer::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextEncoder::Integer::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextEncoder::Integer::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextEncoder::Integer::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextEncoder::JSON::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextEncoder::JSON::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextEncoder::JSON::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextEncoder::JSON::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextEncoder::JSON::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextEncoder::JSON::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextEncoder::JSON::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextEncoder::JSON::TIMESTAMP_DB_UTC
+# uninitialized constant PG::TextEncoder::Numeric::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextEncoder::Numeric::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextEncoder::Numeric::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextEncoder::Numeric::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextEncoder::Numeric::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextEncoder::Numeric::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextEncoder::Numeric::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextEncoder::Numeric::TIMESTAMP_DB_UTC
+# uninitialized constant PG::TextEncoder::QuotedLiteral::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextEncoder::QuotedLiteral::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextEncoder::QuotedLiteral::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextEncoder::QuotedLiteral::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextEncoder::QuotedLiteral::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextEncoder::QuotedLiteral::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextEncoder::QuotedLiteral::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextEncoder::QuotedLiteral::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextEncoder::String::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextEncoder::String::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextEncoder::String::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextEncoder::String::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextEncoder::String::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextEncoder::String::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextEncoder::String::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextEncoder::String::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# uninitialized constant PG::TextEncoder::TimestampUtc::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextEncoder::TimestampUtc::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextEncoder::TimestampUtc::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextEncoder::TimestampUtc::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextEncoder::TimestampUtc::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextEncoder::TimestampUtc::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextEncoder::TimestampUtc::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextEncoder::TimestampUtc::TIMESTAMP_DB_UTC
+# uninitialized constant PG::TextEncoder::TimestampWithTimeZone::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextEncoder::TimestampWithTimeZone::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextEncoder::TimestampWithTimeZone::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextEncoder::TimestampWithTimeZone::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextEncoder::TimestampWithTimeZone::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextEncoder::TimestampWithTimeZone::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextEncoder::TimestampWithTimeZone::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextEncoder::TimestampWithTimeZone::TIMESTAMP_DB_UTC
+# uninitialized constant PG::TextEncoder::TimestampWithoutTimeZone::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextEncoder::TimestampWithoutTimeZone::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextEncoder::TimestampWithoutTimeZone::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextEncoder::TimestampWithoutTimeZone::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextEncoder::TimestampWithoutTimeZone::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextEncoder::TimestampWithoutTimeZone::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextEncoder::TimestampWithoutTimeZone::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextEncoder::TimestampWithoutTimeZone::TIMESTAMP_DB_UTC
+# uninitialized constant PG::TextEncoder::ToBase64::FORMAT_ERROR_MASK
+# uninitialized constant PG::TextEncoder::ToBase64::FORMAT_ERROR_TO_PARTIAL
+# uninitialized constant PG::TextEncoder::ToBase64::FORMAT_ERROR_TO_RAISE
+# uninitialized constant PG::TextEncoder::ToBase64::FORMAT_ERROR_TO_STRING
+# uninitialized constant PG::TextEncoder::ToBase64::TIMESTAMP_APP_LOCAL
+# uninitialized constant PG::TextEncoder::ToBase64::TIMESTAMP_APP_UTC
+# uninitialized constant PG::TextEncoder::ToBase64::TIMESTAMP_DB_LOCAL
+# uninitialized constant PG::TextEncoder::ToBase64::TIMESTAMP_DB_UTC
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# uninitialized constant PG::Tuple::Elem
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# wrong constant name <static-init>
 # undefined method `children<defaultArg>1' for class `Pathname'
 # undefined method `each_child<defaultArg>1' for class `Pathname'
 # undefined method `find<defaultArg>1' for class `Pathname'
@@ -9153,7 +10357,7 @@
 # uninitialized constant Rails::Generators::TestCase::VERSION
 # wrong constant name properties
 # wrong constant name properties=
-# undefined singleton method `property<defaultArg>1' for `#<Module:0x00007ff4edd03510>'
+# undefined singleton method `property<defaultArg>1' for `#<Module:0x00007fbb257de348>'
 # wrong constant name <static-init>
 # wrong constant name properties
 # wrong constant name properties=
@@ -10183,6 +11387,7 @@
 # wrong constant name to_h
 # wrong constant name values
 # wrong constant name values_at
+# wrong constant name <Class:Struct>
 # wrong constant name errno
 # wrong constant name status
 # wrong constant name success?
@@ -10615,6 +11820,65 @@
 # wrong constant name value
 # wrong constant name <static-init>
 # wrong constant name warn
+# wrong constant name <static-init>
+# wrong constant name <static-init>
+# undefined method `initialize<defaultArg>1' for class `WebConsole::Evaluator'
+# Did you mean?  initialize_dup
+# wrong constant name cleaner
+# wrong constant name eval
+# wrong constant name initialize<defaultArg>1
+# wrong constant name initialize
+# wrong constant name <static-init>
+# wrong constant name cleaner
+# wrong constant name []
+# wrong constant name first
+# wrong constant name initialize
+# wrong constant name <static-init>
+# wrong constant name finish
+# wrong constant name write
+# wrong constant name <static-init>
+# wrong constant name eval
+# wrong constant name id
+# wrong constant name initialize
+# wrong constant name inmemory_storage
+# wrong constant name switch_binding_to
+# wrong constant name <static-init>
+# wrong constant name find
+# wrong constant name from
+# wrong constant name inmemory_storage
+# wrong constant name initialize
+# wrong constant name render
+# wrong constant name template_paths
+# wrong constant name template_paths=
+# wrong constant name <static-init>
+# wrong constant name template_paths
+# wrong constant name template_paths=
+# uninitialized constant WebConsole::View::ASSET_EXTENSIONS
+# uninitialized constant WebConsole::View::ASSET_PUBLIC_DIRECTORIES
+# uninitialized constant WebConsole::View::BOOLEAN_ATTRIBUTES
+# uninitialized constant WebConsole::View::BUTTON_TAG_METHOD_VERBS
+# uninitialized constant WebConsole::View::HTML_ESCAPE
+# uninitialized constant WebConsole::View::HTML_ESCAPE_ONCE_REGEXP
+# uninitialized constant WebConsole::View::HTML_ESCAPE_REGEXP
+# uninitialized constant WebConsole::View::JOIN
+# uninitialized constant WebConsole::View::JSON_ESCAPE
+# uninitialized constant WebConsole::View::JSON_ESCAPE_REGEXP
+# uninitialized constant WebConsole::View::JS_ESCAPE_MAP
+# uninitialized constant WebConsole::View::MINUTES_IN_QUARTER_YEAR
+# uninitialized constant WebConsole::View::MINUTES_IN_THREE_QUARTERS_YEAR
+# uninitialized constant WebConsole::View::MINUTES_IN_YEAR
+# uninitialized constant WebConsole::View::NEW
+# uninitialized constant WebConsole::View::PRE_CONTENT_STRINGS
+# uninitialized constant WebConsole::View::TAG_PREFIXES
+# uninitialized constant WebConsole::View::URI_REGEXP
+# uninitialized constant WebConsole::View::VIEW_ACCESSORS
+# wrong constant name only_on_error_page
+# wrong constant name render
+# wrong constant name render_inlined_string
+# wrong constant name render_javascript
+# wrong constant name <static-init>
+# wrong constant name from_whitelisted_ip?
+# wrong constant name <static-init>
 # wrong constant name <Class:BufError>
 # wrong constant name <Class:DataError>
 # wrong constant name <Class:Deflate>
